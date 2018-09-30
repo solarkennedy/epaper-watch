@@ -20,7 +20,7 @@
 #include "SPI_RAM.h"
 #include "fonts.h"
 #include <Arduino.h>
-#include <esp32/pgmspace.h>
+#include <pgmspace.h>
 
 extern SPIRAM *spiram;
 

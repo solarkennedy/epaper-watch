@@ -37,7 +37,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "fonts.h"
-#include <esp32/pgmspace.h>
+#include <pgmspace.h>
 
 // 
 //  Font data for Courier New 12pt

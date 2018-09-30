@@ -24,7 +24,6 @@ UBYTE DEV::System_Init(void)
 {
     //set pin
     pinMode(SPIRAM_CS, OUTPUT);
-    pinMode(SD_CS, OUTPUT);
     
     pinMode(EPD_CS, OUTPUT);
     pinMode(EPD_DC, OUTPUT);
@@ -32,7 +31,6 @@ UBYTE DEV::System_Init(void)
     pinMode(EPD_BUSY, INPUT);
 
     EPD_CS_1;
-    SD_CS_1;
     SPIRAM_CS_1;
     
     //set Serial

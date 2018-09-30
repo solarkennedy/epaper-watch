@@ -33,12 +33,6 @@
 #define SPIRAM_CS_1     digitalWrite(SPIRAM_CS, HIGH)
 
 /**
- * SD Card
-**/
-#define SD_CS 6
-#define SD_CS_0     digitalWrite(SD_CS, LOW)
-#define SD_CS_1     digitalWrite(SD_CS, HIGH)
-/**
  * e-Paper GPIO
 **/
 #define EPD_CS 10
