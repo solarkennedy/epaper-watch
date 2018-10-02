@@ -37,7 +37,12 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "fonts.h"
+#ifdef ARDUINO_ARCH_ESP32
 #include <pgmspace.h>
+#else
+#include <avr/pgmspace.h>
+#endif
+
 
 const uint8_t Font24_Table [] PROGMEM = 
 {

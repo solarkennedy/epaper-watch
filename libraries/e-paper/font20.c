@@ -37,7 +37,12 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "fonts.h"
+#ifdef ARDUINO_ARCH_ESP32
 #include <pgmspace.h>
+#else
+#include <avr/pgmspace.h>
+#endif
+
 
 // Character bitmaps for Courier New 15pt
 const uint8_t Font20_Table[] PROGMEM = 

@@ -34,7 +34,7 @@ def strip_bad(s):
 
 def print_code_for_a_single_quote(row, indent):
     full_quote = row_to_full_quote(row)
-    print(f'{" "*indent}Serial.println("{full_quote}");')
+    print(f'{" "*indent}Serial.println(F("{full_quote}"));')
     print(f'{" "*indent}paint.Paint_DrawString_EN(0, 0, "{full_quote}", &Font12, WHITE, BLACK);')
 
 
@@ -46,14 +46,14 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
     print(f"    // Codegen for {minute_str} for {len(rows)} quotations:")
     print(f"    case {minute_number}:")
     if len(rows) == 0:
-        print(f'      Serial.println("No quotes for {minute_str}");')
+        print(f'      Serial.println(F("No quotes for {minute_str}"));')
         print(f"      return;")
     elif len(rows) == 1:
-        print(f'      Serial.println("Only one option for {minute_str}:");')
+        print(f'      Serial.println(F("Only one option for {minute_str}:"));')
         print_code_for_a_single_quote(rows[0], indent=4)
         print(f"      return;")
     else:
-        print(f'      Serial.println("len(rows) options for {minute_str}. Picking one:");')
+        print(f'      Serial.println(F("len(rows) options for {minute_str}. Picking one:"));')
         print(f'      option = random(0, {len(rows)});')
         print('      switch (option) {')
         counter = 0

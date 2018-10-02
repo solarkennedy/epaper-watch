@@ -37,7 +37,12 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "fonts.h"
+#ifdef ARDUINO_ARCH_ESP32
 #include <pgmspace.h>
+#else
+#include <avr/pgmspace.h>
+#endif
+
 
 // 
 //  Font data for Courier New 12pt
