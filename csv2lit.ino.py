@@ -25,7 +25,7 @@ def number_of_minutes_in(dt):
 
 
 def row_to_full_quote(row):
-    return strip_bad(escape(f"{row['quote']} - {row['author']}, {row['book']}"))
+    return strip_bad(escape(f"{row['time']} - {row['quote']} - {row['author'].strip()}, {row['book']}"))
 
 
 def strip_bad(s):
@@ -35,7 +35,7 @@ def strip_bad(s):
 def print_code_for_a_single_quote(row, indent):
     full_quote = row_to_full_quote(row)
     print(f'{" "*indent}Serial.println(F("{full_quote}"));')
-    print(f'{" "*indent}paint.Paint_DrawString_EN(0, 0, "{full_quote}", &Font12, WHITE, BLACK);')
+#    print(f'{" "*indent}paint.Paint_DrawString_EN(0, 0, "{full_quote}", &Font12, WHITE, BLACK);')
 
 
 def escape(s, quote='"'):
@@ -53,8 +53,10 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
         print_code_for_a_single_quote(rows[0], indent=4)
         print(f"      return;")
     else:
-        print(f'      Serial.println(F("len(rows) options for {minute_str}. Picking one:"));')
         print(f'      option = random(0, {len(rows)});')
+        print(f'      Serial.print(F("{len(rows)} options for {minute_str}. Picking option "));')
+        print('      Serial.print(option);')
+        print('      Serial.println(":");')
         print('      switch (option) {')
         counter = 0
         for row in rows:
