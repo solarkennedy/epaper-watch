@@ -38,15 +38,15 @@ def strip_bad(s):
 
 
 def print_words_so_far(words_so_far, cursor, font, fg, bg):
-    print(f"DEBUG: {words_so_far}")
-    print(f"DEBUG: drawing cursor {cursor}")
+    print(f"// DEBUG: {words_so_far}")
+    print(f"// DEBUG: drawing cursor {cursor}")
     words = ' '.join(words_so_far)
     assert cursor[0] + len(words) + MARGIN < DISPLAY_WIDTH, f"too long: {words}, {len(words)*7}"
     return f'paint.Paint_DrawString_EN({cursor[0]}, {cursor[1]}, "{words}", &Font{font}, {fg}, {bg});'
     #return f'paint.Paint_DrawString_EN({cursor[0]}, {cursor[1]}, "{' '.join(words_so_far)}", &Font{font}, {fg}, {bg});'
 
 
-def quote_to_print_lines(row, display_width=212, display_height=101, margin=5, font=12):
+def quote_to_print_lines(row, margin=5, font=12):
     char_width=7
     char_v_baseline = 3
     code = []
@@ -55,11 +55,11 @@ def quote_to_print_lines(row, display_width=212, display_height=101, margin=5, f
     quote = strip_bad(escape(row['quote'])).replace(row['time_string'], "TIMESTRING")
     timestring_cursor = None
     for word in quote.split():
-        print(f"DEBUG: {cursor}")
-        print(f"DEBUG: Operating on {word}")
+        print(f"// DEBUG: {cursor}")
+        print(f"// DEBUG: Operating on {word}")
         if "TIMESTRING" in word:
-            print(f"DEBUG: Wrorking on the timestring")
-            if cursor[0] + len(row['time_string'])*char_width + 1 < display_width - margin:
+            print(f"// DEBUG: Wrorking on the timestring")
+            if cursor[0] + len(row['time_string'])*char_width + 1 < DISPLAY_WIDTH - margin:
                 timestring_cursor = cursor
                 cursor = (cursor[0] + len(row['time_string'])*char_width + 1, cursor[1])
             else:
@@ -73,12 +73,12 @@ def quote_to_print_lines(row, display_width=212, display_height=101, margin=5, f
                 cursor = (cursor[0] + len(row['time_string'])*char_width, cursor[1])
             
 
-        if cursor[0] + len(word)*char_width + 1 + margin < display_width:
-            print(f"DEBUG: { cursor[0] + len(word)*char_width + 1 + margin}")
+        if cursor[0] + len(word)*char_width + 1 + margin < DISPLAY_WIDTH:
+            print(f"// DEBUG: { cursor[0] + len(word)*char_width + 1 + margin}")
             # If we can fit, let's just append the word
             words_so_far.append(word)
             cursor = (cursor[0] + len(word)*char_width + 1, cursor[1])
-            assert cursor[0] + margin <= display_width
+            assert cursor[0] + margin <= DISPLAY_WIDTH
         else:
             # We don't fit, so let's flush
             drawing_cursor = (margin, cursor[1])
@@ -91,17 +91,34 @@ def quote_to_print_lines(row, display_width=212, display_height=101, margin=5, f
     code.append(print_words_so_far([row['time_string']], timestring_cursor, font, "BLACK", "WHITE"))
 
     # Now we print the attribution, which is right justified and properly formatted
-    attribution_string = f"- {row['author'].strip()}, {row['book']}"
-    x = display_width - margin - len(attribution_string)*char_width
-    if not x > margin:
-        print(f"att string too long: '{attribution_string}', needs an x of {x}")
-    else: 
-        y =  display_height - margin - font - char_v_baseline
-        cursor = (x, y)
-        code.append(print_words_so_far([attribution_string], cursor, font, "WHITE", "BLACK"))
+    attribution_string = format_att_string(row, margin, char_width)
+    x = DISPLAY_WIDTH - margin - len(attribution_string)*char_width
+    assert x > 0, f"att string too long: '{attribution_string}', needs an x of {x}"
+    y =  DISPLAY_WIDTH - margin - font - char_v_baseline
+    cursor = (x, y)
+    code.append(print_words_so_far([attribution_string], cursor, font, "WHITE", "BLACK"))
 
     return code
 
+
+def format_att_string(row, margin, char_width):
+    if row['author'].strip() == "":
+        return f"- {row['book']}"
+    elif row['book'].strip() == "":
+        return f"- {row['author']}"
+    else:
+        att = f"- {row['author'].strip()}, {row['book']}"
+        x = DISPLAY_WIDTH - margin - len(att)*char_width
+        if x < 0:
+            att = f"- {row['book'].strip()}"
+            x = DISPLAY_WIDTH - margin - len(att)*char_width
+            if x > 0:
+                return att
+            else:
+                att = f"- {row['author'].strip()}"
+                return att
+        else:
+            return att
 
 
 def print_code_for_a_single_quote(row, indent):
