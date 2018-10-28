@@ -1,23 +1,58 @@
-//#include "EPD_2in13d.h"
-#include "GUI_Paint.h"
-//#include "DEV_Config.h"
-#include <Wire.h>
+
+#include <ESP8266WiFi.h>
+#include <WiFiClient.h>
 #include "epd.h"        // e-Paper driver
-
-// Display resolution
-#define EPD_WIDTH       104
-#define EPD_HEIGHT      212
-
-GUIPAINT paint;
-//EPD2IN13D epd;
+#include <EEPROM.h>
+#include <ezTime.h>
 
 
-void setup_epaper()
-{
-  Dev->System_Init();
+char ssid[32] = "";
+char password[32] = "";
 
-  
+IPAddress myIP;       // IP address in your local wifi net
+
+void loadCredentials() {
+  EEPROM.begin(512);
+  EEPROM.get(0, ssid);
+  EEPROM.get(0 + sizeof(ssid), password);
+  char ok[2 + 1];
+  EEPROM.get(0 + sizeof(ssid) + sizeof(password), ok);
+  EEPROM.end();
+  if (String(ok) != String("OK")) {
+    ssid[0] = 0;
+    password[0] = 0;
+  }
+  Serial.println("Recovered credentials:");
+  Serial.println(ssid);
+  Serial.println(password);
+}
+
+void connectToWifi() {
+  WiFi.mode(WIFI_STA);
+  loadCredentials();
+  Serial.print("Connected to ");
+  Serial.println(ssid);
+  WiFi.begin(ssid, password);
+  // Connect to WiFi network
+  Serial.print("Connecting");
+  while (WiFi.status() != WL_CONNECTED)
+  {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.print("\r\nIP address: ");
+  Serial.println(myIP = WiFi.localIP());
+  Serial.println("");
+
+}
+
+void setup(void) {
+
   Serial.begin(115200);
+  delay(50);
+
+  Serial.println("IS8601:      " + UTC.dateTime(ISO8601));
+
 
   // SPI initialization
   pinMode(CS_PIN  , OUTPUT);
@@ -25,67 +60,58 @@ void setup_epaper()
   pinMode(DC_PIN  , OUTPUT);
   pinMode(BUSY_PIN,  INPUT);
   SPI.begin();
-  
-  Serial.print("2.13inch e-Paper D demo\n");
-  //Initialize e-Paper
-  EPD_Init();
-    EPD_dispIndex = 6;
+
+  if timeIsUnset() {
+    connectToWifi();
+    waitForSync();
+  }
+
+}
+
+void loop(void) {
+}
+
+void EPD_Init()
+{
+  EPD_dispIndex = 6;
   // Print log message: initialization of e-Paper (e-Paper's type)
   Serial.printf("EPD %s\r\n", EPD_dispMass[EPD_dispIndex].title);
 
   // Initialization
   EPD_dispInit();
-//  EPD_Clear();
-  Serial.print("/*************/\r\nPartial display routine\r\n");
-  paint.Paint_NewImage(IMAGE_BW, EPD_WIDTH, EPD_HEIGHT, IMAGE_ROTATE_90, IMAGE_COLOR_POSITIVE);
-  paint.Paint_Clear(WHITE);
-  //epd.EPD_DisplayPartial(0, 0, Paint_Image.Image_Width, Paint_Image.Image_Height);
-  Dev->Dev_Delay_ms(500);
 }
 
-void setup()
+void EPD_Load()
 {
+}
 
-  Serial.begin(115200);
-  //setup_epaper();
+void EPD_Next()
+{
+  Serial.println("NEXT");
 
-  Serial.print("Show time\r\n");
-  PAINT_TIME nowtime;
-  nowtime.Hour = 1;
-  nowtime.Min = 23;
-  nowtime.Sec = 0;
+  // Instruction code for for writting data into
+  // e-Paper's memory
+  int code = EPD_dispMass[EPD_dispIndex].next;
 
-  sFONT font = Font24;
-  UWORD Xstart = 40;
-  UWORD Ystart = 40;
-  for (;;) {
-    //paint.Paint_DrawTime(Xstart, Ystart, &nowtime, &font, WHITE, BLACK);
-    nowtime.Min = nowtime.Min + 1;
-    delay(1000);
-    if (nowtime.Sec == 60) {
-      nowtime.Min = nowtime.Min + 1;
-      nowtime.Sec = 0;
-      if (nowtime.Min == 60) {
-        nowtime.Hour =  nowtime.Hour + 1;
-        nowtime.Min = 0;
-        if (nowtime.Hour == 24) {
-          nowtime.Hour = 0;
-          nowtime.Min = 0;
-          nowtime.Sec = 0;
-        }
-      }
-    }
-
-    //Brushing the entire screen is not as obvious as painting a window.
-    //epd.EPD_DisplayPartial(0, 0, Paint_Image.Image_Width, Paint_Image.Image_Height);
-    print_minute((nowtime.Min + nowtime.Hour * 60) % 1440);
+  // If the instruction code isn't '-1', then...
+  if (code != -1)
+  {
+    // Do the selection of the next data channel
+    EPD_SendCommand(code);
+    delay(2);
   }
-  //epd.EPD_Sleep();
-
+  // Setup the function for loading choosen channel's data
+  EPD_dispLoad = EPD_dispMass[EPD_dispIndex].chRd;
 
 }
 
-void loop()
+void EPD_Show()
 {
+  Serial.println("SHOW");
+  // Show results and Sleep
+  EPD_dispMass[EPD_dispIndex].show();
+}
 
+void handleNotFound() {
+  Serial.print("Unknown URI: ");
 }
