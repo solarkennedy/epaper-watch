@@ -7,6 +7,11 @@ from dateutil import rrule
 from datetime import timedelta
 
 
+DISPLAY_WIDTH = 212
+DISPLAY_HEIGHT = 101
+CHAR_WIDTH = 7
+MARGIN = 5
+
 def print_header():
     print("void print_minute(int minute) {") 
     print("  long option = 0;")
@@ -33,25 +38,30 @@ def strip_bad(s):
 
 
 def print_words_so_far(words_so_far, cursor, font, fg, bg):
+    print(f"DEBUG: {words_so_far}")
+    print(f"DEBUG: drawing cursor {cursor}")
     words = ' '.join(words_so_far)
+    assert cursor[0] + len(words) + MARGIN < DISPLAY_WIDTH, f"too long: {words}, {len(words)*7}"
     return f'paint.Paint_DrawString_EN({cursor[0]}, {cursor[1]}, "{words}", &Font{font}, {fg}, {bg});'
     #return f'paint.Paint_DrawString_EN({cursor[0]}, {cursor[1]}, "{' '.join(words_so_far)}", &Font{font}, {fg}, {bg});'
 
 
 def quote_to_print_lines(row, display_width=212, display_height=101, margin=5, font=12):
     char_width=7
+    char_v_baseline = 3
     code = []
     words_so_far = []
     cursor= (margin, margin)
     quote = strip_bad(escape(row['quote'])).replace(row['time_string'], "TIMESTRING")
     timestring_cursor = None
     for word in quote.split():
+        print(f"DEBUG: {cursor}")
         print(f"DEBUG: Operating on {word}")
         if "TIMESTRING" in word:
             print(f"DEBUG: Wrorking on the timestring")
-            if cursor[0] + len(row['time_string'])*char_width <= display_width - margin:
+            if cursor[0] + len(row['time_string'])*char_width + 1 < display_width - margin:
                 timestring_cursor = cursor
-                cursor = (cursor[0] + len(row['time_string'])*char_width, cursor[1])
+                cursor = (cursor[0] + len(row['time_string'])*char_width + 1, cursor[1])
             else:
                 # We won't fit on this row, let's flush the buffer to make room
                 # and mark where the cursor would go next
@@ -63,16 +73,18 @@ def quote_to_print_lines(row, display_width=212, display_height=101, margin=5, f
                 cursor = (cursor[0] + len(row['time_string'])*char_width, cursor[1])
             
 
-        if cursor[0] + len(word)*char_width <= display_width - margin:
+        if cursor[0] + len(word)*char_width + 1 + margin < display_width:
+            print(f"DEBUG: { cursor[0] + len(word)*char_width + 1 + margin}")
             # If we can fit, let's just append the word
             words_so_far.append(word)
-            cursor = (cursor[0] + len(word)*char_width, cursor[1])
+            cursor = (cursor[0] + len(word)*char_width + 1, cursor[1])
+            assert cursor[0] + margin <= display_width
         else:
             # We don't fit, so let's flush
             drawing_cursor = (margin, cursor[1])
             code.append(print_words_so_far(words_so_far, drawing_cursor, font, "WHITE", "BLACK"))
-            words_so_far = []
-            cursor = (margin, cursor[1] + font)
+            words_so_far = [word]
+            cursor = (margin + len(word) + 1, cursor[1] + font)
 
     # Now we print the time string, which is highlighted
     assert timestring_cursor, quote
@@ -84,7 +96,7 @@ def quote_to_print_lines(row, display_width=212, display_height=101, margin=5, f
     if not x > margin:
         print(f"att string too long: '{attribution_string}', needs an x of {x}")
     else: 
-        y =  display_height - margin - font
+        y =  display_height - margin - font - char_v_baseline
         cursor = (x, y)
         code.append(print_words_so_far([attribution_string], cursor, font, "WHITE", "BLACK"))
 

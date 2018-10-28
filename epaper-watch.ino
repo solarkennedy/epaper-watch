@@ -1,22 +1,41 @@
-#include "EPD_2in13d.h"
+//#include "EPD_2in13d.h"
 #include "GUI_Paint.h"
-#include "DEV_Config.h"
+//#include "DEV_Config.h"
 #include <Wire.h>
+#include "epd.h"        // e-Paper driver
+
+// Display resolution
+#define EPD_WIDTH       104
+#define EPD_HEIGHT      212
 
 GUIPAINT paint;
-EPD2IN13D epd;
+//EPD2IN13D epd;
 
 
 void setup_epaper()
 {
   Dev->System_Init();
+
+  
+  Serial.begin(115200);
+
+  // SPI initialization
+  pinMode(CS_PIN  , OUTPUT);
+  pinMode(RST_PIN , OUTPUT);
+  pinMode(DC_PIN  , OUTPUT);
+  pinMode(BUSY_PIN,  INPUT);
+  SPI.begin();
+  
   Serial.print("2.13inch e-Paper D demo\n");
   //Initialize e-Paper
-  if (epd.EPD_Init() != 0) {
-    Serial.print("e-Paper init failed");
-    return;
-  }
-  epd.EPD_Clear();
+  EPD_Init();
+    EPD_dispIndex = 6;
+  // Print log message: initialization of e-Paper (e-Paper's type)
+  Serial.printf("EPD %s\r\n", EPD_dispMass[EPD_dispIndex].title);
+
+  // Initialization
+  EPD_dispInit();
+//  EPD_Clear();
   Serial.print("/*************/\r\nPartial display routine\r\n");
   paint.Paint_NewImage(IMAGE_BW, EPD_WIDTH, EPD_HEIGHT, IMAGE_ROTATE_90, IMAGE_COLOR_POSITIVE);
   paint.Paint_Clear(WHITE);
