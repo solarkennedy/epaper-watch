@@ -1,0 +1,3 @@
+bool timeIsUnset() {
+  return true;
+}
