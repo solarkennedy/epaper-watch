@@ -322,49 +322,15 @@ struct EPD_dispInfo
 };
 
 
-void EDP_showB() {}
-void EPD_loadA() {}
-void EPD_loadB() {}
-void EPD_loadD() {}
-void EPD_loadE() {}
-
-void Fake_init() {}
-
-
-/* Array of sets describing the usage of e-Papers ----------------------------*/
-EPD_dispInfo EPD_dispMass[] =
-{
-    { Fake_init, EPD_loadA, -1  , 0,         EPD_showA, "1.54 inch"   },// a 0
-    { Fake_init, EPD_loadB, 0x13, EPD_loadA, EPD_showB, "1.54 inch b" },// b 1
-    { Fake_init, EPD_loadA, 0x13, EPD_loadA, EPD_showB, "1.54 inch c" },// c 2
-    { EPD_Init_2in13 , EPD_loadC, -1  , 0,         EPD_showA, "2.13 inch"   },// d 3
-    { EPD_Init_2in13b, EPD_loadA, 0x13, EPD_loadA, EPD_showB, "2.13 inch b" },// e 4
-    { EPD_Init_2in13b, EPD_loadA, 0x13, EPD_loadA, EPD_showB, "2.13 inch c" },// f 5
-    { EPD_Init_2in13d, EPD_loadA, -1  , 0,         EPD_showD, "2.13 inch d" },// g 6
-    { Fake_init, EPD_loadA, -1  , 0,         EPD_showB, "2.7 inch"    },// h 7
-    { Fake_init, EPD_loadA, 0x13, EPD_loadA, EPD_showB, "2.7 inch b"  },// i 8
-    { Fake_init, EPD_loadA, -1  , 0,         EPD_showA, "2.9 inch"    },// j 9
-    { Fake_init, EPD_loadA, 0x13, EPD_loadA, EPD_showB, "2.9 inch b"  },// k 10
-    { Fake_init, EPD_loadA, 0x13, EPD_loadA, EPD_showB, "2.9 inch c"  },// l 11
-    { Fake_init, EPD_loadA, -1  , 0,         EPD_showB, "4.2 inch"    },// m 12
-    { Fake_init, EPD_loadA, 0x13, EPD_loadA, EPD_showB, "4.2 inch b"  },// n 13
-    { Fake_init, EPD_loadA, 0x13, EPD_loadA, EPD_showB, "4.2 inch c"  },// o 14
-    { Fake_init, EPD_loadD, -1  , 0,         EPD_showC, "5.83 inch"   },// p 15
-    { Fake_init, EPD_loadE, -1  , 0,         EPD_showC, "5.83 inch b" },// q 16
-    { Fake_init, EPD_loadE, -1  , 0,         EPD_showC, "5.83 inch c" },// r 17
-    { Fake_init, EPD_loadD, -1  , 0,         EPD_showC, "7.5 inch"    },// s 18
-    { Fake_init, EPD_loadE, -1  , 0,         EPD_showC, "7.5 inch b"  },// t 19
-    { Fake_init, EPD_loadE, -1  , 0,         EPD_showC, "7.5 inch c"  } // u 20
-};
 
 /* Initialization of an e-Paper ----------------------------------------------*/
 void EPD_dispInit()
 {
   // Call initialization function
-  EPD_dispMass[EPD_dispIndex].init();
+  EPD_Init_2in13d();  
 
   // Set loading function for black channel
-  EPD_dispLoad = EPD_dispMass[EPD_dispIndex].chBk;
+  EPD_dispLoad = EPD_loadA;
 
   // Set initial coordinates
   EPD_dispX = 0;

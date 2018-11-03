@@ -85,6 +85,7 @@ def quote_to_print_lines(row, margin=5, font=12):
             code.append(print_words_so_far(words_so_far, drawing_cursor, font, "WHITE", "BLACK"))
             words_so_far = [word]
             cursor = (margin + len(word) + 1, cursor[1] + font)
+            assert cursor[1] + margin <= DISPLAY_HEIGHT, f"too long: {quote}, {cursor[1]}"
 
     # Now we print the time string, which is highlighted
     assert timestring_cursor, quote

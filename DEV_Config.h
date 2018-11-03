@@ -1,16 +1,4 @@
-/*****************************************************************************
-* | File      	: DEV_Config.h
-* | Author      : Waveshare team
-* | Function    :	debug with prntf
-* | Info        :
-*   Image scanning
-*      Please use progressive scanning to generate images or fonts
-*----------------
-* |	This version:   V1.0
-* | Date        :   2018-01-11
-* | Info        :   Basic version
-*
-******************************************************************************/
+
 #ifndef _DEV_CONFIG_H_
 #define _DEV_CONFIG_H_
 
@@ -25,12 +13,6 @@
 #define UWORD   uint16_t
 #define UDOUBLE uint32_t
 
-/**
- * SPI RAM
-**/
-#define SPIRAM_CS 5
-#define SPIRAM_CS_0     digitalWrite(SPIRAM_CS, LOW)
-#define SPIRAM_CS_1     digitalWrite(SPIRAM_CS, HIGH)
 
 /**
  * e-Paper GPIO

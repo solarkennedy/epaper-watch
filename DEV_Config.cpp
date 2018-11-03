@@ -22,16 +22,13 @@ Info:
 ******************************************************************************/
 UBYTE DEV::System_Init(void)
 {
-    //set pin
-    pinMode(SPIRAM_CS, OUTPUT);
-    
+    //set pin    
     pinMode(EPD_CS, OUTPUT);
     pinMode(EPD_DC, OUTPUT);
     pinMode(EPD_RST, OUTPUT);
     pinMode(EPD_BUSY, INPUT);
 
     EPD_CS_1;
-    SPIRAM_CS_1;
     
     //set Serial
     //Serial.begin(115200);
