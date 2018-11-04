@@ -1,3 +1,5 @@
+#include <SPI.h>
+
 #define CS_PIN           15
 #define RST_PIN          5
 #define DC_PIN           4

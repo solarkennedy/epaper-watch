@@ -1,4 +1,13 @@
 
+#include <ESP8266WiFi.h>
+#include <WiFiClient.h>
+
+char ssid[32] = "";
+char password[32] = "";
+IPAddress myIP;       // IP address in your local wifi net
+
+
+
 void loadCredentials() {
   EEPROM.begin(512);
   EEPROM.get(0, ssid);
