@@ -6,6 +6,7 @@ void setup(void) {
   while (!Serial) { }
   setupClock();
   getWakeupReason();
+  epaperInit();
   Serial.println("Going into deep sleep for 20 seconds");
   ESP.deepSleep(20e6);
 }
