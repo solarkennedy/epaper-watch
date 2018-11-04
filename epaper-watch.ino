@@ -4,8 +4,8 @@ void setup(void) {
   Serial.begin(115200);
   Serial.setTimeout(2000);
   while (!Serial) { }
-  setupClock();
-  getWakeupReason();
+ // setupClock();
+ // getWakeupReason();
   epaperInit();
   Serial.println("Going into deep sleep for 20 seconds");
   ESP.deepSleep(20e6);
