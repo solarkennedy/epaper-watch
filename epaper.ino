@@ -1,7 +1,7 @@
 #include <GxEPD.h>
 #include <GxGDEW0213I5F/GxGDEW0213I5F.h>
 #include GxEPD_BitmapExamples
-#include <Fonts/FreeSans9pt7b.h>
+#include <Fonts/Ubuntu_B7pt7b.h>
 
 #include <GxIO/GxIO_SPI/GxIO_SPI.h>
 #include <GxIO/GxIO.h>
@@ -22,17 +22,23 @@ void epaperInit() {
   display.init(115200);
   display.setRotation(3);
   showFont();
-  delay(5000);
+  drawBatteryMeter(50);
+  display.fillRect(0, 0, 8, 8, GxEPD_BLACK);
+  display.fillRect(display.width() - 18, 0, 16, 16, GxEPD_BLACK);
+  display.fillRect(display.width() - 25, display.height() - 25, 24, 24, GxEPD_BLACK);
+  display.fillRect(0, display.height() - 33, 32, 32, GxEPD_BLACK);
+  display.update();
 }
 
 void showFont()
 {
-  const char* name = "FreeSans9pt7b.h";
-  const GFXfont* f = &FreeSans9pt7b;
+  const char* name = "Ubuntu_B7pt7b.h";
+  const GFXfont* f = &Ubuntu_B7pt7b;
   //display.fillScreen(GxEPD_WHITE);
-  display.setTextColor(GxEPD_BLACK);
+  display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
   display.setFont(f);
-  display.setCursor(0, 0);
+  display.setCursor(0, 12);
+
   display.println(name);
   display.println(" !\"#$%&'()*+,-./");
   display.println("0123456789:;<=>?");
@@ -40,5 +46,11 @@ void showFont()
   display.println("PQRSTUVWXYZ[\\]^_");
   display.println("`abcdefghijklmno");
   display.println("pqrstuvwxyz{|}~ ");
-  display.update();
+
+}
+
+void drawBatteryMeter(int percent) {
+  int h = round(display.height() * percent / 100);
+  display.fillRect(display.width() - 1, display.height() - h , 1, h, GxEPD_BLACK);
+  //display.updateWindow(display.width() - 1, 0 , display.width(), display.height());
 }
