@@ -38,11 +38,9 @@ def strip_bad(s):
 
 
 def print_words_so_far(words_so_far, cursor, font, fg, bg):
-    print(f"// DEBUG: {words_so_far}")
-    print(f"// DEBUG: drawing cursor {cursor}")
     words = ' '.join(words_so_far)
     assert cursor[0] + len(words) + MARGIN < DISPLAY_WIDTH, f"too long: {words}, {len(words)*7}"
-    return f'paint.Paint_DrawString_EN({cursor[0]}, {cursor[1]}, "{words}", &Font{font}, {fg}, {bg});'
+    return f'      // display.setCursor({cursor[0]}, {cursor[1]});\n      // display.println("{words}");'
     #return f'paint.Paint_DrawString_EN({cursor[0]}, {cursor[1]}, "{' '.join(words_so_far)}", &Font{font}, {fg}, {bg});'
 
 
@@ -55,8 +53,6 @@ def quote_to_print_lines(row, margin=5, font=12):
     quote = strip_bad(escape(row['quote'])).replace(row['time_string'], "TIMESTRING")
     timestring_cursor = None
     for word in quote.split():
-        print(f"// DEBUG: {cursor}")
-        print(f"// DEBUG: Operating on {word}")
         if "TIMESTRING" in word:
             print(f"// DEBUG: Wrorking on the timestring")
             if cursor[0] + len(row['time_string'])*char_width + 1 < DISPLAY_WIDTH - margin:
@@ -74,7 +70,6 @@ def quote_to_print_lines(row, margin=5, font=12):
             
 
         if cursor[0] + len(word)*char_width + 1 + margin < DISPLAY_WIDTH:
-            print(f"// DEBUG: { cursor[0] + len(word)*char_width + 1 + margin}")
             # If we can fit, let's just append the word
             words_so_far.append(word)
             cursor = (cursor[0] + len(word)*char_width + 1, cursor[1])
