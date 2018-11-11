@@ -1,19 +1,22 @@
-
-
 void setup(void) {
-  Serial.begin(115200);
-  Serial.setTimeout(2000);
-  while (!Serial) { }
-  // setupClock();
-  // getWakeupReason();
-  epaperInit();
-  Serial.println("Going into deep sleep for 20 seconds");
-  //ESP.deepSleep(20e6);
+  setupSerial();
+  setupClock();
+  //setupEpaper();
+  int current_minute = getCurrentMinute();
+  print_minute(current_minute);
+  connectToWifi();
+  syncTimeFromWifi();
+  syncTimeAndSleep();
 }
 
 
 void loop(void) {
-  //  handleTimeEvents();
-  //Serial.println("Going into deep sleep for for the second time for 40 seconds");
-  //ESP.deepSleep(40e6);
+}
+
+void setupSerial() {
+  Serial.begin(115200);
+  Serial.setTimeout(2000);
+  while (!Serial) { }
+  Serial.println();  Serial.println();  Serial.println();  Serial.println();  Serial.println();
+  Serial.println();
 }

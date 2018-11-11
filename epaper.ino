@@ -17,7 +17,7 @@ GxIO_Class io(SPI, CS_PIN, DC_PIN, RST_PIN);
 GxEPD_Class display(io, GPIO_PIN_RESET, BUSY_PIN);
 
 
-void epaperInit() {
+void setupEpaper() {
   Serial.println("Setting up the e-paper display...");
   display.init(115200);
   display.setRotation(3);

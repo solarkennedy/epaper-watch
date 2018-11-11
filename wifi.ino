@@ -32,10 +32,16 @@ void connectToWifi() {
   WiFi.begin(ssid, password);
   // Connect to WiFi network
   Serial.print("Connecting");
+  int counter = 0;
   while (WiFi.status() != WL_CONNECTED)
   {
-    delay(500);
+    delay(1000);
     Serial.print(".");
+    if (counter == 60) {
+      Serial.println();
+      counter = 0;
+    }
+    counter = counter + 1;
   }
   Serial.print("\r\nIP address: ");
   Serial.println(myIP = WiFi.localIP());
