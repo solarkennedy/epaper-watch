@@ -1,16 +1,18 @@
+
 void setup(void) {
   setupSerial();
-  setupClock();
-  //setupEpaper();
-  int current_minute = getCurrentMinute();
-  print_minute(current_minute);
-  connectToWifi();
-  syncTimeFromWifi();
-  syncTimeAndSleep();
+  setupClockFromRTC();
+  setupEpaper();
+  //int current_minute = getCurrentMinute();
+  //print_minute(current_minute);
+  //connectToWifi();
+  //syncTimeFromWifi();
+  //syncTimeAndSleep();
 }
 
 
 void loop(void) {
+  OTALoop();
 }
 
 void setupSerial() {

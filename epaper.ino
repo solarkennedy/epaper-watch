@@ -1,6 +1,5 @@
 #include <GxEPD.h>
 #include <GxGDEW0213I5F/GxGDEW0213I5F.h>
-#include GxEPD_BitmapExamples
 #include <Fonts/Ubuntu_B7pt7b.h>
 
 #include <GxIO/GxIO_SPI/GxIO_SPI.h>
@@ -18,9 +17,17 @@ GxEPD_Class display(io, GPIO_PIN_RESET, BUSY_PIN);
 
 
 void setupEpaper() {
+  delay(1000);
   Serial.println("Setting up the e-paper display...");
+  delay(1000);
+  Serial.println("init");
   display.init(115200);
+  delay(1000);
+
   display.setRotation(3);
+  delay(1000);
+  Serial.println("show font");
+  delay(1000);
   showFont();
   drawBatteryMeter(50);
   display.fillRect(0, 0, 8, 8, GxEPD_BLACK);
@@ -40,6 +47,7 @@ void showFont()
   display.setCursor(0, 12);
 
   display.println(name);
+  display.print("Hi");
   display.println(" !\"#$%&'()*+,-./");
   display.println("0123456789:;<=>?");
   display.println("@ABCDEFGHIJKLMNO");

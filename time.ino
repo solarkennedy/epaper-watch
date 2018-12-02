@@ -6,7 +6,7 @@ void handleTimeEvents() {
 }
 
 
-void setupClock() {
+void setupClockFromRTC() {
   Serial.println("IS8601:      " + UTC.dateTime(ISO8601));
   Serial.println("Getting time from RTC memory...");
   uint32_t data;
