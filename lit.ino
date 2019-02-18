@@ -1,5 +1,7 @@
 void print_minute(int minute) {
   long option = 0;
+  Serial.print(F("Looking for quotes for minute number "));
+  Serial.println(minute);
   switch (minute) {
 
     // Codegen for 00:00 for 26 quotations:

@@ -2,13 +2,10 @@
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
 #include <WiFiClient.h>
-#include <ArduinoOTA.h>
 
 char ssid[32] = "";
 char password[32] = "";
-IPAddress myIP;       // IP address in your local wifi net
-
-
+IPAddress myIP;
 
 void saveCredentials() {
   EEPROM.begin(512);

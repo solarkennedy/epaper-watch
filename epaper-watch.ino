@@ -2,17 +2,16 @@
 void setup(void) {
   setupSerial();
   setupClockFromRTC();
-  setupEpaper();
-  //int current_minute = getCurrentMinute();
-  //print_minute(current_minute);
-  //connectToWifi();
-  //syncTimeFromWifi();
-  //syncTimeAndSleep();
-}
-
-
-void loop(void) {
-  OTALoop();
+  if (getCurrentTime() < 1000) {
+    Serial.println("Time is way out of sync.");
+    Serial.println("Getting time from NTP first...");
+  } else {
+    print_minute(getCurrentMinute());
+    setupEpaper(getCurrentTime());
+  }
+  connectToWifi();
+  syncTimeFromWifi();
+  syncTimeAndSleep();
 }
 
 void setupSerial() {
@@ -21,4 +20,7 @@ void setupSerial() {
   while (!Serial) { }
   Serial.println();  Serial.println();  Serial.println();  Serial.println();  Serial.println();
   Serial.println();
+}
+
+void loop(void) {
 }

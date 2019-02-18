@@ -16,31 +16,21 @@ GxIO_Class io(SPI, CS_PIN, DC_PIN, RST_PIN);
 GxEPD_Class display(io, GPIO_PIN_RESET, BUSY_PIN);
 
 const float VOLTAGE_DIVIDER_RATIO = 5.7;
-const float V_REF = 1.0;
 
-
-void setupEpaper() {
-  delay(1000);
+void setupEpaper(uint32_t t) {
   Serial.println("Setting up the e-paper display...");
-  delay(1000);
   Serial.println("init");
   display.init(115200);
-  delay(1000);
-
   display.setRotation(3);
-  delay(1000);
-  Serial.println("show font");
-  delay(1000);
-  showFont();
+  setFont();
   drawBatteryMeter(readBatteryLevel());
-  display.fillRect(0, 0, 8, 8, GxEPD_BLACK);
-  display.fillRect(display.width() - 18, 0, 16, 16, GxEPD_BLACK);
-  display.fillRect(display.width() - 25, display.height() - 25, 24, 24, GxEPD_BLACK);
-  display.fillRect(0, display.height() - 33, 32, 32, GxEPD_BLACK);
+  display.print("Unix timestamp: ");
+  display.println(t);
   display.update();
 }
 
-void showFont()
+
+void setFont()
 {
   const char* name = "Ubuntu_B7pt7b.h";
   const GFXfont* f = &Ubuntu_B7pt7b;
@@ -48,15 +38,6 @@ void showFont()
   display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
   display.setFont(f);
   display.setCursor(0, 12);
-
-  display.println(name);
-  display.print("Hi");
-  display.println(" !\"#$%&'()*+,-./");
-  display.println("0123456789:;<=>?");
-  display.println("@ABCDEFGHIJKLMNO");
-  display.println("PQRSTUVWXYZ[\\]^_");
-  display.println("`abcdefghijklmno");
-  display.println("pqrstuvwxyz{|}~ ");
 }
 
 uint8_t readBatteryLevel() {
@@ -73,7 +54,9 @@ uint8_t readBatteryLevel() {
 void drawBatteryMeter(uint8_t percent) {
   int h = round(display.height() * percent / 100);
   display.fillRect(display.width() - 1, display.height() - h , 1, h, GxEPD_BLACK);
-  //display.updateWindow(display.width() - 1, 0 , display.width(), display.height());
+  display.print("Battery: ");
+  display.print(percent);
+  display.println("%");
 }
 
 
