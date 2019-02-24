@@ -8,16 +8,22 @@ void setup(void) {
     Serial.println(F("Getting time from NTP first..."));
     connectToWifi();
     syncTimeFromWifi();
-  } else {
-    int m = getCurrentMinute();
-    setQuoteForMinute(m);
-    Serial.print(F("The quote for this minute ("));
-    Serial.print(m);
-    Serial.println(F(") is:"));
-    Serial.println(quote);
-    setupEpaper();
+  } else if (getMinuteOfTheHour() == 0) {
+    Serial.println(F("Top of the hour! Let's Sync"));
+    connectToWifi();
+    syncTimeFromWifi();
   }
 
+  int m = getCurrentMinute();
+  setQuoteForMinute(m);
+  if (quote == "") {
+    setQuoteToCurrentTime();
+  }
+  Serial.print(F("The quote for this minute ("));
+  Serial.print(m);
+  Serial.println(F(") is:"));
+  Serial.println(quote);
+  setupEpaper();
   syncTimeAndSleep();
 }
 

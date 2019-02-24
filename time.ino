@@ -63,3 +63,11 @@ uint32_t getCurrentTime() {
 int getCurrentMinute() {
   return hour() * 60 + minute();
 }
+
+int getMinuteOfTheHour() {
+  return minute();
+}
+
+void setQuoteToCurrentTime() {
+  quote = UTC.dateTime(ISO8601);
+}
