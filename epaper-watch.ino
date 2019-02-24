@@ -1,16 +1,23 @@
+String quote;
 
 void setup(void) {
   setupSerial();
   setupClockFromRTC();
   if (getCurrentTime() < 1000) {
-    Serial.println("Time is way out of sync.");
-    Serial.println("Getting time from NTP first...");
+    Serial.println(F("Time is way out of sync."));
+    Serial.println(F("Getting time from NTP first..."));
+    connectToWifi();
+    syncTimeFromWifi();
   } else {
-    print_minute(getCurrentMinute());
-    setupEpaper(getCurrentTime());
+    int m = getCurrentMinute();
+    setQuoteForMinute(m);
+    Serial.print(F("The quote for this minute ("));
+    Serial.print(m);
+    Serial.println(F(") is:"));
+    Serial.println(quote);
+    setupEpaper();
   }
-  connectToWifi();
-  syncTimeFromWifi();
+
   syncTimeAndSleep();
 }
 

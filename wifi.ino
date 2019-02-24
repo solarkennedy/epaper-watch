@@ -28,8 +28,9 @@ void loadCredentials() {
     ssid[0] = 0;
     password[0] = 0;
   }
-  Serial.println("Recovered credentials:");
-  Serial.println(ssid);
+  Serial.println("Recovered credentials: ");
+  Serial.print(ssid);
+  Serial.print(" / ");
   Serial.println(password);
 }
 
