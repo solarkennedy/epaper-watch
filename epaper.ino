@@ -1,6 +1,7 @@
+
 #include <GxEPD.h>
 #include <GxGDEW0213I5F/GxGDEW0213I5F.h>
-#include <Fonts/Ubuntu_B7pt7b.h>
+#include "Ubuntu_B7pt7b.h"
 
 #include <GxIO/GxIO_SPI/GxIO_SPI.h>
 #include <GxIO/GxIO.h>
@@ -17,24 +18,21 @@ GxEPD_Class display(io, GPIO_PIN_RESET, BUSY_PIN);
 
 const float VOLTAGE_DIVIDER_RATIO = 5.7;
 
-void setupEpaper(uint32_t t) {
+void setupEpaper() {
   Serial.println("Setting up the e-paper display...");
   Serial.println("init");
-  display.init(115200);
+  display.init(0);
   display.setRotation(3);
   setFont();
   drawBatteryMeter(readBatteryLevel());
-  display.print("Unix timestamp: ");
-  display.println(t);
+  display.println(quote);
   display.update();
 }
 
 
 void setFont()
 {
-  const char* name = "Ubuntu_B7pt7b.h";
   const GFXfont* f = &Ubuntu_B7pt7b;
-  //display.fillScreen(GxEPD_WHITE);
   display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
   display.setFont(f);
   display.setCursor(0, 12);
@@ -54,9 +52,6 @@ uint8_t readBatteryLevel() {
 void drawBatteryMeter(uint8_t percent) {
   int h = round(display.height() * percent / 100);
   display.fillRect(display.width() - 1, display.height() - h , 1, h, GxEPD_BLACK);
-  display.print("Battery: ");
-  display.print(percent);
-  display.println("%");
 }
 
 
