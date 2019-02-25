@@ -97,7 +97,7 @@ def quote_to_print_lines(row, margin=5, font=12):
     return code
 
 
-def format_att_string(row, margin, char_width):
+def format_att_string(row, margin=MARGIN, char_width=7):
     if row['author'].strip() == "":
         return f"- {row['book']}"
     elif row['book'].strip() == "":
@@ -135,11 +135,13 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
     if len(rows) == 0:
         print(f'      // No quotes for {minute_str}')
         print('        quote = "";')
+        print('        attribution = "";')
         print(f'      return;')
     elif len(rows) == 1:
         print(f'      // Only one option for {minute_str}:"')
         quote = strip_bad(escape(rows[0]['quote']))
         print(f'      quote = F("{quote}");')
+        print(f'      attribution = F("{format_att_string(rows[0])}");')
         # print_code_for_a_single_quote(rows[0], indent=4)
         print(f"      return;")
     else:
@@ -152,6 +154,7 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
             #print_code_for_a_single_quote(rows[counter], indent=10)
             quote = strip_bad(escape(rows[counter]['quote']))
             print(f'      quote = F("{quote}");')
+            print(f'      attribution = F("{format_att_string(row)}");')
             print(f'      return;')
             counter = counter + 1
         print('      } // end switch (option)')

@@ -11,11 +11,22 @@ void setupEpaper() {
   display.setRotation(3);
   setFont();
   display.fillScreen(GxEPD_WHITE);
-  drawBatteryMeter(readBatteryLevel());
+  displayBatteryMeter(readBatteryLevel());
   display.println(quote);
   while (display.nextPage());
+  displayAttribution();
 }
 
+
+void displayAttribution() {
+  int16_t tbx, tby; uint16_t tbw, tbh;
+  display.getTextBounds(attribution, 0, 0, &tbx, &tby, &tbw, &tbh);
+  uint16_t x = (display.width() - tbw);
+  uint16_t y = (display.height() - tbh);
+  display.setCursor(x, y);
+  display.println(attribution);
+  while (display.nextPage());
+}
 
 void setFont()
 {
@@ -36,7 +47,7 @@ uint8_t readBatteryLevel() {
   return percent;
 }
 
-void drawBatteryMeter(uint8_t percent) {
+void displayBatteryMeter(uint8_t percent) {
   int h = round(display.height() * percent / 100);
   display.fillRect(display.width() - 1, display.height() - h , 1, h, GxEPD_BLACK);
 }

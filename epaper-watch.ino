@@ -1,4 +1,6 @@
 String quote;
+String attribution;
+
 
 void setup(void) {
   setupSerial();
@@ -23,6 +25,7 @@ void setup(void) {
   Serial.print(m);
   Serial.println(F(") is:"));
   Serial.println(quote);
+  Serial.println(attribution);
   setupEpaper();
   syncTimeAndSleep();
 }
