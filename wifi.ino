@@ -34,7 +34,7 @@ void loadCredentials() {
   Serial.println(password);
 }
 
-void connectToWifi() {
+bool connectToWifi() {
   WiFi.mode(WIFI_STA);
   //saveCredentials();
   loadCredentials();
@@ -46,15 +46,18 @@ void connectToWifi() {
   int counter = 0;
   while (WiFi.status() != WL_CONNECTED)
   {
+    if (counter = 300) {
+      return false;
+    }
     delay(1000);
     Serial.print(".");
-    if (counter == 60) {
+    if (counter % 60 == 0) {
       Serial.println();
-      counter = 0;
     }
     counter = counter + 1;
   }
   Serial.print("\r\nIP address: ");
   Serial.println(myIP = WiFi.localIP());
   Serial.println("");
+  return true;
 }

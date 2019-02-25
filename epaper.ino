@@ -1,21 +1,7 @@
-
-#include <GxEPD.h>
-#include <GxGDEW0213I5F/GxGDEW0213I5F.h>
+#include <GxEPD2_BW.h>
 #include "Ubuntu_B7pt7b.h"
 
-#include <GxIO/GxIO_SPI/GxIO_SPI.h>
-#include <GxIO/GxIO.h>
-
-#define CS_PIN           15
-#define RST_PIN          5
-#define DC_PIN           4
-#define BUSY_PIN         16
-#define GPIO_PIN_SET   1
-#define GPIO_PIN_RESET 0
-
-GxIO_Class io(SPI, CS_PIN, DC_PIN, RST_PIN);
-GxEPD_Class display(io, GPIO_PIN_RESET, BUSY_PIN);
-
+GxEPD2_BW<GxEPD2_213_flex, GxEPD2_213_flex::HEIGHT> display(GxEPD2_213_flex(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16)); // GDEW0213I5F
 const float VOLTAGE_DIVIDER_RATIO = 5.7;
 
 void setupEpaper() {
@@ -24,9 +10,10 @@ void setupEpaper() {
   display.init(0);
   display.setRotation(3);
   setFont();
+  display.fillScreen(GxEPD_WHITE);
   drawBatteryMeter(readBatteryLevel());
   display.println(quote);
-  display.update();
+  while (display.nextPage());
 }
 
 
