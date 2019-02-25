@@ -7,27 +7,32 @@ GxEPD2_BW<GxEPD2_213_flex, GxEPD2_213_flex::HEIGHT> display(GxEPD2_213_flex(/*CS
 const float VOLTAGE_DIVIDER_RATIO = 5.7;
 
 void setupEpaper() {
+  initEpaper();
+  displayBatteryMeter(readBatteryLevel());
+  displayQuote();
+  displayAttribution();
+  while (display.nextPage());
+}
+
+void displayQuote() {
+  display.println(quote);
+}
+
+void initEpaper() {
   Serial.println("Setting up the e-paper display...");
-  Serial.println("init");
   display.init(0);
   display.setRotation(3);
   setFont();
   display.fillScreen(GxEPD_WHITE);
-  displayBatteryMeter(readBatteryLevel());
-  display.println(quote);
-  while (display.nextPage());
-  displayAttribution();
 }
-
 
 void displayAttribution() {
   int16_t tbx, tby; uint16_t tbw, tbh;
   display.getTextBounds(attribution, 0, 0, &tbx, &tby, &tbw, &tbh);
-  uint16_t x = (display.width() - tbw);
-  uint16_t y = (display.height() - tbh);
+  uint16_t x = (display.width() - tbw - 6);
+  uint16_t y = (display.height() - tbh + 6);
   display.setCursor(x, y);
   display.println(attribution);
-  while (display.nextPage());
 }
 
 void setFont()
