@@ -1,5 +1,7 @@
 #include <EEPROM.h>
 #include <ezTime.h>
+Timezone MyTZ;
+const char local_tz[] = "America/Los_Angeles";
 
 void handleTimeEvents() {
   events();
@@ -20,11 +22,13 @@ void setupClockFromRTC() {
   } else {
     setTime(data);
   }
-  Serial.println("IS8601 (from RTC): " + UTC.dateTime(ISO8601));
+  Serial.println("UTC       (from RTC): " + UTC.dateTime(ISO8601));
+  if (!MyTZ.setCache(1024)) MyTZ.setLocation(local_tz);
+  Serial.println("LocalTime (from RTC): " + MyTZ.dateTime(ISO8601));
 }
 
 
-void syncTimeAndSleep() {
+void saveTimeAndSleep() {
   uint32_t offset = 0;
   long sleep_interval_s = 10;
   long sleep_interval_us = sleep_interval_s * 1000000;
@@ -47,7 +51,8 @@ void syncTimeAndSleep() {
 void syncTimeFromWifi() {
   Serial.println("IS8601:      " + UTC.dateTime(ISO8601));
   Serial.println("Getting time from WIFI...");
-  setInterval(60);
+  if (!MyTZ.setCache(1024)) MyTZ.setLocation("America/Los_Angeles");
+  setInterval(0);
   setDebug(DEBUG);
   if (! waitForSync(300)) {
     Serial.println("Failed to sync from NTP");
@@ -57,17 +62,17 @@ void syncTimeFromWifi() {
 }
 
 uint32_t getCurrentTime() {
-  return now();
+  return MyTZ.now();
 }
 
 int getCurrentMinute() {
-  return hour() * 60 + minute();
+  return MyTZ.hour() * 60 + MyTZ.minute();
 }
 
 int getMinuteOfTheHour() {
-  return minute();
+  return MyTZ.minute();
 }
 
 void setQuoteToCurrentTime() {
-  quote = UTC.dateTime(ISO8601);
+  quote = MyTZ.dateTime(ISO8601);
 }

@@ -1,7 +1,4 @@
 #include <ESP8266WiFi.h>
-#include <ESP8266mDNS.h>
-#include <WiFiUdp.h>
-#include <WiFiClient.h>
 
 char ssid[32] = "";
 char password[32] = "";
@@ -46,7 +43,11 @@ bool connectToWifi() {
   int counter = 0;
   while (WiFi.status() != WL_CONNECTED)
   {
-    if (counter = 300) {
+    if (counter == wifi_timeout) {
+      Serial.println();
+      Serial.print(F("Timed out after "));
+      Serial.print(wifi_timeout);
+      Serial.println(F(" seconds. Moving on."));
       return false;
     }
     delay(1000);

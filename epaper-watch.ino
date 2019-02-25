@@ -8,12 +8,7 @@ void setup(void) {
   if (getCurrentTime() < 1000) {
     Serial.println(F("Time is way out of sync."));
     Serial.println(F("Getting time from NTP first..."));
-    connectToWifi();
-    syncTimeFromWifi();
-  } else if (getMinuteOfTheHour() == 0) {
-    Serial.println(F("Top of the hour! Let's Sync"));
-    connectToWifi();
-    syncTimeFromWifi();
+    if (connectToWifi()) syncTimeFromWifi();
   }
 
   int m = getCurrentMinute();
@@ -27,7 +22,13 @@ void setup(void) {
   Serial.println(quote);
   Serial.println(attribution);
   setupEpaper();
-  syncTimeAndSleep();
+
+  if (getMinuteOfTheHour() != 0) {
+    Serial.println(F("Top of the hour! Let's Sync"));
+    if (connectToWifi()) syncTimeFromWifi();
+  }
+
+  saveTimeAndSleep();
 }
 
 void setupSerial() {

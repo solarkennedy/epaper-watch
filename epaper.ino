@@ -2,6 +2,8 @@
 #include "Ubuntu_B7pt7b.h"
 
 GxEPD2_BW<GxEPD2_213_flex, GxEPD2_213_flex::HEIGHT> display(GxEPD2_213_flex(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16)); // GDEW0213I5F
+
+
 const float VOLTAGE_DIVIDER_RATIO = 5.7;
 
 void setupEpaper() {
