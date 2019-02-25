@@ -2,14 +2,15 @@
 
 char ssid[32] = "";
 char password[32] = "";
+const int wifi_timeout = 60;
 IPAddress myIP;
 
 void saveCredentials() {
   EEPROM.begin(512);
   EEPROM.put(0, ssid);
-  EEPROM.put(0+sizeof(ssid), password);
-  char ok[2+1] = "OK";
-  EEPROM.put(0+sizeof(ssid)+sizeof(password), ok);
+  EEPROM.put(0 + sizeof(ssid), password);
+  char ok[2 + 1] = "OK";
+  EEPROM.put(0 + sizeof(ssid) + sizeof(password), ok);
   EEPROM.commit();
   EEPROM.end();
 }
@@ -33,7 +34,7 @@ void loadCredentials() {
 
 bool connectToWifi() {
   WiFi.mode(WIFI_STA);
-  //saveCredentials();
+  // saveCredentials();
   loadCredentials();
   Serial.print("Connected to ");
   Serial.println(ssid);

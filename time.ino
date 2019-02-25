@@ -28,9 +28,15 @@ void setupClockFromRTC() {
 }
 
 
+void printSystemUptime() {
+  Serial.print(F("Uptime: "));
+  Serial.print(millis());
+  Serial.println(F(" milliseconds."));
+}
+
 void saveTimeAndSleep() {
   uint32_t offset = 0;
-  long sleep_interval_s = 10;
+  long sleep_interval_s = 60;
   long sleep_interval_us = sleep_interval_s * 1000000;
   uint32_t data = now() + sleep_interval_s;
   if (data < 1550519320 || data > 1866652033) {
@@ -44,7 +50,9 @@ void saveTimeAndSleep() {
   ESP.rtcUserMemoryWrite(offset, &data, sizeof(data));
   Serial.print(F("Going into deep sleep for "));
   Serial.print(sleep_interval_s);
-  Serial.println(F(" seconds..."));
+  Serial.print(F(" seconds. Uptime:"));
+  Serial.print(millis());
+  Serial.println(F(" milliseconds."));
   ESP.deepSleep(sleep_interval_us, WAKE_RF_DISABLED);
 }
 
@@ -54,11 +62,8 @@ void syncTimeFromWifi() {
   if (!MyTZ.setCache(1024)) MyTZ.setLocation("America/Los_Angeles");
   setInterval(0);
   setDebug(DEBUG);
-  if (! waitForSync(300)) {
-    Serial.println("Failed to sync from NTP");
-  } else {
-    Serial.println("IS8601 (Synced):      " + UTC.dateTime(ISO8601));
-  }
+  // TODO: Timeout here somehow
+  updateNTP();
 }
 
 uint32_t getCurrentTime() {

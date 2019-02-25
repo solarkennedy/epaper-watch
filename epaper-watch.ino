@@ -22,13 +22,15 @@ void setup(void) {
   Serial.println(quote);
   Serial.println(attribution);
   setupEpaper();
+  syncIfItIsAGoodTime();
+  saveTimeAndSleep();
+}
 
-  if (getMinuteOfTheHour() != 0) {
-    Serial.println(F("Top of the hour! Let's Sync"));
+void syncIfItIsAGoodTime() {
+  if (getMinuteOfTheHour() == 0) {
+    Serial.println(F("Now is the right time to opportunistically sync ntp"));
     if (connectToWifi()) syncTimeFromWifi();
   }
-
-  saveTimeAndSleep();
 }
 
 void setupSerial() {
