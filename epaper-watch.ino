@@ -35,10 +35,12 @@ void syncIfItIsAGoodTime() {
 
 void setupSerial() {
   Serial.begin(115200);
+  /*
   Serial.setTimeout(2000);
   while (!Serial) { }
   Serial.println();  Serial.println();  Serial.println();  Serial.println();  Serial.println();
   Serial.println();
+  */
 }
 
 void loop(void) {

@@ -15,7 +15,33 @@ void setupEpaper() {
 }
 
 void displayQuote() {
-  display.println(quote);
+  int str_len = quote.length() + 1;
+  char char_array[str_len];
+  quote.toCharArray(char_array, str_len);
+  char *p = char_array;
+  char *w;
+  int x;
+  int y;
+  int16_t tbx, tby; uint16_t tbw, tbh;
+
+
+  while ((w = strtok_r(p, " ", &p)) != NULL)
+  {
+    // If we are going to overflow the line we need to wrap
+    x = display.getCursorX();
+    y = display.getCursorY();
+    display.getTextBounds(w, x, y, &tbx, &tby, &tbw, &tbh);
+    if (tbx == 1 && x != 1) {
+          // If we are going to overflow the line we need to wrap
+          display.println();
+          Serial.println();
+    }
+    display.print(w);
+    Serial.print(w);
+    display.print(" ");
+    Serial.print(" ");
+
+  }
 }
 
 void initEpaper() {

@@ -50,7 +50,7 @@ void saveTimeAndSleep() {
   ESP.rtcUserMemoryWrite(offset, &data, sizeof(data));
   Serial.print(F("Going into deep sleep for "));
   Serial.print(sleep_interval_s);
-  Serial.print(F(" seconds. Uptime:"));
+  Serial.print(F(" seconds. Uptime: "));
   Serial.print(millis());
   Serial.println(F(" milliseconds."));
   ESP.deepSleep(sleep_interval_us, WAKE_RF_DISABLED);
