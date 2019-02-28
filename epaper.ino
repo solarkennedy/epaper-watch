@@ -23,18 +23,39 @@ void displayQuote() {
   int x;
   int y;
   int16_t tbx, tby; uint16_t tbw, tbh;
+  bool bold = false;
+
 
 
   while ((w = strtok_r(p, " ", &p)) != NULL)
   {
+    if (w[0] == '*') {
+      if (bold == false) {
+        bold = true;
+        display.setTextColor(GxEPD_WHITE, GxEPD_BLACK);
+      } else {
+        bold = false;
+        display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
+      }
+      continue;
+    }
     // If we are going to overflow the line we need to wrap
     x = display.getCursorX();
     y = display.getCursorY();
     display.getTextBounds(w, x, y, &tbx, &tby, &tbw, &tbh);
-    if (tbx == 1 && x != 1) {
-          // If we are going to overflow the line we need to wrap
-          display.println();
-          Serial.println();
+
+    if (tbx == 1 && x != 0) {
+      // If we are going to overflow the line we need to wrap
+      display.println();
+      Serial.println();
+    } else if (tby > display.height() ) {
+      Serial.println("We've overflowed the screen. Exiting early");
+      return;
+    }
+
+    if (bold) {
+      display.getTextBounds(w, x, y, &tbx, &tby, &tbw, &tbh);
+      display.fillRect(tbx-1, tby-1, tbw+2, tbh+2, GxEPD_BLACK);
     }
     display.print(w);
     Serial.print(w);

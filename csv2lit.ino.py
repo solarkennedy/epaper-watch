@@ -128,6 +128,11 @@ def escape(s, quote='"'):
     return s.replace(quote, f"\{quote}")
 
 
+def boldit(quote, row):
+    timestring = row['time_string']
+    return quote.replace(timestring, f"* {timestring} *")
+
+
 def print_code_for_a_minute(rows, minute_str, minute_dt):
     minute_number = number_of_minutes_in(minute_dt)
     print(f"    // Codegen for {minute_str} for {len(rows)} quotations:")
@@ -140,6 +145,7 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
     elif len(rows) == 1:
         print(f'      // Only one option for {minute_str}:"')
         quote = strip_bad(escape(rows[0]['quote']))
+        quote = boldit(quote, rows[0])
         print(f'      quote = F("{quote}");')
         print(f'      attribution = F("{format_att_string(rows[0])}");')
         # print_code_for_a_single_quote(rows[0], indent=4)
@@ -153,6 +159,7 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
             print(f"        case {counter}:")
             #print_code_for_a_single_quote(rows[counter], indent=10)
             quote = strip_bad(escape(rows[counter]['quote']))
+            quote = boldit(quote, rows[counter])
             print(f'      quote = F("{quote}");')
             print(f'      attribution = F("{format_att_string(row)}");')
             print(f'      return;')
