@@ -8,108 +8,108 @@ void setQuoteForMinute(int minute) {
       // 26 options for 00:00
       switch (option) {
         case 0:
-      quote = F("As * midnight * was striking bronze blows upon the dusky air, Dorian Gray, dressed commonly, and with a muffler wrapped round his throat, crept quietly out of his house.");
-      attribution = F("- The Picture of Dorian Gray");
-      return;
-        case 1:
-      quote = F("But wait till I tell you, he said. \"We had a * midnight * lunch too after all the jollification and when we sallied forth it was blue o'clock the morning after the night before\"");
-      attribution = F("- James Joyce, Ulysses ");
-      return;
-        case 2:
-      quote = F("Midnight, you said. What is * midnight * to the young? And suddenly a festive blaze was flung Across five cedar trunks, snow patches showed, And a patrol car on our bumpy road Came to a crunching stop. Retake, retake!");
-      attribution = F("- Pale Fire");
-      return;
-        case 3:
-      quote = F("fill the bulky ledger with cryptic remarks like 'Patrolled perimeter * 12.00 pm *, No Incident'");
-      attribution = F("- A Squatter's Tale");
-      return;
-        case 4:
-      quote = F("'Tis the year's * midnight *, and it is the day's, Lucy's, who scarce seven hours herself unmasks; The sun is spent, and now his flasks Send forth light squibs, no constant rays;");
-      attribution = F("- Nocturnal on St Lucy's Day");
-      return;
-        case 5:
-      quote = F("At * midnight * his wife and daughter might still be bustling about, preparing holiday delicacies in the kitchen, straightening up the house, or perhaps getting their kimonos ready or arranging flowers.");
-      attribution = F("- Beauty and Sadness");
-      return;
-        case 6:
-      quote = F("Bernardo: 'Tis now struck * twelve *; get thee to bed, Francisco.");
-      attribution = F("- Shakespeare, Hamlet ");
-      return;
-        case 7:
-      quote = F("Big Ben had once again struck * midnight *. The time outside still corresponded to that registered by the stopped gilt clock, inside. Inside and outside matched exactly, but both were badly wrong. H'm.");
-      attribution = F("- Nights At The Circus");
-      return;
-        case 8:
-      quote = F("It told me to write the report. Does this mean I am freer now than I was? I do not know. I shall learn. Then I went back into the house and wrote, It is * midnight *. The rain is beating on the windows. It was not * midnight *. It was not raining.");
-      attribution = F("- Samuel Beckett, Molloy ");
-      return;
-        case 9:
       quote = F("Cartridges not allowed after * 0000h. *, to encourage sleep.");
       attribution = F("- Infinite Jest");
       return;
-        case 10:
-      quote = F("Francisco. You come most carefully upon your hour. Bernardo. 'Tis now struck * twelve *. Get thee to bed, Francisco.");
-      attribution = F("- William Shakespeare, Hamlet");
-      return;
-        case 11:
+        case 1:
       quote = F("Gately can hear the horns and raised voices and u-turn squeals way down below on Wash. That indicate it's around * 0000h *., the switching hour.");
       attribution = F("- Infinite Jest");
       return;
-        case 12:
-      quote = F("Hamlet: What hour now? Horatio: I think it lacks of * twelve *. Marcellus: No, it is struck.");
-      attribution = F("- William Shakespeare, Hamlet");
+        case 2:
+      quote = F("fill the bulky ledger with cryptic remarks like 'Patrolled perimeter * 12.00 pm *, No Incident'");
+      attribution = F("- A Squatter's Tale");
       return;
-        case 13:
-      quote = F("He is certain he heard footsteps: they come nearer, and then die away. The ray of light beneath his door is extinguished. It is * midnight *; some one has turned out the gas; the last servant has gone to bed, and he must lie all night in agony with no one to bring him any help.");
-      attribution = F("- Marcel Proust, Swann's Way ");
+        case 3:
+      quote = F("As * midnight * was striking bronze blows upon the dusky air, Dorian Gray, dressed commonly, and with a muffler wrapped round his throat, crept quietly out of his house.");
+      attribution = F("- The Picture of Dorian Gray");
       return;
-        case 14:
-      quote = F("I am conceived to the chimes of * midnight * on the clock on the mantelpiece in the room across the hall. The clock once belonged to my great-grandmother (a woman called Alice) and its tired chime counts me into the world.");
+        case 4:
+      quote = F("At * midnight * his wife and daughter might still be bustling about, preparing holiday delicacies in the kitchen, straightening up the house...");
+      attribution = F("- Beauty and Sadness");
+      return;
+        case 5:
+      quote = F("Big Ben had once again struck * midnight *. The time outside still corresponded to that registered by the stopped gilt clock, inside.");
+      attribution = F("- Nights At The Circus");
+      return;
+        case 6:
+      quote = F("But wait till I tell you, he said. \"We had a * midnight * lunch too after all the jollification and when we sallied forth it was blue o'clock the morning after the night before\"");
+      attribution = F("- James Joyce, Ulysses");
+      return;
+        case 7:
+      quote = F("Does this mean I am freer now than I was? I do not know. I shall learn. Then I went back into the house and wrote, It is * midnight *. The rain is beating on the windows.");
+      attribution = F("- Samuel Beckett, Molloy");
+      return;
+        case 8:
+      quote = F("He is certain he heard footsteps: they come nearer, and then die away. The ray of light beneath his door is extinguished. It is * midnight *; some one has turned out the gas.");
+      attribution = F("- Marcel Proust, Swann's Way");
+      return;
+        case 9:
+      quote = F("I am conceived to the chimes of * midnight * on the clock on the mantelpiece in the room across the hall. The clock once belonged to my great-grandmother.");
       attribution = F("- Kate Atkinson");
       return;
-        case 15:
-      quote = F("'Myself!' she gasped, 'and the clock is striking * twelve *! It's true, then! that's dreadful!'");
-      attribution = F("- Wuthering Heights");
-      return;
-        case 16:
-      quote = F("I was born in the city of Bombay ... On the stroke of * midnight *, as a matter of fact.");
-      attribution = F("- Midnight's Children");
-      return;
-        case 17:
+        case 10:
       quote = F("It is * midnight *. The rain is beating on the windows. I am calm. All is sleeping. Nevertheless I get up and go to my desk. I can't sleep. ...");
-      attribution = F("- Samuel Beckett, Molloy ");
+      attribution = F("- Samuel Beckett, Molloy");
       return;
-        case 18:
+        case 11:
       quote = F("It was nearing * midnight * and the Prime Minister was sitting alone in his office, reading a long memo");
       attribution = F("- JK Rowling, Harry Potter");
       return;
-        case 19:
-      quote = F("Midnight had come upon the crowded city. The palace, the night-cellar, the jail, the madhouse; the chambers of birth and death, of health and sickness; the rigid face of the corpse and the calm sleep of the child - * midnight * was upon them all.");
-      attribution = F("- Oliver Twist");
+        case 12:
+      quote = F("I was born in the city of Bombay ... On the stroke of * midnight *, as a matter of fact.");
+      attribution = F("- Midnight's Children");
       return;
-        case 20:
-      quote = F("* Midnight * is approaching, and while the peak of activity has passed, the basal metabolism that maintains life continues undiminished, producing the basso continuo of the city's moan, a monotonous sound that neither rises or falls but is pregnant with foreboding.");
-      attribution = F("- Murakami, After Dark ");
-      return;
-        case 21:
-      quote = F("Once upon a * midnight * dreary, while I pondered weak and weary, Over many a quaint and curious volume of forgotten lore");
-      attribution = F("- Edgar Allan Poe, The Raven");
-      return;
-        case 22:
-      quote = F("The clock striketh * twelve * O it strikes, it strikes! Now body, turn to air, Or Lucifer will bear thee quick to hell. O soul, be changed into little water drops, And fall into the ocean, ne'er to be found. My God, my God, look not so fierce on me!");
-      attribution = F("- Dr Faustus");
-      return;
-        case 23:
+        case 13:
       quote = F("...leaning forwards, ruminated until * midnight * upon both sides of the question.");
       attribution = F("- Laurence Sterne");
       return;
+        case 14:
+      quote = F("Midnight had come upon the crowded city. The palace, the night-cellar, the jail, the madhouse; the chambers of birth and death, of health and sickness.");
+      attribution = F("- Oliver Twist");
+      return;
+        case 15:
+      quote = F("* Midnight * is approaching, and while the peak of activity has passed, the basal metabolism that maintains life continues undiminished...");
+      attribution = F("- Murakami, After Dark");
+      return;
+        case 16:
+      quote = F("'Midnight,' you said. What is * midnight * to the young? And suddenly a festive blaze was flung Across five cedar trunks, snow patches showed...");
+      attribution = F("- Pale Fire");
+      return;
+        case 17:
+      quote = F("Once upon a * midnight * dreary, while I pondered weak and weary, Over many a quaint and curious volume of forgotten lore");
+      attribution = F("- Edgar Allan Poe, The Raven");
+      return;
+        case 18:
+      quote = F("'Tis the year's * midnight *, and it is the day's, Lucy's, who scarce seven hours herself unmasks; The sun is spent, and now his flasks Send forth light squibs, no constant rays;");
+      attribution = F("- Nocturnal on St Lucy's Day");
+      return;
+        case 19:
+      quote = F("We have heard the chimes at * midnight *.");
+      attribution = F("- Henry IV");
+      return;
+        case 20:
+      quote = F("Bernardo: 'Tis now struck * twelve *; get thee to bed, Francisco.");
+      attribution = F("- Shakespeare, Hamlet");
+      return;
+        case 21:
+      quote = F("Francisco. You come most carefully upon your hour. Bernardo. 'Tis now struck * twelve *. Get thee to bed, Francisco.");
+      attribution = F("- William Shakespeare, Hamlet");
+      return;
+        case 22:
+      quote = F("Hamlet: What hour now? Horatio: I think it lacks of * twelve *. Marcellus: No, it is struck.");
+      attribution = F("- William Shakespeare, Hamlet");
+      return;
+        case 23:
+      quote = F("'Myself!' she gasped, 'and the clock is striking * twelve *! It's true, then! that's dreadful!'");
+      attribution = F("- Wuthering Heights");
+      return;
         case 24:
-      quote = F("To begin my life with the beginning of my life, I record that I was born (as I have been informed an believe) on a Friday, at * twelve o'clock * at night. It was remarked that the clock began to strike, and I began to cry, simultaneously.");
+      quote = F("I record that I was born on a Friday, at * twelve o'clock * at night. It was remarked that the clock began to strike, and I began to cry, simultaneously.");
       attribution = F("- David Copperfield");
       return;
         case 25:
-      quote = F("We have heard the chimes at * midnight *.");
-      attribution = F("- Henry IV");
+      quote = F("The clock striketh * twelve * O it strikes, it strikes! Now body, turn to air, Or Lucifer will bear thee quick to hell.");
+      attribution = F("- Dr Faustus");
       return;
       } // end switch (option)
 
@@ -133,16 +133,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 00:03
       switch (option) {
         case 0:
-      quote = F("It was * after twelve o'clock * when Easton came home. Ruth recognised his footsteps before he reached the house, and her heart seemed to stop beating when she heard the clang of the gate, as it closed after he had passed through.");
+      quote = F("It was * after twelve o'clock * when Easton came home. Ruth recognised his footsteps before he reached the house...");
       attribution = F("- Robert Tressell");
       return;
         case 1:
-      quote = F("It was just * three minutes past midnight * when I last saw Archer Harrison alive. I remember, because I said it was two minutes past and he looked at his watch and said it was three minutes past.");
-      attribution = F("- Since Ibsen");
-      return;
-        case 2:
       quote = F("...then a snapping of tension. I glanced at my watch. * Three minutes after midnight. * I was breathing normally and my pen moved freely across the page.");
       attribution = F("- The Historian");
+      return;
+        case 2:
+      quote = F("It was just * three minutes past midnight * when I last saw Archer Harrison alive.");
+      attribution = F("- Since Ibsen");
       return;
       } // end switch (option)
 
@@ -235,7 +235,7 @@ void setQuoteForMinute(int minute) {
     case 15:
       // Only one option for 00:15:"
       quote = F("At * twelve-fifteen * he got out of the van. He tucked the pistol under the waistband of his trousers and crossed the silent, deserted street to the Hudston house.");
-      attribution = F("- Dean Koontz, Watchers ");
+      attribution = F("- Dean Koontz, Watchers");
       return;
 
     // Codegen for 00:16 for 1 quotations:
@@ -290,7 +290,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 00:23 for 1 quotations:
     case 23:
       // Only one option for 00:23:"
-      quote = F("Oskar weighed the wristwatch in his hand, then gave the rather fine piece with its luminous dial showing * twenty-three minutes past midnight * to little Pinchcoal. ");
+      quote = F("Oskar weighed the wristwatch in his hand, then gave the rather fine piece with its luminous dial showing * twenty-three minutes past midnight * to little Pinchcoal.");
       attribution = F("- Günter Grass, The Tin Drum");
       return;
 
@@ -307,8 +307,8 @@ void setQuoteForMinute(int minute) {
       // 2 options for 00:25
       switch (option) {
         case 0:
-      quote = F("He had certainly rushed off to join Therese in some coppice, whence they must have hurried away to Vieux-Bourg station which the last train to Paris quitted at * five-and-twenty minutes past midnight *. And it was indeed this which had taken place.");
-      attribution = F("- Emile Zola, Fruitfulness ");
+      quote = F("...whence they must have hurried away to Vieux-Bourg station which the last train to Paris quitted at * five-and-twenty minutes past midnight *.");
+      attribution = F("- Emile Zola, Fruitfulness");
       return;
         case 1:
       quote = F("I mean, look at the time! * Twenty-five past midnight! * It was a triumph, it really was!");
@@ -368,7 +368,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 00:33 for 1 quotations:
     case 33:
       // Only one option for 00:33:"
-      quote = F("\"So that at twelve-thirty-three you bolted the south door?\" \"Yes,\" replied Stephen Maxie easily. \"At * thirty-three minutes past midnight *.\"");
+      quote = F("So that at twelve-thirty-three you bolted the south door? \"Yes,\" replied Stephen Maxie easily. \"At * thirty-three minutes past midnight *.\"");
       attribution = F("- P.D. James, Cover her Face");
       return;
 
@@ -459,8 +459,8 @@ void setQuoteForMinute(int minute) {
       attribution = F("- David Footman");
       return;
         case 1:
-      quote = F("The clock marked the * third quarter after midnight *, and he knew it would make no difference if he went down to the post-box now or early the next morning; but he wanted to clear his conscience, and having found the letter he went to the door.");
-      attribution = F("- Edith Wharton, The Reef ");
+      quote = F("The clock marked the * third quarter after midnight *, and he knew it would make no difference if he went down to the post-box now or early the next morning.");
+      attribution = F("- Edith Wharton, The Reef");
       return;
       } // end switch (option)
 
@@ -577,31 +577,31 @@ void setQuoteForMinute(int minute) {
       switch (option) {
         case 0:
       quote = F("* 1.00 am. * I felt the surrounding quietness suffocating me.");
-      attribution = F("- Rosamund Lupton, Sister ");
+      attribution = F("- Rosamund Lupton, Sister");
       return;
         case 1:
-      quote = F("Huge worms, as big as the canary, armed with terrible beaks, would attack the body. Tear off the feet, rip out its intestines, burst the eyeballs. He woke up, trembling; it was only * one o’clock *. He swallowed three Xanax. So ended his first night of freedom.");
-      attribution = F("- Atomised");
-      return;
-        case 2:
-      quote = F("I looked attentively at her, as she put that singular question to me. It was then * nearly one o'clock *. All I could discern distinctly by the moonlight was a colourless, youthful face.");
+      quote = F("It was then * nearly one o'clock *. All I could discern distinctly by the moonlight was a colourless, youthful face.");
       attribution = F("- The Woman in White");
       return;
-        case 3:
-      quote = F("I'm the only one awake in this house on this night before the day that will change all our lives. Though it's already that day: the little luminous hands on my alarm clock (which I haven't set) show just gone * one in the morning *.");
-      attribution = F("- Graham Swift, Tomorrow ");
-      return;
-        case 4:
-      quote = F("It was the thirtieth of May by now. * One am * on the thirtieth of May 1940. Quite a famous date on which to be lying awake and staring at the ceiling. Already in the creeks and tidal estuaries of England the pleasure-boats and paddle-steamers were casting their moorings");
+        case 2:
+      quote = F("It was the thirtieth of May by now. * One am * on the thirtieth of May 1940. Quite a famous date on which to be lying awake and staring at the ceiling.");
       attribution = F("- London Belongs to Me");
       return;
+        case 3:
+      quote = F("Though it's already that day: the little luminous hands on my alarm clock (which I haven't set) show just gone * one in the morning *.");
+      attribution = F("- Graham Swift, Tomorrow");
+      return;
+        case 4:
+      quote = F("he looked up at the clock - * one o'clock in the morning *. What in the name of God was he doing on King's Cross station...");
+      attribution = F("- Douglas Adams");
+      return;
         case 5:
-      quote = F("Last night of all, When yon same star that's westward from the pole Had made his course t'illume that part of heaven Where now it burns, Marcellus and myself, The bell then beating * one  *-");
-      attribution = F("- Hamlet");
+      quote = F("Tear off the feet, rip out its intestines, burst the eyeballs. He woke up, trembling; it was only * one o’clock *.");
+      attribution = F("- Atomised");
       return;
         case 6:
-      quote = F("The station was more crowded than he had expected to find it at - what was it? he looked up at the clock - * one o'clock in the morning *. What in the name of God was he doing on King's Cross station...");
-      attribution = F("- Douglas Adams");
+      quote = F("When yon same star that's westward from the pole Had made his course t'illume that part of heaven Where now it burns, Marcellus and myself, The bell then beating * one * -");
+      attribution = F("- William Shakespeare, Hamlet");
       return;
       } // end switch (option)
 
@@ -703,21 +703,17 @@ void setQuoteForMinute(int minute) {
         attribution = "- Attribution Goes Here";
       return;
 
-    // Codegen for 01:15 for 3 quotations:
+    // Codegen for 01:15 for 2 quotations:
     case 75:
-      option = random(0, 3);
-      // 3 options for 01:15
+      option = random(0, 2);
+      // 2 options for 01:15
       switch (option) {
         case 0:
-      quote = F("I am sorry, therefore, as I have said, that I ever paid any attention to the footsteps. They began about a * quarter past one * o'clock in the morning, a rhythmic, quick-cadenced walking around the dining-room table.");
-      attribution = F("- James Thurber");
+      quote = F("Lily Chen always prepared an 'evening' snack for her husband to consume on his return at * 1.15am. *");
+      attribution = F("- Timothy Mo, Sour Sweet");
       return;
         case 1:
-      quote = F("Lily Chen always prepared an 'evening' snack for her husband to consume on his return at * 1.15am. *");
-      attribution = F("- Timothy Mo, Sour Sweet ");
-      return;
-        case 2:
-      quote = F("I am sorry, therefore, as I have said, that I ever paid any attention to the footsteps. They began about a * quarter past one * o'clock in the morning, a rhythmic, quick-cadenced walking around the dining-room table.");
+      quote = F("They began about a * quarter past one * o'clock in the morning, a rhythmic, quick-cadenced walking around the dining-room table.");
       attribution = F("- James Thurber");
       return;
       } // end switch (option)
@@ -728,12 +724,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 01:16
       switch (option) {
         case 0:
-      quote = F("At * sixteen past one *, they walked into the interview room.");
-      attribution = F("- Nothing Gold Can Stay");
-      return;
-        case 1:
       quote = F("From 1am to * 1.16am * vouched for by other two conductors.");
       attribution = F("- Agatha Christie");
+      return;
+        case 1:
+      quote = F("At * sixteen past one *, they walked into the interview room.");
+      attribution = F("- Nothing Gold Can Stay");
       return;
       } // end switch (option)
 
@@ -743,12 +739,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 01:17
       switch (option) {
         case 0:
-      quote = F("At that moment (it was * seventeen minutes past one * in the morning) Lieutenant Bronsfield was preparing to leave the watch and return to his cabin, when his attention was attracted by a distant hissing noise.");
-      attribution = F("- A voyage round the moon");
+      quote = F("The clocks stopped at * 1:17 *. A long shear of light and then a series of low concussions. He got up and went to the window. What is it? she said. He didnt answer.");
+      attribution = F("- Cormac McCarthy, The Road");
       return;
         case 1:
-      quote = F("The clocks stopped at * 1:17 *. A long shear of light and then a series of low concussions. He got up and went to the window. What is it? she said. He didnt answer.");
-      attribution = F("- Cormac McCarthy, The Road ");
+      quote = F("At that moment (it was * seventeen minutes past one * in the morning) Lieutenant Bronsfield was preparing to leave the watch and return to his cabin...");
+      attribution = F("- A Voyage Round the Moon");
       return;
       } // end switch (option)
 
@@ -772,12 +768,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 01:20
       switch (option) {
         case 0:
-      quote = F("May I trespass on your valuable time long enough to ask what in the name of everything bloodsome you think you're playing at, young piefaced Bertie? It is now some * twenty minutes past one * o'clock in the morning, and not a spot of action on your part.");
-      attribution = F("- P.G. Wodehouse");
+      quote = F("Then it was * 1.20am *, but I hadn't heard Father come upstairs to bed. I wondered if he was asleep downstairs or whether he was waiting to come in and kill me.");
+      attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("Then it was * 1.20am *, but I hadn't heard Father come upstairs to bed. I wondered if he was asleep downstairs or whether he was waiting to come in and kill me. So I got out my Swiss Army Knife and opened the saw blade so that I could defend myself.");
-      attribution = F("- Mark Haddon");
+      quote = F("It is now some * twenty minutes past one * o'clock in the morning, and not a spot of action on your part.");
+      attribution = F("- P.G. Wodehouse");
       return;
       } // end switch (option)
 
@@ -850,20 +846,20 @@ void setQuoteForMinute(int minute) {
       // 4 options for 01:30
       switch (option) {
         case 0:
-      quote = F("* Half-past one *, The street lamp sputtered, The street lamp muttered, The street lamp said, \"Regard that woman ...\"");
-      attribution = F("- Rhapsody on a Windy Night");
-      return;
-        case 1:
       quote = F("Around * 1:30 A.M. * the door opened and I thought it was Karla, but it was Bug, saying Karla and Laura had gone out for a stag night after they ran out of paint.");
       attribution = F("- Microserfs");
       return;
+        case 1:
+      quote = F("The radio alarm clock glowed * 1:30 a.m. * Bad karaoke throbbed through walls. I was wide awake, straightjacketed by my sweaty sheets. A headache dug its thumbs into my temples.");
+      attribution = F("- Ghostwritten");
+      return;
         case 2:
-      quote = F("The late hour helped. It simplified things. It categorized the population. Innocent bystanders were mostly home in bed. I walked for half an hour, but nothing happened. Until * one thirty * in the morning. Until I looped around to 22nd and Broadway.");
-      attribution = F("- Lee Child, Gone Tomorrow ");
+      quote = F("* Half-past one *, The street lamp sputtered, The street lamp muttered, The street lamp said, \"Regard that woman ...\"");
+      attribution = F("- Rhapsody on a Windy Night");
       return;
         case 3:
-      quote = F("The radio alarm clock glowed * 1:30 a.m. * Bad karaoke throbbed through walls. I was wide awake, straightjacketed by my sweaty sheets. A headache dug its thumbs into my temples. My gut pulsed with gamma interference: I lurched to the toilet.");
-      attribution = F("- Ghostwritten");
+      quote = F("Innocent bystanders were mostly home in bed. I walked for half an hour, but nothing happened. Until * one thirty * in the morning. Until I looped around to 22nd and Broadway.");
+      attribution = F("- Lee Child, Gone Tomorrow");
       return;
       } // end switch (option)
 
@@ -1076,28 +1072,28 @@ void setQuoteForMinute(int minute) {
       // 6 options for 02:00
       switch (option) {
         case 0:
-      quote = F("The middle of the night? Alec asked sharply. \"Can you be more definite?\" \"* About two. Just past *.\" Daisy noted that he expressed no concern for her safety.");
-      attribution = F("- Dead in the water");
-      return;
-        case 1:
-      quote = F("As * two o'clock * pealed from the cathedral bell, Jean Valjean awoke.");
-      attribution = F("- Victor Hugo, Les Miserables");
-      return;
-        case 2:
       quote = F("Get on plane at * 2 A.M. *, amid bundles, chickens, gypsies, sit opposite pair of plump fortune tellers who groan and (very discreetly) throw up all the way to Tbilisi.");
       attribution = F("- J. Updike, Bech: A Book");
       return;
+        case 1:
+      quote = F("The middle of the night? Alec asked sharply. \"Can you be more definite?\" \"* About two. Just past *.\" Daisy noted that he expressed no concern for her safety.");
+      attribution = F("- Dead in the water");
+      return;
+        case 2:
+      quote = F("After an unnaturally prolonged wheezing there followed a shrill, nasty, and as it were unexpectedly rapid, chime - as though someone were suddenly jumping forward. * It struck two. *");
+      attribution = F("- Notes From the Underground");
+      return;
         case 3:
-      quote = F("Lady Macbeth: Out, damned spot! out, I say!—One: * two *: why, then, 'tis time to do't.—Hell is murky!—Fie, my lord, fie! a soldier, and afeard? What need we fear who knows it, when none can call our power to account?—Yet who would have thought the old man to have had so much blood in him.");
-      attribution = F("- Shakespeare, Macbeth");
+      quote = F("As * two o'clock * pealed from the cathedral bell, Jean Valjean awoke.");
+      attribution = F("- Victor Hugo, Les Miserables");
       return;
         case 4:
-      quote = F("After an unnaturally prolonged wheezing there followed a shrill, nasty, and as it were unexpectedly rapid, chime - as though someone were suddenly jumping forward. * It struck two. * I woke up, though I had indeed not been asleep but lying half-conscious.");
-      attribution = F("- Notes from the underground");
+      quote = F("When all had grown quiet and Fyodor Pavlovich went to bed at around * two o'clock *, Ivan Fyodorovich also went to bed with the firm resolve of falling quickly asleep.");
+      attribution = F("- The Brothers Karamazov");
       return;
         case 5:
-      quote = F("When all had grown quiet and Fyodor Pavlovich went to bed at around * two o'clock *, Ivan Fyodorovich also went to bed with the firm resolve of falling quickly asleep, as he felt horribly exhausted.");
-      attribution = F("- The Brothers Karamazov");
+      quote = F("Out, damned spot! out, I say!—One: * two *: why, then, 'tis time to do't.—Hell is murky!—Fie, my lord, fie! a soldier, and afeard? What need we fear who knows it?");
+      attribution = F("- Shakespeare, Macbeth");
       return;
       } // end switch (option)
 
@@ -1157,7 +1153,7 @@ void setQuoteForMinute(int minute) {
       // 3 options for 02:07
       switch (option) {
         case 0:
-      quote = F("At * 2:07 a.m. * I decided that I wanted a drink of orange squash before I brushed my teeth and got into bed, so I went downstairs to the kitchen. Father was sitting on the sofa watching snooker on the television and drinking whisky. There were tears coming out of his eyes.");
+      quote = F("At * 2:07 a.m. * I decided that I wanted a drink of orange squash before I brushed my teeth and got into bed, so I went downstairs to the kitchen.");
       attribution = F("- Mark Haddon");
       return;
         case 1:
@@ -1165,7 +1161,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 2:
-      quote = F("Saturday, 17 November — * 2.07 a.m. * I cannot sleep. Ben is upstairs, back in bed, and I am writing this in the kitchen. He thinks I am drinking a cup of cocoa that he has just made for me. He thinks I will come back to bed soon. I will, but first I must write again.");
+      quote = F("Saturday, 17 November - * 2.07 a.m. * I cannot sleep. Ben is upstairs, back in bed, and I am writing this in the kitchen. He thinks I am drinking a cup of cocoa...");
       attribution = F("- Before I Go to Sleep");
       return;
       } // end switch (option)
@@ -1190,12 +1186,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 02:10
       switch (option) {
         case 0:
-      quote = F("* Ten minutes past two *, sir, answered the man, looking at the clock and blinking. \"* Ten minutes past two *? How horribly late!\"");
-      attribution = F("- The Picture of Dorian Gray");
+      quote = F("February 26, Saturday - Richards went out 1:10am and found it clearing a bit, so we got under way as soon as possible, which was * 2:10am *");
+      attribution = F("- Ernest Shackleton");
       return;
         case 1:
-      quote = F("Decided to get under way again as soon as there is any clearance. Snowing and blowing, force about fifty or sixty miles an hour. February 26, Saturday - Richards went out 1:10am and found it clearing a bit, so we got under way as soon as possible, which was * 2:10am *");
-      attribution = F("- Ernest Shackleton");
+      quote = F("* Ten minutes past two *, sir, answered the man, looking at the clock and blinking. \"* Ten minutes past two *? How horribly late!\"");
+      attribution = F("- The Picture of Dorian Gray");
       return;
       } // end switch (option)
 
@@ -1237,7 +1233,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Shadow Out of Time");
       return;
         case 1:
-      quote = F("It did. When the alarm rang at * two fifteen *, Lew shut it off, snapped on the little bedside lamp, then swung his feet to the floor to sit on the edge of the bed, holding his eyes open.");
+      quote = F("When the alarm rang at * two fifteen *, Lew shut it off, snapped on the little bedside lamp, then swung his feet to the floor to sit on the edge of the bed, holding his eyes open.");
       attribution = F("- The Night People");
       return;
       } // end switch (option)
@@ -1255,12 +1251,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 02:17
       switch (option) {
         case 0:
-      quote = F("What time is it now? He turned her very dusty alarm clock to check. \"* Two-seventeen *,\" he marveled. It was the strangest time he'd seen in his entire life. \"I apologize that the room is so messy,\" Lalitha said.");
-      attribution = F("- Jonathan Franzen, Freedom ");
+      quote = F("The flare spluttered and faded, and now the glare of the spotlight blinded me. I sat very still. It was * 2.17 *.");
+      attribution = F("- The Ipcress File");
       return;
         case 1:
-      quote = F("One of the \"choppers\" stopped, did an about-turn and came back to me. The flare spluttered and faded, and now the glare of the spotlight blinded me. I sat very still. It was * 2.17 *. Against the noise of the blades a deeper resonant sound bit into the chill black air.");
-      attribution = F("- The Ipcress File");
+      quote = F("What time is it now? He turned her very dusty alarm clock to check. \"* Two-seventeen *,\" he marveled. It was the strangest time he'd seen in his entire life.");
+      attribution = F("- Jonathan Franzen, Freedom");
       return;
       } // end switch (option)
 
@@ -1288,7 +1284,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Southern Mail");
       return;
         case 1:
-      quote = F("The night of his third walk Lew slept in his own apartment. When his eyes opened at * two twenty *, by the green hands of his alarm, he knew that this time he'd actually been waiting for it in his sleep.");
+      quote = F("The night of his third walk Lew slept in his own apartment. When his eyes opened at * two twenty *, by the green hands of his alarm...");
       attribution = F("- The Night People");
       return;
       } // end switch (option)
@@ -1370,20 +1366,20 @@ void setQuoteForMinute(int minute) {
       // 4 options for 02:30
       switch (option) {
         case 0:
-      quote = F("My old drum majorette's outfit. The one I wore to the State Finals. Listen, we can't tie up the phones like this. \"Why not?\" said Harry. \"Who's going to call at * 2:30 a.m. * with a better idea? Yippee, to quote Lew, we're having a party! What're we serving, Lew?\"");
-      attribution = F("- The Night People");
+      quote = F("It is * 2.30am * and I am tight. As a tick, as a lord, as a newt. Must write this down before the sublime memories fade and blur.");
+      attribution = F("- Any Human Heart");
       return;
         case 1:
-      quote = F("At about * half past two * she had been woken by the creak of footsteps out on the stairs. At first she had been frightened.");
-      attribution = F("- The Little Stranger");
+      quote = F("Listen, we can't tie up the phones like this. \"Why not?\" said Harry. \"Who's going to call at * 2:30 a.m. * with a better idea? Yippee, to quote Lew, we're having a party!\"");
+      attribution = F("- The Night People");
       return;
         case 2:
       quote = F("Inc, I tried to pull her off about 0* 230 *, and there was this fucking… sound.");
       attribution = F("- Infinite Jest");
       return;
         case 3:
-      quote = F("It is * 2.30am * and I am tight. As a tick, as a lord, as a newt. Must write this down before the sublime memories fade and blur.");
-      attribution = F("- Any Human Heart");
+      quote = F("At about * half past two * she had been woken by the creak of footsteps out on the stairs. At first she had been frightened.");
+      attribution = F("- The Little Stranger");
       return;
       } // end switch (option)
 
@@ -1498,19 +1494,19 @@ void setQuoteForMinute(int minute) {
       // 2 options for 02:46
       switch (option) {
         case 0:
-      quote = F("* 2.46am. * The chain drive whirred and the paper target slid down the darkened range, ducking in and out of shafts of yellow incandescent light. At the firing station, a figure waited in the shadows.");
+      quote = F("* 2.46am. * The chain drive whirred and the paper target slid down the darkened range, ducking in and out of shafts of yellow incandescent light.");
       attribution = F("- Steve Sohmer, Patriots");
       return;
         case 1:
-      quote = F("Vicki shoved her glasses at her face and peered at the clock. * Two forty-six *. 'I don't have time for this' she muttered, sttling back against the pillows, heart still slamming against her ribs.");
-      attribution = F("- Tanya Huff, Blood Lines ");
+      quote = F("Vicki shoved her glasses at her face and peered at the clock. * Two forty-six *. 'I don't have time for this' she muttered...");
+      attribution = F("- Tanya Huff, Blood Lines");
       return;
       } // end switch (option)
 
     // Codegen for 02:47 for 1 quotations:
     case 167:
       // Only one option for 02:47:"
-      quote = F("The glowing numbers read * 2.47am. * Moisés sighs and turns back to the bathroom door. Finally, the doorknob turns and Conchita comes back to bed. She resumes her place next to Moisés. Relieved, he pulls her close.");
+      quote = F("The glowing numbers read * 2.47am. * Moisés sighs and turns back to the bathroom door. Finally, the doorknob turns and Conchita comes back to bed.");
       attribution = F("- The Book of Want");
       return;
 
@@ -1569,7 +1565,7 @@ void setQuoteForMinute(int minute) {
       // 2 options for 02:55
       switch (option) {
         case 0:
-      quote = F("It's the way the world will end, Harry. Recorded cocktail music nuclear-powered to play on for centuries after all life has been destroyed. Selections from 'No, No, Nanette,' throughout eternity. That do you for * 2:55 a.m. *?");
+      quote = F("Recorded cocktail music nuclear-powered to play on for centuries after all life has been destroyed. That do you for * 2:55 a.m. *?");
       attribution = F("- The Night People");
       return;
         case 1:
@@ -1602,7 +1598,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 02:59 for 1 quotations:
     case 179:
       // Only one option for 02:59:"
-      quote = F("I remembered arriving in this room at * 2.59 * one night. I remembered the sergeant who called me names: mostly Anglo-Saxon monosyllabic four-letter ones with an odd \"Commie\" thrown in for syntax.");
+      quote = F("I remembered arriving in this room at * 2.59 * one night. I remembered the sergeant who called me names: mostly Anglo-Saxon monosyllabic four-letter ones...");
       attribution = F("- The Ipcress File");
       return;
 
@@ -1612,83 +1608,83 @@ void setQuoteForMinute(int minute) {
       // 18 options for 03:00
       switch (option) {
         case 0:
-      quote = F("She died this morning, very early, about * three o'clock *.");
-      attribution = F("- The Voyage Out");
-      return;
-        case 1:
-      quote = F("Three a.m. That’s our reward. * Three in the morn. * The soul’s midnight. The tide goes out, the soul ebbs. And a train arrives at an hour of despair. Why?");
-      attribution = F("- Ray Bradbury");
-      return;
-        case 2:
-      quote = F("According to her watch it was shortly after * three o'clock *, and according to everything else it was night-time.");
-      attribution = F("- Douglas Adams");
-      return;
-        case 3:
-      quote = F("* At three am * I was walking the floor and listening to Katchaturian working in a tractor factory. He called it a violin concerto. I called it a loose fan belt and the hell with it.");
-      attribution = F("- The Long Goodbye");
-      return;
-        case 4:
-      quote = F("At * three o' clock in the morning * Eurydice is bound to come into it. After all, why did I sit here like a telegrapher at a lost outpost if not to receive messages from everywhere about the lost Eurydice who was never mine to begin with");
-      attribution = F("- The Medusa Frequency");
-      return;
-        case 5:
-      quote = F("But * at three o'clock in the morning *, a forgotten package has the same tragic importance as a death sentence, and the cure doesn’t work");
-      attribution = F("- The Crack-Up");
-      return;
-        case 6:
-      quote = F("She is an insomniac. Her nights are wide-eyed and excited with worry. Even at * three o'clock * in the morning one might hear her eating a Bain Marie biscuit in the kitchen.");
-      attribution = F("- Afternoon Raag");
-      return;
-        case 7:
-      quote = F("I slam the phone down but it misses the base. I hit the clock instead, which flashes * 3 a.m. *");
-      attribution = F("- Dan Holloway");
-      return;
-        case 8:
-      quote = F("In a real dark night of the soul it is always * 3 o'clock * in the morning.");
-      attribution = F("- The Crack-Up");
-      return;
-        case 9:
-      quote = F("...that someone stumbled jerkily, as if his ankles were in chains, to the Comanche cabin’s bathroom * at three A.M. *");
-      attribution = F("- Philip Roth, Nemesis");
-      return;
-        case 10:
-      quote = F("It was * three in the morning * when his taxi stopped by giant mounds of snow outside his hotel. He had not eaten in hours.");
-      attribution = F("- Ian McEwan, Solar ");
-      return;
-        case 11:
-      quote = F("Once I saw a figure I shall never forget. It was * three o'clock at night *, as I was going home from Blacky as usual; it was a short-cut for me, and there would be nobody in the street at this time of night, I thought, especially not in this frightful cold.");
-      attribution = F("- Max Frisch, I'm Not Stiller");
-      return;
-        case 12:
-      quote = F("Roused from her sleep, Freya Gaines groped for the switch of the vidphone; groggily she found it and snapped it on. 'Lo,' she mumbled, wondering what time it was. She made out the luminous dial of the clock beside the bed. * Three AM. * Good grief.");
-      attribution = F("- The Game Players of Titan");
-      return;
-        case 13:
-      quote = F("The Regrouting Committee's been dragging along since may. Suddenly they're pulling secret 0* 300 * milk-switches? It doesn't ring true, Jim.");
-      attribution = F("- Infinite Jest");
-      return;
-        case 14:
-      quote = F("* Three in the morning *, thought Charles Halloway, seated on the edge of his bed. Why did the train come at that hour? For, he thought, it’s a special hour. Women never wake then, do they?");
-      attribution = F("- Ray Bradbury");
-      return;
-        case 15:
-      quote = F("Why, if you listen you will hear it strike. George listened, and a neighbouring clock immediately obliged. \"But it's only gone * three *!\" said George in an injured tone, when it had finished.");
-      attribution = F("- Three Men in a Boat");
-      return;
-        case 16:
       quote = F("When Sophie awoke, it was * 3:00 a.m. *");
       attribution = F("- Desperate Characters");
       return;
-        case 17:
+        case 1:
+      quote = F("The Regrouting Committee's been dragging along since may. Suddenly they're pulling secret 0* 300 * milk-switches? It doesn't ring true, Jim.");
+      attribution = F("- Infinite Jest");
+      return;
+        case 2:
+      quote = F("I slam the phone down but it misses the base. I hit the clock instead, which flashes * 3 a.m. *");
+      attribution = F("- Dan Holloway");
+      return;
+        case 3:
+      quote = F("In a real dark night of the soul it is always * 3 o'clock * in the morning.");
+      attribution = F("- The Crack-Up");
+      return;
+        case 4:
+      quote = F("* At three am * I was walking the floor and listening to Katchaturian working in a tractor factory. He called it a violin concerto. I called it a loose fan belt and the hell with it.");
+      attribution = F("- The Long Goodbye");
+      return;
+        case 5:
+      quote = F("...that someone stumbled jerkily, as if his ankles were in chains, to the Comanche cabin’s bathroom * at three A.M. *");
+      attribution = F("- Philip Roth, Nemesis");
+      return;
+        case 6:
+      quote = F("But * at three o'clock in the morning *, a forgotten package has the same tragic importance as a death sentence, and the cure doesn’t work");
+      attribution = F("- The Crack-Up");
+      return;
+        case 7:
+      quote = F("'Lo,' she mumbled, wondering what time it was. She made out the luminous dial of the clock beside the bed. * Three AM. * Good grief.");
+      attribution = F("- The Game Players of Titan");
+      return;
+        case 8:
+      quote = F("It was * three in the morning * when his taxi stopped by giant mounds of snow outside his hotel. He had not eaten in hours.");
+      attribution = F("- Ian McEwan, Solar");
+      return;
+        case 9:
+      quote = F("* Three in the morning *, thought Charles Halloway, seated on the edge of his bed. Why did the train come at that hour?");
+      attribution = F("- Ray Bradbury");
+      return;
+        case 10:
+      quote = F("Three a.m. That’s our reward. * Three in the morn. * The soul’s midnight. The tide goes out, the soul ebbs. And a train arrives at an hour of despair. Why?");
+      attribution = F("- Ray Bradbury");
+      return;
+        case 11:
+      quote = F("According to her watch it was shortly after * three o'clock *, and according to everything else it was night-time.");
+      attribution = F("- Douglas Adams");
+      return;
+        case 12:
+      quote = F("Once I saw a figure I shall never forget. It was * three o'clock at night *, as I was going home from Blacky as usual; it was a short-cut for me...");
+      attribution = F("- Max Frisch, I'm Not Stiller");
+      return;
+        case 13:
+      quote = F("At * three o' clock in the morning * Eurydice is bound to come into it. After all, why did I sit here like a telegrapher at a lost outpost...");
+      attribution = F("- The Medusa Frequency");
+      return;
+        case 14:
+      quote = F("She died this morning, very early, about * three o'clock *.");
+      attribution = F("- The Voyage Out");
+      return;
+        case 15:
+      quote = F("She is an insomniac. Her nights are wide-eyed and excited with worry. Even at * three o'clock * in the morning one might hear her eating a Bain Marie biscuit in the kitchen.");
+      attribution = F("- Afternoon Raag");
+      return;
+        case 16:
       quote = F("You hearken, Missy. It’s * three o’clock * in the morning and I’ve got all my faculties as well as ever I had in my life. I know all my property and where the money’s put out.");
-      attribution = F("- George Eliot, Middlemarch ");
+      attribution = F("- George Eliot, Middlemarch");
+      return;
+        case 17:
+      quote = F("Why, if you listen you will hear it strike. George listened, and a neighbouring clock immediately obliged. \"But it's only gone * three *!\"");
+      attribution = F("- Three Men in a Boat");
       return;
       } // end switch (option)
 
     // Codegen for 03:01 for 1 quotations:
     case 181:
       // Only one option for 03:01:"
-      quote = F("It was now * about three o'clock * in the morning and Francis Macomber, who had been asleep a little while after he had stopped thinking about the lion, wakened and then slept again.");
+      quote = F("It was now * about three o'clock * in the morning and Francis Macomber, who had been asleep a little while after he had stopped thinking about the lion...");
       attribution = F("- Ernest Hemingway");
       return;
 
@@ -1754,12 +1750,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 03:10
       switch (option) {
         case 0:
-      quote = F("I think my credit card was in there too. I wrote down the words credit card and said that if they wouldn't let me cancel them I'd demand that they registered the loss so you couldn't be charge for anything beyond the time of my calling them up. I looked at the clock. It was * ten-past three *.");
-      attribution = F("- Ali Smith");
-      return;
-        case 1:
       quote = F("Love again; wanking at * ten past three *");
       attribution = F("- Philip Larkin, Love Again");
+      return;
+        case 1:
+      quote = F("...the loss so you couldn't be charge for anything beyond the time of my calling them up. I looked at the clock. It was * ten-past three *.");
+      attribution = F("- Ali Smith");
       return;
       } // end switch (option)
 
@@ -1811,12 +1807,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 03:17
       switch (option) {
         case 0:
-      quote = F("Who’s that with him then? I said. \"Some whore.\" He listened for a moment, brow furrowed, his profile sharp in the moonlight, and then lay back down. \"Two of them.\" I rolled over, and checked my iPod. It was * 3:17 * in the morning.");
-      attribution = F("- Donna Tartt, The Goldfinch");
+      quote = F("...each one able to display eight different camera mountings, giving Kurt 192 different still lives of Green Oaks at * 3.17 a.m. * this March night.");
+      attribution = F("- What Was Lost");
       return;
         case 1:
-      quote = F("He turned to the monitors again and flicked through the screens, each one able to display eight different camera mountings, giving Kurt 192 different still lives of Green Oaks at * 3.17 a.m. * this March night.");
-      attribution = F("- What Was Lost");
+      quote = F("...and then lay back down. \"Two of them.\" I rolled over, and checked my iPod. It was * 3:17 * in the morning.");
+      attribution = F("- Donna Tartt, The Goldfinch");
       return;
       } // end switch (option)
 
@@ -1910,16 +1906,16 @@ void setQuoteForMinute(int minute) {
       // 5 options for 03:30
       switch (option) {
         case 0:
-      quote = F("At * Half past Three *, a single Bird Unto a silent Sky Propounded but a single term Of cautious melody.");
-      attribution = F("- Emily Dickinson");
+      quote = F("It's * 3:30 A.M. * in Mrs. Ralph's finally quiet house when Garp decides to clean the kitchen, to kill the time until dawn.");
+      attribution = F("- The World According to Garp");
       return;
         case 1:
       quote = F("At * half-past three A.M. * he lost one illusion: officers sent to reconnoitre informed him that the enemy was making no movement.");
-      attribution = F("- Les Miserables");
+      attribution = F("- Victor Hugo, Les Miserables");
       return;
         case 2:
-      quote = F("It's * 3:30 A.M. * in Mrs. Ralph's finally quiet house when Garp decides to clean the kitchen, to kill the time until dawn. Familiar with a housewife's tasks, Garp fills the sink and starts to wash the dishes.");
-      attribution = F("- The World According to Garp");
+      quote = F("At * Half past Three *, a single Bird Unto a silent Sky Propounded but a single term Of cautious melody.");
+      attribution = F("- Emily Dickinson");
       return;
         case 3:
       quote = F("Let's go to sleep, I say. \"Look at what time it is.\" The clock radio is right there beside the bed. Anyone can see it says * three-thirty *.");
@@ -2078,7 +2074,7 @@ void setQuoteForMinute(int minute) {
       switch (option) {
         case 0:
       quote = F("Sweat trickled down my ribs. The digital reading on the clock-radio was * 3:51 *. Always odd numbered at times like this. What does it mean? Is death odd-numbered?");
-      attribution = F("- Don DeLillo, White Noise ");
+      attribution = F("- Don DeLillo, White Noise");
       return;
         case 1:
       quote = F("The digital reading on the clock-radio was * 3:51 *. Always odd numbers at times like this. What does it mean? Is death odd-numbered?");
@@ -2134,12 +2130,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 03:58
       switch (option) {
         case 0:
-      quote = F("By peering through a crack in the bubbling sun on the window - the face of a clock on the opposite wall. The clock had stopped at * two minutes to four * early in the morning, or who could tell, it may have been earlier still");
-      attribution = F("- Wilson Harris, Heartland");
+      quote = F("The clock atop the clubhouse reads * 3:58 *.");
+      attribution = F("- Don Delillo, Underworld");
       return;
         case 1:
-      quote = F("The clock atop the clubhouse reads * 3:58 *.");
-      attribution = F("- Don Delillo, Underworld ");
+      quote = F("By peering through a crack in the bubbling sun on the window - the face of a clock on the opposite wall. The clock had stopped at * two minutes to four * early in the morning");
+      attribution = F("- Wilson Harris, Heartland");
       return;
       } // end switch (option)
 
@@ -2156,32 +2152,32 @@ void setQuoteForMinute(int minute) {
       // 7 options for 04:00
       switch (option) {
         case 0:
-      quote = F("Nothing happened, he said wanly. \"I waited, and about * four o'clock * she came to the window and stood there for a minute and then turned out the light.");
-      attribution = F("- The Great Gatsby");
-      return;
-        case 1:
-      quote = F("I looked at the clock and it was (yes, you guessed it) * four am. * I should have taken comfort from the fact that approximately quarter of the Greenwich Mean Time world had just jolted awake also and were lying, staring miserably into the darkness, worrying ...");
-      attribution = F("- Marian Keyes, Watermelon ");
-      return;
-        case 2:
       quote = F("Suddenly, he started to cry. Curled up on the sofa he sobbed loudly. Michel looked at his watch; it was just after * 4am *. On the screen a wild cat had a rabbit in its mouth.");
       attribution = F("- Atomised");
       return;
-        case 3:
-      quote = F("The Birds begun at * Four o'clock *- Their period for Dawn-");
-      attribution = F("- Emily Dickinson");
+        case 1:
+      quote = F("he asked if he could have tea available for them. Tommy agreed, and the chefs, grateful for a hot drink * at four * in the morning, lingered and bought.");
+      attribution = F("- The Tea Rose");
       return;
-        case 4:
+        case 2:
       quote = F("The night before Albert Kessler arrived in Santa Teresa, * at four in the morning *, Sergio Gonzalez Rodriguez got a call from Azucena Esquivel Plata");
       attribution = F("- Roberto Bolano, 2666");
       return;
+        case 3:
+      quote = F("Waking * at four * to soundless dark, I stare. In time the curtain-edges will grow light. Till then I see what's really always there: Unresting death");
+      attribution = F("- Philip Larkin, Aubade");
+      return;
+        case 4:
+      quote = F("I looked at the clock and it was (yes, you guessed it) * four am. *");
+      attribution = F("- Marian Keyes, Watermelon");
+      return;
         case 5:
-      quote = F("Waking * at four * to soundless dark, I stare. In time the curtain-edges will grow light. Till then I see what's really always there: Unresting death, a whole day nearer now, Making all thought impossible but how And where and when I shall myself die.");
-      attribution = F("- Philip Larkin, Aubade ");
+      quote = F("Nothing happened, he said wanly. \"I waited, and about * four o'clock * she came to the window and stood there for a minute and then turned out the light.");
+      attribution = F("- The Great Gatsby");
       return;
         case 6:
-      quote = F("he asked if he could have tea available for them. Tommy agreed, and the chefs, grateful for a hot drink * at four * in the morning, lingered and bought.");
-      attribution = F("- The Tea Rose");
+      quote = F("The Birds begun at * Four o'clock *- Their period for Dawn-");
+      attribution = F("- Emily Dickinson");
       return;
       } // end switch (option)
 
@@ -2268,19 +2264,19 @@ void setQuoteForMinute(int minute) {
       // 2 options for 04:12
       switch (option) {
         case 0:
-      quote = F("Finally, she signalled with her light that she'd made it to the top. I signalled back, then shined the light downward to see how far the water had risen. I couldn't make out a thing. My watch read * four-twelve * in the morning. Not yet dawn.");
-      attribution = F("- Haruki Murakami");
+      quote = F("Karen felt the bed move beneath Harry's weight. Lying on her side she opened her eyes to see digital numbers in the dark, * 4:12 * in pale green.");
+      attribution = F("- Elmore Leonard, Get Shorty");
       return;
         case 1:
-      quote = F("Karen felt the bed move beneath Harry's weight. Lying on her side she opened her eyes to see digital numbers in the dark, * 4:12 * in pale green. Behind her Harry continued to move, settling in. She watched the numbers change to 4:13.");
-      attribution = F("- Elmore Leonard, Get Shorty");
+      quote = F("I signalled back, then shined the light downward to see how far the water had risen. I couldn't make out a thing. My watch read * four-twelve * in the morning. Not yet dawn.");
+      attribution = F("- Haruki Murakami");
       return;
       } // end switch (option)
 
     // Codegen for 04:13 for 1 quotations:
     case 253:
       // Only one option for 04:13:"
-      quote = F("Karen felt the bed move beneath Harry's weight. Lying on her side she opened her eyes to see digital numbers in the dark, 4:12 in pale green. Behind her Harry continued to move, settling in. She watched the numbers change to * 4:13 *.");
+      quote = F("Lying on her side she opened her eyes to see digital numbers in the dark, 4:12 in pale green. Behind her Harry continued to move, settling in. She watched the numbers change to * 4:13 *.");
       attribution = F("- Elmore Leonard, Get Shorty");
       return;
 
@@ -2361,12 +2357,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 04:23
       switch (option) {
         case 0:
-      quote = F("* 4:23 *, Monday morning, Iceland Square. A number of people in the vicinity of Bjornsongatan are awakened by loud screams.");
-      attribution = F("- Let The Right One In");
+      quote = F("Her chip pulsed the time. * 04:23 *:04. It had been a long day.");
+      attribution = F("- William Gibson, Neuromancer");
       return;
         case 1:
-      quote = F("Her chip pulsed the time. * 04:23 *:04. It had been a long day.");
-      attribution = F("- Neuromancer");
+      quote = F("* 4:23 *, Monday morning, Iceland Square. A number of people in the vicinity of Bjornsongatan are awakened by loud screams.");
+      attribution = F("- Let The Right One In");
       return;
       } // end switch (option)
 
@@ -2412,22 +2408,18 @@ void setQuoteForMinute(int minute) {
         attribution = "- Attribution Goes Here";
       return;
 
-    // Codegen for 04:30 for 3 quotations:
+    // Codegen for 04:30 for 2 quotations:
     case 270:
-      option = random(0, 3);
-      // 3 options for 04:30
+      option = random(0, 2);
+      // 2 options for 04:30
       switch (option) {
         case 0:
-      quote = F("Chloe had not given it a chance, I argued with myself, knowing the hopelessness of these inner courts announcing hollow verdicts at * four thirty * in the morning.");
-      attribution = F("- Essays on Love");
+      quote = F("Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like 0* 430 * for the breakfast shift at the Provident Nursing Home...");
+      attribution = F("- Infinite Jest");
       return;
         case 1:
-      quote = F("Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like 0* 430 * for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.");
-      attribution = F("- Infinite Jest");
-      return;
-        case 2:
-      quote = F("Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like * 0430 * for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately");
-      attribution = F("- Infinite Jest");
+      quote = F("Chloe had not given it a chance, I argued with myself, knowing the hopelessness of these inner courts announcing hollow verdicts at * four thirty * in the morning.");
+      attribution = F("- Essays on Love");
       return;
       } // end switch (option)
 
@@ -2504,7 +2496,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 04:41 for 1 quotations:
     case 281:
       // Only one option for 04:41:"
-      quote = F("At * 4:41 * Crane's voice crackled through the walkie-talkie as if he'd read their thoughts of mutiny. “Everyone into the elevator. Now!” Only moments before the call he and C.J. had finished what they hoped would be a successful diversion.");
+      quote = F("At * 4:41 * Crane's voice crackled through the walkie-talkie as if he'd read their thoughts of mutiny. \"Everyone into the elevator. Now!\" Only moments before the call he and C.J. had finished what they hoped would be a successful diversion.");
       attribution = F("- Damaged Goods: A Novel");
       return;
 
@@ -2634,38 +2626,34 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Infinite Jest");
       return;
 
-    // Codegen for 05:00 for 7 quotations:
+    // Codegen for 05:00 for 6 quotations:
     case 300:
-      option = random(0, 7);
-      // 7 options for 05:00
+      option = random(0, 6);
+      // 6 options for 05:00
       switch (option) {
         case 0:
-      quote = F("* Five o'clock * had hardly struck on the morning of the 19th of January, when Bessie brought a candle into my closet and found me already up and nearly dressed.");
-      attribution = F("- Jane Eyre");
-      return;
-        case 1:
-      quote = F("It was in the township of Dunwich, in a large and hardly inhabited farmhouse set against a hillside 4 miles from the village and a mile and a half from any other dwelling, that Wilbur Whately was born at * 5 a.m. * on Sunday, 2 February, 1913.");
+      quote = F("...set against a hillside 4 miles from the village and a mile and a half from any other dwelling, that Wilbur Whately was born at * 5 a.m. * on Sunday, 2 February, 1913.");
       attribution = F("- The Dunwich Horror");
       return;
+        case 1:
+      quote = F("There are worse things than not being able to sleep for thinking about them. It is * 5 a.m. * All the worse things come stalking in and stand icily about the bed...");
+      attribution = F("- Fleur Adcock, Things");
+      return;
         case 2:
-      quote = F("Just after * five o'clock * on this chill September morning, the fishmonger's cart, containing Kirsten and Emilia and such possessions as they have been able to assemble in the time allowed to them, is driven out of the gates of Rosenborg?");
-      attribution = F("- Music and Silence");
+      quote = F("...but the noble ambition of matrimony? What sends them trooping to watering-places? What keeps them dancing till * five o'clock * in the morning...");
+      attribution = F("- Vanity Fair");
       return;
         case 3:
-      quote = F("One! said Hark. \"Two!\" cried Zorn of Zorna. \"Three!\" the Duke's voice almost whispered. \"Four!\" sighed Saralinda. \"* Five *!\" the Golux crowed, and pointed at the table.");
-      attribution = F("- The 13 Clocks");
+      quote = F("* Five o'clock * had hardly struck on the morning of the 19th of January, when Bessie brought a candle into my closet and found me already up and nearly dressed.");
+      attribution = F("- Charlotte Bronte, Jane Eyre");
       return;
         case 4:
       quote = F("The day came slow, till * five o'clock *. Then sprang before the hills. Like hindered rubies, or the light. A sudden musket spills");
       attribution = F("- Emily Dickinson");
       return;
         case 5:
-      quote = F("There are worse things than not being able to sleep for thinking about them. It is * 5 a.m. * All the worse things come stalking in and stand icily about the bed looking worse and worse and worse.");
-      attribution = F("- Fleur Adcock, Things ");
-      return;
-        case 6:
-      quote = F("What causes young people to \"come out,\" but the noble ambition of matrimony? What sends them trooping to watering-places? What keeps them dancing till * five o'clock * in the morning through a whole mortal season?");
-      attribution = F("- Vanity Fair");
+      quote = F("One! said Hark. \"Two!\" cried Zorn of Zorna. \"Three!\" the Duke's voice almost whispered. \"Four!\" sighed Saralinda. \"* Five *!\" the Golux crowed, and pointed at the table.");
+      attribution = F("- The 13 Clocks");
       return;
       } // end switch (option)
 
@@ -2675,12 +2663,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 05:01
       switch (option) {
         case 0:
-      quote = F("Oh yes. His clocks were set at * one minute past five *, four minutes past five and seven minutes past five. That was the combination number of a safe, 515457. The safe was concealed behind a reproduction of the Mona Lisa.");
-      attribution = F("- The clocks");
+      quote = F("Just * after five o'clock * on this chill September morning, the fishmonger's cart, containing Kirsten and Emilia and such possessions as they have been able to assemble...");
+      attribution = F("- Music and Silence");
       return;
         case 1:
-      quote = F("Just * after five o'clock * on this chill September morning, the fishmonger's cart, containing Kirsten and Emilia and such possessions as they have been able to assemble in the time allowed to them, is driven out of the gates of Rosenborg?");
-      attribution = F("- Music and Silence");
+      quote = F("Oh yes. His clocks were set at * one minute past five *, four minutes past five and seven minutes past five. That was the combination number of a safe, 515457.");
+      attribution = F("- Agatha Christie, The Clocks");
       return;
       } // end switch (option)
 
@@ -2704,12 +2692,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 05:04
       switch (option) {
         case 0:
-      quote = F("Oh yes. His clocks were set at one minute past five, * four minutes past five * and seven minutes past five. That was the combination number of a safe, 515457. The safe was concealed behind a reproduction of the Mona Lisa.");
-      attribution = F("- The clocks");
+      quote = F("* 5.04 a.m. * on the substandard clock radio. Because why do people always say the day starts now? Really it starts in the middle of the night at a fraction of a second past midnight.");
+      attribution = F("- Ali Smith, The Accidental");
       return;
         case 1:
-      quote = F("* 5.04 a.m. * on the substandard clock radio. Because why do people always say the day starts now? Really it starts in the middle of the night at a fraction of a second past midnight.");
-      attribution = F("- Ali Smith, The Accidental ");
+      quote = F("Oh yes. His clocks were set at one minute past five, * four minutes past five * and seven minutes past five. That was the combination number of a safe, 515457.");
+      attribution = F("- Agatha Christie, The clocks");
       return;
       } // end switch (option)
 
@@ -2731,7 +2719,7 @@ void setQuoteForMinute(int minute) {
     case 307:
       // Only one option for 05:07:"
       quote = F("Oh yes. His clocks were set at one minute past five, four minutes past five and * seven minutes past five *. That was the combination number of a safe, 515457. The safe was concealed behind a reproduction of the Mona Lisa.");
-      attribution = F("- The clocks");
+      attribution = F("- Agatha Christie, The clocks");
       return;
 
     // Codegen for 05:08 for 1 quotations:
@@ -2754,12 +2742,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 05:10
       switch (option) {
         case 0:
-      quote = F("If this is not enough to kill me, I have more left in the bottle. * Ten minutes past five *. \"You have just gone, after giving me my composing draught.\"");
-      attribution = F("- The Law and the Lady");
-      return;
-        case 1:
       quote = F("I settled into a daily routine. Wake up at 4:40am, shower, get on the train north by * ten after five *.");
       attribution = F("- Tina Fey, Bossypants");
+      return;
+        case 1:
+      quote = F("If this is not enough to kill me, I have more left in the bottle. * Ten minutes past five *. \"You have just gone, after giving me my composing draught.\"");
+      attribution = F("- The Law and the Lady");
       return;
       } // end switch (option)
 
@@ -2798,7 +2786,7 @@ void setQuoteForMinute(int minute) {
       switch (option) {
         case 0:
       quote = F("By the first week of May, Ralph was waking up to birdsong at * 5:15 a.m. * He tried earplugs for a few nights, although he doubted from the outset that they would work.");
-      attribution = F("- Stephen King, Insomnia ");
+      attribution = F("- Stephen King, Insomnia");
       return;
         case 1:
       quote = F("Weird conversation with Brown, a tired & confused old man who's been jerked out of bed at * 5:15 *.");
@@ -2816,8 +2804,8 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Hunter S Thompson");
       return;
         case 1:
-      quote = F("It is completely light outside now; you can see for miles. Except there is nothing to see here; trees and fields and that kind of thing. * 5:16 a.m * on the substandard clock radio. She is really awake.");
-      attribution = F("- Ali Smith, The Accidental ");
+      quote = F("It is completely light outside now; you can see for miles. Except there is nothing to see here; trees and fields and that kind of thing. * 5:16 a.m * on the substandard clock radio.");
+      attribution = F("- Ali Smith, The Accidental");
       return;
       } // end switch (option)
 
@@ -2918,16 +2906,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 05:30
       switch (option) {
         case 0:
-      quote = F("As Walter Eastman is preoccupied himself, he has not had time, or more to the point, inclination, to notice aberrant behaviour. For instance, it is * half-past five * in the summer morning.");
-      attribution = F("- An Insular Possession");
-      return;
-        case 1:
-      quote = F("It was by this time * half-past five *, and the sun was on the point of rising; but I found the kitchen still dark and silent.");
-      attribution = F("- Jane Eyre");
-      return;
-        case 2:
       quote = F("On the day they were going to kill him, Santiago Nasar got up at * five-thirty * in the morning to wait for the boat the bishop was coming on.");
       attribution = F("- Gabriel García Márquez");
+      return;
+        case 1:
+      quote = F("...he has not had time, or more to the point, inclination, to notice aberrant behaviour. For instance, it is * half-past five * in the summer morning.");
+      attribution = F("- An Insular Possession");
+      return;
+        case 2:
+      quote = F("It was by this time * half-past five *, and the sun was on the point of rising; but I found the kitchen still dark and silent.");
+      attribution = F("- Charlotte Brontë, Jane Eyre");
       return;
       } // end switch (option)
 
@@ -3148,32 +3136,32 @@ void setQuoteForMinute(int minute) {
       // 7 options for 06:00
       switch (option) {
         case 0:
-      quote = F("What’s the time? I ask, and telling him so that he knows, \"My mother likes 'peace and quiet' to sleep late on Saturday mornings.\" \"She does, does she? It’s * six o'clock *. I couldn’t sleep.\"");
-      attribution = F("- Patsy Hickman, The Saints ");
-      return;
-        case 1:
-      quote = F("But every morning, even if there's been a nighttime session and he has only slept two hours, he gets up * at six * and reads his paper while he drinks a strong cup of coffee. In this way Papa constructs himself every day.");
-      attribution = F("- Muriel Barbery");
-      return;
-        case 2:
-      quote = F("I had risen half-an-hour before her entrance, and had washed my face, and put on my clothes by the light of a half-moon just setting, whose rays streamed through the narrow window near my crib. I was to leave Gateshead that day by a coach which passed the lodge gates * at six a.m. *");
-      attribution = F("- Charlotte Brontë, Jane Eyre");
-      return;
-        case 3:
-      quote = F("Lying awake in my attic room, I hear a clock strike * six * downstairs. It was fairly light and people were beginning to walk up and down the stairs...");
-      attribution = F("- Knut Hamsun, Hunger ");
-      return;
-        case 4:
-      quote = F("On the 15th of September 1840, about * six o'clock * in the morning, the Ville-de-Montereau, ready to depart, pouring out great whirls of smoke by the quai Saint-Bernard.");
-      attribution = F("- L'Education sentimentale");
-      return;
-        case 5:
       quote = F("Rise from bed ............... . * 6.00 A.M. *");
       attribution = F("- The Great Gatsby");
       return;
-        case 6:
+        case 1:
+      quote = F("...whose rays streamed through the narrow window near my crib. I was to leave Gateshead that day by a coach which passed the lodge gates * at six a.m. *");
+      attribution = F("- Charlotte Bronte, Jane Eyre");
+      return;
+        case 2:
+      quote = F("But every morning, even if there's been a nighttime session and he has only slept two hours, he gets up * at six * and reads his paper while he drinks a strong cup of coffee.");
+      attribution = F("- Muriel Barbery");
+      return;
+        case 3:
       quote = F("The ball went on for a long time, until * six in the morning *; all were exhausted and wishing they had been in bed for at least three hours");
       attribution = F("- The Leopard");
+      return;
+        case 4:
+      quote = F("Lying awake in my attic room, I hear a clock strike * six * downstairs. It was fairly light and people were beginning to walk up and down the stairs...");
+      attribution = F("- Knut Hamsun, Hunger");
+      return;
+        case 5:
+      quote = F("I ask, and telling him so that he knows, \"My mother likes 'peace and quiet' to sleep late on Saturday mornings.\" \"She does, does she? It’s * six o'clock *. I couldn’t sleep.");
+      attribution = F("- Patsy Hickman, The Saints");
+      return;
+        case 6:
+      quote = F("On the 15th of September 1840, about * six o'clock * in the morning, the Ville-de-Montereau, ready to depart, pouring out great whirls of smoke by the quai Saint-Bernard.");
+      attribution = F("- L'Education sentimentale");
       return;
       } // end switch (option)
 
@@ -3265,7 +3253,7 @@ void setQuoteForMinute(int minute) {
     case 373:
       // Only one option for 06:13:"
       quote = F("It's * 06:13 * .........Ma says I ought to be wrapped up in Rug already, Old Nick might possibly come.");
-      attribution = F("- Emma Donoghue, Room ");
+      attribution = F("- Emma Donoghue, Room");
       return;
 
     // Codegen for 06:14 for 0 quotations:
@@ -3275,26 +3263,22 @@ void setQuoteForMinute(int minute) {
         attribution = "- Attribution Goes Here";
       return;
 
-    // Codegen for 06:15 for 4 quotations:
+    // Codegen for 06:15 for 3 quotations:
     case 375:
-      option = random(0, 4);
-      // 4 options for 06:15
+      option = random(0, 3);
+      // 3 options for 06:15
       switch (option) {
         case 0:
+      quote = F("It was * 6.15 am. * Just starting to get light. A small knot of older teenagers were leaning against a nearby wall. They looked as though they had been out all night.");
+      attribution = F("- Girl Missing");
+      return;
+        case 1:
       quote = F("Dumbbell exercise and wall-scaling ..... . * 6.15 *-6.30");
       attribution = F("- The Great Gatsby");
       return;
-        case 1:
+        case 2:
       quote = F("Father expected his shaving-water to be ready at a * quarter past six *. Just seven minutes late, Dorothy took the can upstairs and knocked at her father's door.");
       attribution = F("- A Clergyman's Daughter");
-      return;
-        case 2:
-      quote = F("It was * 6.15 am. * Just starting to get light. A small knot of older teenagers were leaning against a nearby wall. They looked as though they had been out all night.Two of the guys stared at us. Their eyes hard and threatening.");
-      attribution = F("- Girl Missing");
-      return;
-        case 3:
-      quote = F("It was * 6.15 am. * Just starting to get light. A small knot of older teenagers were leaning against a nearby wall. They looked as though they had been out all night.Two of the guys stared at us. Their eyes hard and threatening.");
-      attribution = F("- Girl Missing");
       return;
       } // end switch (option)
 
@@ -3308,7 +3292,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 06:17 for 1 quotations:
     case 377:
       // Only one option for 06:17:"
-      quote = F("Dizzy, come on.' He turned slowly, coaxing the animal down on to the pillow. The clock read * six-seventeen *. A second cat, Miles, purred on contentedly from the patch in the covers where Resnick's legs had made a deep V.");
+      quote = F("Dizzy, come on.' He turned slowly, coaxing the animal down on to the pillow. The clock read * six-seventeen *. A second cat, Miles, purred on contentedly...");
       attribution = F("- John Harvey, Lonely Hearts");
       return;
 
@@ -3389,12 +3373,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 06:27
       switch (option) {
         case 0:
-      quote = F("* 06:27 *:52 by the chip in her optic nerve; Case had been following her progress through Villa Straylight for over an hour, letting the endorphin analogue she'd taken blot out his hangover.");
-      attribution = F("- Neuromancer");
+      quote = F("* 06:27 *:52 by the chip in her optic nerve; Case had been following her progress through Villa Straylight for over an hour...");
+      attribution = F("- William Gibson, Neuromancer");
       return;
         case 1:
-      quote = F("Early in the morning, late in the century, Cricklewood Broadway. At * 0627 hours * on January 1, 1975, Alfred Archibald Jones was dressed in corduroy and sat in a fume-filled Cavalier Musketeer Estate, facedown on the steering wheel");
-      attribution = F("- Zadie Smith, White Teeth ");
+      quote = F("Early in the morning, late in the century, Cricklewood Broadway. At * 0627 hours * on January 1, 1975, Alfred Archibald Jones was dressed in corduroy...");
+      attribution = F("- Zadie Smith, White Teeth");
       return;
       } // end switch (option)
 
@@ -3418,32 +3402,32 @@ void setQuoteForMinute(int minute) {
       // 7 options for 06:30
       switch (option) {
         case 0:
-      quote = F("Inside now MJ ordered. She pushed the three of us into the hotel room, thern shut the soor. I glanced at the clock by the bed. * 6.30 am. * Why were they waking Mum and Dad up this early?");
+      quote = F("She pushed the three of us into the hotel room, thern shut the soor. I glanced at the clock by the bed. * 6.30 am. * Why were they waking Mum and Dad up this early?");
       attribution = F("- Girl Missing");
       return;
         case 1:
-      quote = F("Daniel still held the door-knob. He was ready to close the door the second he was told to. \"What time is it?\" said his father in a drugged voice. \"Oh my God, it's * six-thirty *,\" his mother said.");
-      attribution = F("- The Book of Daniel");
+      quote = F("As late as 1914 I knew the carrier of Croydon-cum-Clopton, twelve miles from Cambridge; his cart started at * 6.30 in the morning * and got back at about ten at night.");
+      attribution = F("- Gwen Raverat, Period Piece");
       return;
         case 2:
-      quote = F("It was * six-thirty *. When the baby's cry came, they could not pick it out, and Sam, eagerly thrusting his face amongst their ears, said, \"Listen, there, there, that's the new baby.\" He was red with delight and success.");
-      attribution = F("- The Man Who Loved Children");
-      return;
-        case 3:
-      quote = F("Then he got back in the truck. The bar clock said * six-thirty *...By eight-thirty he’d decided that it that was it would take to make the cab arrive then that’s what he would do and he started the engine.");
-      attribution = F("- Cities of the Plain");
-      return;
-        case 4:
-      quote = F("The footsteps had retreated. Through her wide-open window the brilliant rays of the morning sun were flooding her room with light. She looked up at the clock; it was * half-past six *—too early for any of the household to be already astir.");
+      quote = F("Through her wide-open window the brilliant rays of the morning sun were flooding her room with light. She looked up at the clock; it was * half-past six *...");
       attribution = F("- The Scarlet Pimpernel");
       return;
+        case 3:
+      quote = F("He was ready to close the door the second he was told to. \"What time is it?\" said his father in a drugged voice. \"Oh my God, it's * six-thirty *,\" his mother said.");
+      attribution = F("- The Book of Daniel");
+      return;
+        case 4:
+      quote = F("It was * six-thirty *. When the baby's cry came, they could not pick it out, and Sam, eagerly thrusting his face amongst their ears...");
+      attribution = F("- The Man Who Loved Children");
+      return;
         case 5:
-      quote = F("Six-thirty was clearly a preposterous time and he, the client, obviously hadn't meant it seriously. A civilised * six-thirty * for twelve noon was almost certainly what he had in mind, and if he wanted to cut up rough about it");
+      quote = F("A civilised * six-thirty * for twelve noon was almost certainly what he had in mind.");
       attribution = F("- Douglas Adams");
       return;
         case 6:
-      quote = F("As late as 1914 I knew the carrier of Croydon-cum-Clopton, twelve miles from Cambridge; his cart started at * 6.30 in the morning * and got back at about ten at night. Though he was not old, he could neither read nor write");
-      attribution = F("- Gwen Raverat, Period Piece ");
+      quote = F("Then he got back in the truck. The bar clock said * six-thirty *...By eight-thirty he’d decided that it that was it would take to make the cab arrive...");
+      attribution = F("- Cities of the Plain");
       return;
       } // end switch (option)
 
@@ -3457,14 +3441,14 @@ void setQuoteForMinute(int minute) {
     // Codegen for 06:32 for 1 quotations:
     case 392:
       // Only one option for 06:32:"
-      quote = F("The familiar radium numerals on my left wrist confirmed the clock tower. It was * twenty-eight minutes to seven *. I seemed to be filling a set of loud maroon pajamas which were certainly not mine. My vis-a-vis was wearing a little number in yellow.");
+      quote = F("The familiar radium numerals on my left wrist confirmed the clock tower. It was * twenty-eight minutes to seven *...");
       attribution = F("- Too Like the Lightning");
       return;
 
     // Codegen for 06:33 for 1 quotations:
     case 393:
       // Only one option for 06:33:"
-      quote = F("Woke * 6.33 a.m. * Last session with Anderson. He made it plain he's seen enough of me, and from now on I'm better alone. To sleep 8:00? (These count-downs terrify me.) He paused, then added: Goodbye, Eniwetok.");
+      quote = F("Woke * 6.33 a.m. * Last session with Anderson. He made it plain he's seen enough of me, and from now on I'm better alone. To sleep 8:00? (These count-downs terrify me.)");
       attribution = F("- The Voices of Time");
       return;
 
@@ -3478,7 +3462,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 06:35 for 1 quotations:
     case 395:
       // Only one option for 06:35:"
-      quote = F("My watch lay on the dressing-table close by; glancing at it, I saw that the time was * twenty-five minutes to seven *. I had been told that the family breakfasted at nine, so I had nearly two-and-a-half hours of leisure.");
+      quote = F("My watch lay on the dressing-table close by; glancing at it, I saw that the time was * twenty-five minutes to seven *.");
       attribution = F("- Ravensdene Court");
       return;
 
@@ -3492,7 +3476,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 06:37 for 1 quotations:
     case 397:
       // Only one option for 06:37:"
-      quote = F("The dashboard clock said * 6.37am * Town frowned, and checked his wristwatch, which blinked that it was 1.58pm. Great, he thought. I was either up on that tree for eight hours, or for minus a minute.");
+      quote = F("The dashboard clock said * 6.37am * Town frowned, and checked his wristwatch, which blinked that it was 1.58pm.");
       attribution = F("- Neil Gaiman, American Gods");
       return;
 
@@ -3551,11 +3535,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 06:45
       switch (option) {
         case 0:
-      quote = F("As the clock pointed to a * quarter to seven *, the dog woke and shook himself. After waiting in vain for the footman, who was accustomed to let him out, the animal wandered restlessly from one closed door to another on the ground floor");
-      attribution = F("- Wilkie Collins, No Name ");
+      quote = F("As the clock pointed to a * quarter to seven *, the dog woke and shook himself. After waiting in vain for the footman, who was accustomed to let him out...");
+      attribution = F("- Wilkie Collins, No Name");
       return;
         case 1:
-      quote = F("He was still hurriedly thinking all this through, unable to decide to get out of the bed, when the clock struck * quarter to seven *. There was a cautious knock at the door near his head. \"Gregor\", somebody called - it was his mother");
+      quote = F("He was still hurriedly thinking all this through, unable to decide to get out of the bed, when the clock struck * quarter to seven *.");
       attribution = F("- Franz Kafka, Metamorphosis");
       return;
       } // end switch (option)
@@ -3566,11 +3550,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 06:46
       switch (option) {
         case 0:
-      quote = F("At * one minute after the quarter to seven * I heard the rattle of the cans outside. I opened the front door, and there was my man, singling out my cans from a bunch he carried and whistling through his teeth.");
+      quote = F("At * one minute after the quarter to seven * I heard the rattle of the cans outside. I opened the front door, and there was my man...");
       attribution = F("- The Thirty-Nine Steps");
       return;
         case 1:
-      quote = F("Six-thirty passed, then six-forty, but still he did not come. The fool had chosen this day of all days to be late. At * one minute after the quarter to seven * I heard the rattle of the cans outside.");
+      quote = F("...but still he did not come. The fool had chosen this day of all days to be late. At * one minute after the quarter to seven * I heard the rattle of the cans outside.");
       attribution = F("- The Thirty-Nine Steps");
       return;
       } // end switch (option)
@@ -3672,16 +3656,16 @@ void setQuoteForMinute(int minute) {
       // 4 options for 07:00
       switch (option) {
         case 0:
-      quote = F("Seven o'clock, already, he said to himself when the clock struck again, \"* seven o'clock *, and there's still a fog like this.\"");
-      attribution = F("- Franz Kafka, Metamorphosis ");
+      quote = F("I had left directions that I was to be called * at seven *; for it was plain that I must see Wemmick before seeing any one else");
+      attribution = F("- Great Expectations");
       return;
         case 1:
-      quote = F("At * seven o’clock * in the morning, Rubashov was awakened by a bugle, but he did not get up. Soon he heard sounds in the corridor. He imagined that someone was to be tortured, and he dreaded hearing the first screams of pain.");
+      quote = F("At * seven o’clock * in the morning, Rubashov was awakened by a bugle, but he did not get up. Soon he heard sounds in the corridor. He imagined that someone was to be tortured...");
       attribution = F("- Darkness at Noon");
       return;
         case 2:
-      quote = F("I had left directions that I was to be called * at seven *; for it was plain that I must see Wemmick before seeing any one else");
-      attribution = F("- Great Expectations");
+      quote = F("Seven o'clock, already, he said to himself when the clock struck again, \"* seven o'clock *, and there's still a fog like this.\"");
+      attribution = F("- Franz Kafka, Metamorphosis");
       return;
         case 3:
       quote = F("She locked herself in, made no reply to my bonjour through the door; she was up at * seven o'clock *, the samovar was taken in to her from the kitchen.");
@@ -3723,16 +3707,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 07:05
       switch (option) {
         case 0:
-      quote = F("He decided he'd wait until * five minutes after seven o'clock *, and then he'd call in, take the day off, and make every effort in the book to locate someone reliable.");
-      attribution = F("- Where I'm Calling From");
+      quote = F("Ryan missed the dawn. He boarded a TWA 747 that left Dulles on time, at * 7:05 A.M. * The sky was overcast, and when the aircraft burst through the cloud layer into sunlight...");
+      attribution = F("- The Hunt for Red October");
       return;
         case 1:
-      quote = F("Outside my window the sky hung low and gray. It looked like snow, which added to my malaise. The clock read * five after seven *. I punched the remote control and watched the morning news as I lay in bed.");
+      quote = F("Outside my window the sky hung low and gray. It looked like snow, which added to my malaise. The clock read * five after seven *. I punched the remote control...");
       attribution = F("- Dance Dance Dance");
       return;
         case 2:
-      quote = F("Ryan missed the dawn. He boarded a TWA 747 that left Dulles on time, at * 7:05 A.M. * The sky was overcast, and when the aircraft burst through the cloud layer into sunlight, Ryan did something he had never done before.");
-      attribution = F("- The Hunt for Red October");
+      quote = F("He decided he'd wait until * five minutes after seven o'clock *, and then he'd call in, take the day off, and make every effort in the book to locate someone reliable.");
+      attribution = F("- Where I'm Calling From");
       return;
       } // end switch (option)
 
@@ -3757,20 +3741,12 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Lee Child, The Hard Way");
       return;
 
-    // Codegen for 07:09 for 2 quotations:
+    // Codegen for 07:09 for 1 quotations:
     case 429:
-      option = random(0, 2);
-      // 2 options for 07:09
-      switch (option) {
-        case 0:
-      quote = F("Seven o 'clock! as if it were afraid that nobody would. The morning house lay empty. The clock ticked on, repeating and repeating its sounds into the emptiness. Seven-nine, breakfast time, * seven-nine *!");
+      // Only one option for 07:09:"
+      quote = F("The morning house lay empty. The clock ticked on, repeating and repeating its sounds into the emptiness. Seven-nine, breakfast time, * seven-nine *!");
       attribution = F("- There Will Come Soft Rains");
       return;
-        case 1:
-      quote = F("Seven-nine, breakfast time, * seven-nine *!");
-      attribution = F("- There Will Come Soft Rains");
-      return;
-      } // end switch (option)
 
     // Codegen for 07:10 for 2 quotations:
     case 430:
@@ -3821,15 +3797,15 @@ void setQuoteForMinute(int minute) {
       // 3 options for 07:15
       switch (option) {
         case 0:
-      quote = F("At * 7:15 A.M. *, January 25th, we started flying northwestward under McTighe's pilotage with ten men, seven dogs, a sledge, a fuel and food supply, and other items including the plane's wireless outfit.");
+      quote = F("At * 7:15 A.M. *, January 25th, we started flying northwestward under McTighe's pilotage with ten men, seven dogs, a sledge, a fuel and food supply, and other items...");
       attribution = F("- At the Mountains of Madness");
       return;
         case 1:
-      quote = F("Mary Kent had got out of bed and put on her dressing gown, having just checked her husband's watch: it was * 7.15 *. A confused conversation ensued, in which each woman seemed to assume Saville was with the other.");
+      quote = F("Mary Kent had got out of bed and put on her dressing gown, having just checked her husband's watch: it was * 7.15 *. A confused conversation ensued...");
       attribution = F("- Kate Summerscale");
       return;
         case 2:
-      quote = F("He was a late riser, as a rule, and as the clock on the mantelpiece showed me that it was only a * quarter-past seven *, I blinked up at him in some surprise, and perhaps just a little resentment, for I was myself regular in my habits.");
+      quote = F("He was a late riser, as a rule, and as the clock on the mantelpiece showed me that it was only a * quarter-past seven *, I blinked up at him in some surprise...");
       attribution = F("- Arthur Conan Doyle");
       return;
       } // end switch (option)
@@ -3868,11 +3844,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 07:20
       switch (option) {
         case 0:
-      quote = F("And this was my timetable when I lived at home with Father and I thought that Mother was dead from a heart attack (this was the timetable for a Monday and also it is an approximation). * 7.20 a.m. * Wake up");
+      quote = F("...I thought that Mother was dead from a heart attack (this was the timetable for a Monday and also it is an approximation). * 7.20 a.m. * Wake up");
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("He who had been a boy very credulous of life was no longer greatly interested in the possible and improbable adventures of each new day. He escaped from reality till the alarm-clock rang, at * seven-twenty *.");
+      quote = F("...was no longer greatly interested in the possible and improbable adventures of each new day. He escaped from reality till the alarm-clock rang, at * seven-twenty *.");
       attribution = F("- Sinclair Lewis, Babbitt");
       return;
       } // end switch (option)
@@ -3950,7 +3926,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- William Trevor, After Rain");
       return;
         case 1:
-      quote = F("Precisely at * half past seven * the station-master came into the traffic office. He weighed almost sixteen stone, but women always said that he was incredibly light on his feet when he danced.");
+      quote = F("Precisely at * half past seven * the station-master came into the traffic office. He weighed almost sixteen stone...");
       attribution = F("- Closely Observed Trains");
       return;
       } // end switch (option)
@@ -3994,7 +3970,7 @@ void setQuoteForMinute(int minute) {
       return;
         case 1:
       quote = F("I looked at my watch. * Seven thirty-five *.");
-      attribution = F("- Kathy Reichs, Bare Bones ");
+      attribution = F("- Kathy Reichs, Bare Bones");
       return;
       } // end switch (option)
 
@@ -4054,35 +4030,19 @@ void setQuoteForMinute(int minute) {
         attribution = "- Attribution Goes Here";
       return;
 
-    // Codegen for 07:44 for 2 quotations:
+    // Codegen for 07:44 for 1 quotations:
     case 464:
-      option = random(0, 2);
-      // 2 options for 07:44
-      switch (option) {
-        case 0:
-      quote = F("She voices her thoughts: \"It's not exactly how you'd choose to go, is it? You'd rather die flying a kite with your grandchildren, or at a great party or something. Not on the * seven forty-four *.\"");
-      attribution = F("- One moment, one morning");
-      return;
-        case 1:
-      quote = F("She voices her thoughts: \"It's not exactly how you'd choose to go, is it? You'd rather die flying a kite with your grandchildren, or at a great party or something. Not on the * seven forty-four *.\"");
+      // Only one option for 07:44:"
+      quote = F("It's not exactly how you'd choose to go, is it? You'd rather die flying a kite with your grandchildren, or at a great party or something. Not on the * seven forty-four *.");
       attribution = F("- One Moment, One Morning");
       return;
-      } // end switch (option)
 
-    // Codegen for 07:45 for 2 quotations:
+    // Codegen for 07:45 for 1 quotations:
     case 465:
-      option = random(0, 2);
-      // 2 options for 07:45
-      switch (option) {
-        case 0:
-      quote = F("Mr Green left for work at a * quarter to eight *, as he did every morning. He walked down his front steps carrying his empty-looking leatherette briefcase with the noisy silver clasps, opened his car door, and ducked his head to climb into the driver's seat.");
+      // Only one option for 07:45:"
+      quote = F("Mr Green left for work at a * quarter to eight *, as he did every morning. He walked down his front steps carrying his empty-looking leatherette briefcase with the noisy silver clasps...");
       attribution = F("- A Crime in The Neighborhood");
       return;
-        case 1:
-      quote = F("Mr Green left for work at a * quarter to eight *, as he did every morning. He walked down his front steps carrying his empty-looking leatherette briefcase with the noisy silver clasps, opened his car door, and ducked his head to climb into the driver's seat.");
-      attribution = F("- A crime in the neighborhood");
-      return;
-      } // end switch (option)
 
     // Codegen for 07:46 for 1 quotations:
     case 466:
@@ -4123,7 +4083,7 @@ void setQuoteForMinute(int minute) {
     case 471:
       // Only one option for 07:51:"
       quote = F("Vimes fished out the Gooseberry as a red-hot cabbage smacked into the road behind him. \"Good morning!\" he said brightly to the surprised imp. \"What is the time, please?\" \"Er...* nine minutes to eight *, Insert Name Here,\" said the imp.");
-      attribution = F("- Terry Pratchett, Thud! ");
+      attribution = F("- Terry Pratchett, Thud!");
       return;
 
     // Codegen for 07:52 for 0 quotations:
@@ -4160,12 +4120,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 07:56
       switch (option) {
         case 0:
-      quote = F("I sit by the window, crunching toast, sipping coffee, and leafing through the paper in a leisurely way. At last, after devouring three slices, two cups of coffee, and all the Saturday sections, I stretch my arms in a big yawn and glance at the clock. I don't believe it. It's only * seven fifty-six *.");
-      attribution = F("- The Undomestic Goddess");
-      return;
-        case 1:
       quote = F("The Castle Gate - only the Castle Gate - and it was * four minutes to eight *.");
       attribution = F("- Thomas Mann, Buddenbrooks");
+      return;
+        case 1:
+      quote = F("...two cups of coffee, and all the Saturday sections, I stretch my arms in a big yawn and glance at the clock. I don't believe it. It's only * seven fifty-six *.");
+      attribution = F("- The Undomestic Goddess");
       return;
       } // end switch (option)
 
@@ -4196,76 +4156,76 @@ void setQuoteForMinute(int minute) {
       // 18 options for 08:00
       switch (option) {
         case 0:
-      quote = F("I'm not crying, Maria said when Carter called from the desert at * 8 a.m. * \"I'm perfectly alright\". \"You don't sound perfectly alright\"");
-      attribution = F("- Play it as is Lays");
-      return;
-        case 1:
       quote = F("* 8.00 a.m. * Put school clothes on");
       attribution = F("- Mark Haddon");
+      return;
+        case 1:
+      quote = F("I'm not crying, Maria said when Carter called from the desert at * 8 a.m. * \"I'm perfectly alright\". \"You don't sound perfectly alright\"");
+      attribution = F("- Play it as is Lays");
       return;
         case 2:
       quote = F("At * 8 o'clock * on Thursday morning Arthur didn't feel very good.");
       attribution = F("- Douglas Adams");
       return;
         case 3:
-      quote = F("At * eight o'clock * on Thursday morning Arthur didn't feel very good. He woke up blearily, got up, wandered blearily round his room, opened a window, saw a bulldozer, found his slippers and stomped off to the bathroom to wash.");
-      attribution = F("- Douglas Adams");
-      return;
-        case 4:
-      quote = F("* At eight o’clock *, a shaft of daylight came to wake us. The thousand facets of the lava on the rock face picked it up as it passed, scattering like a shower of sparks.");
-      attribution = F("- Jules Verne");
-      return;
-        case 5:
-      quote = F("But for now it was still * eight o'clock *, and as I walked along the avenue under that brilliant blue sky, I was happy, my friends, as happy as any man who had ever lived.");
-      attribution = F("- Brooklyn Follies");
-      return;
-        case 6:
-      quote = F("By * eight o'clock * Stillman would come out, always in his long brown overcoat, carrying a large, old-fashioned carpet bag. For two weeks this routine did not vary.");
-      attribution = F("- Paul Auster, City of Glass ");
-      return;
-        case 7:
       quote = F("He was woken by reception * at eight * the following morning to be told that everyone was waiting for him downstairs, the wrapper of a Mars bar was still folded in his fist.");
       attribution = F("- Ian McEwan, Solar");
       return;
-        case 8:
+        case 4:
       quote = F("I hear noise at the ward door, off up the hall out of my sight. That ward door starts opening * at eight * and opens and closes a thousand times a day, kashash, click.");
       attribution = F("- Ken Kesey");
       return;
+        case 5:
+      quote = F("* At eight o’clock *, a shaft of daylight came to wake us. The thousand facets of the lava on the rock face picked it up as it passed, scattering like a shower of sparks.");
+      attribution = F("- Jules Verne");
+      return;
+        case 6:
+      quote = F("Too late. He must go on wanting what he had wanted yesterday. He dressed and rode down to the ground floor * at eight * for breakfast.");
+      attribution = F("- Death in Venice");
+      return;
+        case 7:
+      quote = F("She did not exist: she would not be born till to-morrow, some time after * eight o'clock a.m. *; and I would wait to be assured she had come into the world alive...");
+      attribution = F("- Charlotte Bronte, Jane Eyre");
+      return;
+        case 8:
+      quote = F("At * eight o'clock * on Thursday morning Arthur didn't feel very good. He woke up blearily, got up, wandered blearily round his room, opened a window, saw a bulldozer...");
+      attribution = F("- Douglas Adams");
+      return;
         case 9:
-      quote = F("It was dated from Rosings, at * eight o'clock * in the morning, and was as follows: \"Be not alarmed, madam, on receiving this letter, by the apprehension of its containing any repetition\"");
-      attribution = F("- Pride and Prejudice");
+      quote = F("But for now it was still * eight o'clock *, and as I walked along the avenue under that brilliant blue sky, I was happy, my friends, as happy as any man who had ever lived.");
+      attribution = F("- Brooklyn Follies");
       return;
         case 10:
-      quote = F("Mr. Pumblechook and I breakfasted at * eight o'clock * in the parlour behind the shop, while the shopman took his mug of tea and hunch of bread-and-butter on a sack of peas in the front premises.");
-      attribution = F("- Great Expectations");
+      quote = F("By * eight o'clock * Stillman would come out, always in his long brown overcoat, carrying a large, old-fashioned carpet bag. For two weeks this routine did not vary.");
+      attribution = F("- Paul Auster, City of Glass");
       return;
         case 11:
-      quote = F("Mrs. Rochester! She did not exist: she would not be born till to-morrow, some time after * eight o'clock a.m. *; and I would wait to be assured she had come into the world alive, before I assigned to her all that property.");
-      attribution = F("- Jane Eyre");
+      quote = F("It was dated from Rosings, at * eight o'clock * in the morning, and was as follows: \"Be not alarmed, madam, on receiving this letter...");
+      attribution = F("- Pride and Prejudice");
       return;
         case 12:
-      quote = F("So here I'll watch the night and wait To see the morning shine, When he will hear the stroke of * eight  *And not the stroke of nine;");
-      attribution = F("- A shropshire Lad");
+      quote = F("Mr. Pumblechook and I breakfasted at * eight o'clock * in the parlour behind the shop, while the shopman took his mug of tea and hunch of bread-and-butter...");
+      attribution = F("- Great Expectations");
       return;
         case 13:
-      quote = F("Someone must have been telling lies about Joseph K. for without having done anything wrong he was arrested one fine morning. His landlady's cook, who always brought him breakfast at * eight o'clock *, failed to appear on this occasion.");
-      attribution = F("- Franz Kafka, The Trial ");
+      quote = F("...without having done anything wrong he was arrested one fine morning. His landlady's cook, who always brought him breakfast at * eight o'clock *, failed to appear on this occasion.");
+      attribution = F("- Franz Kafka, The Trial");
       return;
         case 14:
-      quote = F("The next morning I woke up at * oh eight oh oh hours *, my brothers, and as I still felt shagged and fagged and fashed and bashed and as my glazzies were stuck together real horrorshow with sleepglue, I thought I would not go to school .");
-      attribution = F("- A Clockwork Orange");
+      quote = F("Prince Stepan Arkadyevitch Oblonsky--Stiva, as he was called in the fashionable world-- woke up at his usual hour, that is, at * eight o'clock * in the morning...");
+      attribution = F("- Leo Tolstoy, Anna Karenina");
       return;
         case 15:
-      quote = F("Three days after the quarrel, Prince Stepan Arkadyevitch Oblonsky--Stiva, as he was called in the fashionable world-- woke up at his usual hour, that is, at * eight o'clock * in the morning, not in his wife's bedroom, but on the leather-covered sofa in his study.");
-      attribution = F("- Leo Tolstoy, Anna Karenina ");
+      quote = F("So here I'll watch the night and wait To see the morning shine, When he will hear the stroke of * eight * And not the stroke of nine;");
+      attribution = F("- A shropshire Lad");
       return;
         case 16:
-      quote = F("The hands of the Dutch clock in the hall pointed to thirteen minutes past nine; those of the ormolu clock in the sitting-room to eleven minutes past ten; those of the carriage clock on the bookshelf to fourteen minutes to six. In other words, it was * exactly eight *");
+      quote = F("The hands of the Dutch clock in the hall pointed to thirteen minutes past nine; those of the ormolu clock in the sitting-room to eleven minutes past ten");
       attribution = F("- Three Men and a Maid");
       return;
         case 17:
-      quote = F("Too late. He must go on wanting what he had wanted yesterday. He dressed and rode down to the ground floor * at eight * for breakfast.");
-      attribution = F("- Death in Venice");
+      quote = F("The next morning I woke up at * oh eight oh oh hours *, my brothers, and as I still felt shagged and fagged and fashed and bashed...");
+      attribution = F("- A Clockwork Orange");
       return;
       } // end switch (option)
 
@@ -4289,12 +4249,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 08:03
       switch (option) {
         case 0:
-      quote = F("... bingeley ... Eight oh two eh em, Death of Corporal Littlebottombottom ... * Eight oh three * eh em ... Death of Sergeant Detritus ... * Eight oh three *threethree eh em and seven seconds seconds");
-      attribution = F("- Terry Pratchett, Jingo");
+      quote = F("...the 'stupid human habit' of arbitrarily choosing a time based on fifteen-minute intervals. 'Never meet people at 7:45 or 6:30, Jasper, but pick times like 7:12 and * 8:03 *!'");
+      attribution = F("- A Fraction of the Whole");
       return;
         case 1:
-      quote = F("He taught me that if I had to meet someone for an appointment, I must refuse to follow the 'stupid human habit' of arbitrarily choosing a time based on fifteen-minute intervals. 'Never meet people at 7:45 or 6:30, Jasper, but pick times like 7:12 and * 8:03 *!'");
-      attribution = F("- A Fraction of the Whole");
+      quote = F("... bingeley ... Eight oh two eh em, Death of Corporal Littlebottombottom ... * Eight oh three * eh em ... Death of Sergeant Detritus ...");
+      attribution = F("- Terry Pratchett, Jingo");
       return;
       } // end switch (option)
 
@@ -4350,7 +4310,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("Amory rushed into the house and the rest followed with a limp mass that they laid on the sofa in the shoddy little front parlor. Sloane, with his shoulder punctured, was on another lounge. He was half delirious, and kept calling something about a chemistry lecture at * 8:10 *.");
+      quote = F("Sloane, with his shoulder punctured, was on another lounge. He was half delirious, and kept calling something about a chemistry lecture at * 8:10 *.");
       attribution = F("- This Side of Paradise");
       return;
         case 2:
@@ -4393,12 +4353,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 08:15
       switch (option) {
         case 0:
-      quote = F("... the fact that it was still very dark when George woke in the morning was no guide to him as to the time. He reached up, and hauled down his watch. It was a * quarter-past eight *.");
-      attribution = F("- Three Men in a Boat");
-      return;
-        case 1:
       quote = F("You scrutinized your wrist: \"It's * eight fifteen *. (And here time forked.) I'll turn it on.\" The screen In its blank broth evolved a lifelike blur, And music welled.");
       attribution = F("- Pale Fire");
+      return;
+        case 1:
+      quote = F("... the fact that it was still very dark when George woke in the morning was no guide to him as to the time. He reached up, and hauled down his watch. It was a * quarter-past eight *.");
+      attribution = F("- Three Men in a Boat");
       return;
       } // end switch (option)
 
@@ -4419,7 +4379,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Jules Verne");
       return;
         case 1:
-      quote = F("Come on, I can't give up yet. I'll just sit here for a bit and enjoy the peace. I lean back and watch a little speckled bird pecking the ground nearby for a while. Then I look at my watch again: * eight seventeen *. I can't do this.");
+      quote = F("I lean back and watch a little speckled bird pecking the ground nearby for a while. Then I look at my watch again: * eight seventeen *. I can't do this.");
       attribution = F("- The Undomestic Goddess");
       return;
       } // end switch (option)
@@ -4465,12 +4425,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 08:23
       switch (option) {
         case 0:
-      quote = F("And then Wedderburn looked at his watch. \"* Twenty-three minutes past eight *. I am going up by the quarter to twelve train, so that there is plenty of time.");
-      attribution = F("- HG Wells");
-      return;
-        case 1:
       quote = F("At * 8:23 * there seemed every chance of a lasting alliance starting between Florin and Guilder. At 8:24 the two nations were very close to war.");
       attribution = F("- The Princess Bride");
+      return;
+        case 1:
+      quote = F("And then Wedderburn looked at his watch. \"* Twenty-three minutes past eight *. I am going up by the quarter to twelve train, so that there is plenty of time.");
+      attribution = F("- HG Wells");
       return;
       } // end switch (option)
 
@@ -4522,24 +4482,24 @@ void setQuoteForMinute(int minute) {
       // 5 options for 08:30
       switch (option) {
         case 0:
-      quote = F("At * half past eight *, Mr. Dursley picked up his briefcase, pecked Mrs. Dursley on the cheek, and tried to kiss Dudley good-bye but missed, because Dudley was now having a tantrum and throwing his cereal at the walls.");
-      attribution = F("- JK Rowling");
+      quote = F("On July 25th, * 8:30 a.m. * the bitch Novaya dies whelping. At 10 o'clock she is lowered into her cool grave, at 7:30 that same evening we see our first floes...");
+      attribution = F("- Christoph Ransmayr");
       return;
         case 1:
       quote = F("It is around * 8:30 *. Sunshine comes through the windows at right. As the curtain rises, the family has just finished breakfast.");
       attribution = F("- Eugene O'Neill");
       return;
         case 2:
-      quote = F("On July 25th, * 8:30 a.m. * the bitch Novaya dies whelping. At 10 o'clock she is lowered into her cool grave, at 7:30 that same evening we see our first floes and greet them wishing they were the last.");
-      attribution = F("- Christoph Ransmayr");
-      return;
-        case 3:
       quote = F("The lecture was to be given tomorrow, and it was now almost * eight-thirty *.");
       attribution = F("- A Confederacy of Dunces");
       return;
-        case 4:
+        case 3:
       quote = F("When he woke, at * eight-thirty *, he was alone in the bedroom. He put on his dressing gown and put in his hearing aid and went into the living room.");
-      attribution = F("- David Lodge, Deaf Sentence ");
+      attribution = F("- David Lodge, Deaf Sentence");
+      return;
+        case 4:
+      quote = F("At * half past eight *, Mr. Dursley picked up his briefcase, pecked Mrs. Dursley on the cheek, and tried to kiss Dudley good-bye but missed...");
+      attribution = F("- JK Rowling");
       return;
       } // end switch (option)
 
@@ -4556,12 +4516,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 08:32
       switch (option) {
         case 0:
-      quote = F("'Does anybody know the time a little more exactly is what I'm wondering, Don, since Day doesn't.' Gately checks his cheap digital, head still hung over the sofa's arm. 'I got 0* 832 *:14, 15, 16, Randy.' ''ks a lot, D.G. man.'");
-      attribution = F("- Infinite Jest");
-      return;
-        case 1:
       quote = F("* 8.32 a.m. * Catch bus to school");
       attribution = F("- Mark Haddon");
+      return;
+        case 1:
+      quote = F("'anybody know the time a little more exactly is what I'm wondering, Don, since Day doesn't.' Gately checks his cheap digital, head still hung over the sofa's arm. 'I got * 0832 *:14'");
+      attribution = F("- Infinite Jest");
       return;
       } // end switch (option)
 
@@ -4585,12 +4545,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 08:35
       switch (option) {
         case 0:
-      quote = F("It was * thirty-five minutes past eight * by the big clock of the central building when Mathieu crossed the yard towards the office which he occupied as chief designer.");
-      attribution = F("- Emile Zola, Fruitfulness ");
-      return;
-        case 1:
       quote = F("Old gummy granny (thrusts a dagger towards Stephen's hand) Remove him, acushla. At * 8.35 a.m. * you will be in heaven and Ireland will be free (she prays) O good God take him!");
       attribution = F("- James Joyce, Ulysses");
+      return;
+        case 1:
+      quote = F("It was * thirty-five minutes past eight * by the big clock of the central building when Mathieu crossed the yard towards the office which he occupied as chief designer.");
+      attribution = F("- Emile Zola, Fruitfulness");
       return;
       } // end switch (option)
 
@@ -4628,11 +4588,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 08:40
       switch (option) {
         case 0:
-      quote = F("At this moment the clock indicated * 8.40 *. 'Five minutes more,' said Andrew Stuart. The five friends looked at each other. One may surmise that their heart-beats were slightly accelereted, for, even for bold gamblers, the stake was a large one.'");
+      quote = F("At this moment the clock indicated * 8.40 *. 'Five minutes more,' said Andrew Stuart. The five friends looked at each other.");
       attribution = F("- Jules Verne");
       return;
         case 1:
-      quote = F("It was when I stood before her, avoiding her eyes, that I took note of the surrounding objects in detail, and saw that her watch had stopped at * twenty minutes to nine *, and that a clock in the room had stopped at * twenty minutes to nine *.");
+      quote = F("It was when I stood before her, avoiding her eyes, that I took note of the surrounding objects in detail, and saw that her watch had stopped at * twenty minutes to nine *...");
       attribution = F("- Great Expectations");
       return;
       } // end switch (option)
@@ -4657,12 +4617,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 08:43
       switch (option) {
         case 0:
-      quote = F("You understand this tape recorder is on? \"Uh huh\" \"And it's Wednesday, May 15, at * eight forty-three * in the mornin'.\" \"If you say so\"");
-      attribution = F("- A Time to Kill");
-      return;
-        case 1:
       quote = F("* 8.43 a.m. * Go past tropical fish shop");
       attribution = F("- Mark Haddon");
+      return;
+        case 1:
+      quote = F("You understand this tape recorder is on? \"Uh huh\" \"And it's Wednesday, May 15, at * eight forty-three * in the mornin'.\" \"If you say so\"");
+      attribution = F("- A Time to Kill");
       return;
       } // end switch (option)
 
@@ -4693,11 +4653,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 08:47
       switch (option) {
         case 0:
-      quote = F("Just on my way to the cottage. It's, er, ..* 8.47 *. Bit misty on the roads.....");
+      quote = F("* 8.47 *. Bit misty on the roads");
       attribution = F("- Douglas Adams");
       return;
         case 1:
-      quote = F("* 8.47 *. Bit misty on the roads");
+      quote = F("Just on my way to the cottage. It's, er, ..* 8.47 *. Bit misty on the roads.....");
       attribution = F("- Douglas Adams");
       return;
       } // end switch (option)
@@ -4722,16 +4682,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 08:50
       switch (option) {
         case 0:
-      quote = F("At * ten to nine * the clerks began to arrive.When they had hung up their coats and hates they came to the fireplace and stood warming themselves. If there was no fire, they stood there all the same");
-      attribution = F("- The Chestnut Tree");
+      quote = F("It was * 8:50 * in the morning and Bernie and I were alone on an Astoria side street, not far from a sandwich shop that sold a sopressatta sub called \"The Bypass\".");
+      attribution = F("- Sam Lipsyte, The Ask");
       return;
         case 1:
-      quote = F("It was * 8:50 * in the morning and Bernie and I were alone on an Astoria side street, not far from a sandwich shop that sold a sopressatta sub called \"The Bypass\". I used to eat that sandwich weekly");
-      attribution = F("- Sam Lipsyte, The Ask ");
-      return;
-        case 2:
       quote = F("Punctually at * ten minutes to nine *, a quarter hour after early mass, the boy stood in his Sunday uniform outside his father's door.");
       attribution = F("- The Radetzky March");
+      return;
+        case 2:
+      quote = F("At * ten to nine * the clerks began to arrive. When they had hung up their coats and hates they came to the fireplace and stood warming themselves.");
+      attribution = F("- The Chestnut Tree");
       return;
       } // end switch (option)
 
@@ -4759,7 +4719,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 08:54 for 1 quotations:
     case 534:
       // Only one option for 08:54:"
-      quote = F("It was Mrs. Poppets that woke me up next morning. She said: “Do you know that it’s * nearly nine o’clock *, sir?” “Nine o’ what?” I cried, starting up. “Nine o’clock,” she replied, through the keyhole. “I thought you was a- oversleeping yourselves.”");
+      quote = F("It was Mrs. Poppets that woke me up next morning. She said: \"Do you know that it’s * nearly nine o’clock *, sir?\" \"Nine o’ what?\" I cried, starting up. \"Nine o’clock,\" she replied, through the keyhole. \"I thought you was a- oversleeping yourselves.\"");
       attribution = F("- Three Men in a Boat");
       return;
 
@@ -4812,31 +4772,31 @@ void setQuoteForMinute(int minute) {
       // 16 options for 09:00
       switch (option) {
         case 0:
-      quote = F("'I could never get all the way down there before * nine o'clock *.'");
-      attribution = F("- A Confederacy of Dunces");
-      return;
-        case 1:
-      quote = F("'Look. Ignatius. I'm beat. I've been on the road since * nine o'clock * yesterday morning.'");
-      attribution = F("- A Confederacy of Dunces");
-      return;
-        case 2:
-      quote = F("On the third morning after their arrival, just as all the clocks in the city were striking * nine  *individually, and somewhere about * nine  *hundred and ninety-* nine  *collectively...");
-      attribution = F("- The Pickwick Papers");
-      return;
-        case 3:
       quote = F("14 June * 9:00 am * woke up");
       attribution = F("- A Fraction of the Whole");
       return;
-        case 4:
+        case 1:
       quote = F("* 9.00 a.m. * School assembly");
       attribution = F("- Mark Haddon");
       return;
+        case 2:
+      quote = F("Sometimes what I wouldn't give to have us sitting in a bar again at * 9.00am * telling lies to one another, far from God.");
+      attribution = F("- Denis Johnson, Jesus' Son");
+      return;
+        case 3:
+      quote = F("He was at breakfast * at nine *, and for the twentieth time consulted his \"Bradshaw,\" to see at what earliest hour Dr. Grantly could arrive from Barchester.");
+      attribution = F("- The Warden");
+      return;
+        case 4:
+      quote = F("To be on the safe side, he did not unpack everything. * At nine * he went to breakfast in the specially designated buffet between the lobby and the dining room.");
+      attribution = F("- Death in Venice");
+      return;
         case 5:
-      quote = F("A fly buzzed, the wall clock began to strike. After the * nine  *golden strokes faded, the district captain began. \"How is Herr Colonel Marek?\" \"Thank you, Papá, he's fine.\" \"Still weak in geometry?\" \"Thank you, Papá, a little better.\" \"Read any books?\" \"Yessir, Papá.\"");
+      quote = F("A fly buzzed, the wall clock began to strike. After the * nine * golden strokes faded, the district captain began. \"How is Herr Colonel Marek?\" \"Thank you, Papá, he's fine.\"");
       attribution = F("- The Radetzky March");
       return;
         case 6:
-      quote = F("As * nine o' clock * was left behind, the preposterousness of the delay overwhelmed me, and I went in a kind of temper to the owner and said that I thought he should sign on another cook and weigh spars and be off.");
+      quote = F("As * nine o' clock * was left behind, the preposterousness of the delay overwhelmed me, and I went in a kind of temper to the owner and said...");
       attribution = F("- A Single Pebble");
       return;
         case 7:
@@ -4844,36 +4804,36 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Great Gatsby");
       return;
         case 8:
-      quote = F("He was at breakfast * at nine *, and for the twentieth time consulted his \"Bradshaw,\" to see at what earliest hour Dr. Grantly could arrive from Barchester.");
-      attribution = F("- The Warden");
+      quote = F("'I could never get all the way down there before * nine o'clock *.'");
+      attribution = F("- A Confederacy of Dunces");
       return;
         case 9:
-      quote = F("Now, if you only kept on good terms with him, he'd do almost anything you liked with the clock. For instance, suppose it were * nine o'clock * in the morning, just time to begin lessons");
-      attribution = F("- Lewis Carroll");
-      return;
-        case 10:
       quote = F("It was around * nine o'clock * that I crossed the border into Cornwall. This was at least three hours before the rain began and the clouds were still all of a brilliant white.");
       attribution = F("- The Remains of the Day");
       return;
+        case 10:
+      quote = F("'Look. Ignatius. I'm beat. I've been on the road since * nine o'clock * yesterday morning.'");
+      attribution = F("- A Confederacy of Dunces");
+      return;
         case 11:
-      quote = F("To be on the safe side, he did not unpack everything. * At nine * he went to breakfast in the specially designated buffet between the lobby and the dining room.");
-      attribution = F("- Death in Venice");
+      quote = F("...he'd do almost anything you liked with the clock. For instance, suppose it were * nine o'clock * in the morning, just time to begin lessons");
+      attribution = F("- Lewis Carroll");
       return;
         case 12:
-      quote = F("Sometimes what I wouldn't give to have us sitting in a bar again at * 9.00am * telling lies to one another, far from God.");
-      attribution = F("- Denis Johnson, Jesus' Son ");
+      quote = F("On the third morning after their arrival, just as all the clocks in the city were striking * nine * individually, and somewhere about * nine * hundred and * nine *ty-* nine * collectively...");
+      attribution = F("- The Pickwick Papers");
       return;
         case 13:
-      quote = F("The clock struck * nine  *when I did send the nurse; In half an hour she promised to return. Perchance she cannot meet him: that's not so.");
-      attribution = F("- Romeo and Juliet");
+      quote = F("Flowed up the hill and down King William Street, To where Saint Mary Woolnoth kept the hours With a dead sound on the final stroke of * nine *.");
+      attribution = F("- T S Eliot, The Waste Land");
       return;
         case 14:
-      quote = F("To where Saint Mary Woolnoth kept the hours With a dead sound on the final stroke of * nine *.");
-      attribution = F("- T S Eliot, The Waste Land ");
+      quote = F("The clock struck * nine * when I did send the nurse; In half an hour she promised to return. Perchance she cannot meet him: that's not so.");
+      attribution = F("- Romeo and Juliet");
       return;
         case 15:
-      quote = F("Sighs, short and infrequent, were exhaled, And each man fixed his eyes before his feet. Flowed up the hill and down King William Street, To where Saint Mary Woolnoth kept the hours With a dead sound on the final stroke of * nine *.");
-      attribution = F("- T S Eliot, The Waste Land ");
+      quote = F("To where Saint Mary Woolnoth kept the hours With a dead sound on the final stroke of * nine *.");
+      attribution = F("- T S Eliot, The Waste Land");
       return;
       } // end switch (option)
 
@@ -4901,7 +4861,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- A Fraction of the Whole");
       return;
         case 1:
-      quote = F("I wasn't late. Okay, the school bell had rung as I was crossing the playground, but you always get five minutes to get to your classroom. \"It's * three minutes past nine *,\" Miss Beckworth announced. \"You're late.\"");
+      quote = F("...bell had rung as I was crossing the playground, but you always get five minutes to get to your classroom. \"It's * three minutes past nine *,\" Miss Beckworth announced.");
       attribution = F("- The Lottie Project");
       return;
       } // end switch (option)
@@ -4921,26 +4881,22 @@ void setQuoteForMinute(int minute) {
       return;
       } // end switch (option)
 
-    // Codegen for 09:05 for 4 quotations:
+    // Codegen for 09:05 for 3 quotations:
     case 545:
-      option = random(0, 4);
-      // 4 options for 09:05
+      option = random(0, 3);
+      // 3 options for 09:05
       switch (option) {
         case 0:
       quote = F("* 9:05am * lay in bed, staring at ceiling");
       attribution = F("- A Fraction of the Whole");
       return;
         case 1:
-      quote = F("Kaldren pursues me like luminescent shadow. He has chalked up on the gateway '96,688,365,498,702'. Should confuse the mail man. Woke * 9:05 *. To sleep 6:36.");
-      attribution = F("- The Voices of Time");
+      quote = F("The tour of the office doesn't take that long. In fact, we're pretty much done by * 9:05 a.m. *, and even though it's just a room with a window...");
+      attribution = F("- Twenties Girl");
       return;
         case 2:
-      quote = F("The tour of the office doesn't take that long. In fact, we're pretty much done by * 9:05 a.m. * … and even though it's just a room with a window and a pin board and two doors and two desks... I can't help feeling a buzz as I lead them around. It's mine. My space. My company.");
-      attribution = F("- Twenties Girl");
-      return;
-        case 3:
-      quote = F("The tour of the office doesn't take that long. In fact, we're pretty much done by * 9:05 a.m. * Ed looks at everything twice and says it's all great, and gives me a list of contacts who might be helpful, then has to leave for his own office.");
-      attribution = F("- Twenties Girl");
+      quote = F("Kaldren pursues me like luminescent shadow. He has chalked up on the gateway '96,688,365,498,702'. Should confuse the mail man. Woke * 9:05 *. To sleep 6:36.");
+      attribution = F("- The Voices of Time");
       return;
       } // end switch (option)
 
@@ -4961,7 +4917,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- A Fraction of the Whole");
       return;
         case 1:
-      quote = F("It was a sparkling morning, * 9:07 * by the clock when Mrs. Flett stepped aboard the Imperial Limited at the Tyndall station, certain that her life was ruined, but managing, through an effort of will, to hold herself erect and to affect an air of preoccupation and liveliness.");
+      quote = F("It was a sparkling morning, * 9:07 * by the clock when Mrs. Flett stepped aboard the Imperial Limited at the Tyndall station, certain that her life was ruined...");
       attribution = F("- The Stone Diaries");
       return;
       } // end switch (option)
@@ -5029,16 +4985,16 @@ void setQuoteForMinute(int minute) {
       // 4 options for 09:15
       switch (option) {
         case 0:
-      quote = F("Great! Jones commented. \"I've never seen it do that before. That's all right. Okay.\" Jones pulled a handful of pencils from his back pocket. \"Now, I got the contact first at 0* 915 * or so, and the bearing was about two-six-nine.\"");
-      attribution = F("- The Hunt for Red October");
-      return;
-        case 1:
       quote = F("* 9:15am * doubled over pillow, sat up to see out window");
       attribution = F("- A Fraction of the Whole");
       return;
-        case 2:
+        case 1:
       quote = F("* 9.15 a.m. * First morning class");
       attribution = F("- Mark Haddon");
+      return;
+        case 2:
+      quote = F("That's all right. Okay. Jones pulled a handful of pencils from his back pocket. \"Now, I got the contact first at 0* 915 * or so, and the bearing was about two-six-nine.\"");
+      attribution = F("- The Hunt for Red October");
       return;
         case 3:
       quote = F("Miss Pettigrew pushed open the door of the employment agency and went in as the clock struck a * quarter past nine *.");
@@ -5080,16 +5036,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 09:20
       switch (option) {
         case 0:
+      quote = F("The following morning at * 9.20 * Mr Cribbage straightened his greasy old tie, combed his Hitler moustache and arranged the few strands of his hair across his bald patch.");
+      attribution = F("- Louis de Bernieres, Red Dog");
+      return;
+        case 1:
       quote = F("I'll compromise by saying that I left home at eight and spent an hour travelling to a nine o'clock appointment. Twenty minutes later is * nine-twenty *.");
       attribution = F("- Girl, Interrupted");
       return;
-        case 1:
+        case 2:
       quote = F("At * twenty minutes past nine *, the Duke of Dunstable, who had dined off a tray in his room, was still there, waiting for his coffee and liqueur.");
       attribution = F("- P.G. Wodehouse");
-      return;
-        case 2:
-      quote = F("The following morning at * 9.20 * Mr Cribbage straightened his greasy old tie, combed his Hitler moustache and arranged the few strands of his hair across his bald patch.");
-      attribution = F("- Red Dog");
       return;
       } // end switch (option)
 
@@ -5162,20 +5118,20 @@ void setQuoteForMinute(int minute) {
       // 4 options for 09:30
       switch (option) {
         case 0:
+      quote = F("Up the welcomingly warm morning hill we trudge, side by each, bound finally for the Hall of Fame. It's * 9.30 *, and time is in fact a-wastin'.");
+      attribution = F("- Independence Day");
+      return;
+        case 1:
       quote = F("he looked at his watch; it was * half-past nine *");
       attribution = F("- A watcher by the dead");
       return;
-        case 1:
-      quote = F("It was * nine-thirty *. In another ten minutes she would turn off the heat; then it would take a while for the water to cool. In the meantime there was nothing to do but wait. \"Have you thought it through April?\"");
+        case 2:
+      quote = F("It was * nine-thirty *. In another ten minutes she would turn off the heat; then it would take a while for the water to cool. In the meantime there was nothing to do but wait.");
       attribution = F("- Revolutionary Road");
       return;
-        case 2:
-      quote = F("The body came in at * nine-thirty * this morning. One of Holding's men went to the house and collected it. There was nothing particularly unusual about the death. The man had had a fear of hospitals and had died at home, being cared for more than adequately by his devoted wife.");
-      attribution = F("- Jackie Kay, Trumpet");
-      return;
         case 3:
-      quote = F("Up the welcomingly warm morning hill we trudge, side by each, bound finally for the Hall of Fame. It's * 9.30 *, and time is in fact a-wastin'.");
-      attribution = F("- Independence Day");
+      quote = F("The body came in at * nine-thirty * this morning. One of Holding's men went to the house and collected it. There was nothing particularly unusual about the death.");
+      attribution = F("- Jackie Kay, Trumpet");
       return;
       } // end switch (option)
 
@@ -5192,12 +5148,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 09:32
       switch (option) {
         case 0:
-      quote = F("Anyhow, if he wasn't the 11.5 for Kingston, he said he was pretty confident he was the * 9.32 * for Virginia Water, or the 10 a.m. express for the Isle of Wight, or somewhere in that direction, and we should all know when we got there.");
+      quote = F("Anyhow, if he wasn't the 11.5 for Kingston, he said he was pretty confident he was the * 9.32 * for Virginia Water, or the 10 a.m. express for the Isle of Wight...");
       attribution = F("- Three Men in a Boat");
       return;
         case 1:
       quote = F("Sandy barely made the * nine-thirty-two * and found a seat in no-smoking. She'd been looking forward to this visit with Lisbeth.");
-      attribution = F("- Judy Blume, Wifey ");
+      attribution = F("- Judy Blume, Wifey");
       return;
       } // end switch (option)
 
@@ -5228,7 +5184,7 @@ void setQuoteForMinute(int minute) {
       // 2 options for 09:36
       switch (option) {
         case 0:
-      quote = F("9:30-* 9:36 * Make Geigers' bed * 9:36 *-9:42 Take laundry out of machine and put in dryer 9:42-10:00 Clean bathrooms I get to the end and read it over with a fresh surge of optimism. At this rate I should be done easily by lunchtime. * 9:36 * Fuck. I cannot make this bed.");
+      quote = F("9:42-10:00 Clean bathrooms I get to the end and read it over with a fresh surge of optimism. At this rate I should be done easily by lunchtime. * 9:36 * Fuck. I cannot make this bed.");
       attribution = F("- The Undomestic Goddess");
       return;
         case 1:
@@ -5264,12 +5220,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 09:40
       switch (option) {
         case 0:
-      quote = F("... the tea and toast at twenty-three minutes past eight, the shaving-water at thirty-seven minutes past nine, and the toilet at * twenty minutes before ten *.");
-      attribution = F("- Around the World in 80 days");
+      quote = F("Just the sort of irritating thing you don't expect to hang over your final exit. (Moral: don't try too hard to forget Eniwetok.) Woke * 9:40 *. To sleep 4:15.");
+      attribution = F("- The Voices of Time");
       return;
         case 1:
-      quote = F("What does he think I'd do with all that cement? Just the sort of irritating thing you don't expect to hang over your final exit. (Moral: don't try too hard to forget Eniwetok.) Woke * 9:40 *. To sleep 4:15.");
-      attribution = F("- The Voices of Time");
+      quote = F("... the tea and toast at twenty-three minutes past eight, the shaving-water at thirty-seven minutes past nine, and the toilet at * twenty minutes before ten *.");
+      attribution = F("- Around the World in 80 days");
       return;
       } // end switch (option)
 
@@ -5385,12 +5341,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 09:55
       switch (option) {
         case 0:
-      quote = F("At * five to ten * I'm ready in the hall. Nathaniel's mother's house is nearby but apparently tricky to find, so the plan is to meet here and he'll walk me over. I check my reflection in the hall mirror and wince. The streak of bleach in my hair is as obvious as ever.");
-      attribution = F("- The Undomestic Goddess");
+      quote = F("your punctuality really alarms me. What do I say? punctuality! You, whom I expected last, you arrive at * five minutes to ten *, when the time fixed was half-past!");
+      attribution = F("- The Count of Monte Cristo");
       return;
         case 1:
-      quote = F("Good-morning, Lucien, good-morning, said Albert; \"your punctuality really alarms me. What do I say? punctuality! You, whom I expected last, you arrive at * five minutes to ten *, when the time fixed was half-past! Has the ministry resigned?\"");
-      attribution = F("- The Count of Monte Cristo");
+      quote = F("At * five to ten * I'm ready in the hall. Nathaniel's mother's house is nearby but apparently tricky to find, so the plan is to meet here and he'll walk me over.");
+      attribution = F("- The Undomestic Goddess");
       return;
       } // end switch (option)
 
@@ -5428,60 +5384,60 @@ void setQuoteForMinute(int minute) {
       // 14 options for 10:00
       switch (option) {
         case 0:
-      quote = F("––so that went off too: ––So that with one thing and what with another, as always falls out when a man is in the most haste, ––* 'twas ten o'clock *, which was half an hour later than his usual time before my uncle Toby sallied out.");
-      attribution = F("- Tristram Shandy");
+      quote = F("The written verdict was handed down at * 10:00 * on Friday morning, and allthat remained was a summing up from the reporters waiting in the corridor outside the district court.");
+      attribution = F("- Stieg Larsson");
       return;
         case 1:
-      quote = F("’Tis but * an hour ago since it was nine *, And after one hour more ‘twill be eleven.");
-      attribution = F("- As You Like It");
-      return;
-        case 2:
-      quote = F("Orlando leapt as if she had been violently struck on the head. Ten times she was struck. In fact it was * ten  *o'clock in the morning. It was the eleventh of October. It was 1928. It was the present moment.");
-      attribution = F("- Virginia Woolf, Orlando ");
-      return;
-        case 3:
       quote = F("The written verdict was handed down at * 10:00 * on Friday morning, and all that remained was a summing up from the reporters waiting in the corridor outside the district court.");
       attribution = F("- Stieg Larsson");
       return;
-        case 4:
+        case 2:
       quote = F("According to military records no US bombers or any other kind of aircraft were flying over that region at the time, that is around * 10 am * on November 7,1944.");
       attribution = F("- Kafka on the shore");
       return;
-        case 5:
-      quote = F("At about * ten o'clock * in the morning the sun threw a bright dust-laden bar through one of the side windows, and in and out of the beam flies shot like rushing stars.");
-      attribution = F("- Of Mice And Men");
-      return;
-        case 6:
-      quote = F("I went to bed and the next thing I knew I was awake again and it was getting on for * ten o' clock * in the morning. Ring, ring, said the telephone, ring, ring.");
-      attribution = F("- The Medusa Frequency");
-      return;
-        case 7:
-      quote = F("By * ten o'clock *, the chaise and four conveyed the two from the abbey; and, after an agreeable drive of almost twenty miles, they entered Woodston, a large and populous village, in a situation not unpleasant.");
-      attribution = F("- Northanger Abbey");
-      return;
-        case 8:
-      quote = F("King Richard: Well, but what's o'clock? Buckingham: Upon the stroke of * ten *.");
-      attribution = F("- Richard III");
-      return;
-        case 9:
+        case 3:
       quote = F("Monday 30 March 1668 Up betimes, and so to the office, there to do business till about * 10 o’clock *");
       attribution = F("- The Diary of Samuel Pepys");
       return;
-        case 10:
-      quote = F("On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At * 10 o'clock * she is lowered into her cool grave, at 7:30 that same evening we see our first floes and greet them wishing they were the last.");
+        case 4:
+      quote = F("On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At * 10 o'clock * she is lowered into her cool grave, at 7:30 that same evening we see our first floes...");
       attribution = F("- Christoph Ransmayr");
       return;
+        case 5:
+      quote = F("’Tis but * an hour ago since it was nine *, And after one hour more ‘twill be eleven.");
+      attribution = F("- As You Like It");
+      return;
+        case 6:
+      quote = F("Each of us saved up sixpence. We were to meet * at ten * in the morning on the Canal Bridge.");
+      attribution = F("- James Joyce, Dubliners");
+      return;
+        case 7:
+      quote = F("King Richard: Well, but what's o'clock? Buckingham: Upon the stroke of * ten *.");
+      attribution = F("- Richard III");
+      return;
+        case 8:
+      quote = F("At about * ten o'clock * in the morning the sun threw a bright dust-laden bar through one of the side windows, and in and out of the beam flies shot like rushing stars.");
+      attribution = F("- Of Mice And Men");
+      return;
+        case 9:
+      quote = F("By * ten o'clock *, the chaise and four conveyed the two from the abbey; and, after an agreeable drive of almost twenty miles, they entered Woodston...");
+      attribution = F("- Northanger Abbey");
+      return;
+        case 10:
+      quote = F("I went to bed and the next thing I knew I was awake again and it was getting on for * ten o' clock * in the morning. Ring, ring, said the telephone, ring, ring.");
+      attribution = F("- The Medusa Frequency");
+      return;
         case 11:
-      quote = F("The Saturday immediately preceding the examinations was a very busy day for Kennedy. At * ten o' clock * he was entering Willey's room; the latter had given him a key and left the room vacant by previous arrangement");
+      quote = F("The Saturday immediately preceding the examinations was a very busy day for Kennedy. At * ten o' clock * he was entering Willey's room; the latter had given him a key...");
       attribution = F("- Barry Unsworth");
       return;
         case 12:
-      quote = F("Each of us saved up sixpence. We were to meet * at ten * in the morning on the Canal Bridge.");
-      attribution = F("- James Joyce, Dubliners ");
+      quote = F("Orlando leapt as if she had been violently struck on the head. Ten times she was struck. In fact it was * ten o'clock in the morning *. It was the eleventh of October. It was 1928.");
+      attribution = F("- Virginia Woolf, Orlando");
       return;
         case 13:
-      quote = F("The written verdict was handed down at * 10:00 * on Friday morning, and allthat remained was a summing up from the reporters waiting in the corridor outside the district court.");
-      attribution = F("- Stieg Larsson");
+      quote = F("...as always falls out when a man is in the most haste, ––* 'twas ten o'clock *, which was half an hour later than his usual time before my uncle Toby sallied out.");
+      attribution = F("- Tristram Shandy");
       return;
       } // end switch (option)
 
@@ -5505,11 +5461,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 10:03
       switch (option) {
         case 0:
-      quote = F("It's * 10.03 * according to his watch, and he is travelling down through the Scottish highlands to Inverness, tired and ever-so-slightly anxious in case he falls asleep between now and when the train reaches the station, and misses his cue");
+      quote = F("It's * 10.03 * according to his watch, and he is travelling down through the Scottish highlands to Inverness, tired and ever-so-slightly anxious in case he falls asleep...");
       attribution = F("- The Farenheit Twins");
       return;
         case 1:
-      quote = F("The date was the 14th of May and the clock on his desk said the time was twenty three minutes past ten, so he tapped in the numbers 10.23. At least, that's what he meant to do. In fact he typed in the numbers * 10.03 *.");
+      quote = F("...the time was twenty three minutes past ten, so he tapped in the numbers 10.23. At least, that's what he meant to do. In fact he typed in the numbers * 10.03 *.");
       attribution = F("- Andrew Norriss, Ctrl-Z");
       return;
       } // end switch (option)
@@ -5566,7 +5522,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Hollow Man");
       return;
         case 1:
-      quote = F("Saturday morning was bright and sunny, and at * ten minutes past 10 * Donald arrived at the Embankment entrance of Charing Cross Underground Station, carrying a small suitcase full of clothes suitable for outdoor sports and pastimes.");
+      quote = F("Saturday morning was bright and sunny, and at * ten minutes past 10 * Donald arrived at the Embankment entrance of Charing Cross Underground Station...");
       attribution = F("- England, Their England");
       return;
       } // end switch (option)
@@ -5584,12 +5540,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 10:12
       switch (option) {
         case 0:
-      quote = F("I'll take the coffee tray out, I suggest humbly. As I pick it up I glance again at my watch. * Ten twelve *. I wonder if they've started the meeting.");
-      attribution = F("- The Undomestic Goddess");
+      quote = F("He stood up once, early on, to lock his office door, and then he was reading the last page, and it was exactly * 10:12 a.m. *, and the sun beating...");
+      attribution = F("- Jonathan Franzen, Freedom");
       return;
         case 1:
-      quote = F("He stood up once, early on, to lock his office door, and then he was reading the last page, and it was exactly * 10:12 a.m. *, and the sun beating on his office windows was a different sun from the one he'd always known.");
-      attribution = F("- Jonathan Franzen, Freedom");
+      quote = F("I'll take the coffee tray out, I suggest humbly. As I pick it up I glance again at my watch. * Ten twelve *. I wonder if they've started the meeting.");
+      attribution = F("- The Undomestic Goddess");
       return;
       } // end switch (option)
 
@@ -5687,7 +5643,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Heinrich Böll");
       return;
         case 1:
-      quote = F("Last night I took a 16 mm. film of the first three hours, screened it this morning at the lab. The first true-horror movie. I looked like a half-animated corpse. Woke * 10:25 *. To sleep 3:45.");
+      quote = F("Last night I took a 16 mm. film of the first three hours, screened it this morning at the lab. The first true-horror movie. I looked like a half-animated corpse. Woke * 10:25 *.");
       attribution = F("- The Voices of Time");
       return;
       } // end switch (option)
@@ -5713,12 +5669,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 10:27
       switch (option) {
         case 0:
-      quote = F("Mr. Harcourt woke up with mysterious suddenness at * twenty-seven minutes past 10 *, and, by a curious coincidence, it was at that very instant that the butler came in with two footmen laden with trays of whisky, brandy, syphons, glasses, and biscuits.");
-      attribution = F("- England, Their England");
+      quote = F("The substandard clock radio says * 10:27 a.m. * The noise is Katrina the Cleaner thumping the hoover against the skirting boards and the bedroom doors. Her hand is asleep.");
+      attribution = F("- Ali Smith, The Accidental");
       return;
         case 1:
-      quote = F("The substandard clock radio says * 10:27 a.m. * The noise is Katrina the Cleaner thumping the hoover against the skirting boards and the bedroom doors. Her hand is asleep. It is still hooked through the handstrap of the camera.");
-      attribution = F("- Ali Smith, The Accidental ");
+      quote = F("Mr. Harcourt woke up with mysterious suddenness at * twenty-seven minutes past 10 *, and, by a curious coincidence, it was at that very instant...");
+      attribution = F("- England, Their England");
       return;
       } // end switch (option)
 
@@ -5746,16 +5702,16 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("'What time?' Just his head was sticking out of the partially opened door. The money from blessing the ice-cream factory must have dulled his desire for work, I thought. 'Ten.' '* Ten-thirty *.' Without another word, he closed the door.");
-      attribution = F("- An Obedient Father");
-      return;
-        case 2:
       quote = F("according to the clock on the wall, it is barely * ten thirty *.");
       attribution = F("- The Hours");
       return;
-        case 3:
+        case 2:
       quote = F("At * ten-thirty * I'm cleaned up, shaved and dressed in my Easter best - a two-piece seersucker Palm Beach I've had since college.");
       attribution = F("- The Sportswriter");
+      return;
+        case 3:
+      quote = F("Just his head was sticking out of the partially opened door. The money from blessing the ice-cream factory must have dulled his desire for work, I thought. 'Ten.' '* Ten-thirty *.'");
+      attribution = F("- An Obedient Father");
       return;
       } // end switch (option)
 
@@ -5863,7 +5819,7 @@ void setQuoteForMinute(int minute) {
       // 2 options for 10:45
       switch (option) {
         case 0:
-      quote = F("If this is so, we have now to determine what Barker and Mrs. Douglas, presuming they are not the actual murderers, would have been doing from * quarter to eleven *, when the sound of the shot brought them down, until quarter past eleven.");
+      quote = F("If this is so, we have now to determine what Barker and Mrs. Douglas, presuming they are not the actual murderers, would have been doing from * quarter to eleven *, when...");
       attribution = F("- The Valley of Fear");
       return;
         case 1:
@@ -5910,7 +5866,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("As he walked back to the flight office, airmen were forming a line to await the arrival of the NAAFI van with morning tea and cakes. Lambert looked at his watch; it was * ten to eleven *.");
+      quote = F("...airmen were forming a line to await the arrival of the NAAFI van with morning tea and cakes. Lambert looked at his watch; it was * ten to eleven *.");
       attribution = F("- Len Deighton, Bomber");
       return;
       } // end switch (option)
@@ -5939,8 +5895,8 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Michael Frayn, Spies");
       return;
         case 1:
-      quote = F("... in the top left-hand corner of the screen, where the figures covering part of her forehead show the minutes and seconds, from * 10:53 * to 10:57, while the hundredths of a second flash by so fast that you cannot read and capture them.");
-      attribution = F("- W.G. Sebald, Austerlitz ");
+      quote = F("... left-hand corner of the screen, where the figures covering part of her forehead show the minutes and seconds, from * 10:53 * to 10:57, while the hundredths of a second flash by...");
+      attribution = F("- W.G. Sebald, Austerlitz");
       return;
       } // end switch (option)
 
@@ -5992,11 +5948,11 @@ void setQuoteForMinute(int minute) {
       // 15 options for 11:00
       switch (option) {
         case 0:
-      quote = F("'Who can - what can -” asked Mrs Dalloway (thinking it was outrageous to be interrupted at * eleven o'clock * on the morning of the day she was giving a party), hearing a step on the stairs.");
-      attribution = F("- Mrs Dalloway");
+      quote = F("As her husband had told him, she was still in bed although it was past * 11 o'clock *. Her normally mobile face was encased in clay, rigid and menacing as an Aztec mask.");
+      attribution = F("- Evelyn Waugh, Scoop");
       return;
         case 1:
-      quote = F("By * 11 o'clock * I have finished the first chapter of Mr Y. The winter sun is peeping meekly through the thin curtains and I decide to get up");
+      quote = F("By * 11 o'clock * I have finished the first chapter of Mr Y. The winter sun is peeping meekly through the thin curtains and I decide to get up.");
       attribution = F("- The End of Mr Y");
       return;
         case 2:
@@ -6004,52 +5960,52 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Weather in the Streets");
       return;
         case 3:
-      quote = F("As her husband had told him, she was still in bed although it was past * 11 o'clock *. Her normally mobile face was encased in clay, rigid and menacing as an Aztec mask.");
-      attribution = F("- Evelyn Waugh, Scoop ");
-      return;
-        case 4:
-      quote = F("... world became perfectly silent, and a flight of gulls crossed the sky, first one gull leading, then another, and in this extraordinary silence and peace, in this pallor, in this purity, bells struck * eleven  *times the sound fading up there among the gulls.");
-      attribution = F("- Mrs. Dalloway");
-      return;
-        case 5:
-      quote = F("At * eleven o'clock * in the morning, large flakes had appeared from a colourless sky and invaded the fields, gardens and lawns of Romerike like an armada from outer space.");
-      attribution = F("- Jo Nesbo, The Snowman ");
-      return;
-        case 6:
-      quote = F("At * eleven o'clock * the phone rang, and still the figure did not respond, any more than it had responded when the phone had rung at twenty-five to seven, and again for ten minutes continuously starting at five to seven...");
-      attribution = F("- Douglas Adams");
-      return;
-        case 7:
-      quote = F("Big Ben was striking as she stepped out into the street. It was * eleven o'clock * and the unused hour was fresh as if issued to children on a beach.");
-      attribution = F("- Mrs Dalloway");
-      return;
-        case 8:
-      quote = F("It was about * eleven o'clock * in the morning, mid October, with the sun not shining and a look of hard wet rain in the clearness of the foothills.");
-      attribution = F("- The big sleep");
-      return;
-        case 9:
-      quote = F("I am only trying to do a writing class, what is wrong with that? I keep telling myself that once in the car I will be fine, I can listen to Radio Four Woman’s Hour and that will take me till * eleven o'clock * when the class starts.");
-      attribution = F("- Patsy Hickman, The Saints ");
-      return;
-        case 10:
-      quote = F("It was about * eleven o'clock *; and the Enchantress was attired in a delicious deshabillé. With her little feet upon an ottoman near the fender, and her fine form reclining in a luxurious large arm-chair");
-      attribution = F("- The Mysteries of London");
-      return;
-        case 11:
-      quote = F("Quiet as I am, I become at * Eleven o'Clock in the Morning * on every day of the week save Sunday");
-      attribution = F("- Twice Around the Clock");
-      return;
-        case 12:
-      quote = F("Though perhaps' – but here the bracket clock whirred and then hectically struck * eleven *, its weights spooling downwards at the sudden expense of energy. She had to sit for a moment, when the echo had vanished, to repossess her thoughts.");
-      attribution = F("- The Stranger's Child");
-      return;
-        case 13:
       quote = F("We got to Waterloo * at eleven *, and asked where the eleven-five started from. Of course nobody knew.");
       attribution = F("- Three Men in a Boat");
       return;
+        case 4:
+      quote = F("At * eleven o'clock * in the morning, large flakes had appeared from a colourless sky and invaded the fields, gardens and lawns of Romerike...");
+      attribution = F("- Jo Nesbo, The Snowman");
+      return;
+        case 5:
+      quote = F("At * eleven o'clock * the phone rang, and still the figure did not respond, any more than it had responded when the phone had rung at twenty-five to seven...");
+      attribution = F("- Douglas Adams");
+      return;
+        case 6:
+      quote = F("Big Ben was striking as she stepped out into the street. It was * eleven o'clock * and the unused hour was fresh as if issued to children on a beach.");
+      attribution = F("- Mrs Dalloway");
+      return;
+        case 7:
+      quote = F("I keep telling myself that once in the car I will be fine, I can listen to Radio Four Woman’s Hour and that will take me till * eleven o'clock * when the class starts.");
+      attribution = F("- Patsy Hickman, The Saints");
+      return;
+        case 8:
+      quote = F("Quiet as I am, I become at * Eleven o'Clock in the Morning * on every day of the week save Sunday");
+      attribution = F("- Twice Around the Clock");
+      return;
+        case 9:
+      quote = F("It was about * eleven o'clock *; and the Enchantress was attired in a delicious deshabille. With her little feet upon an ottoman near the fender...");
+      attribution = F("- The Mysteries of London");
+      return;
+        case 10:
+      quote = F("It was about * eleven o'clock * in the morning, mid October, with the sun not shining and a look of hard wet rain in the clearness of the foothills.");
+      attribution = F("- The big sleep");
+      return;
+        case 11:
+      quote = F("We passed a few sad hours until * eleven o'clock *, when the trial was to commence. My father and the rest of the family being obliged to attend as witnesses...");
+      attribution = F("- Mary Shelley, Frankenstein");
+      return;
+        case 12:
+      quote = F("'Who can - what can -\" asked Mrs Dalloway (thinking it was outrageous to be interrupted at * eleven o'clock * on the morning of the day she was giving a party)...");
+      attribution = F("- Mrs Dalloway");
+      return;
+        case 13:
+      quote = F("Though perhaps' – but here the bracket clock whirred and then hectically struck * eleven *, its weights spooling downwards at the sudden expense of energy.");
+      attribution = F("- The Stranger's Child");
+      return;
         case 14:
-      quote = F("We passed a few sad hours until * eleven o'clock *, when the trial was to commence. My father and the rest of the family being obliged to attend as witnesses, I accompanied them to the court. During the whole of this wretched mockery of justice I suffered living torture.");
-      attribution = F("- Mary Shelley, Frankenstein ");
+      quote = F("... and in this extraordinary silence and peace, in this pallor, in this purity, bells struck * eleven * times the sound fading up there among the gulls.");
+      attribution = F("- Mrs. Dalloway");
       return;
       } // end switch (option)
 
@@ -6073,12 +6029,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 11:03
       switch (option) {
         case 0:
-      quote = F("What time are you meeting him? she called out. \"* Eleven oh-three *,\" he said. \"That made me think he's for real. Military and intelligence types set precise appointment times to eliminate confusion and ambiguity. Nothing ambiguous about eleven oh-three.\"");
-      attribution = F("- Little Green Men");
+      quote = F("On the fourth, at * 11.03am *, the editor of the Yidische Zaitung put in a call to him; Doctor Yarmolinsky did not answer. He was found in his room, his face already a little dark...");
+      attribution = F("- Death and the Compass");
       return;
         case 1:
-      quote = F("On the fourth, at * 11.03am *, the editor of the Yidische Zaitung put in a call to him; Doctor Yarmolinsky did not answer. He was found in his room, his face already a little dark, nearly nude beneath a large, anachronistic cape.");
-      attribution = F("- Death and the Compass");
+      quote = F("What time are you meeting him? she called out. \"* Eleven oh-three *,\" he said. \"That made me think he's for real. Military and intelligence types set precise appointment times...");
+      attribution = F("- Little Green Men");
       return;
       } // end switch (option)
 
@@ -6086,7 +6042,7 @@ void setQuoteForMinute(int minute) {
     case 664:
       // Only one option for 11:04:"
       quote = F("As her husband had told him, she was still in bed although it was * past 11 o'clock *. Her normally mobile face was encased in clay, rigid and menacing as an Aztec mask.");
-      attribution = F("- Evelyn Waugh, Scoop ");
+      attribution = F("- Evelyn Waugh, Scoop");
       return;
 
     // Codegen for 11:05 for 2 quotations:
@@ -6095,11 +6051,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 11:05
       switch (option) {
         case 0:
-      quote = F("Concentrated enough to feed the zoo and get the log up to date. Read through the operating manuals Whitby left for the last time, decided on a delivery rate of 40 rontgens/min., target distance of 530 cm. Everything is ready now. Woke * 11:05 *. To sleep 3:15.");
+      quote = F("...operating manuals Whitby left for the last time, decided on a delivery rate of 40 rontgens/min., target distance of 530 cm. Everything is ready now. Woke * 11:05 *. To sleep 3:15.");
       attribution = F("- The Voices of Time");
       return;
         case 1:
-      quote = F("Sansom arrived in a Town Car at * five past eleven *. Local plates, which meant he had ridden up most of the way on the train. Less convenient for him, but a smaller carbon footprint than driving all the way, or flying. Every detail mattered, in a campaign.");
+      quote = F("Sansom arrived in a Town Car at * five past eleven *. Local plates, which meant he had ridden up most of the way on the train.");
       attribution = F("- Lee Child, Gone Tomorrow");
       return;
       } // end switch (option)
@@ -6114,7 +6070,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Undomestic Goddess");
       return;
         case 1:
-      quote = F("It was entirely possible that they didn't know there was a BookWorld, and still they thought they were real. A fantastic notion, until you consider that up until * 11.06am * on 12 April 1948, everyone else had thought the same.");
+      quote = F("A fantastic notion, until you consider that up until * 11.06am * on 12 April 1948, everyone else had thought the same.");
       attribution = F("- Jasper Fforde");
       return;
       } // end switch (option)
@@ -6136,7 +6092,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 11:09 for 1 quotations:
     case 669:
       // Only one option for 11:09:"
-      quote = F("The first time I saw them it was * around eleven *, eleven-fifteen, a Saturday morning, I was about two thirds through my route when I turned onto their block and noticed a '56 Ford sedan pulled up in the yard with a big open U-Haul behind.");
+      quote = F("The first time I saw them it was * around eleven *, eleven-fifteen, a Saturday morning, I was about two thirds through my route when I turned onto their block and noticed...");
       attribution = F("- Where I'm Calling From");
       return;
 
@@ -6193,12 +6149,12 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Sir Arthur Conan Doyle");
       return;
         case 1:
-      quote = F("If this is so, we have now to determine what Barker and Mrs. Douglas, presuming they are not the actual murderers, would have been doing from quarter to eleven, when the sound of the shot brought them down, until * quarter past eleven *.");
-      attribution = F("- The Valley of Fear");
+      quote = F("The first time I saw them it was around eleven, * eleven-fifteen *, a Saturday morning, I was about two thirds through my route when I turned onto their block and noticed...");
+      attribution = F("- Where I'm Calling From");
       return;
         case 2:
-      quote = F("The first time I saw them it was around eleven, * eleven-fifteen *, a Saturday morning, I was about two thirds through my route when I turned onto their block and noticed a '56 Ford sedan pulled up in the yard with a big open U-Haul behind.");
-      attribution = F("- Where I'm Calling From");
+      quote = F("...we have now to determine what Barker and Mrs. Douglas, presuming they are not the actual murderers, would have been doing from quarter to eleven...");
+      attribution = F("- The Valley of Fear");
       return;
       } // end switch (option)
 
@@ -6213,7 +6169,7 @@ void setQuoteForMinute(int minute) {
     case 677:
       // Only one option for 11:17:"
       quote = F("It was * seventeen minutes past eleven *: she would have lots of time to have the matter out with Mr. Doran and then catch short twelve at Marlborough Street. She was sure she would win.");
-      attribution = F("- James Joyce, Dubliners ");
+      attribution = F("- James Joyce, Dubliners");
       return;
 
     // Codegen for 11:18 for 1 quotations:
@@ -6236,12 +6192,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 11:20
       switch (option) {
         case 0:
-      quote = F("OFFICER'S NOTES Disruption alert logged * 11h20 * from Stones' Pool Hall (Premises ID 33CBD-Long181). Officer and Aito /379 responded. On arrival found subject shouting threats and acting in aggressive manner.");
-      attribution = F("- Lauren Beukes, Moxyland ");
-      return;
-        case 1:
       quote = F("Sweeney pointed to the clock above the bar, held in the massive and indifferent jaws of a stuffed alligator head. The time was * 11.20 *.");
       attribution = F("- Neil Gaiman, American Gods");
+      return;
+        case 1:
+      quote = F("OFFICER'S NOTES Disruption alert logged * 11h20 * from Stones' Pool Hall (Premises ID 33CBD-Long181). Officer and Aito 379 responded. On arrival found subject shouting threats...");
+      attribution = F("- Lauren Beukes, Moxyland");
       return;
       } // end switch (option)
 
@@ -6279,12 +6235,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 11:25
       switch (option) {
         case 0:
-      quote = F("Christine's task was easy enough. Keeping her own watch concealed she asked Linda at * twenty-five past eleven * what time it was. Linda looked at her watch and replied that it was a quarter to twelve.");
-      attribution = F("- Evil under the Sun");
-      return;
-        case 1:
       quote = F("When, at about * 11.25am *, Katharina Blum was finally taken from her apartment for questioning, it was decided not to handcuff her at all.");
       attribution = F("- Heinrich Böll");
+      return;
+        case 1:
+      quote = F("Keeping her own watch concealed she asked Linda at * twenty-five past eleven * what time it was. Linda looked at her watch and replied that it was a quarter to twelve.");
+      attribution = F("- Evil under the Sun");
       return;
       } // end switch (option)
 
@@ -6326,16 +6282,16 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Singularity Sky");
       return;
         case 1:
-      quote = F("O, Frank - I made a mistake! - I thought that church with the spire was All Saints', and I was at the door at * half-past eleven * to a minute as you said...");
-      attribution = F("- Far from the madding crowd");
+      quote = F("This time it was Kumiko. The wall clock said * 11.30 *.");
+      attribution = F("- The Wind-up Bird Chronicle");
       return;
         case 2:
-      quote = F("Beddows had abjured Satan at a little after * half-past eleven *. By about eighteen minutes the Canon had beaten them to it again.\"");
+      quote = F("Beddows had abjured Satan at a little after * half-past eleven *. By about eighteen minutes the Canon had beaten them to it again.");
       attribution = F("- To the Devil a Daughter");
       return;
         case 3:
-      quote = F("This time it was Kumiko. The wall clock said * 11.30 *.");
-      attribution = F("- The Wind-up Bird Chronicle");
+      quote = F("O, Frank - I made a mistake! - I thought that church with the spire was All Saints', and I was at the door at * half-past eleven * to a minute as you said...");
+      attribution = F("- Far from the madding crowd");
       return;
       } // end switch (option)
 
@@ -6412,7 +6368,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Jules Verne");
       return;
         case 1:
-      quote = F("During the sessions at Ito he read the Lotus Sutra on mornings of play, and he now seemed to be bringing himself to order through silent meditation. Then, quickly, there came a rap of stone on board. It was * twenty minutes before noon *.");
+      quote = F("... he now seemed to be bringing himself to order through silent meditation. Then, quickly, there came a rap of stone on board. It was * twenty minutes before noon *.");
       attribution = F("- The Master of Go");
       return;
       } // end switch (option)
@@ -6451,28 +6407,28 @@ void setQuoteForMinute(int minute) {
       // 6 options for 11:45
       switch (option) {
         case 0:
-      quote = F("Christine's task was easy enough. Keeping her own watch concealed she asked Linda at twenty-five past eleven what time it was. Linda looked at her watch and replied that it was a * quarter to twelve *.");
-      attribution = F("- Evil under the Sun");
+      quote = F("I arrived at St. Gatien from Nice on Tuesday, the 14th of August. I was arrested at * 11.45am * on Thursday, the 16th by an agent de police and an inspector in plain clothes.");
+      attribution = F("- Epitaph for a Spy");
       return;
         case 1:
-      quote = F("...I waited till a * quarter to twelve *, and found then that I was in All Souls'. But I wasn't much frightened, for I thought it could be tomorrow as well.");
-      attribution = F("- Far from the madding crowd");
+      quote = F("She tucked the phone in the crook of her neck and thumbed hurriedly through her pink messages. .... Dr. Provetto, at * 11:45 A.M. *");
+      attribution = F("- Mistaken Identity");
       return;
         case 2:
-      quote = F("Said Septimus, very slowly, very drowsily, smiling mysteriously. As he sat smiling at the dead man in the grey suit the quarter struck, the * quarter to twelve *.\"");
-      attribution = F("- Mrs. Dalloway");
-      return;
-        case 3:
       quote = F("As he sat smiling, the quarter struck - the * quarter to twelve *.");
       attribution = F("- Mrs Dalloway");
       return;
+        case 3:
+      quote = F("Keeping her own watch concealed she asked Linda at twenty-five past eleven what time it was. Linda looked at her watch and replied that it was a * quarter to twelve *.");
+      attribution = F("- Evil under the Sun");
+      return;
         case 4:
-      quote = F("I arrived at St. Gatien from Nice on Tuesday, the 14th of August. I was arrested at * 11.45am * on Thursday, the 16th by an agent de police and an inspector in plain clothes and taken to the Commissariat.");
-      attribution = F("- Epitaph for a Spy");
+      quote = F("...I waited till a * quarter to twelve *, and found then that I was in All Souls'. But I wasn't much frightened, for I thought it could be tomorrow as well.");
+      attribution = F("- Far from the madding crowd");
       return;
         case 5:
-      quote = F("She tucked the phone in the crook of her neck and thumbed hurriedly through her pink messages. .... Dr. Provetto, at * 11:45 A.M. *");
-      attribution = F("- Mistaken Identity");
+      quote = F("Said Septimus, very slowly, very drowsily, smiling mysteriously. As he sat smiling at the dead man in the grey suit the quarter struck, the * quarter to twelve *.");
+      attribution = F("- Mrs. Dalloway");
       return;
       } // end switch (option)
 
@@ -6545,16 +6501,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 11:55
       switch (option) {
         case 0:
-      quote = F("He was tearing off on his bicycle to one of the jobs about * five minutes to twelve * to see if he could catch anyone leaving off for dinner before the proper time.");
-      attribution = F("- Robert Tressell");
-      return;
-        case 1:
       quote = F("It was * 11:55 a.m. * on April 30.");
       attribution = F("- All the President's Men");
       return;
-        case 2:
-      quote = F("What time did you arrive at the site? It was * 11:55 *. I remember since I happened to glance at my watch when we got there. We rode our bicycles to the bottom of the hill, as far as we could go, then climbed the rest of the way on foot.");
+        case 1:
+      quote = F("What time did you arrive at the site? It was * 11:55 *. I remember since I happened to glance at my watch when we got there. We rode our bicycles to the bottom of the hill...");
       attribution = F("- Kafka on the Shore");
+      return;
+        case 2:
+      quote = F("He was tearing off on his bicycle to one of the jobs about * five minutes to twelve * to see if he could catch anyone leaving off for dinner before the proper time.");
+      attribution = F("- Robert Tressell");
       return;
       } // end switch (option)
 
@@ -6608,67 +6564,63 @@ void setQuoteForMinute(int minute) {
       // 11 options for 12:00
       switch (option) {
         case 0:
+      quote = F("... the sound of a canal in the morning, the look of some roofs in the * noon * sun, and the fragrance of a certain evening flower.");
+      attribution = F("- Nick Joaquin");
+      return;
+        case 1:
       quote = F("'It will soon be an hour and a half,' said the girl who kept the records. The * noon *day siren blew. 'Exactly a minute,' she said, looking at the stopwatch of which she was so proud.");
       attribution = F("- The Master of Go");
       return;
-        case 1:
-      quote = F("'There's nobody here!' I insisted. 'It was yourself, Mrs. Linton: you knew it a while since.' 'Myself!' she gasped, 'and the clock is striking * twelve *!");
-      attribution = F("- Wuthering Heights");
-      return;
         case 2:
-      quote = F("A cheap little clock on the wall struck * twelve * hurriedly, and served to begin the conversation.");
-      attribution = F("- The Brothers Karamazov");
-      return;
-        case 3:
-      quote = F("... alive now and everywhere in the present, and the hovering faces brightened and blurred about him, became the sound of a canal in the morning, the look of some roofs in the * noon * sun, and the fragrance of a certain evening flower. Here he was, home at last.");
-      attribution = F("- Nick Joaquin");
-      return;
-        case 4:
-      quote = F("It was precisely * twelve o’clock *; twelve by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way with the clouds and wisps of smoke, and died up there among the seagulls.");
-      attribution = F("- Mrs Dalloway");
-      return;
-        case 5:
       quote = F("* Noon * found him momentarily alone, while the family prepared lunch in the kitchen. The cracks in the ceiling widened into gaps.");
       attribution = F("- Paul Harding, Tinkers");
       return;
-        case 6:
+        case 3:
       quote = F("On Friday * noon *, July the twentieth, 1714, the finest bridge in all Peru broke and precipitated five travellers into the gulf below.");
       attribution = F("- The Bridge of San Luis Rey");
       return;
-        case 7:
+        case 4:
       quote = F("Roaring * noon *. In a well-fanned Forty-second Street cellar I met Gatsby for lunch.");
       attribution = F("- The Great Gatsby");
       return;
-        case 8:
+        case 5:
       quote = F("The Birds begun at Four o'clock - Their period for Dawn - A Music numerous as space - But neighboring as * Noon *");
       attribution = F("- Emily Dickinson");
       return;
+        case 6:
+      quote = F("Then came the stroke of * noon *, and all these working and professional people dispersed like a trampled anthill into all the streets and directions.");
+      attribution = F("- Robert Walser, The Tanners");
+      return;
+        case 7:
+      quote = F("A cheap little clock on the wall struck * twelve * hurriedly, and served to begin the conversation.");
+      attribution = F("- The Brothers Karamazov");
+      return;
+        case 8:
+      quote = F("It was precisely * twelve o’clock *; twelve by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks...");
+      attribution = F("- Mrs Dalloway");
+      return;
         case 9:
-      quote = F("The Oxen Christmas Eve, and * twelve  *of the clock. \"Now they are all on their knees,\"");
-      attribution = F("- Thomas Hardy, The Oxen ");
+      quote = F("The Oxen Christmas Eve, and * twelve * of the clock. \"Now they are all on their knees,\"");
+      attribution = F("- Thomas Hardy, The Oxen");
       return;
         case 10:
-      quote = F("Then came the stroke of * noon *, and all these working and professional people dispersed like a trampled anthill into all the streets and directions. The white bridge was swarming with nimble dots.");
-      attribution = F("- Robert Walser, The Tanners ");
+      quote = F("'There's nobody here!' I insisted. 'It was yourself, Mrs. Linton: you knew it a while since.' 'Myself!' she gasped, 'and the clock is striking * twelve *!");
+      attribution = F("- Wuthering Heights");
       return;
       } // end switch (option)
 
-    // Codegen for 12:01 for 3 quotations:
+    // Codegen for 12:01 for 2 quotations:
     case 721:
-      option = random(0, 3);
-      // 3 options for 12:01
+      option = random(0, 2);
+      // 2 options for 12:01
       switch (option) {
         case 0:
-      quote = F("Most of them were too high off the ground to be reached by anything less than a fireman's ladder and still retained their hands. All registered the same time: * 12:01 *. Conrad looked at his wristwatch, noted that it was just 2:45.");
-      attribution = F("- J.G. Ballard, Chronopolis ");
-      return;
-        case 1:
-      quote = F("It was the twelfth of December, the twelfth month. A was twelve. The electric clock/radio by his bedside table said * 12:01 *.");
+      quote = F("It was the twelfth of December, the twelfth month. A was twelve. The electric clock/radio by his bedside table said * 12:01 *. A was waiting for it to read 12:12, he hoped...");
       attribution = F("- Jonathan Trigell, Boy A");
       return;
-        case 2:
-      quote = F("It was the twelfth of December, the twelfth month. A was twelve. The electric clock/radio by his bedside table said * 12:01 *. A was waiting for it to read 12:12, he hoped there would be some sense of cosmic rightness when it did.");
-      attribution = F("- Jonathan Trigell, Boy A ");
+        case 1:
+      quote = F("Most of them were too high off the ground to be reached by anything less than a fireman's ladder and still retained their hands. All registered the same time: * 12:01 *.");
+      attribution = F("- J.G. Ballard, Chronopolis");
       return;
       } // end switch (option)
 
@@ -6734,12 +6686,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 12:10
       switch (option) {
         case 0:
-      quote = F("Madame Dumas arrived at * noon, and ten minutes later * Trause handed her his ATM card and instructed her to go to the neighborhood Citibank near Sheridan Square and transfer forty thousand dollars from his savings account to his checking account.");
+      quote = F("Madame Dumas arrived at * noon, and ten minutes later * Trause handed her his ATM card and instructed her to go to the neighborhood Citibank near Sheridan Square...");
       attribution = F("- Paul Auster, Oracle Night");
       return;
         case 1:
-      quote = F("Exhausted, Travis barely managed to kiss Nora before falling into a deep sleep. He dreamed of things with yellow eyes, misshapen heads, and crocodile mouths full of sharks’ teeth. He woke five hours later, at * twelve-ten * Thursday afternoon.");
-      attribution = F("- Dean Koontz, Watchers ");
+      quote = F("He dreamed of things with yellow eyes, misshapen heads, and crocodile mouths full of sharks’ teeth. He woke five hours later, at * twelve-ten * Thursday afternoon.");
+      attribution = F("- Dean Koontz, Watchers");
       return;
       } // end switch (option)
 
@@ -6747,7 +6699,7 @@ void setQuoteForMinute(int minute) {
     case 731:
       // Only one option for 12:11:"
       quote = F("At * 12:11 * there was a knock on the door. It was Terry, A could tell. He hadn't known Terry long, but there was something calmer, more patient, that separated Terry's knocks from the rest of the staff. He knocked from genuine politeness, not formality.");
-      attribution = F("- Jonathan Trigell, Boy A ");
+      attribution = F("- Jonathan Trigell, Boy A");
       return;
 
     // Codegen for 12:12 for 1 quotations:
@@ -6777,12 +6729,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 12:15
       switch (option) {
         case 0:
-      quote = F("'Very well, dear,' she said. 'I caught the 10.20 to Eastnor, which isn't a bad train, if you ever want to go down there. I arrived at a * quarter past twelve *, and went straight up to the house--you've never seen the house, of course?");
-      attribution = F("- The Little Nugget");
+      quote = F("I'm in the mood when I open my window at night and look at the stars. Unfortunately it's * 12.15 * on a grey dull day, the aeroplanes are active");
+      attribution = F("- Virginia Woolf");
       return;
         case 1:
-      quote = F("What shall I think of that's liberating and refreshing? I'm in the mood when I open my window at night and look at the stars. Unfortunately it's * 12.15 * on a grey dull day, the aeroplanes are active");
-      attribution = F("- Virginia Woolf");
+      quote = F("I caught the 10.20 to Eastnor, which isn't a bad train, if you ever want to go down there. I arrived at a * quarter past twelve *, and went straight up to the house.");
+      attribution = F("- The Little Nugget");
       return;
       } // end switch (option)
 
@@ -6820,12 +6772,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 12:20
       switch (option) {
         case 0:
-      quote = F("By * twelve-twenty * in the afternoon, Vince was seated in a rattan chair with comfortable yellow and green cushions at a table by the windows in that same restaurant. He’d spotted Haines on entering.");
-      attribution = F("- Dean Koontz, Watchers ");
+      quote = F("It is * 12:20 * in New York a Friday three days after Bastille day, yes it is 1959 and I go get a shoeshine because I will get off the 4:19 in Easthampton...");
+      attribution = F("- The Day Lady Died");
       return;
         case 1:
-      quote = F("It is * 12:20 * in New York a Friday three days after Bastille day, yes it is 1959 and I go get a shoeshine because I will get off the 4:19 in Easthampton at 7:15 and then go straight to dinner and I don’t know the people who will feed me");
-      attribution = F("- The Day Lady Died");
+      quote = F("By * twelve-twenty in the afternoon *, Vince was seated in a rattan chair with comfortable yellow and green cushions at a table...");
+      attribution = F("- Dean Koontz, Watchers");
       return;
       } // end switch (option)
 
@@ -6898,20 +6850,20 @@ void setQuoteForMinute(int minute) {
       // 4 options for 12:30
       switch (option) {
         case 0:
-      quote = F("You'll never believe this but (in Spain) they are two hours late for ever meal - two hours Fanny - (can we lunch at * half-past twelve * today?)");
-      attribution = F("- Love in a Cold Climate");
-      return;
-        case 1:
       quote = F("* 12.30 p.m. * Lunch");
       attribution = F("- Mark Haddon");
+      return;
+        case 1:
+      quote = F("Tuesday, * 12.30pm *... Baker, California... Into the Ballantine Ale now, zombie drunk and nervous. I recognize this feeling: three or four days of booze, drugs, sun, no sleep...");
+      attribution = F("- Hunter S. Thompson");
       return;
         case 2:
       quote = F("At * half past twelve *, when Catherine’s anxious attention to the weather was over and she could no longer claim any merit from its amendment, the sky began voluntarily to clear.");
       attribution = F("- Northanger Abbey");
       return;
         case 3:
-      quote = F("Tuesday, * 12.30pm *... Baker, California... Into the Ballantine Ale now, zombie drunk and nervous. I recognize this feeling: three or four days of booze, drugs, sun, no sleep and burned out adrenalin reserves...");
-      attribution = F("- Hunter S. Thompson");
+      quote = F("You'll never believe this but (in Spain) they are two hours late for ever meal - two hours Fanny - (can we lunch at * half-past twelve * today?)");
+      attribution = F("- Love in a Cold Climate");
       return;
       } // end switch (option)
 
@@ -6928,7 +6880,7 @@ void setQuoteForMinute(int minute) {
       // 2 options for 12:32
       switch (option) {
         case 0:
-      quote = F("I'm turning it round in confusion, peering at the arrows on the plastic ... Why won't anything come out? OK, I'm going to squeeze it really, really hard- That nearly got my eye. * 12:32 * FUCK. What has it done to my HAIR?");
+      quote = F("Why won't anything come out? OK, I'm going to squeeze it really, really hard- That nearly got my eye. * 12:32 * FUCK. What has it done to my HAIR?");
       attribution = F("- The Undomestic Goddess");
       return;
         case 1:
@@ -7025,7 +6977,7 @@ void setQuoteForMinute(int minute) {
     case 765:
       // Only one option for 12:45:"
       quote = F("Look out for D. He has just now, * 12:45 *, come from Carfax hurriedly and hastened towards the South. He seems to be going the round and may want to see you: Mina");
-      attribution = F("- Bram Stoker, Dracula ");
+      attribution = F("- Bram Stoker, Dracula");
       return;
 
     // Codegen for 12:46 for 1 quotations:
@@ -7132,52 +7084,52 @@ void setQuoteForMinute(int minute) {
       // 12 options for 13:00
       switch (option) {
         case 0:
-      quote = F("Whoever is there, as the * clock strikes one *, will be shadowed by one of my men; of these, one, or perhaps two, or even three, will leave for France to-morrow.");
-      attribution = F("- The Scarlet Pimpernel");
-      return;
-        case 1:
-      quote = F("One o'clock pee em! Hello, Insert Name Here! Said by the Disorganizer");
-      attribution = F("- Terry Pratchett, Jingo ");
-      return;
-        case 2:
-      quote = F("“Czarina Catherine reported entering Galatz at * one o'clock * today.”");
-      attribution = F("- Bram Stoker, Dracula ");
-      return;
-        case 3:
       quote = F("* 1.00 p.m. * First afternoon class");
       attribution = F("- Mark Haddon");
       return;
-        case 4:
+        case 1:
       quote = F("After * 1 o'clock * checks, Gretta always goes out for a smoke.");
       attribution = F("- Girl, Interrupted");
       return;
-        case 5:
-      quote = F("Gottfried Rembke arrived at * 1pm * precisely. The moment he walked into the restaurant, handed his coat to the waiter, they knew it was him. The solid, stocky body, the gleaming pate, the open expression, the vigorous handshake: everything about him radiated ease and enthusiasm");
+        case 2:
+      quote = F("Gottfried Rembke arrived at * 1pm * precisely. The moment he walked into the restaurant, handed his coat to the waiter, they knew it was him.");
       attribution = F("- Platform");
       return;
-        case 6:
-      quote = F("I got to Schmidt's early, feeling horribly nervous. At * one o'clock * sharp: Toni. She was looking at the menu she knew well - Schmorbraten? Schnitzel? - when he loomed over her. I had seen him come in. She looked up, through him, at me. 'Traitor.' Jamie, hovering, looking very big, said her pet name, a German diminutive chosen by her. Toni addressed the air. 'If he does not leave at once I shall tell the waiter that I am not sharing my table with this gentleman.' Jamie heard, said her name again, turned to go, I rose to go with him. Toni - with that concentration of will - said, 'YOU are lunching with me.'");
-      attribution = F("- Sybille Bedford, Jigsaw ");
-      return;
-        case 7:
-      quote = F("It was a bright cold day in April, and the clocks were striking * thirteen *.");
-      attribution = F("- Nineteen Eighty-Four");
-      return;
-        case 8:
-      quote = F("It was * one o'clock *. I bought some apples and a small pork pie and drove across the bridge to the other side of the riverbank in the direction of Orford Ness.");
-      attribution = F("- Roma Tearne, The Swimmer ");
-      return;
-        case 9:
+        case 3:
       quote = F("Many moons passed by. Did Baboon ever fly? Did he ever get to the sun? I’ve just heard today That he’s well on his way! He’ll be passing through Acton at one.");
       attribution = F("- Silly Old Baboon");
       return;
-        case 10:
+        case 4:
+      quote = F("Whoever is there, as the * clock strikes one *, will be shadowed by one of my men; of these, one, or perhaps two, or even three, will leave for France to-morrow.");
+      attribution = F("- The Scarlet Pimpernel");
+      return;
+        case 5:
+      quote = F("Czarina Catherine reported entering Galatz at * one o'clock * today.");
+      attribution = F("- Bram Stoker, Dracula");
+      return;
+        case 6:
+      quote = F("I got to Schmidt's early, feeling horribly nervous. At * one o'clock * sharp: Toni. She was looking at the menu she knew well - Schmorbraten? Schnitzel? - when he loomed over her.");
+      attribution = F("- Sybille Bedford, Jigsaw");
+      return;
+        case 7:
+      quote = F("It was * one o'clock *. I bought some apples and a small pork pie and drove across the bridge to the other side of the riverbank in the direction of Orford Ness.");
+      attribution = F("- Roma Tearne, The Swimmer");
+      return;
+        case 8:
+      quote = F("One o'clock pee em! Hello, Insert Name Here! Said by the Disorganizer");
+      attribution = F("- Terry Pratchett, Jingo");
+      return;
+        case 9:
       quote = F("That day it was * one o'clock * before John and Roger rowed across and went up to Dixon's farm for the milk and a new supply of eggs and butter.");
       attribution = F("- Swallows and Amazons");
       return;
-        case 11:
-      quote = F("The day-room floor gets cleared of tables and at * one o'clock * the doctor comes out of his office down the hall, nods once at the nurse as he goes past where he's watching out of her window, sits in his chair just to the left of the door.");
+        case 10:
+      quote = F("The day-room floor gets cleared of tables and at * one o'clock * the doctor comes out of his office down the hall, nods once at the nurse as he goes past...");
       attribution = F("- Ken Kesey");
+      return;
+        case 11:
+      quote = F("It was a bright cold day in April, and the clocks were striking * thirteen *.");
+      attribution = F("- Nineteen Eighty-Four");
       return;
       } // end switch (option)
 
@@ -7215,12 +7167,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 13:05
       switch (option) {
         case 0:
-      quote = F("“Samantha?” I can hear Trish approaching. “Um ... hold on!” I hurry to the door, trying to block her view. “It's already * five past one *,” I can hear her saying a little sharply. “And I did ask, most clearly for ...” Her voice trails off into silence as she reaches the kitchen door, and her whole face sags in astonishment. I turn and follow her gaze as she surveys the endless plates of sandwiches. “My goodness!” At last Trish finds her voice. “This is ... this is very impressive!”");
-      attribution = F("- The Undomestic Goddess");
-      return;
-        case 1:
       quote = F("At * five past one * Alleyn opened the outer door, knocked his pipe out on the edge of the stone step,and remained staring out on to the drive.");
       attribution = F("- Ngaio Marsh, A Man Lay Dead");
+      return;
+        case 1:
+      quote = F("Um ... hold on! I hurry to the door, trying to block her view. \"It's already * five past one *,\" I can hear her saying a little sharply.");
+      attribution = F("- The Undomestic Goddess");
       return;
       } // end switch (option)
 
@@ -7255,7 +7207,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 13:10 for 1 quotations:
     case 790:
       // Only one option for 13:10:"
-      quote = F("It was * ten minutes past one *.” “You are sure of that?");
+      quote = F("It was * ten minutes past one *. \"You are sure of that?\"");
       attribution = F("- Death on the Nile");
       return;
 
@@ -7293,12 +7245,12 @@ void setQuoteForMinute(int minute) {
       // 3 options for 13:15
       switch (option) {
         case 0:
-      quote = F("Monsieur has well slept this morning, he said, smiling. \"What o’clock is it, Victor?\" asked Dorian Gray, sleepily. \"* One hour and a quarter *, monsieur.\"");
-      attribution = F("- The Picture of Dorian Gray");
-      return;
-        case 1:
       quote = F("Where are the ladies and Gentlemen? asked Aleyn. \"Sir, in the garding\", said Bunce. \"What time's lunch?\" \"One-fifteen\".");
       attribution = F("- Ngaio Marsh, A Man Lay Dead");
+      return;
+        case 1:
+      quote = F("Monsieur has well slept this morning, he said, smiling. \"What o’clock is it, Victor?\" asked Dorian Gray, sleepily. \"* One hour and a quarter *, monsieur.\"");
+      attribution = F("- The Picture of Dorian Gray");
       return;
         case 2:
       quote = F("The clock caught Miss LaFosse´s eye. ´Good heavens!´ she gasped. ´Look at the time. * Quarter-past one *. You must be starved.' She turned impetuously to Miss Pettigrew.");
@@ -7334,21 +7286,17 @@ void setQuoteForMinute(int minute) {
         attribution = "- Attribution Goes Here";
       return;
 
-    // Codegen for 13:20 for 3 quotations:
+    // Codegen for 13:20 for 2 quotations:
     case 800:
-      option = random(0, 3);
-      // 3 options for 13:20
+      option = random(0, 2);
+      // 2 options for 13:20
       switch (option) {
         case 0:
       quote = F("Kamarov, signal to Purga: 'Diving at—,' he checked his watch, '—* 1320 hours *. Exercise OCTOBER FROST begins as scheduled.");
       attribution = F("- The Hunt for Red October");
       return;
         case 1:
-      quote = F("The time is coming for action. Today this Vampire is limit to the powers of man, and till sunset he may not change. It will take him time to arrive here, see it is * twenty minutes past one *, and there are yet some times before he can hither come, be he never so quick.");
-      attribution = F("- Bram Stoker, Dracula ");
-      return;
-        case 2:
-      quote = F("Today this Vampire is limit to the powers of man, and till sunset he may not change. It will take him time to arrive here, see it is * twenty minutes past one *, and there are yet some times before he can hither come, be he never so quick.");
+      quote = F("It will take him time to arrive here, see it is * twenty minutes past one *, and there are yet some times before he can hither come, be he never so quick.");
       attribution = F("- Bram Stoker, Dracula");
       return;
       } // end switch (option)
@@ -7377,7 +7325,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("The clock marked * twenty-three minutes past one *. He was suddenly full of agitation, yet hopeful. She had come! Who could tell what she would say? She might offer the most natural explanation of her late arrival. Félicie entered the room, her hair in disorder, her eyes shining, her cheeks white, her bruised lips a vivid red; she was tired, indifferent, mute, happy and lovely, seeming to guard beneath her cloak, which she held wrapped about her with both hands, some remnant of warmth and voluptuous pleasure.");
+      quote = F("The clock marked * twenty-three minutes past one *. He was suddenly full of agitation, yet hopeful. She had come! Who could tell what she would say?");
       attribution = F("- A Mummer's Tale");
       return;
       } // end switch (option)
@@ -7438,8 +7386,8 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Brighton Rock");
       return;
         case 2:
-      quote = F("Shredding and slicing, dividing and subdividing, the clocks of Harley Street nibbled at the June day, counselled submission, upheld authority, and pointed out in chorus the supreme advantages of a sense of proportion, until the mound of time was so far diminished that a commercial clock, suspended above a shop in Oxford Street, announced, genially and fraternally, as if it were a pleasure to Messrs Rigby and Lowndes to give the information gratis, that it was * half-past one *.");
-      attribution = F("- Mrs dalloway");
+      quote = F("...announced, genially and fraternally, as if it were a pleasure to Messrs Rigby and Lowndes to give the information gratis, that it was * half-past one *.");
+      attribution = F("- Mrs. Dalloway");
       return;
       } // end switch (option)
 
@@ -7453,7 +7401,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 13:32 for 1 quotations:
     case 812:
       // Only one option for 13:32:"
-      quote = F("At the third stroke it will be * one ... thirty-two * ... and twenty seconds. 'Beep ... beep ... beep.' Ford Prefect suppressed a little giggle of evil satisfaction, realized that he had no reason to suppress it, and laughed out loud, a wicked laugh.");
+      quote = F("At the third stroke it will be * one ... thirty-two * ... and twenty seconds. 'Beep ... beep ... beep.' Ford Prefect suppressed a little giggle of evil satisfaction...");
       attribution = F("- Douglas Adams");
       return;
 
@@ -7470,11 +7418,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 13:34
       switch (option) {
         case 0:
-      quote = F("'At the third stroke it will be ...' He tiptoed out and returned to the control cabin. '... * one ... thirty-four * and twenty seconds.' The voice sounded as clear as if he was hearing it over a phone in London, which he wasn't, not by a long way.");
+      quote = F("He tiptoed out and returned to the control cabin. '... * one ... thirty-four * and twenty seconds.' The voice sounded as clear as if he was hearing it over a phone in London.");
       attribution = F("- Douglas Adams");
       return;
         case 1:
-      quote = F("He then went and had a last thorough examination of the emergency suspended animation chamber, which was where he particularly wanted it to be heard. 'At the third stroke it will be * one ... thirty ... four * ... precisely.'");
+      quote = F("...which was where he particularly wanted it to be heard. 'At the third stroke it will be * one ... thirty ... four * ... precisely.'");
       attribution = F("- Douglas Adams");
       return;
       } // end switch (option)
@@ -7555,12 +7503,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 13:45
       switch (option) {
         case 0:
-      quote = F("That period which is always so dangerous, when the wicket is bad, the ten minutes before lunch, proved fatal to two more of the enemy. The last man had just gone to the wickets, with the score at a hundred and thirty-one, when a * quarter to two * arrived, and with it the luncheon interval.");
-      attribution = F("- PG Wodehouse, Mike");
+      quote = F("The blow fell at precisely * one forty-five * (summer-time). Benson, my Aunt Agatha's butler, was offering me the fried potatoes at the moment, and such was my emotion...");
+      attribution = F("- Sir Roderick Comes to Lunch");
       return;
         case 1:
-      quote = F("The blow fell at precisely * one forty-five * (summer-time). Benson, my Aunt Agatha's butler, was offering me the fried potatoes at the moment, and such was my emotion that I lofted six of them on the sideboard with the spoon.");
-      attribution = F("- Sir Roderick Comes to Lunch");
+      quote = F("The last man had just gone to the wickets, with the score at a hundred and thirty-one, when a * quarter to two * arrived, and with it the luncheon interval.");
+      attribution = F("- PG Wodehouse, Mike");
       return;
       } // end switch (option)
 
@@ -7598,12 +7546,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 13:50
       switch (option) {
         case 0:
-      quote = F("Rahel's toy wristwatch had the time painted on it. Ten to two. One of her ambitions was to own a watch on which she could change the time whenever she wanted to (which according to her was what Time was meant for in the first place).");
-      attribution = F("- The God of Small Things");
-      return;
-        case 1:
       quote = F("The best train of the day was the * one-fifty * from Paddington which reached Polgarwith just after seven o'clock.");
       attribution = F("- The Cornish Mystery");
+      return;
+        case 1:
+      quote = F("Rahel's toy wristwatch had the time painted on it. Ten to two. One of her ambitions was to own a watch on which she could change the time whenever she wanted to...");
+      attribution = F("- The God of Small Things");
       return;
       } // end switch (option)
 
@@ -7676,36 +7624,36 @@ void setQuoteForMinute(int minute) {
       // 8 options for 14:00
       switch (option) {
         case 0:
-      quote = F("'She could have fired the jig, and he could have kept on picking up his packages at the old time, * two o'clock *. As it was, he had almost been arrested.'");
-      attribution = F("- A Confederacy of Dunces");
-      return;
-        case 1:
-      quote = F("The old people's home is at Marengo, fifty miles from Algiers. I'll catch the * two o'clock * bus and get there in the afternoon.");
-      attribution = F("- Albert Camus, The Outsider ");
-      return;
-        case 2:
       quote = F("At approximately * 1400 hours * a pair of enemy Skyhawks came flying in at deck level out of nowhere.");
       attribution = F("- Black Swan Green");
+      return;
+        case 1:
+      quote = F("When Salander woke up it was * 2.00 * on Saturday afternoon and a doctor was poking at her.");
+      attribution = F("- Stieg Larsson");
+      return;
+        case 2:
+      quote = F("* At two *, the snowplows were in action in Lillestrom.");
+      attribution = F("- Jo Nesbo, The Snowman");
       return;
         case 3:
       quote = F("At * two o'clock * Gatsby put on his bathing suit and left word with the butler that if any one phoned word was to be brought to him at the pool.");
       attribution = F("- The Great Gatsby");
       return;
         case 4:
-      quote = F("* At two *, the snowplows were in action in Lillestrom.");
-      attribution = F("- Jo Nesbo, The Snowman ");
+      quote = F("I caught the * two o'clock * bus. It was very hot. I ate at Céleste's restaurant as usual. They all felt very sorry for me and Céleste told me, 'There's no one like a mother'.");
+      attribution = F("- Albert Camus, The Outsider");
       return;
         case 5:
-      quote = F("I caught the * two o'clock * bus. It was very hot. I ate at Céleste's restaurant as usual. They all felt very sorry for me and Céleste told me, 'There's no one like a mother'.");
-      attribution = F("- Albert Camus, The Outsider ");
+      quote = F("'She could have fired the jig, and he could have kept on picking up his packages at the old time, * two o'clock *. As it was, he had almost been arrested.'");
+      attribution = F("- A Confederacy of Dunces");
       return;
         case 6:
-      quote = F("The Home for Aged Persons is at Marengo, some fifty miles from Algiers. With the * two o'clock * bus I should get there well before nightfall. Then I can spend the night there, keeping the usual vigil beside the body, and be back here by tomorrow evening.");
-      attribution = F("- Albert Camus, The Outsider ");
+      quote = F("The Home for Aged Persons is at Marengo, some fifty miles from Algiers. With the * two o'clock * bus I should get there well before nightfall. Then I can spend the night there.");
+      attribution = F("- Albert Camus, The Outsider");
       return;
         case 7:
-      quote = F("When Salander woke up it was * 2.00 * on Saturday afternoon and a doctor was poking at her.");
-      attribution = F("- Stieg Larsson");
+      quote = F("The old people's home is at Marengo, fifty miles from Algiers. I'll catch the * two o'clock * bus and get there in the afternoon.");
+      attribution = F("- Albert Camus, The Outsider");
       return;
       } // end switch (option)
 
@@ -7719,7 +7667,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- A Single Pebble");
       return;
         case 1:
-      quote = F("The next day was Saturday and, now that Moon was done, I decided to bring the job to its end. So I sent word that I shouldn't be able to umpire for the team at Steeple Sinderby and, after working through the morning, came down * about two o'clock *.");
+      quote = F("So I sent word that I shouldn't be able to umpire for the team at Steeple Sinderby and, after working through the morning, came down * about two o'clock *.");
       attribution = F("- A Month in the Country");
       return;
       } // end switch (option)
@@ -7821,15 +7769,15 @@ void setQuoteForMinute(int minute) {
       // 3 options for 14:15
       switch (option) {
         case 0:
-      quote = F("I had a date with her next day at * 2.15 P.M. * In my own rooms, but it was less successful, she seemed to have grown less juvenile, more of a woman overnight.");
-      attribution = F("- Vladimir Nabokov, Lolita ");
-      return;
-        case 1:
       quote = F("* 2.15 p.m. * Second afternoon class");
       attribution = F("- Mark Haddon");
       return;
+        case 1:
+      quote = F("I had a date with her next day at * 2.15pm * in my own rooms, but it was less successful, she seemed to have grown less juvenile, more of a woman overnight.");
+      attribution = F("- Vladimir Nabokov, Lolita");
+      return;
         case 2:
-      quote = F("I had a date with her next day at * 2.15pm * in my own rooms, but it was less successful, she seemed to have grown less juvenile, more of a woman overnight. A cold I caught from her led me to cancel a fourth assignment, nor was I sorry to break an emotional series that threatened to burden me with heart-rending fantasies and peter out in dull disappointment. So let her remain, sleek, slender Monique, as she was for a minute or two");
+      quote = F("I had a date with her next day at * 2.15 P.M. * In my own rooms, but it was less successful, she seemed to have grown less juvenile, more of a woman overnight.");
       attribution = F("- Vladimir Nabokov, Lolita");
       return;
       } // end switch (option)
@@ -7862,26 +7810,22 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Cold Six Thousand");
       return;
 
-    // Codegen for 14:20 for 4 quotations:
+    // Codegen for 14:20 for 3 quotations:
     case 860:
-      option = random(0, 4);
-      // 4 options for 14:20
+      option = random(0, 3);
+      // 3 options for 14:20
       switch (option) {
         case 0:
-      quote = F("The having originated a precaution which was already in course of execution, was a great relief to Miss Pross. The necessity of composing her appearance so that it should attract no special notice in the streets, was another relief. She looked at her watch, and it was * twenty minutes past two *. She had no time to lose, but must get ready at once.");
-      attribution = F("- A tale of two cities");
-      return;
-        case 1:
-      quote = F("Inevitable, implacable, the rainstorm wept itself out. She saw Tom look at his watch. 'What time is it?' 'Twenty past two. Want to go back to the hotel for a while?' 'All right.' They walked out of the gardens and down the rue de Vaugirard. This holiday, unlike those holidays long ago, would not end with her sleeping at home. Two nights from now I will be high over the Atlantic Ocean and on Saturday I will be walking around in the Other Place. I am going to America. I am starting my life over again. But as she said these words to herself, she found it hard to imagine what the new life would be like. And, again, she was afraid.");
-      attribution = F("- The Doctor's Wife");
-      return;
-        case 2:
       quote = F("She looked at her watch and it was * twenty minutes past two *. She had no time to lose but must get ready at once.");
       attribution = F("- A Tale of Two Cities");
       return;
-        case 3:
-      quote = F("The watch found at the Weir was challenged by the jeweller as one he had wound and set for Edwin Drood, at * twenty minutes past two * on that same afternoon; and it had run down, before being cast into the water; and it was the jeweller's positive opinion that it had never been re-wound.");
+        case 1:
+      quote = F("The watch found at the Weir was challenged by the jeweller as one he had wound and set for Edwin Drood, at * twenty minutes past two * on that same afternoon; and it had run down...");
       attribution = F("- The Mystery of Edwin Drood");
+      return;
+        case 2:
+      quote = F("Inevitable, implacable, the rainstorm wept itself out. She saw Tom look at his watch. 'What time is it?' 'Twenty past two. Want to go back to the hotel for a while?' 'All right.'");
+      attribution = F("- The Doctor's Wife");
       return;
       } // end switch (option)
 
@@ -7954,28 +7898,28 @@ void setQuoteForMinute(int minute) {
       // 6 options for 14:30
       switch (option) {
         case 0:
-      quote = F("Ach! It's * 2:30 *. Look how the time is flying. And it's still so much to do today.. It's dishes to clean, dinner to defrost, and my pills I haven't yet counted. I don't get it... Why didn't the Jews at least try to resist? It wasn't so easy like you think. Everybody was so starving and frightened, and tired they couldn't believe even what's in front of their eyes.");
-      attribution = F("- Art Spiegelman, Maus ");
+      quote = F("May 14th 1800. Wm and John set off into Yorkshire after dinner at * 1/2 past 2 o'clock *, cold pork in their pockets. I left them at the turning of the Low-wood bay under the trees.");
+      attribution = F("- Dorothy Wordsworth");
       return;
         case 1:
+      quote = F("Ach! It's * 2:30 *. Look how the time is flying. And it's still so much to do today.. It's dishes to clean, dinner to defrost, and my pills I haven't yet counted.");
+      attribution = F("- Art Spiegelman, Maus");
+      return;
+        case 2:
       quote = F("At * 2.30pm * on the 13th inst. began to shadow Sir Bobadil the Ostrich, whom I suspect of being the criminal. Shadowing successful. Didn't lose sight of him once.");
       attribution = F("- The Wind on the Moon");
       return;
-        case 2:
+        case 3:
       quote = F("At * half past two * the same afternoon the boy and the elderly man are standing in the room directly above the Inner Office and Waiting-Room.");
       attribution = F("- Corker's Freedom");
       return;
-        case 3:
-      quote = F("It was * half-past two * in the afternoon. The sun hung in the faded blue sky like a burning mirror, and away beyond the paddocks the blue mountains quivered and leapt like sea. Sid wouldn't be back until half-past ten. He had ridden over to the township with four of the boys to help hunt down the young fellow who'd murdered Mr. Williamson. Such a dreadful thing!");
-      attribution = F("- Millie");
-      return;
         case 4:
-      quote = F("It was * half-past two * o'clock when the knock came. I took my courage a deux mains and waited. In a few minutes Mary opened the door, and announced \"Dr. Van Helsing\"");
-      attribution = F("- Bram Stoker, Dracula ");
+      quote = F("It was * half-past two * in the afternoon. The sun hung in the faded blue sky like a burning mirror, and away beyond the paddocks the blue mountains quivered and leapt like sea.");
+      attribution = F("- Katherine Mansfield, Millie");
       return;
         case 5:
-      quote = F("May 14th 1800. Wm and John set off into Yorkshire after dinner at * 1/2 past 2 o'clock *, cold pork in their pockets. I left them at the turning of the Low-wood bay under the trees. My heart was so full that I could barely speak to W. when I gave him a farewell kiss.");
-      attribution = F("- Dorothy Wordsworth");
+      quote = F("It was * half-past two * o'clock when the knock came. I took my courage a deux mains and waited. In a few minutes Mary opened the door, and announced \"Dr. Van Helsing\"");
+      attribution = F("- Bram Stoker, Dracula");
       return;
       } // end switch (option)
 
@@ -8048,12 +7992,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 14:40
       switch (option) {
         case 0:
-      quote = F("If a girl looks swell when she meets you, who gives a damn when she's late? 'We better hurry', I said. 'The show starts at * two-forty *.'");
-      attribution = F("- The Catcher in the Rye");
+      quote = F("Members of Big Side marked Michael and Alan as the two most promising three-quarters for Middle Side next year, and when the bell sounded at * twenty minutes to three *...");
+      attribution = F("- Sinister Street");
       return;
         case 1:
-      quote = F("Members of Big Side marked Michael and Alan as the two most promising three-quarters for Middle Side next year, and when the bell sounded at * twenty minutes to three *, the members of Big Side would walk with Michael and Alan towards the changing room and encourage them by flattery and genial ragging.");
-      attribution = F("- Sinister Street");
+      quote = F("If a girl looks swell when she meets you, who gives a damn when she's late? 'We better hurry', I said. 'The show starts at * two-forty *.'");
+      attribution = F("- The Catcher in the Rye");
       return;
       } // end switch (option)
 
@@ -8095,12 +8039,12 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Diary of a Nobody");
       return;
         case 1:
-      quote = F("Pull the other one, and tell it to the marines, and don't make me laugh, and fuck off out of it, and all that, but the fact remained that it was still only * two forty-five *'.");
-      attribution = F("- The Pregnant Window");
+      quote = F("I look, and I see the clock has no hands. 'There are no hands,' I say. The old woman looks at the clock face and says to me, 'It's a * quarter to three *'.");
+      attribution = F("- The Old Woman");
       return;
         case 2:
-      quote = F("What time is it?' 'Look for yourself,' the old woman says to me. I look, and I see the clock has no hands. 'There are no hands,' I say. The old woman looks at the clock face and says to me, 'It's a * quarter to three *'.");
-      attribution = F("- The Old Woman");
+      quote = F("Pull the other one, and tell it to the marines, and don't make me laugh, and fuck off out of it, and all that, but the fact remained that it was still only * two forty-five *'.");
+      attribution = F("- The Pregnant Window");
       return;
       } // end switch (option)
 
@@ -8194,11 +8138,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 14:58
       switch (option) {
         case 0:
-      quote = F("From twenty minutes past nine until twenty-seven minutes past nine, from twenty-five minutes past eleven until twenty-eight minutes past eleven, from ten minutes to three until * two minutes to three * the heroes of the school met in a large familiarity whose Olympian laughter awed the fearful small boy that flitted uneasily past and chilled the slouching senior that rashly paused to examine the notices in assertion of an unearned right.");
+      quote = F("...from twenty-five minutes past eleven until twenty-eight minutes past eleven, from ten minutes to three until * two minutes to three * the heroes of the school met...");
       attribution = F("- Sinister Street");
       return;
         case 1:
-      quote = F("We betted that it would happen on the morrow; they took us up and gave us the odds of two to one; we betted that it would happen in the afternoon; we got odds of four to one on that; we betted that it would happen at * two minutes to three *; they willingly granted us the odds of ten to one on that.");
+      quote = F("We betted that it would happen in the afternoon; we got odds of four to one on that; we betted that it would happen at * two minutes to three *...");
       attribution = F("- Mark Twain");
       return;
       } // end switch (option)
@@ -8216,43 +8160,43 @@ void setQuoteForMinute(int minute) {
       // 17 options for 15:00
       switch (option) {
         case 0:
-      quote = F("'I gotta get uptown by * three o'clock *.'");
-      attribution = F("- A Confederacy of Dunces");
-      return;
-        case 1:
-      quote = F("Remember, they shouted, \"battle at * three o'clock * sharp. There's no time to lose.");
-      attribution = F("- Swallows and Amazons");
-      return;
-        case 2:
-      quote = F("And the sound of the bell flooded the room with its melancholy wave; which receded, and gathered itself together to fall once more, when she heard, distractedly, something fumbling, something scratching at the door. Who at this hour? Three, good Heavens! Three already!");
-      attribution = F("- Mrs Dalloway");
-      return;
-        case 3:
-      quote = F("At * three o'clock * on the afternoon of that same day, he called on her. She held out her two hands, smiling in her usual charming, friendly way; and for a few seconds they looked deep into each other's eyes.");
-      attribution = F("- Guy de Maupassant, Bel-Ami ");
-      return;
-        case 4:
-      quote = F("At * three o’clock * precisely I was at Baker Street, but Holmes had not yet returned.");
-      attribution = F("- A Scandal in Bohemia");
-      return;
-        case 5:
       quote = F("* At three * on the Wednesday afternoon, that bit of the painting was completed.");
       attribution = F("- The Moonstone");
       return;
-        case 6:
-      quote = F("Ditched by the woman I loved, I exalted my suffering into a sign of greatness (lying collapsed on a bed at three in the afternoon), and hence protected myself from experiencing my grief as the outcome of what was at best a mundane romantic break-up. Chloe's departure may have killed me, but it had at least left me in glorious possession of the moral high ground. I was a martyr.");
+        case 1:
+      quote = F("I exalted my suffering into a sign of greatness (lying collapsed on a bed at three in the afternoon), and hence protected myself from experiencing my grief...");
       attribution = F("- Essays in Love");
       return;
+        case 2:
+      quote = F("The scent and smoke and sweat of a casino are nauseating at three in the morning. Then the soul-erosion produced by high gambling - a compost of greed and fear...");
+      attribution = F("- Ian Fleming, Casino Royale");
+      return;
+        case 3:
+      quote = F("... when she heard, distractedly, something fumbling, something scratching at the door. Who at this hour? Three, good Heavens! Three already!");
+      attribution = F("- Mrs Dalloway");
+      return;
+        case 4:
+      quote = F("At * three o'clock * on the afternoon of that same day, he called on her. She held out her two hands, smiling in her usual charming, friendly way...");
+      attribution = F("- Guy de Maupassant, Bel-Ami");
+      return;
+        case 5:
+      quote = F("At * three o’clock * precisely I was at Baker Street, but Holmes had not yet returned.");
+      attribution = F("- A Scandal in Bohemia");
+      return;
+        case 6:
+      quote = F("He walks into the Hospital for Broken Things at * three o'clock * on Monday afternoon. That was the arrangement.");
+      attribution = F("- Paul Auster, Sunset Park");
+      return;
         case 7:
-      quote = F("He walks into the Hospital for Broken Things at * three o'clock * on Monday afternoon. That was the arrangement. If he came in after six o'clock, he was to head straight for the house in Sunset Park.");
-      attribution = F("- Paul Auster, Sunset Park ");
+      quote = F("'I gotta get uptown by * three o'clock *.'");
+      attribution = F("- A Confederacy of Dunces");
       return;
         case 8:
-      quote = F("I had a * three o’clock * class in psychology, the first meeting of the semester, and I suspected I was going to miss it. I was right. Victoria made a real ritual of the whole thing, clothes coming off with the masturbatory dalliance of a strip show, the covers rolling back periodically to show this patch of flesh or that, strategically revealed.");
+      quote = F("I had a * three o’clock * class in psychology, the first meeting of the semester, and I suspected I was going to miss it. I was right.");
       attribution = F("- T.C. Boyle, Achates McNeil");
       return;
         case 9:
-      quote = F("It was * three o'clock * in the beautiful breezy autumn day when Mr. Casaubon drove off to his Rectory at Lowick, only five miles from Tipton; and Dorothea, who had on her bonnet and shawl, hurried along the shrubbery and across the park that she might wander through the bordering wood with no other visible companionship than that of Monk, the Great St. Bernard dog, who always took care of the young ladies in their walks");
+      quote = F("It was * three o'clock * in the beautiful breezy autumn day when Mr. Casaubon drove off to his Rectory at Lowick, only five miles from Tipton.");
       attribution = F("- George Eliot, Middlemarch");
       return;
         case 10:
@@ -8261,27 +8205,27 @@ void setQuoteForMinute(int minute) {
       return;
         case 11:
       quote = F("M. Madeleine usually came at * three o'clock *, and as punctuality was kindness, he was punctual.");
-      attribution = F("- Les Miserables");
+      attribution = F("- Victor Hugo, Les Miserables");
       return;
         case 12:
-      quote = F("On Wednesday at * three o'clock *, Monsieur and Madame Bovary, seated in their dog-cart, set out for Vaubyessard, with a great trunk strapped on behind and a bonnet-box in front of the apron. Besides these Charles held a bandbox between his knees.");
+      quote = F("On Wednesday at * three o'clock *, Monsieur and Madame Bovary, seated in their dog-cart, set out for Vaubyessard...");
       attribution = F("- Madame Bovary");
       return;
         case 13:
-      quote = F("The scent and smoke and sweat of a casino are nauseating at three in the morning. Then the soul-erosion produced by high gambling - a compost of greed and fear and nervous tension - becomes unbearable and the senses awake and revolt from it.");
-      attribution = F("- Ian Fleming, Casino Royale ");
+      quote = F("Remember, they shouted, \"battle at * three o'clock * sharp. There's no time to lose.");
+      attribution = F("- Swallows and Amazons");
       return;
         case 14:
       quote = F("Three o'clock is always too late or too early for anything you want to do.");
-      attribution = F("- Jean-Paul Sartre, Nausea ");
+      attribution = F("- Jean-Paul Sartre, Nausea");
       return;
         case 15:
-      quote = F("Three o'clock is the perfect time in Cham, because anything is possible. You can still ski, but also respectably start drinking, the shops have just reopened, the sun is still up. Three o'clock is never too late or too early.");
-      attribution = F("- Jonathan Trigell, Cham ");
+      quote = F("Three o'clock is the perfect time in Cham, because anything is possible. You can still ski, but also respectably start drinking...");
+      attribution = F("- Jonathan Trigell, Cham");
       return;
         case 16:
-      quote = F("Today was the day Alex had appointed for her 'punishment'. I became increasingly nervous as the hour of * three o'clock * approached. I was alone in the house, and paced restlessly from room to room, glancing at the clocks in each of them.");
-      attribution = F("- David Lodge, Deaf Sentence ");
+      quote = F("Today was the day Alex had appointed for her 'punishment'. I became increasingly nervous as the hour of * three o'clock * approached. I was alone in the house...");
+      attribution = F("- David Lodge, Deaf Sentence");
       return;
       } // end switch (option)
 
@@ -8382,12 +8326,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 15:14
       switch (option) {
         case 0:
-      quote = F("A signal sounded. \"There's the * 3.14 * up,\" said Perks. \"You lie low till she's through, and then we'll go up along to my place, and see if there's any of them strawberries ripe what I told you about.\"");
+      quote = F("A signal sounded. \"There's the * 3.14 * up,\" said Perks. \"You lie low till she's through, and then we'll go up along to my place, and see if there's any of them strawberries...");
       attribution = F("- The Railway Children");
       return;
         case 1:
       quote = F("I shall be back at exactly THREE fourteen, for our hour of revery together, real sweet revery darling");
-      attribution = F("- Jack Kerouac, On the Road ");
+      attribution = F("- Jack Kerouac, On the Road");
       return;
       } // end switch (option)
 
@@ -8397,16 +8341,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 15:15
       switch (option) {
         case 0:
-      quote = F("Gordon was alone. He wandered back to the door. The strawberry-nosed man glanced over his shoulder, caught Gordon's eye, and moved off, foiled. He had been on the point of slipping Edgar Wallace into his pocket. The clock over the Prince of Wales struck a * quarter past three *.");
-      attribution = F("- Keep the Aspidistra Flying");
-      return;
-        case 1:
-      quote = F("I got out my old clothes. I put wool socks over my regular socks and took my time lacing up the boots. I made a couple of tuna sandwiches and some double-decker peanut-butter crackers. I filled my canteen and attached the hunting knife and the canteen to my belt. As I was going out the door, I decided to leave a note. So I wrote: \"Feeling better and going to Birch Creek. Back soon. R. * 3:15 *.\"");
+      quote = F("As I was going out the door, I decided to leave a note. So I wrote: \"Feeling better and going to Birch Creek. Back soon. R. * 3:15 *.\"");
       attribution = F("- Where I'm Calling From");
       return;
-        case 2:
-      quote = F("July 3: 5 3/4 hours. Little done today. Deepening lethargy, dragged myself over to the lab, nearly left the road twice. Concentrated enough to feed the zoo and get the log up to date. Read through the operating manuals Whitby left for the last time, decided on a delivery rate of 40 rontgens/min., target distance of 530 cm. Everything is ready now. Woke 11:05. To sleep * 3:15 *.");
+        case 1:
+      quote = F("...decided on a delivery rate of 40 rontgens/min., target distance of 530 cm. Everything is ready now. Woke 11:05. To sleep * 3:15 *.");
       attribution = F("- The Voices of Time");
+      return;
+        case 2:
+      quote = F("He had been on the point of slipping Edgar Wallace into his pocket. The clock over the Prince of Wales struck a * quarter past three *.");
+      attribution = F("- Keep the Aspidistra Flying");
       return;
       } // end switch (option)
 
@@ -8459,20 +8403,12 @@ void setQuoteForMinute(int minute) {
         attribution = "- Attribution Goes Here";
       return;
 
-    // Codegen for 15:23 for 2 quotations:
+    // Codegen for 15:23 for 1 quotations:
     case 923:
-      option = random(0, 2);
-      // 2 options for 15:23
-      switch (option) {
-        case 0:
-      quote = F("Three twenty-three! Is that all? Doesn't time - no, I've already said that, thought that. I sit and watch the seconds change on the watch. I used to have a limited edition Rolex worth the price of a new car but I lost it.");
+      // Only one option for 15:23:"
+      quote = F("Three twenty-three! Is that all? Doesn't time - no, I've already said that, thought that. I sit and watch the seconds change on the watch.");
       attribution = F("- Iain Banks, Espedair Street");
       return;
-        case 1:
-      quote = F("Three twenty-three! Is that all? Doesn't time - no, I've already said that, thought that. I sit and watch the seconds change on the watch. I used to have a limited edition Rolex worth the price of a new car but I lost it. It was present from...Christine? No, Inez. She got fed up with me always having to ask other people what the time was; embarrassed on my behalf.");
-      attribution = F("- Espedair Street");
-      return;
-      } // end switch (option)
 
     // Codegen for 15:24 for 0 quotations:
     case 924:
@@ -8484,7 +8420,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 15:25 for 1 quotations:
     case 925:
       // Only one option for 15:25:"
-      quote = F("Hmm, let's see. It's a three-line rail-fence, a, d, g...d-a-r-l...Got it: 'Darling Hepzibah'—Hepzibah? What kind of name is that?—'Will meet you Reading Sunday * 15.25 * train Didcot-Reading.' Reading you all right, you idiots.");
+      quote = F("Got it: 'Darling Hepzibah'—Hepzibah? What kind of name is that?—'Will meet you Reading Sunday * 15.25 * train Didcot-Reading.' Reading you all right, you idiots.");
       attribution = F("- Tom McCarthy, C");
       return;
 
@@ -8522,16 +8458,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 15:30
       switch (option) {
         case 0:
-      quote = F("Before I am rrroasting the alarm-clock, I am setting it to go off, not at nine o'clock the next morning, but at * half-past thrrree * the next afternoon.");
-      attribution = F("- Roald Dahl, The Witches ");
-      return;
-        case 1:
       quote = F("* 3.30 p.m. * Catch school bus home");
       attribution = F("- Mark Haddon");
       return;
-        case 2:
-      quote = F("I must have completed my packing with time to spare, for when the knock came on my door at * half past three * precisely, I had been sitting in my chair waiting for a good while. I opened the door to a young Chinese man, perhaps not even twenty, dressed in a gown, his hat in his hand.");
+        case 1:
+      quote = F("I must have completed my packing with time to spare, for when the knock came on my door at * half past three * precisely, I had been sitting in my chair waiting for a good while.");
       attribution = F("- When We Were Orphans");
+      return;
+        case 2:
+      quote = F("Before I am rrroasting the alarm-clock, I am setting it to go off, not at nine o'clock the next morning, but at * half-past thrrree * the next afternoon.");
+      attribution = F("- Roald Dahl, The Witches");
       return;
       } // end switch (option)
 
@@ -8569,12 +8505,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 15:35
       switch (option) {
         case 0:
-      quote = F("By * three-thirty-five * business really winds down. I have already sold my ladderback chairs and my Scottish cardigans. I'm not even sure now why I've sold all these things, except perhaps so as not to be left out of this giant insult to one's life that is a yard sale, this general project of getting rid quick.");
-      attribution = F("- Lorrie Moore, Anagrams");
+      quote = F("... it didn’t inevitably mean she’d still be in such a state when the schoolbus deposited Wolfie back home at * 3:35 P.M. *");
+      attribution = F("- Joyce Carol Oates");
       return;
         case 1:
-      quote = F("If Me flashed a little crazy after a restless night of smoking & prowling the darkened house with owl-eyes alert to suspicious noises outside & on the roof, it didn’t inevitably mean she’d still be in such a state when the schoolbus deposited Wolfie back home at * 3:35 P.M. *");
-      attribution = F("- Joyce Carol Oates");
+      quote = F("By * three-thirty-five * business really winds down. I have already sold my ladderback chairs and my Scottish cardigans. I'm not even sure now why I've sold all these...");
+      attribution = F("- Lorrie Moore, Anagrams");
       return;
       } // end switch (option)
 
@@ -8588,7 +8524,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 15:37 for 1 quotations:
     case 937:
       // Only one option for 15:37:"
-      quote = F("The explosion was now officially designated an \"Act of God\". But, thought Dirk, what god? And why? What god would be hanging around Terminal Two of Heathrow Airport trying to catch the * 15.37 * flight to Oslo?\"");
+      quote = F("The explosion was now officially designated an \"Act of God\". But, thought Dirk, what god? And why? What god would be hanging around Terminal Two of Heathrow Airport trying to catch the * 15.37 * flight to Oslo?");
       attribution = F("- Douglas Adams");
       return;
 
@@ -8609,8 +8545,8 @@ void setQuoteForMinute(int minute) {
     // Codegen for 15:40 for 1 quotations:
     case 940:
       // Only one option for 15:40:"
-      quote = F("At * three-forty *, Cliff called to report that Dilworth and his lady friend were sitting on the deck of the Amazing Grace, eating fruit and sipping wine, reminiscing a lot, laughing a little. “From what we can pick up with directional microphones and from what we can see, I’d say they don’t have any intention of going anywhere. Except maybe to bed. They sure do seem to be a randy old pair.” “Stay with them,” Lem said. “I don’t trust him.”");
-      attribution = F("- Dean Koontz, Watchers ");
+      quote = F("At * three-forty *, Cliff called to report that Dilworth and his lady friend were sitting on the deck of the Amazing Grace, eating fruit and sipping wine, reminiscing a lot, laughing a little. \"From what we can pick up with directional microphones and from what we can see, I’d say they don’t have any intention of going anywhere. Except maybe to bed. They sure do seem to be a randy old pair.\" \"Stay with them,\" Lem said. \"I don’t trust him.\"");
+      attribution = F("- Dean Koontz, Watchers");
       return;
 
     // Codegen for 15:41 for 1 quotations:
@@ -8647,12 +8583,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 15:45
       switch (option) {
         case 0:
-      quote = F("I opened my notebook, flipped almost to the end before I found a blank page, and wrote \"October 5th, * 3.45pm *, Dunning to Longview Cem, puts flowers on parents' (?) graves. Rain.\" I had what I wanted.");
-      attribution = F("- Stephen King, 11/22/63");
+      quote = F("... film of the first three hours, screened it this morning at the lab. The first true-horror movie. I looked like a half-animated corpse. Woke 10:25. To sleep * 3:45 *.");
+      attribution = F("- The Voices of Time");
       return;
         case 1:
-      quote = F("One meal is enough now, topped up with a glucose shot. Sleep is still 'black', completely unrefreshing. Last night I took a 16 mm. film of the first three hours, screened it this morning at the lab. The first true-horror movie. I looked like a half-animated corpse. Woke 10:25. To sleep * 3:45 *.");
-      attribution = F("- The Voices of Time");
+      quote = F("I opened my notebook, flipped almost to the end before I found a blank page, and wrote \"October 5th, * 3.45pm *, Dunning to Longview Cem, puts flowers on parents' (?) graves. Rain.");
+      attribution = F("- Stephen King, 11/22/63");
       return;
       } // end switch (option)
 
@@ -8687,7 +8623,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("But there were more bad things than good things. And one of them was that Mother didn't get back from work til 5.30 pm so I had to go to Father's house between * 3.49 pm * and 5.30 pm because I wasn't allowed to be on my own and Mother said I didn't have a choice so I pushed the bed against the door in case Father tried to come in.");
+      quote = F("And one of them was that Mother didn't get back from work til 5.30 pm so I had to go to Father's house between * 3.49 pm * and 5.30 pm because I wasn't allowed to be on my own...");
       attribution = F("- Mark Haddon");
       return;
       } // end switch (option)
@@ -8744,15 +8680,15 @@ void setQuoteForMinute(int minute) {
     // Codegen for 15:57 for 1 quotations:
     case 957:
       // Only one option for 15:57:"
-      quote = F("It was * close upon four  *before the door opened, and a drunken-looking groom, ill-kempt and side-whiskered with an inflamed face and disreputable clothes, walked into the room. Accustomed as I was to my friend's amazing powers in the use of disguises, I had to look three times before I was certain that it was indeed he.");
+      quote = F("It was * close upon four * before the door opened, and a drunken-looking groom, ill-kempt and side-whiskered with an inflamed face and disreputable clothes, walked into the room. Accustomed as I was to my friend's amazing powers in the use of disguises, I had to look three times before I was certain that it was indeed he.");
       attribution = F("- Arthur Conan Doyle");
       return;
 
     // Codegen for 15:58 for 1 quotations:
     case 958:
       // Only one option for 15:58:"
-      quote = F("* Towards four o'clock * the condition of the English army was serious. The Prince of Orange was in command of the centre, Hill of the right wing, Picton of the left wing. The Prince of Orange, desperate and intrepid, shouted to the Hollando-Belgians: \"Nassau! Brunswick! Never retreat!\"");
-      attribution = F("- Les Miserables");
+      quote = F("* Towards four o'clock * the condition of the English army was serious. The Prince of Orange was in command of the centre, Hill of the right wing, Picton of the left wing.");
+      attribution = F("- Victor Hugo, Les Miserables");
       return;
 
     // Codegen for 15:59 for 1 quotations:
@@ -8762,86 +8698,82 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Blue Afternoon");
       return;
 
-    // Codegen for 16:00 for 19 quotations:
+    // Codegen for 16:00 for 18 quotations:
     case 960:
-      option = random(0, 19);
-      // 19 options for 16:00
+      option = random(0, 18);
+      // 18 options for 16:00
       switch (option) {
         case 0:
-      quote = F("... when they all sat down to table at * four o'clock *, about three hours after his arrival, he had secured his lady, engaged her mother's consent, and was not only in the rapturous profession of the lover, but, in the reality of reason and truth, one of the happiest of men.");
-      attribution = F("- Sense and Sensibility");
+      quote = F("...face off as best she can with her hand and says she'll try to fit him in for a sponge bath before she goes off shift at * 1600h. *, at which Gately goes rigid with dread.");
+      attribution = F("- Infinite Jest");
       return;
         case 1:
-      quote = F("What else can I answer, When the lights come on at four At the end of another year");
-      attribution = F("- Philip Larkin");
-      return;
-        case 2:
       quote = F("* 4.00 p.m. * Take Toby out of his cage");
       attribution = F("- Mark Haddon");
       return;
+        case 2:
+      quote = F("It was exactly * 4 o'clock * as I made my way out of the building, and doors opened behind and before me, discharging salvos of vocal babble and the noise of chair-legs scraping...");
+      attribution = F("- David Lodge, Deaf Sentence");
+      return;
         case 3:
-      quote = F("As he turned off towards the fishing village of Cellardyke, the familiar pips announced the * four o'clock * news. The comforting voice of the newsreader began the bulletin. 'The convicted serial killer and former TV chat show host Jacko Vance has begun his appeal against conviction.");
-      attribution = F("- The Last Temptation");
+      quote = F("Charmian woke at four and sensed the emptiness of the house.");
+      attribution = F("- Muriel Spark, Memento Mori");
       return;
         case 4:
-      quote = F("Charmian woke at four and sensed the emptiness of the house.");
-      attribution = F("- Muriel Spark, Memento Mori ");
-      return;
-        case 5:
-      quote = F("Djerzinski arrived punctually at four o’clock. Desplechin had asked to see him. The case was intriguing. Certainly, it was common for a researcher to take a year’s sabbatical to work in Norway or Japan, or one of those sinister countries where middle aged people committed suicide en masse.");
+      quote = F("Djerzinski arrived punctually at four o'clock. Desplechin had asked to see him. The case was intriguing.");
       attribution = F("- Atomised");
       return;
+        case 5:
+      quote = F("What else can I answer, When the lights come on at four At the end of another year");
+      attribution = F("- Philip Larkin");
+      return;
         case 6:
-      quote = F("Four o'clock: wedge-shaped gardens lie Under a cavernous, a wind-picked sky.");
-      attribution = F("- Philip Larkin, Sad Steps ");
+      quote = F("Look to the west. A clack. For me. -What time is that? asked Blazes Boylan. * Four? O'clock *. Lenehan, small eyes ahunger on her humming, bust ahumming...");
+      attribution = F("- James Joyce, Ulysses");
       return;
         case 7:
-      quote = F("Four o'clock: when time in the city quivers on its axis - the day not yet spent, the wheels of evening just beginning to turn. The handover hour, was how Marius liked to think of it.");
-      attribution = F("- The Act of Love");
+      quote = F("As he turned off towards the fishing village of Cellardyke, the familiar pips announced the * four o'clock * news. The comforting voice of the newsreader began the bulletin.");
+      attribution = F("- The Last Temptation");
       return;
         case 8:
-      quote = F("* Four o’clock * has just struck. Good! Arrangement, revision, reading from four to five. Short snooze of restoration for myself, from five to six. Affair of agent and sealed letter from seven to eight. At eight, en route.");
+      quote = F("* Four o’clock * has just struck. Good! Arrangement, revision, reading from four to five. Short snooze of restoration for myself, from five to six.");
       attribution = F("- Walter Hartwright VII");
       return;
         case 9:
-      quote = F("Four o’clock has just struck. Good! Arrangement, revision, reading from four to five. Short snooze of restoration for myself, from five to six. Affair of agent and sealed letter from seven to eight. At eight, en route.");
-      attribution = F("- Wilkie Collins");
+      quote = F("Four o'clock: wedge-shaped gardens lie Under a cavernous, a wind-picked sky.");
+      attribution = F("- Philip Larkin, Sad Steps");
       return;
         case 10:
+      quote = F("Four o'clock: when time in the city quivers on its axis - the day not yet spent, the wheels of evening just beginning to turn.");
+      attribution = F("- The Act of Love");
+      return;
+        case 11:
       quote = F("He played for twenty-two days, just as he said he would. Every day at * four o'clock * in the afternoon, regardless of how much fighting was going on around him.");
       attribution = F("- The Cellist Of Sarajevo");
       return;
-        case 11:
-      quote = F("Her eyes caught the kryptonite glow of the digital clock on the front of the microwave. Honest and true, the numbers spelled out the time although she, for a moment, found its calculation to be somehow erroneous. It was * four o’clock * in the afternoon.");
+        case 12:
+      quote = F("Her eyes caught the kryptonite glow of the digital clock on the front of the microwave. Honest and true, the numbers spelled out the time...");
       attribution = F("- Blood Bride");
       return;
-        case 12:
-      quote = F("I doubt whether anyone was commissioned to send the news along the actual telegraph, and yet Mrs. Proudie knew it before * four o'clock *. But she did not know it quite accurately.'Bishop', she said, standing at her husband's study door. 'They have committed that man to gaol. There was no help for them unless they had forsworn themselves.'");
+        case 13:
+      quote = F("I doubt whether anyone was commissioned to send the news along the actual telegraph, and yet Mrs. Proudie knew it before * four o'clock *.");
       attribution = F("- Anthony Trollope");
       return;
-        case 13:
-      quote = F("I only found out much later that those flowers were called * Four O’clock *, and were not magic at all. The magic was in the seed, waiting to be watered and cared for, the real magic was life.");
-      attribution = F("- Ghost Generations");
-      return;
         case 14:
-      quote = F("In the end, it was the Sunday afternoons he couldn’t cope with, and that terrible listlessness that starts to set in about 2.55, when you know you’ve had all the baths you can usefully have that day, that however hard you stare at any given paragraph in the newspaper you will never actually read it, or use the revolutionary new pruning technique it describes, and that as you stare at the clock the hands will move relentlessly on to * four o’clock *, and you will enter the long dark teatime of the soul.");
+      quote = F("...and that as you stare at the clock the hands will move relentlessly on to * four o’clock *, and you will enter the long dark teatime of the soul.");
       attribution = F("- Douglas Adams");
       return;
         case 15:
-      quote = F("In the four thousand rooms of the Centre the four thousand electric clocks simultaneously * struck four *. Discarnate voices called from the trumpet mouths. \"Main Day-shift off duty. Second Day-shift take over. Main Day-shift off\"");
-      attribution = F("- Brave New World");
+      quote = F("I only found out much later that those flowers were called * Four O’clock *, and were not magic at all. The magic was in the seed, waiting to be watered and cared for...");
+      attribution = F("- Ghost Generations");
       return;
         case 16:
-      quote = F("It was my turn to cook the evening meal so I didn't linger in the common room. It was exactly * 4 o'clock * as I made my way out of the building, and doors opened behind and before me, discharging salvos of vocal babble and the noise of chair-legs scraping on wooden floors.");
-      attribution = F("- David Lodge, Deaf Sentence ");
+      quote = F("...when they all sat down to table at * four o'clock *, about three hours after his arrival, he had secured his lady, engaged her mother's consent...");
+      attribution = F("- Sense and Sensibility");
       return;
         case 17:
-      quote = F("Miss Douce took Boylan's coin, struck boldly the cashregister. It clanged. Clock clacked. Fair one of Egypt teased and sorted in the till and hummed and handed coins in change. Look to the west. A clack. For me. —What time is that? asked Blazes Boylan. Four? O'clock. Lenehan, small eyes ahunger on her humming, bust ahumming, tugged Blazes Boylan's elbowsleeve. —Let's hear the time, he said.");
-      attribution = F("- James Joyce, Ulysses ");
-      return;
-        case 18:
-      quote = F("The horrifying R.N. wipes Gately's face off as best she can with her hand and says she'll try to fit him in for a sponge bath before she goes off shift at * 1600h. *, at which Gately goes rigid with dread.");
-      attribution = F("- Infinite Jest");
+      quote = F("In the four thousand rooms of the Centre the four thousand electric clocks simultaneously * struck four *. Discarnate voices called from the trumpet mouths.");
+      attribution = F("- Brave New World");
       return;
       } // end switch (option)
 
@@ -8873,22 +8805,18 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Rebecca Miller");
       return;
 
-    // Codegen for 16:05 for 3 quotations:
+    // Codegen for 16:05 for 2 quotations:
     case 965:
-      option = random(0, 3);
-      // 3 options for 16:05
+      option = random(0, 2);
+      // 2 options for 16:05
       switch (option) {
         case 0:
-      quote = F("I had met Irwin on the steps of the Widener Library. I was standing at the top of the long flight, overlooking the red brick buildings that walled the snow-filled quad and preparing to catch the trolley back to the asylum, when a tall young man with a rather ugly and bespectacled, but intelligent face, came up and said, 'Could you please tell me the time?' I glanced at my watch. 'Five past four.'");
-      attribution = F("- Sylvia Plath, The Bell Jar ");
+      quote = F("It was exactly * five minutes past four * as Mr. Robert Audley stepped out upon the platform at Shoreditch, and waited placidly...");
+      attribution = F("- Lady Audley's Secret");
       return;
         case 1:
-      quote = F("I was standing at the top of the long flight, overlooking the red brick buildings that walled the snow-filled quad and preparing to catch the trolley back to the asylum, when a tall young man with a rather ugly and bespectacled, but intelligent face, came up and said, 'Could you please tell me the time?' I glanced at my watch. 'Five past four.'");
+      quote = F("...when a tall young man with a rather ugly and bespectacled, but intelligent face, came up and said, 'Could you please tell me the time?' I glanced at my watch. 'Five past four.'");
       attribution = F("- Sylvia Plath, The Bell Jar");
-      return;
-        case 2:
-      quote = F("IT was exactly * five minutes past four * as Mr. Robert Audley stepped out upon the platform at Shoreditch, and waited placidly … it took a long while to make matters agreeable to all claimants, and even the barrister's seraphic indifference to mundane affairs nearly gave way.");
-      attribution = F("- Lady Audley's Secret");
       return;
       } // end switch (option)
 
@@ -8930,8 +8858,8 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Infinite Jest");
       return;
         case 1:
-      quote = F("She looks at the clock. She's in the kitchen. A minute left. She waits. It's * ten-past four *. She picks up the eclair. She licks the cream out of it. She watches herself.It's fuckin' stupid. But. She bites into the chocolate, and the pastry that's been softened by the cream. Jack's not home yet. Leannes's at work. Paula will be leaving, herself, in a bit. She's a year off the drink. Exactly a year. She looks at the clock. A year and a minute.");
-      attribution = F("- Roddy Doyle, Paula Spencer ");
+      quote = F("She looks at the clock. She's in the kitchen. A minute left. She waits. It's * ten-past four *. She picks up the eclair. She licks the cream out of it.");
+      attribution = F("- Roddy Doyle, Paula Spencer");
       return;
       } // end switch (option)
 
@@ -8969,24 +8897,24 @@ void setQuoteForMinute(int minute) {
       // 5 options for 16:15
       switch (option) {
         case 0:
+      quote = F("Just the sort of irritating thing you don't expect to hang over your final exit. (Moral: don't try too hard to forget Eniwetok.) Woke 9:40. To sleep * 4:15 *.");
+      attribution = F("- The Voices of Time");
+      return;
+        case 1:
+      quote = F("The sun had begun to sink in the west, and the shadow of an oak branch had crept across my knees. My watch said it was * 4.15 *.");
+      attribution = F("- The Wind-up Bird Chronicle");
+      return;
+        case 2:
       quote = F("I remember the dread with which I at * quarter past four */ Let go with a bang behind me our house front door");
       attribution = F("- False Security");
       return;
-        case 1:
+        case 3:
       quote = F("It is only a * quarter past four *, (shewing his watch) and you are not now in Bath. No theatre, no rooms to prepare for. Half an hour at Northanger must be enough.");
       attribution = F("- Northanger Abbey");
       return;
-        case 2:
-      quote = F("Must have the phone disconnected. Some contractor keeps calling me up about payment for 50 bags of cement he claims I collected ten days ago. Says he helped me load them onto a truck himself. I did drive Whitby's pick-up into town but only to get some lead screening. What does he think I'd do with all that cement? Just the sort of irritating thing you don't expect to hang over your final exit. (Moral: don't try too hard to forget Eniwetok.) Woke 9:40. To sleep * 4:15 *.");
-      attribution = F("- The Voices of Time");
-      return;
-        case 3:
-      quote = F("On the tenth day of October at * quarter past four * in the afternoon with a dry hot wind blowing through the passed Maria found herself in Baker. She had never meant to go as far as Baker, had started out that day as every day, her only destination the freeway. But she had driven out of San Bernadino and up the Barstow and instead of turning back at Barstow (she had been out that far before but never that late in the day, it was past time to navigate back, she was out too far too late, the rhythm was lost ) she kept driving.");
-      attribution = F("- Play it as it Lays");
-      return;
         case 4:
-      quote = F("The sun had begun to sink in the west, and the shadow of an oak branch had crept across my knees. My watch said it was * 4.15 *.");
-      attribution = F("- The Wind-up Bird Chronicle");
+      quote = F("On the tenth day of October at * quarter past four * in the afternoon with a dry hot wind blowing through the passed Maria found herself in Baker.");
+      attribution = F("- Play it as it Lays");
       return;
       } // end switch (option)
 
@@ -9007,7 +8935,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- A Prefect's Uncle");
       return;
         case 1:
-      quote = F("In the next instant she was running toward her house, unmindful of the bags she had dropped, seeing only the police cars, knowing as she glanced down at her watch and saw that it was * seventeen minutes after four *, that for her time had stopped.");
+      quote = F("...seeing only the police cars, knowing as she glanced down at her watch and saw that it was * seventeen minutes after four *, that for her time had stopped.");
       attribution = F("- Joy Fielding, Life Penalty");
       return;
       } // end switch (option)
@@ -9036,7 +8964,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("At * twenty minutes past four * - or, to put it another, blunter way, an hour and twenty minutes past what seemed to be all reasonable hope - the unmarried bride, her head down, a parent stationed on either side of her, was helped out of the building...");
+      quote = F("At * twenty minutes past four * - or, to put it another, blunter way, an hour and twenty minutes past what seemed to be all reasonable hope...");
       attribution = F("- J. D. Salinger");
       return;
       } // end switch (option)
@@ -9079,7 +9007,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 16:26 for 1 quotations:
     case 986:
       // Only one option for 16:26:"
-      quote = F("It seemed all wrong to have thought of such a thing. She thought, \"I don't know him. Nor does he know me. Nor ever shall we.” She put her bare hand in the sun, where the wind would weather it. It was * twenty-six minutes after four *.");
+      quote = F("It seemed all wrong to have thought of such a thing. She thought, \"I don't know him. Nor does he know me. Nor ever shall we.\" She put her bare hand in the sun, where the wind would weather it. It was * twenty-six minutes after four *.");
       attribution = F("- Catch-As-Catch-Can");
       return;
 
@@ -9110,15 +9038,15 @@ void setQuoteForMinute(int minute) {
       // 3 options for 16:30
       switch (option) {
         case 0:
-      quote = F("At * four-thirty * that afternoon in late January when I stepped into the parlour with Boo, my dog, Hutch was in his favourite armchair, scowling at the television, which he had muted.");
+      quote = F("At * four-thirty * that afternoon in late January when I stepped into the parlour with Boo, my dog, Hutch was in his favourite armchair, scowling at the television.");
       attribution = F("- Dean Koontz, Odd Hours");
       return;
         case 1:
-      quote = F("I leave the office at * four thirty *, head up to Xclusive where I work out on free weights for an hour, then taxi across the park to Gio's in the Pierre Room for a facial, a manicure and, if time permits, a pedicure.");
+      quote = F("I leave the office at * four thirty *, head up to Xclusive where I work out on free weights for an hour, then taxi across the park to Gio's in the Pierre Room for a facial...");
       attribution = F("- American Psycho");
       return;
         case 2:
-      quote = F("She hung up on me at first, then asked me whether I made a point of behaving like a 'small-time suburban punk' with women I had slept with. But after apologies, insults, laughter, and tears, Romeo and Juliet were to be seen together later that afternoon, mushily holding hands in the dark at a * four-thirty * screening of L ove and Death at the National Film Theatre. Happy endings – for now at least.");
+      quote = F("But after apologies, insults, laughter, and tears, Romeo and Juliet were to be seen together later that afternoon, mushily holding hands in the dark at a * four-thirty * screening...");
       attribution = F("- Essays in Love");
       return;
       } // end switch (option)
@@ -9227,12 +9155,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 16:45
       switch (option) {
         case 0:
-      quote = F("At * four-forty-five * Miss Haddon went to tea with the Principal, who explained why she desired all the pupils to learn the same duet. It was part of her new co-ordinative system.");
-      attribution = F("- EM Forster, Co-ordination");
+      quote = F("The next day Bill took only ten minutes of the twenty-minute break allotted for the afternoon and left at * fifteen minutes before five *.");
+      attribution = F("- Where I'm Calling From");
       return;
         case 1:
-      quote = F("The next day Bill took only ten minutes of the twenty-minute break allotted for the afternoon and left at * fifteen minutes before five *. He parked the car in the lot just as Arlene hopped down from the bus.");
-      attribution = F("- Where I'm Calling From");
+      quote = F("At * four-forty-five * Miss Haddon went to tea with the Principal, who explained why she desired all the pupils to learn the same duet. It was part of her new co-ordinative system.");
+      attribution = F("- EM Forster, Co-ordination");
       return;
       } // end switch (option)
 
@@ -9278,7 +9206,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The 13 Clocks");
       return;
         case 2:
-      quote = F("When the clock said * ten minutes to five *, she began to listen, and a few moments later, punctually as always, she heard the tires on the gravel outside, and the car door slamming, the footsteps passing the window, the key turning in the lock. She laid aside her sewing, stood up, and went forward to kiss him as he came in.");
+      quote = F("When the clock said * ten minutes to five *, she began to listen, and a few moments later, punctually as always, she heard the tires on the gravel outside...");
       attribution = F("- Lamb to the Slaughter");
       return;
       } // end switch (option)
@@ -9310,12 +9238,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 16:54
       switch (option) {
         case 0:
-      quote = F("At * six minutes before five * o'clock, Daisy Robinson, about to reach her own apartment door, paused to look and to listen. Something was out of order. Tess Rogan's door was standing wide open and, from within, Daisy could hear something being broken.");
-      attribution = F("- Charlotte Armstrong");
-      return;
-        case 1:
       quote = F("It was * 1654 * local time when the Red October broke the surface of the Atlantic Ocean for the first time, forty-seven miles southeast of Norfolk. There was no other ship in sight.");
       attribution = F("- The Hunt for Red October");
+      return;
+        case 1:
+      quote = F("At * six minutes before five o'clock *, Daisy Robinson, about to reach her own apartment door, paused to look and to listen. Something was out of order.");
+      attribution = F("- Charlotte Armstrong");
       return;
       } // end switch (option)
 
@@ -9343,7 +9271,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- A Single Pebble");
       return;
         case 1:
-      quote = F("Then at * three minutes to five * — Pendel had somehow never doubted that Osnard would be punctual — along comes a brown Ford hatchback with an Avis sticker on the back window and pulls into the space reserved for customers.");
+      quote = F("Then at * three minutes to five * - Pendel had somehow never doubted that Osnard would be punctual - along comes a brown Ford hatchback with an Avis sticker on the back window...");
       attribution = F("- The Tailor of Panama");
       return;
       } // end switch (option)
@@ -9372,44 +9300,44 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("About * five *, the Abbot, a young Manchester terrier, began chirruping. He stood on the body of his owner, Flora, with his forepaws on the sill of the balcony, stared through the green rattan blinds, and trembled. He could see the farmer in the field, and Edward asleep on the next balcony.");
+      quote = F("About * five *, the Abbot, a young Manchester terrier, began chirruping. He stood on the body of his owner, Flora, with his forepaws on the sill of the balcony, stared...");
       attribution = F("- The People With the Dogs");
       return;
         case 2:
-      quote = F("At * five o'clock * that afternoon, while Barbara waited in a taxi, Harold went into the convent in Auteuil and explained to the nun who sat in the concierge's glass cage that Mme. Straus-Muguet was expecting them. He assumed that men were not permitted any further, and that they would all three go out for tea.");
-      attribution = F("- The Chateau");
+      quote = F("At * five o’clock * adieux were waved, and the ponderous liner edged away from the long pier, slowly turned its nose seaward, discarded its tug, and headed for the widening water...");
+      attribution = F("- The Horror at Red Hook");
       return;
         case 3:
-      quote = F("At * five o’clock * adieux were waved, and the ponderous liner edged away from the long pier, slowly turned its nose seaward, discarded its tug, and headed for the widening water spaces that led to old world wonders. By night the outer harbour was cleared, and late passengers watched the stars twinkling above an unpolluted ocean.");
-      attribution = F("- The Horror at Red Hook");
+      quote = F("At * five o'clock * that afternoon, while Barbara waited in a taxi, Harold went into the convent in Auteuil and explained ...");
+      attribution = F("- The Chateau");
       return;
         case 4:
       quote = F("But I took the mixture at * five o'clock * in the afternoon. I run my tongue over my dry mouth. I feel dizzy. I know this dizziness: it's because I haven't had a cigarette for hours.");
       attribution = F("- The End of Mr Y");
       return;
         case 5:
-      quote = F("ERE THE HALF-HOUR ended, * five o'clock * struck; school was dismissed, and all were gone into the refectory to tea. I now ventured to descend; it was deep dusk; I retired into a corner and sat down on the floor.");
-      attribution = F("- Jane Eyre");
+      quote = F("ERE THE HALF-HOUR ended, * five o'clock * struck; school was dismissed, and all were gone into the refectory to tea. I now ventured to descend; it was deep dusk.");
+      attribution = F("- Charlotte Bronte, Jane Eyre");
       return;
         case 6:
       quote = F("From * five o'clock * to eight is on certain occasions a little eternity; but on such an occasion as this the interval could be only an eternity of pleasure.");
       attribution = F("- The Portrait of a Lady");
       return;
         case 7:
-      quote = F("He found it harder to concentrate on drills that afternoon and when he left the building at * five o'clock *, he was still so worried that he walked straight into someone just outside the door.");
+      quote = F("He found it harder to concentrate on drills that afternoon and when he left the building at * five o'clock *, he was still so worried that he walked straight into someone...");
       attribution = F("- JK Rowling");
       return;
         case 8:
-      quote = F("She had not seen her yet, as Osmond had given her to understand that it was too soon to begin. She drove at * five o'clock * to a high floor in a narrow street in the quarter of the Piazza Navona, and was admitted by the portress of the convent, a genial and obsequious person. Isabel had been at this institution before; she had come with Pansy to see the sisters.");
+      quote = F("She drove at * five o'clock * to a high floor in a narrow street in the quarter of the Piazza Navona, and was admitted by the portress of the convent, a genial and obsequious person.");
       attribution = F("- The Portrait of a Lady");
       return;
         case 9:
       quote = F("Until * five o'clock * there was no sign of life from the room. Then he rang for his servant and ordered a cold bath.");
-      attribution = F("- Sandor Marai, Embers ");
+      attribution = F("- Sandor Marai, Embers");
       return;
         case 10:
-      quote = F("We motored, I remember, leaving London in the morning in a heavy shower of rain, coming to Manderley about * five o'clock *, in time for tea. I can see myself now, unsuitably dressed as usual, although a bride of seven weeks, in a tan-coloured stockinette frock, a small fur known as a stone marten round my neck, and over all a shapeless mackintosh, far too big for me and dragging to my ankles.");
-      attribution = F("- Daphne du Maurier, Rebecca ");
+      quote = F("We motored, I remember, leaving London in the morning in a heavy shower of rain, coming to Manderley about * five o'clock *, in time for tea.");
+      attribution = F("- Daphne du Maurier, Rebecca");
       return;
       } // end switch (option)
 
@@ -9482,12 +9410,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 17:10
       switch (option) {
         case 0:
-      quote = F("Five ten P.M. A ground-to-ground cruise missile, launched from a tractor installed in the backyard of Leonard Sudavico's former home by Rashan and a crew of technicians from Afghanistan, exploded onto the Paul Clay estate in the exact spot where the life-size mermaid had once swum in the waterfall.");
+      quote = F("Five ten P.M. A ground-to-ground cruise missile, launched from a tractor installed in the backyard of Leonard Sudavico's former home by Rashan ...");
       attribution = F("- Tip 'T.I.' Harris");
       return;
         case 1:
-      quote = F("Hours later, at * ten minutes past five *, Saturday afternoon, Nora and Travis and Jim Keene crowded in front of the mattress on which Einstein lay. The dog had just taken a few more ounces of water. He looked at them with interest, too. Travis tried to decide if those large brown eyes still had the strange depth, uncanny alertness, and undoglike awareness that he had seen in them so many times before.");
-      attribution = F("- Dean Koontz, Watchers ");
+      quote = F("Hours later, at * ten minutes past five *, Saturday afternoon, Nora and Travis and Jim Keene crowded in front of the mattress on which Einstein lay.");
+      attribution = F("- Dean Koontz, Watchers");
       return;
       } // end switch (option)
 
@@ -9595,7 +9523,7 @@ void setQuoteForMinute(int minute) {
       // 2 options for 17:25
       switch (option) {
         case 0:
-      quote = F("It was * five-twenty-five * when I pulled up in front of the library. Still early for our date, so I got out of the car and took a stroll down the misty streets. In a coffee shop, watched a golf match on television, then I went to an entertainment center and played a video game. The object of the game was to wipe out tanks invading from across the river. I was winning at first, but as the game went on, the enemy tanks bred like lemmings, crushing me by sheer number and destroying my base. An on-screen nuclear blast took care of everything, followed by the message game over insert coin.");
+      quote = F("It was * five-twenty-five * when I pulled up in front of the library. Still early for our date, so I got out of the car and took a stroll down the misty streets.");
       attribution = F("- Haruki Murakami");
       return;
         case 1:
@@ -9638,8 +9566,8 @@ void setQuoteForMinute(int minute) {
       // 2 options for 17:30
       switch (option) {
         case 0:
-      quote = F("He went up to his coachman, who was dozing on the box in the shadow, already lengthening, of a thick lime-tree; he admired the shifting clouds of midges circling over the hot horses, and, waking the coachman, he jumped into the carriage, and told him to drive to Bryansky’s. It was only after driving nearly five miles that he had sufficiently recovered himself to look at his watch, and realise that it was * half-past five *, and he was late.");
-      attribution = F("- Leo Tolstoy, Anna Karenina ");
+      quote = F("It was only after driving nearly five miles that he had sufficiently recovered himself to look at his watch, and realise that it was * half-past five *, and he was late.");
+      attribution = F("- Leo Tolstoy, Anna Karenina");
       return;
         case 1:
       quote = F("It was * half-past five * before Holmes returned. He was bright, eager, and in excellent spirits, a mood which in his case alternated with fits of the blackest depression.");
@@ -9720,7 +9648,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Zhu Wen, I Love Dollars");
       return;
         case 1:
-      quote = F("It's * five-forty * now. The party's at six. By about ten past, the eleventh floor should be clearing. Arnold is a very popular partner; no one's going to miss his farewell speech if they can help it. Plus, at Carter Spink parties, the speeches always happen early on, so people can get back to work if they need to. And while everyone's listening I'll slip down to Arnold's office. It should work. It has to work. As I stare at my own bizarre reflection, I feel a grim resolve hardening inside me. He's not going to get away with everyone thinking he's a cheery, harmless old teddy bear. He's not going to get away with it.");
+      quote = F("It's * five-forty * now. The party's at six. By about ten past, the eleventh floor should be clearing. Arnold is a very popular partner...");
       attribution = F("- The Undomestic Goddess");
       return;
       } // end switch (option)
@@ -9791,7 +9719,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 17:50 for 1 quotations:
     case 1070:
       // Only one option for 17:50:"
-      quote = F("\"What time is it Jack?\" \"Ten to six\"\"Ten more minutes then.\" I shuffle the cards. \"Time for a quick game of rummy?\"");
+      quote = F("What time is it Jack? \"Ten to six\" \"Ten more minutes then.\" I shuffle the cards. \"Time for a quick game of rummy?\"");
       attribution = F("- Noughts and Crosses");
       return;
 
@@ -9812,14 +9740,14 @@ void setQuoteForMinute(int minute) {
     // Codegen for 17:53 for 1 quotations:
     case 1073:
       // Only one option for 17:53:"
-      quote = F("\"That boy will be spoiled, as sure as I go on springs; he's made such a lot of. Have you been regulated?\" \"I should think I have!\" exclaimed I, in indignant recollection of my education. \"All right; keep your temper. What time are you?\" \"Seven minutes to six.\"");
+      quote = F("That boy will be spoiled, as sure as I go on springs; he's made such a lot of. Have you been regulated? \"I should think I have!\" exclaimed I, in indignant recollection of my education. \"All right; keep your temper. What time are you?\" \"Seven minutes to six.\"");
       attribution = F("- Talbot Baines Reed");
       return;
 
     // Codegen for 17:54 for 1 quotations:
     case 1074:
       // Only one option for 17:54:"
-      quote = F("It was * 5:54 pm * when Father came back into the living room. He said, 'What is this?\" but he said it very quietly and I didn't realise that he was angry because he wasn't shouting.");
+      quote = F("It was * 5:54 pm * when Father came back into the living room. He said, \"What is this?\" but he said it very quietly and I didn't realise that he was angry because he wasn't shouting.");
       attribution = F("- Mark Haddon");
       return;
 
@@ -9841,7 +9769,7 @@ void setQuoteForMinute(int minute) {
     case 1077:
       // Only one option for 17:57:"
       quote = F("When he arrived it was * nearly six o'clock *, and the sun was setting full and warm, and the red light streamed in through the window and gave more colour to the pale cheeks.");
-      attribution = F("- Bram Stoker, Dracula ");
+      attribution = F("- Bram Stoker, Dracula");
       return;
 
     // Codegen for 17:58 for 1 quotations:
@@ -9868,11 +9796,11 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("Although it was only * six o'clock *, the night was already dark. The fog, made thicker by its proximity to the Seine, blurred every detail with its ragged veils, punctured at various distances by the reddish glow of lanterns and bars of light escaping from illuminated windows.");
+      quote = F("Although it was only * six o'clock *, the night was already dark. The fog, made thicker by its proximity to the Seine, blurred every detail with its ragged veils...");
       attribution = F("- Le Club des Hachichins");
       return;
         case 2:
-      quote = F("Did you go down to the farm while I was away?' 'No,' I said 'but I saw Ted.' 'Did he have a message for me ?' she asked. 'He said today was no good as he was going to Norwich. But Friday at * six o'clock *, same as usual.' 'Are you sure he said * six o'clock *?' she asked, puzzled. 'Quite sure.'");
+      quote = F("'He said today was no good as he was going to Norwich. But Friday at * six o'clock *, same as usual.' 'Are you sure he said * six o'clock *?' she asked, puzzled. 'Quite sure.'");
       attribution = F("- The Go-Between");
       return;
         case 3:
@@ -9893,7 +9821,7 @@ void setQuoteForMinute(int minute) {
       return;
         case 7:
       quote = F("The winter evening settles down With smell of steaks in passageways. Six o'clock.");
-      attribution = F("- T S Eliot, Preludes ");
+      attribution = F("- T S Eliot, Preludes");
       return;
         case 8:
       quote = F("When the bells of Calvary Church struck * six *, she saw Mr and Mrs Biggs hurrying down the front stoop, rushing off to the shops before they closed.");
@@ -9925,7 +9853,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 18:04 for 1 quotations:
     case 1084:
       // Only one option for 18:04:"
-      quote = F("\"We will make record of it, my Rosannah; every year, as this dear hour chimes from the clock, we will celebrate it with thanksgivings, all the years of our life.\" \"We will, we will, Alonzo!\" \"* Four minutes after six *, in the evening, my Rosannah...”");
+      quote = F("We will make record of it, my Rosannah; every year, as this dear hour chimes from the clock, we will celebrate it with thanksgivings, all the years of our life. \"We will, we will, Alonzo!\" \"* Four minutes after six *, in the evening, my Rosannah...\"");
       attribution = F("- Mark Twain");
       return;
 
@@ -10005,16 +9933,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 18:15
       switch (option) {
         case 0:
-      quote = F("'Quarter past six,' said Tony. 'He's bound to have told her by now.'");
-      attribution = F("- A Handful of Dust");
+      quote = F("I checked the time on the corner of my screen. * 6.15 pm. * I was never going to finisah my essay in forty-five minutes");
+      attribution = F("- Girl Missing");
       return;
         case 1:
       quote = F("At a * quarter past six * he was through with them.");
       attribution = F("- The Photograph");
       return;
         case 2:
-      quote = F("I checked the time on the corner of my screen. * 6.15 pm. * I was never going to finisah my essay in forty-five minutes");
-      attribution = F("- Girl Missing");
+      quote = F("'Quarter past six,' said Tony. 'He's bound to have told her by now.'");
+      attribution = F("- A Handful of Dust");
       return;
       } // end switch (option)
 
@@ -10087,12 +10015,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 18:25
       switch (option) {
         case 0:
-      quote = F("At * twenty-five past six * I go into the bathroom and have a wash, then while the Old Lady's busy in the kitchen helping Chris with the washing up I get my coat and nip out down the stairs.");
-      attribution = F("- A Kind of Loving");
+      quote = F("I have this moment, while writing, had a wire from Jonathan saying that he leaves by the * 6.25 * tonight from Launceston and will be here at 10.18...");
+      attribution = F("- Bram Stoker, Dracula");
       return;
         case 1:
-      quote = F("I have this moment, while writing, had a wire from Jonathan saying that he leaves by the * 6.25 * tonight from Launceston and will be here at 10.18, so that I shall have no fear tonight.");
-      attribution = F("- Bram Stoker, Dracula");
+      quote = F("At * twenty-five past six * I go into the bathroom and have a wash, then while the Old Lady's busy in the kitchen helping Chris with the washing up...");
+      attribution = F("- A Kind of Loving");
       return;
       } // end switch (option)
 
@@ -10130,28 +10058,28 @@ void setQuoteForMinute(int minute) {
       // 6 options for 18:30
       switch (option) {
         case 0:
-      quote = F("At * six-thirty * I left the bar and walked outside. It was getting dark and the big Avenida looked cool and graceful. On the other side were homes that once looked out on the beach. Now they looked out on hotels and most of them had retreated behind tall hedges and walls that cut them off from the street.");
-      attribution = F("- The Rum Diary");
-      return;
-        case 1:
       quote = F("* 6.30 p.m. * Watch television or a video");
       attribution = F("- Mark Haddon");
       return;
-        case 2:
-      quote = F("As I was turning away, grieved to be parting from him, a thought started up in me and I turned back. 'Shall I take one more message for you?' 'That's good of you' he said, 'but do you want to?' 'Yes, just this once.' It could do no harm, I thought; and I should be far away when the message takes effect, and I wanted to say something to show we were friends. 'Well,' he said, once more across the gap, 'say tomorrow's no good, I'm going to Norwich, but Friday at * half-past six *, same as usual.'");
+        case 1:
+      quote = F("'Well,' he said, once more across the gap, 'say tomorrow's no good, I'm going to Norwich, but Friday at * half-past six *, same as usual.'");
       attribution = F("- The Go-Between");
       return;
-        case 3:
+        case 2:
       quote = F("At five o'clock the two ladies retired to dress, and at * half past six * Elizabeth was summoned to dinner.");
       attribution = F("- Pride and Prejudice");
       return;
+        case 3:
+      quote = F("But two of the three gentlemen assembled in the Saloon at * half-past six * on a wintry evening of late February were in no danger of falling into this error.");
+      attribution = F("- Georgette Heyer, Cotillion");
+      return;
         case 4:
-      quote = F("It is * six thirty *. Now the dark night and the deafening racket of the crickets again engulf the garden and the veranda, all around the house");
-      attribution = F("- Jealousy");
+      quote = F("At * six-thirty * I left the bar and walked outside. It was getting dark and the big Avenida looked cool and graceful. On the other side were homes that once looked out on the beach.");
+      attribution = F("- The Rum Diary");
       return;
         case 5:
-      quote = F("To a casual visitor it might have seemed that Mr Penicuik, who owned the house, had fallen upon evil days; but two of the three gentlemen assembled in the Saloon at * half-past six * on a wintry evening of late February were in no danger of falling into this error.");
-      attribution = F("- Georgette Heyer, Cotillion ");
+      quote = F("It is * six thirty *. Now the dark night and the deafening racket of the crickets again engulf the garden and the veranda, all around the house");
+      attribution = F("- Jealousy");
       return;
       } // end switch (option)
 
@@ -10224,12 +10152,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 18:40
       switch (option) {
         case 0:
-      quote = F("Amy: What's that? I thought I saw someone pass the window. What time is it? Charles: Nearly * twenty to seven *.");
-      attribution = F("- The Family Reunion");
+      quote = F("I allowed plenty of time - in fact, too much; for we arrived at * twenty minutes to seven *, and Franching, so the servant said, had only just gone up to dress.");
+      attribution = F("- Diary of a Nobody");
       return;
         case 1:
-      quote = F("Having to change 'buses, I allowed plenty of time — in fact, too much; for we arrived at * twenty minutes to seven *, and Franching, so the servant said, had only just gone up to dress.");
-      attribution = F("- Diary of a Nobody");
+      quote = F("Amy: What's that? I thought I saw someone pass the window. What time is it? Charles: Nearly * twenty to seven *.");
+      attribution = F("- The Family Reunion");
       return;
       } // end switch (option)
 
@@ -10267,16 +10195,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 18:45
       switch (option) {
         case 0:
-      quote = F("'Let me see now. You had a drink at the Continental at six ten.' 'Yes.' 'And at * six forty-five * you were talking to another journalist at the door of the Majestic?' 'Yes, Wilkins. I told you all this, Vigot, before. That night.'");
-      attribution = F("- The Quiet American");
+      quote = F("It was a * quarter to seven * when I let myself into the office and clicked the light on and picked a piece of paper off the floor.");
+      attribution = F("- The High Window");
       return;
         case 1:
-      quote = F("\"Six forty-five,\" called Louie. \"Did you hear, Ming,\" he asked, \"did you hear?\" \"Yes, Taddy, I heard.\" \"What is it?' asked Tommy. \"The new baby, listen, the new baby.\"");
-      attribution = F("- The Man Who Loved Children");
+      quote = F("'Let me see now. You had a drink at the Continental at six ten.' 'Yes.' 'And at * six forty-five * you were talking to another journalist at the door of the Majestic?'");
+      attribution = F("- The Quiet American");
       return;
         case 2:
-      quote = F("It was a * quarter to seven * when I let myself into the office and clicked the light on and picked a piece of paper off the floor. It was a notice from the Green Feather Messenger Service ...");
-      attribution = F("- The High Window");
+      quote = F("Six forty-five, called Louie. \"Did you hear, Ming,\" he asked, \"did you hear?\" \"Yes, Taddy, I heard.\" \"What is it?' asked Tommy. \"The new baby, listen, the new baby.\"");
+      attribution = F("- The Man Who Loved Children");
       return;
       } // end switch (option)
 
@@ -10308,22 +10236,18 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Night of the Generals");
       return;
 
-    // Codegen for 18:50 for 3 quotations:
+    // Codegen for 18:50 for 2 quotations:
     case 1130:
-      option = random(0, 3);
-      // 3 options for 18:50
+      option = random(0, 2);
+      // 2 options for 18:50
       switch (option) {
         case 0:
-      quote = F("At * ten minutes to seven * Dulcie was ready. She looked at herself in the wrinkly mirror. The reflection was satisfactory. The dark blue dress, fitting without a wrinkle, the hat with its jaunty black feather, the but-slightly-soiled gloves--all representing self- denial, even of food itself--were vastly becoming. Dulcie forgot everything else for a moment except that she was beautiful, and that life was about to lift a corner of its mysterious veil for her to observe its wonders. No gentleman had ever asked her out before. Now she was going for a brief moment into the glitter and exalted show.");
-      attribution = F("- O. Henry, The Four Million ");
+      quote = F("It was time to go see the Lady. When we arrived at her house at * ten minutes before seven * o'clock, Damaronde answered the door.");
+      attribution = F("- Boy's Life");
       return;
         case 1:
-      quote = F("It was time to go see the Lady. When we arrived at her house at * ten minutes before seven * o'clock, Damaronde answered the door.");
-      attribution = F("- Boy's Life");
-      return;
-        case 2:
-      quote = F("It was time to go see the Lady. When we arrived at her house at * ten minutes before seven * o'clock, Damaronde answered the door.");
-      attribution = F("- Boy's Life");
+      quote = F("At * ten minutes to seven * Dulcie was ready. She looked at herself in the wrinkly mirror. The reflection was satisfactory.");
+      attribution = F("- O. Henry, The Four Million");
       return;
       } // end switch (option)
 
@@ -10361,12 +10285,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 18:55
       switch (option) {
         case 0:
-      quote = F("... You had no reason to think the times important. Indeed how suspicious it would be if you had been completely accurate. ''Haven't I been?'' Not quite. It was * five to seven * that you talked to Wilkins. ''Another ten minutes.\"");
-      attribution = F("- The Quiet American");
+      quote = F("The play was set to begin at seven o'clock and finish before sunset. It was * 6:55 *. Beyond the flats we could hear the hockey field filling up.");
+      attribution = F("- Middlesex");
       return;
         case 1:
-      quote = F("The play was set to begin at seven o'clock and finish before sunset. It was * 6:55 *. Beyond the flats we could hear the hockey field filling up. the low rumble got steadily louder - voices, footsteps, the creaking of bleachers, the slamming of car doors in the parking lot.");
-      attribution = F("- Middlesex");
+      quote = F("Indeed how suspicious it would be if you had been completely accurate. Haven't I been?\" Not quite. It was * five to seven * that you talked to Wilkins. \"Another ten minutes.\"");
+      attribution = F("- The Quiet American");
       return;
       } // end switch (option)
 
@@ -10383,11 +10307,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 18:57
       switch (option) {
         case 0:
-      quote = F("\"I feel a little awkward,\" Kay Randall said on the phone, \"asking a man to do these errands ... but that's my problem, not yours. Just bring the supplies and try to be at the church meeting room * a few minutes before seven *.\"");
+      quote = F("asking a man to do these errands ... but that's my problem, not yours. Just bring the supplies and try to be at the church meeting room * a few minutes before seven *.");
       attribution = F("- Max Apple, Bridging");
       return;
         case 1:
-      quote = F("Folded in this triple melody, the audience sat gazing; and beheld gently and approvingly without interrogation, for it seemed inevitable, a box tree in a green tub take the place of the ladies’ dressing-room; while on what seemed to be a wall, was hung a great clock face; the hands pointing to * three minutes to the hour; which was seven *.'");
+      quote = F("...while on what seemed to be a wall, was hung a great clock face; the hands pointing to * three minutes to the hour; which was seven *.");
       attribution = F("- Between the Acts");
       return;
       } // end switch (option)
@@ -10395,7 +10319,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 18:58 for 1 quotations:
     case 1138:
       // Only one option for 18:58:"
-      quote = F("\"Walk fast,\" says Perry, \"it's * two minutes to seven *, and I got to be home by—' \"Oh, shut up,\" says I. \"I had an appointment as chief performer at an inquest at seven, and I'm not kicking about not keeping it.\"");
+      quote = F("Walk fast, says Perry, \"it's * two minutes to seven *, and I got to be home by-\" \"Oh, shut up,\" says I.");
       attribution = F("- O. Henry, Roads of Destiny");
       return;
 
@@ -10412,32 +10336,32 @@ void setQuoteForMinute(int minute) {
       // 7 options for 19:00
       switch (option) {
         case 0:
-      quote = F("… in a word, seen always at the same evening hour, isolated from all its possible surroundings, detached and solitary against its shadowy background, the bare minimum of scenery necessary .. to the drama of my undressing, as though all Combray had consisted of but two floors joined by a slender staircase, and as though there had been no time there but * seven o'clock * at night.");
-      attribution = F("- Marcel Proust");
-      return;
-        case 1:
-      quote = F("The town clock struck * seven *. The echoes of the great chime wandered in the unlit halls of the library. An autumn leaf, very crisp, fell somewhere in the dark. But it was only the page of a book, turning.");
-      attribution = F("- Ray Bradbury");
-      return;
-        case 2:
       quote = F("* 7.00 p.m. * Do maths practice");
       attribution = F("- Mark Haddon");
       return;
-        case 3:
-      quote = F("By * seven o'clock * the orchestra has arrived--no thin five-piece affair but a whole pitful of oboes and trombones and saxophones and viols and cornets and piccolos and low and high drums.");
+        case 1:
+      quote = F("Edward had been allowed to see me only from * seven * till nine-thirty pm, always inside the confines of my home and under the supervision of my dad's unfailingly crabby glare.");
+      attribution = F("- Stephenie Meyer, New Moon");
+      return;
+        case 2:
+      quote = F("By * seven o'clock * the orchestra has arrived - no thin five-piece affair but a whole pitful of oboes and trombones and saxophones ...");
       attribution = F("- The Great Gatsby");
+      return;
+        case 3:
+      quote = F("... as though all Combray had consisted of but two floors joined by a slender staircase, and as though there had been no time there but * seven o'clock * at night.");
+      attribution = F("- Marcel Proust");
       return;
         case 4:
-      quote = F("Edward had been allowed to see me only from * seven  *till nine-thirty pm, always inside the confines of my home and under the supervision of my dad's unfailingly crabby glare.");
-      attribution = F("- Stephenie Meyer, New Moon ");
+      quote = F("It was * seven o'clock * and by this time she was not very far from Raveloe, but she was not familiar enough with those monotonous lanes to know how near she was to her journey's end.");
+      attribution = F("- George Eliot, Silas Marner");
       return;
         case 5:
-      quote = F("It was * seven o'clock * and by this time she was not very far from Raveloe, but she was not familiar enough with those monotonous lanes to know how near she was to her journey's end. She needed comfort, and she knew but one comforter - the familiar demon in her bosom; but she hesitated a moment, after drawing out the black remnant, before she raised it to her lips.");
-      attribution = F("- George Eliot, Silas Marner ");
-      return;
-        case 6:
       quote = F("It was * seven o'clock * when we got into the coupé with him and started for Long Island. [...] So we drove on toward death through the cooling twilight.");
       attribution = F("- The Great Gatsby");
+      return;
+        case 6:
+      quote = F("The town clock struck * seven *. The echoes of the great chime wandered in the unlit halls of the library. An autumn leaf, very crisp, fell somewhere in the dark.");
+      attribution = F("- Ray Bradbury");
       return;
       } // end switch (option)
 
@@ -10510,11 +10434,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 19:10
       switch (option) {
         case 0:
-      quote = F("He had already got to the point where, by rocking more strongly, he maintained his equilibrium with difficulty, and very soon he would finally have to make a final decision, for * in five minutes it would be a quarter past seven *. Then there was a ring at the door of the apartment. “That’s someone from the office,” he told himself, and he almost froze, while his small limbs only danced around all the faster. For one moment everything remained still. “They aren’t opening,” Gregor said to himself, caught up in some absurd hope.");
-      attribution = F("- Franz Kafka, Metamorphosis ");
+      quote = F("...he maintained his equilibrium with difficulty, and very soon he would finally have to make a final decision, for * in five minutes it would be a quarter past seven *.");
+      attribution = F("- Franz Kafka, Metamorphosis");
       return;
         case 1:
-      quote = F("The party was to begin at seven. The invitations gave the hour as six-thirty because the family knew everyone would come a little late, so as not to be the first to arrive. At * seven-ten * not a soul had come; somewhat acrimoniously, the family discussed the advantages and disadvantages of tardiness");
+      quote = F("The invitations gave the hour as six-thirty because the family knew everyone would come a little late, so as not to be the first to arrive. At * seven-ten * not a soul had come...");
       attribution = F("- The Elderly Lady");
       return;
       } // end switch (option)
@@ -10529,7 +10453,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 19:12 for 1 quotations:
     case 1152:
       // Only one option for 19:12:"
-      quote = F("He taught me that if I had to meet someone for an appointment, I must refuse to follow the 'stupid human habit' of arbitrarily choosing a time based on fifteen-minute intervals. \"Never meet people at 7:45 or 6:30, Jasper, but pick times like * 7:12 * and 8:03!\"");
+      quote = F("...arbitrarily choosing a time based on fifteen-minute intervals. \"Never meet people at 7:45 or 6:30, Jasper, but pick times like * 7:12 * and 8:03!\"");
       attribution = F("- A Fraction of the Whole");
       return;
 
@@ -10557,11 +10481,11 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Voices of Time");
       return;
         case 1:
-      quote = F("Nick had a large wild plan of his own for the night, but for now he let Leo take charge: they were going to go back to Notting Hill and catch the * seven fifteen * screening of Scarface at the Gate.");
+      quote = F("... but for now he let Leo take charge: they were going to go back to Notting Hill and catch the * seven fifteen * screening of Scarface at the Gate.");
       attribution = F("- The Line of Beauty");
       return;
         case 2:
-      quote = F("The party was to begin at seven. The invitations gave the hour as six-thirty because the famly knew everyone would come a little late, so as not to be the first to arrive. .. By * seven-fifteen * not another soul could squeeze into the house.");
+      quote = F("... everyone would come a little late, so as not to be the first to arrive. .. By * seven-fifteen * not another soul could squeeze into the house.");
       attribution = F("- The elderly lady");
       return;
       } // end switch (option)
@@ -10569,7 +10493,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 19:16 for 1 quotations:
     case 1156:
       // Only one option for 19:16:"
-      quote = F("“Sixteen past seven PM? That's when he came into the store or when he left after the fact?”");
+      quote = F("Sixteen past seven PM? That's when he came into the store or when he left after the fact?");
       attribution = F("- The Last Precinct");
       return;
 
@@ -10600,12 +10524,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 19:20
       switch (option) {
         case 0:
-      quote = F("The clock read * seven-twenty *, but I felt no hunger. You'd think I might have wanted to eat something after the day I'd had, but I cringed at the very thought of food. I was short of sleep, my gut was slashed, and my apartment was gutted. There was no room for appetite.");
-      attribution = F("- Haruki Murakami");
-      return;
-        case 1:
       quote = F("The pause, we finally concluded, was to allow the other important people to catch up, those who had arrived at 7:10 waiting for those who had arrived at * 7:20 *.");
       attribution = F("- C Northcote Parkinson");
+      return;
+        case 1:
+      quote = F("The clock read * seven-twenty *, but I felt no hunger. You'd think I might have wanted to eat something after the day I'd had, but I cringed at the very thought of food.");
+      attribution = F("- Haruki Murakami");
       return;
       } // end switch (option)
 
@@ -10678,20 +10602,20 @@ void setQuoteForMinute(int minute) {
       // 4 options for 19:30
       switch (option) {
         case 0:
+      quote = F("On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At 10 o'clock she is lowered into her cool grave, at * 7:30 * that same evening we see our first floes...");
+      attribution = F("- Christoph Ransmayr");
+      return;
+        case 1:
+      quote = F("The telephone call came at * 7.30 * on the evening of March 18th, a Saturday, the eve of the noisy, colourful festival that the town held in honour of Saint Joseph the carpenter -");
+      attribution = F("- A Simple Story");
+      return;
+        case 2:
       quote = F("But now he was close - here was the house, here were the gates. Somewhere a clock beat a single chime. 'What, is it really * half-past seven *? That's impossible, it must be fast!’");
       attribution = F("- Crime and Punishment");
       return;
-        case 1:
-      quote = F("On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At 10 o'clock she is lowered into her cool grave, at * 7:30 * that same evening we see our first floes and greet them wishing they were the last.");
-      attribution = F("- Christoph Ransmayr");
-      return;
-        case 2:
-      quote = F("The clock showed * half-past seven *. This was the twilight time. He would be there now. I pictured him in his old navy-blue sweater and peaked cap, walking soft-footed up the track towards the wood. He told me he wore the sweater because navy-blue barely showed up in the dark, black was even better, he said. The peaked cap was important too, he explained, because the peak casts a shadow over one's face.");
-      attribution = F("- Roald Dahl");
-      return;
         case 3:
-      quote = F("The telephone call came at * 7.30 * on the evening of March 18th, a Saturday, the eve of the noisy, colourful festival that the town held in honour of Saint Joseph the carpenter -");
-      attribution = F("- A Simple Story");
+      quote = F("The clock showed * half-past seven *. This was the twilight time. He would be there now. I pictured him in his old navy-blue sweater and peaked cap...");
+      attribution = F("- Roald Dahl");
       return;
       } // end switch (option)
 
@@ -10799,12 +10723,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 19:45
       switch (option) {
         case 0:
-      quote = F("He taught me that if I had to meet someone for an appointment, I must refuse to follow the 'stupid human habit' of arbitrarily choosing a time based on fifteen-minute intervals. \"Never meet people at * 7:45 * or 6:30, Jasper, but pick times like 7:12 and 8:03!\"");
-      attribution = F("- A Fraction of the Whole");
+      quote = F("He tells his old friend the train times and they settle on the * 19.45 * arriving at 23.27. I'll book us into the ultra-luxurious Francis Drake Lodge. Running water in several rooms.");
+      attribution = F("- Other People's Money");
       return;
         case 1:
-      quote = F("He tells his old friend the train times and they settle on the * 19.45 * arriving at 23.27. 'I'll book us into the ultra-luxurious Francis Drake Lodge. Running water in several rooms. Have you got a mobile?\"");
-      attribution = F("- Other People's Money");
+      quote = F("... the 'stupid human habit' of arbitrarily choosing a time based on fifteen-minute intervals. \"Never meet people at * 7:45 * or 6:30, Jasper, but pick times like 7:12 and 8:03!\"");
+      attribution = F("- A Fraction of the Whole");
       return;
       } // end switch (option)
 
@@ -10832,7 +10756,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 19:49 for 1 quotations:
     case 1189:
       // Only one option for 19:49:"
-      quote = F("There's a big, old-fashioned clock in the surgery. Just as Dr. Wellesley went out I heard the Moot Hall clock chime half-past seven, and then the chimes of St. Hathelswide's Church. I noticed that our clock was a couple of minutes slow, and I put it right.\" When did you next see Dr. Wellesley?\" \"At just * eleven minutes to eight *.\" \"Where?\" \"In the surgery.\" \"He came back there?\" \"Yes.\" \"How do you fix that precise time--* eleven minutes to eight *?\" \"Because he'd arranged to see a patient in Meadow Gate at ten minutes to eight. I glanced at the clock as he came in, saw what time it was, and reminded him of the appointment.\"");
+      quote = F("I noticed that our clock was a couple of minutes slow, and I put it right. \"When did you next see Dr. Wellesley?\" \"At just * eleven minutes to eight *.\"");
       attribution = F("- In the Mayor's Parlour");
       return;
 
@@ -10860,7 +10784,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 19:53 for 1 quotations:
     case 1193:
       // Only one option for 19:53:"
-      quote = F("Wednesday, 11 th December 1963. * 7.53 p.m. * \"Help me. You've got to help me.\" The woman's voice quavered on the edge of tears. The duty constable who had picked up the phone heard a hiccuping gulp, as if the caller was struggling to speak.");
+      quote = F("Wednesday, 11 th December 1963. * 7.53 p.m. * \"Help me. You've got to help me.\" The woman's voice quavered on the edge of tears.");
       attribution = F("- A Place of Execution");
       return;
 
@@ -10888,7 +10812,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 19:57 for 1 quotations:
     case 1197:
       // Only one option for 19:57:"
-      quote = F("At * three minutes till eight *, Laszlo and His Yankee Hussars set up onstage. While the band played their Sousa medley, Carter thoroughly checked his kit, stuffing his pockets with scarves, examining the seals on decks of cards. He glanced toward his levitation device. \"Good luck, Carter.\" The voice was quiet.");
+      quote = F("At * three minutes till eight *, Laszlo and His Yankee Hussars set up onstage. While the band played their Sousa medley, Carter thoroughly checked his kit...");
       attribution = F("- Carter Beats The Devil");
       return;
 
@@ -10905,12 +10829,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 19:59
       switch (option) {
         case 0:
-      quote = F("Kuniang made her appearance in my study * just before eight o' clock *, arrayed in what had once ben a \"party frock\".");
-      attribution = F("- Daniel Vare");
-      return;
-        case 1:
       quote = F("Quickly, quickly. * A minute to eight. * My hot water bottle was ready, and I filled a glass with water from the tap. Time was of the essence.");
       attribution = F("- The Thirteenth Tale");
+      return;
+        case 1:
+      quote = F("Kuniang made her appearance in my study * just before eight o' clock *, arrayed in what had once been a \"party frock\".");
+      attribution = F("- Daniel Vare");
       return;
       } // end switch (option)
 
@@ -10920,31 +10844,31 @@ void setQuoteForMinute(int minute) {
       // 11 options for 20:00
       switch (option) {
         case 0:
-      quote = F("'TIS * eight o'clock *,--a clear March night, The moon is up,--the sky is blue, The owlet, in the moonlight air, Shouts from nobody knows where; He lengthens out his lonely shout, Halloo! halloo! a long halloo!");
-      attribution = F("- The Idiot Boy");
-      return;
-        case 1:
-      quote = F("\"I trace the words, I'll arrive to collect you for drinks at eight on Saturday.\"");
-      attribution = F("- Chuck Palahniuk, Tell-All ");
-      return;
-        case 2:
       quote = F("* 8.00 p.m. * Have a bath");
       attribution = F("- Mark Haddon");
       return;
+        case 1:
+      quote = F("I trace the words, I'll arrive to collect you for drinks at eight on Saturday.");
+      attribution = F("- Chuck Palahniuk, Tell-All");
+      return;
+        case 2:
+      quote = F("That day he forgot to go to dinner; he noticed the fact at eight in the evening, and as it was too late to go to the Rue St Jaques, he ate a lump of bread.");
+      attribution = F("- Victor Hugo, Les Miserables");
+      return;
         case 3:
-      quote = F("Arthur thought he could even bear to listen to the album of bagpipe music he had won. It was * eight o'clock * and he decided he would make himself, force himself, to listen to the whole record before he phoned her.");
-      attribution = F("- Douglas Adams");
-      return;
-        case 4:
-      quote = F("At * eight o'clock * that evening, a Saturday, Pamela Chamcha stood with Jumpy Joshi - who had refused to let her go unaccompanied - next to the Photo-Me machine in a corner of the main concourse of Euston station, feeling ridiculously conspiratorial.");
-      attribution = F("- Satanic Verses");
-      return;
-        case 5:
       quote = F("Freud had me knock on Jung's door, to no avail. They waited until * eight *, then set off for Brill's without him.");
       attribution = F("- Jed Rubenfeld");
       return;
+        case 4:
+      quote = F("Arthur thought he could even bear to listen to the album of bagpipe music he had won. It was * eight o'clock * and he decided he would make himself, force himself, to listen...");
+      attribution = F("- Douglas Adams");
+      return;
+        case 5:
+      quote = F("At * eight o'clock * that evening, a Saturday, Pamela Chamcha stood with Jumpy Joshi - who had refused to let her go unaccompanied - next to the Photo-Me machine...");
+      attribution = F("- Satanic Verses");
+      return;
         case 6:
-      quote = F("I have been drunk just twice in my life, and the second time was that afternoon; so everything that happened has a dim, hazy cast over it. although until after * eight o'clock * the apartment was full of cheerful sun.");
+      quote = F("... so everything that happened has a dim, hazy cast over it. Although until after * eight o'clock * the apartment was full of cheerful sun.");
       attribution = F("- The Great Gatsby");
       return;
         case 7:
@@ -10956,11 +10880,11 @@ void setQuoteForMinute(int minute) {
       attribution = F("- The Beautiful and Damned");
       return;
         case 9:
-      quote = F("That day he forgot to go to dinner; he noticed the fact at eight in the evening, and as it was too late to go to the Rue St Jaques, he ate a lump of bread.");
-      attribution = F("- Les Miserables");
+      quote = F("'TIS * eight o'clock *,--a clear March night, The moon is up,--the sky is blue, The owlet, in the moonlight air, Shouts from nobody knows where.");
+      attribution = F("- The Idiot Boy");
       return;
         case 10:
-      quote = F("The clock struck * eight *. Had it been ten, Elinor would have been convinced that at that moment she heard a carriage driving up to the house; and so strong was the persuasion that she did, in spite of the almost impossibility of their being already come, that she moved into the adjoining dressing-closet and opened a window-shutter, to be satisfied of the truth. She instantly saw that her ears had not deceived her.");
+      quote = F("The clock struck * eight *. Had it been ten, Elinor would have been convinced that at that moment she heard a carriage driving up to the house.");
       attribution = F("- Sense and Sensibility");
       return;
       } // end switch (option)
@@ -10975,7 +10899,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 20:02 for 1 quotations:
     case 1202:
       // Only one option for 20:02:"
-      quote = F("\"Yes, I must go to the railway station, and if he's not there, then go there and catch him.\" Anna looked at the railway timetable in the newspapers. An evening train went at * two minutes past eight *. \"Yes, I shall be in time.\"");
+      quote = F("Yes, I must go to the railway station, and if he's not there, then go there and catch him. Anna looked at the railway timetable in the newspapers. An evening train went at * two minutes past eight *. \"Yes, I shall be in time.\"");
       attribution = F("- Leo Tolstoy, Anna Karenina");
       return;
 
@@ -10999,12 +10923,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 20:05
       switch (option) {
         case 0:
-      quote = F("December 23rd At * 8.05 pm * Prof. Preobrazhensky commenced the first operation of its kind to be performed in Europe: removal under anaesthesia of a dog's testicles and their replacement by implanted human testes, with appendages and seminal ducts, taken from a 28-year-old human male");
+      quote = F("December 23rd At * 8.05 pm * Prof. Preobrazhensky commenced the first operation of its kind to be performed in Europe: removal under anaesthesia of a dog's testicles ...");
       attribution = F("- The Heart of a Dog");
       return;
         case 1:
-      quote = F("Ransom took out his watch, which he had adapted, on purpose, several hours before, to Boston time, and saw that the minutes had sped with increasing velocity during this interview, and that it now marked * five minutes past eight *.");
-      attribution = F("- The Bostonians");
+      quote = F("... Boston time, and saw that the minutes had sped with increasing velocity during this interview, and that it now marked * five minutes past eight *.");
+      attribution = F("- Henry James, The Bostonians");
       return;
       } // end switch (option)
 
@@ -11021,12 +10945,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 20:07
       switch (option) {
         case 0:
-      quote = F("And I could hear that there were fewer people in the little station when the train wasn't there, so I opened my eyes and I looked at my watch and it said * 8:07 pm * and I had been sitting on the bench for approximately 5 hours but it hadn't seemed like approximately 5 hours, except that my bottom hurt and I was hungry and thirsty.");
-      attribution = F("- Mark Haddon");
-      return;
-        case 1:
       quote = F("Bennie pulled the transcripts for that night. The first call had come in at * 8:07 *, with a positive ID.");
       attribution = F("- Mistaken Identity");
+      return;
+        case 1:
+      quote = F("...I opened my eyes and I looked at my watch and it said * 8:07 pm * and I had been sitting on the bench for approximately 5 hours but it hadn't seemed like approximately 5 hours...");
+      attribution = F("- Mark Haddon");
       return;
       } // end switch (option)
 
@@ -11076,7 +11000,7 @@ void setQuoteForMinute(int minute) {
     case 1214:
       // Only one option for 20:14:"
       quote = F("When a call came through to Dilworth’s home number at * fourteen minutes past eight * o’clock, Olbier and Jones reacted with far more excitement than the situation warranted because they were desperate for action.");
-      attribution = F("- Dean Koontz, Watchers ");
+      attribution = F("- Dean Koontz, Watchers");
       return;
 
     // Codegen for 20:15 for 3 quotations:
@@ -11093,7 +11017,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 2:
-      quote = F("Natsha: I was looking to see if there wasn't a fire. It's Shrovetide, and the servant is simply beside herself; I must look out that something doesn't happen. When I came through the dining-room yesterday midnight, there was a candle burning. I couldn't get her to tell me who had lighted it. [Puts down her candle] What's the time? Andrey: [Looks at his watch] A * quarter past eight *. Natasha: And Olga and Irina aren't in yet. The poor things are still at work. Olga at the teachers' council, Irina at the telegraph office...[sighs] I said to your sister this morning, \"Irina, darling, you must take care of yourself.\" But she pays no attention. Did you say it was a * quarter past eight *?");
+      quote = F("[Puts down her candle] What's the time? Andrey: [Looks at his watch] A * quarter past eight *. Natasha: And Olga and Irina aren't in yet. The poor things are still at work.");
       attribution = F("- The Three Sisters");
       return;
       } // end switch (option)
@@ -11132,15 +11056,15 @@ void setQuoteForMinute(int minute) {
       // 3 options for 20:20
       switch (option) {
         case 0:
-      quote = F("* 8.20 p.m. * Play computer games");
-      attribution = F("- Mark Haddon");
-      return;
-        case 1:
       quote = F("At * 20.20 * all ships had completed oiling. Hove to, they had had the utmost difficulty in keeping position in that great wind; but they were infinitely safer than in the open sea");
       attribution = F("- H.M.S. Ulysses");
       return;
+        case 1:
+      quote = F("* 8.20 p.m. * Play computer games");
+      attribution = F("- Mark Haddon");
+      return;
         case 2:
-      quote = F("Knowing that the dinner was only for us six, we never dreamed it would be a full dress affair. I had no appetite. It was quite * twenty minutes past eight * before we sat down to dinner.");
+      quote = F("...we never dreamed it would be a full dress affair. I had no appetite. It was quite * twenty minutes past eight * before we sat down to dinner.");
       attribution = F("- Diary of a Nobody");
       return;
       } // end switch (option)
@@ -11204,8 +11128,8 @@ void setQuoteForMinute(int minute) {
     // Codegen for 20:29 for 1 quotations:
     case 1229:
       // Only one option for 20:29:"
-      quote = F("\"* Twenty-nine and a half minutes past eight *, sir.\" And then, from habit, he glanced at the clock in the tower, and made further oration. \"By George! that clock's half an hour fast! First time in ten years I've known it to be off. This watch of mine never varies a--\" But the citizen was talking to vacancy. He turned and saw his hearer, a fast receding black shadow, flying in the direction of a house with three lighted upper windows.");
-      attribution = F("- O. Henry, The Four Million ");
+      quote = F("* Twenty-nine and a half minutes past eight *, sir. And then, from habit, he glanced at the clock in the tower, and made further oration.");
+      attribution = F("- O. Henry, The Four Million");
       return;
 
     // Codegen for 20:30 for 2 quotations:
@@ -11214,11 +11138,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 20:30
       switch (option) {
         case 0:
-      quote = F("Alix took up a piece of needlework and began to stitch. Gerald read a few pages of his book. Then he glanced up at the clock and tossed the book away. \"Half-past eight. Time to go down to the cellar and start work.\"");
+      quote = F("Gerald read a few pages of his book. Then he glanced up at the clock and tossed the book away. \"Half-past eight. Time to go down to the cellar and start work.\"");
       attribution = F("- The Listerdale Mystery");
       return;
         case 1:
-      quote = F("The bicycles go by in twos and threes - there's a dance on in Billy Brennan's barn tonight, and there's the half-talk code of mysteries and the wink-and-elbow language of delight. Half-past eight and there is not a spot upon a mile of road, no shadow thrown that might turn out a man or woman,");
+      quote = F("...and there's the half-talk code of mysteries and the wink-and-elbow language of delight. Half-past eight and there is not a spot upon a mile of road...");
       attribution = F("- Patrick Kavanagh");
       return;
       } // end switch (option)
@@ -11233,8 +11157,8 @@ void setQuoteForMinute(int minute) {
     // Codegen for 20:32 for 1 quotations:
     case 1232:
       // Only one option for 20:32:"
-      quote = F("At the station he captured Miss Lantry out of the gadding mob at * eight thirty-two *. \"We mustn't keep mamma and the others waiting,\" said she. \"To Wallack's Theatre as fast as you can drive!\"");
-      attribution = F("- O. Henry, The Four Million ");
+      quote = F("At the station he captured Miss Lantry out of the gadding mob at * eight thirty-two *. We mustn't keep mamma and the others waiting,\" said she. \"To Wallack's Theatre as fast as you can drive!\"");
+      attribution = F("- O. Henry, The Four Million");
       return;
 
     // Codegen for 20:33 for 1 quotations:
@@ -11265,7 +11189,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Bram Stoker, Dracula");
       return;
         case 2:
-      quote = F("She paused reflectively. He was keenly interested now, not a doubt of it. The murderer is bound to have an interest in murder. She had gambled on that, and succeeded. She stole a glance at the clock. It was * five and twenty to nine *.");
+      quote = F("The murderer is bound to have an interest in murder. She had gambled on that, and succeeded. She stole a glance at the clock. It was * five and twenty to nine *.");
       attribution = F("- The Listerdale mystery");
       return;
       } // end switch (option)
@@ -11304,7 +11228,7 @@ void setQuoteForMinute(int minute) {
       // 2 options for 20:40
       switch (option) {
         case 0:
-      quote = F("It was when I stood before her, avoiding her eyes, that I took note of the surrounding objects in detail, and saw that her watch had stopped at * twenty minutes to nine *, and that a clock in the room had stopped at * twenty minutes to nine *.");
+      quote = F("I took note of the surrounding objects in detail, and saw that her watch had stopped at * twenty minutes to nine *, and that a clock in the room had stopped at * twenty minutes to nine *.");
       attribution = F("- Great Expectations");
       return;
         case 1:
@@ -11337,7 +11261,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 20:44 for 1 quotations:
     case 1244:
       // Only one option for 20:44:"
-      quote = F("The clock's pendulum beat every second with mathematical regularity, and each player could count every sixtieth of a minute as it struck his ear.\"* 8.44! *\" said John Sullivan, in a voice that betrayed his emotion.Only one minute more and the wager would be won.");
+      quote = F("The clock's pendulum beat every second with mathematical regularity, and each player could count every sixtieth of a minute as it struck his ear. \"* 8.44! *\" said John Sullivan.");
       attribution = F("- Jules Verne");
       return;
 
@@ -11347,11 +11271,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 20:45
       switch (option) {
         case 0:
-      quote = F("'It's not impossible,' Phileas said quietly.'I bet you 20,000 pounds I could do it. If I leave this evening on the * 8.45 * train to Dover, I can be back here at the Reform Club by * 8.45 * on Saturday 21 December. I'll get my passport stamped at every place i stop to prove I've been around the world.'");
+      quote = F("It's not impossible, Phileas said quietly. \"I bet you 20,000 pounds I could do it. If I leave this evening on the * 8.45 * train to Dover, I can be back here at the Reform Club...");
       attribution = F("- Jules Verne");
       return;
         case 1:
-      quote = F("Beaver arrived at * quarter to nine * in a state of high self-approval; he had refused two invitations for dinner while dressing that evening; he had cashed a cheque for ten pounds at his club; he had booked a Divan table at Espinosa's.");
+      quote = F("Beaver arrived at * quarter to nine * in a state of high self-approval; he had refused two invitations for dinner while dressing that evening...");
       attribution = F("- A Handful of Dust");
       return;
       } // end switch (option)
@@ -11390,20 +11314,20 @@ void setQuoteForMinute(int minute) {
       // 5 options for 20:50
       switch (option) {
         case 0:
+      quote = F("He was, yes, always home from work by * 2050 * on Thursdays.");
+      attribution = F("- Infinite Jest");
+      return;
+        case 1:
       quote = F("* 8.50pm. * Ah Diagram \"Buttons for IMC functions\". But what are IMC functions?");
       attribution = F("- Bridget Jones's Diary");
       return;
-        case 1:
+        case 2:
       quote = F("all the clocks in London were striking * ten minutes before nine *.");
       attribution = F("- Jules Verne");
       return;
-        case 2:
-      quote = F("He glanced at the bracket-clock on the mantelpiece, but as this had stopped, drew out his watch. 'It is already too late,' he said. 'It wants only * ten minutes to nine *.' 'Good God!' she exclaimed, turning quite pale. 'What am I to do?'");
-      attribution = F("- The Reluctant Widow");
-      return;
         case 3:
-      quote = F("He was, yes, always home from work by * 2050 * on Thursdays.");
-      attribution = F("- Infinite Jest");
+      quote = F("He glanced at the bracket-clock on the mantelpiece, but as this had stopped, drew out his watch. \"It is already too late,\" he said. \"It wants only * ten minutes to nine *.\"");
+      attribution = F("- The Reluctant Widow");
       return;
         case 4:
       quote = F("What did it mean by beginning to tick so loudly all of a sudden? Its face indicated * ten minutes to nine *. Mrs Verloc cared nothing for time, and the ticking went on.");
@@ -11449,21 +11373,21 @@ void setQuoteForMinute(int minute) {
     // Codegen for 20:56 for 1 quotations:
     case 1256:
       // Only one option for 20:56:"
-      quote = F("“No. 7 berth—a second-class. The gentleman has not yet come, and it is * four minutes to nine *.\"");
+      quote = F("No. 7 berth—a second-class. The gentleman has not yet come, and it is * four minutes to nine *.");
       attribution = F("- Agatha Christie");
       return;
 
     // Codegen for 20:57 for 1 quotations:
     case 1257:
       // Only one option for 20:57:"
-      quote = F("\"Wait,\" he said solemnly, \"till the clock strikes. I have wealth and power and knowledge above most men, but when the clock strikes I am afraid. Stay by me until then. This woman shall be yours. You have the word of the hereditary Prince of Valleluna. On the day of your marriage I will give you $100,000 and a palace on the Hudson. But there must be no clocks in that palace--they measure our follies and limit our pleasures. Do you agree to that?\" \"Of course,\" said the young man, cheerfully, \"they're a nuisance, anyway--always ticking and striking and getting you late for dinner.\" He glanced again at the clock in the tower. The hands stood at * three minutes to nine *.");
-      attribution = F("- O. Henry, The Four Million ");
+      quote = F("they're a nuisance, anyway--always ticking and striking and getting you late for dinner. He glanced again at the clock in the tower. The hands stood at * three minutes to nine *.");
+      attribution = F("- O. Henry, The Four Million");
       return;
 
     // Codegen for 20:58 for 1 quotations:
     case 1258:
       // Only one option for 20:58:"
-      quote = F("\"What time is it?\" she asked, quiet, definite, hopeless. \"* Two minutes to nine *,\" he replied, telling the truth with a struggle.");
+      quote = F("What time is it? she asked, quiet, definite, hopeless. \"* Two minutes to nine *,\" he replied, telling the truth with a struggle.");
       attribution = F("- Sons and Lovers");
       return;
 
@@ -11480,44 +11404,44 @@ void setQuoteForMinute(int minute) {
       // 10 options for 21:00
       switch (option) {
         case 0:
-      quote = F("* 9.00 p.m. * Watch television or a video");
-      attribution = F("- Mark Haddon");
-      return;
-        case 1:
       quote = F("At * 2100 * at night it's cold out.");
       attribution = F("- Infinite Jest");
       return;
+        case 1:
+      quote = F("* 9.00 p.m. * Watch television or a video");
+      attribution = F("- Mark Haddon");
+      return;
         case 2:
-      quote = F("It was * nine o'clock * at night upon the second of August—the most terrible August in the history of the world. One might have thought already that God's curse hung heavy over a degenerate world, for there was an awesome hush and a feeling of vague expectancy in the sultry and stagnant air");
-      attribution = F("- Arthur Conan Doyle");
-      return;
-        case 3:
-      quote = F("On the evening before K.'s thirty-first birthday - it was about * nine o'clock *, when there is a lull in the streets - two gentlemen came to his apartment.");
-      attribution = F("- Franz Kafka, The Trial ");
-      return;
-        case 4:
-      quote = F("On the stroke of * nine o’clock * Mr. and Mrs. De Voted took their places on either side of the drawing-room fire, in attitudes of gracefully combined hospitality and unconcern, Vivian De Voted wearing a black beard and black velvet jacket buttoned over his Bohemian bosom, his lady in a flowing purple gown embroidered in divers appropriate places with pomegranates and their leaves.");
-      attribution = F("- A Marriage of Passion");
-      return;
-        case 5:
-      quote = F("Shortly after * nine o'clock * that evening, Weyrother drove with his plans to Kutuzov's quarters where the council of war was to be held. All the commanders of columns were summoned to the commander in chief's and with the exception of Prince Bagration, who declined to come, were all there at the appointed time.");
-      attribution = F("- Leo Tolstoy, War and Peace ");
-      return;
-        case 6:
-      quote = F("Standing in the chrome-and-tile desolation of the Polar-Shtern Kafeteria at * nine o'clock * on a Friday night, in a snowstorm, he's the loneliest Jew in the Sitka District.");
-      attribution = F("- Michael Chabon");
-      return;
-        case 7:
       quote = F("That night at nine the President addressed the nation.");
       attribution = F("- All the President's Men");
+      return;
+        case 3:
+      quote = F("It was * nine o'clock * at night upon the second of August—the most terrible August in the history of the world.");
+      attribution = F("- Arthur Conan Doyle");
+      return;
+        case 4:
+      quote = F("On the evening before K.'s thirty-first birthday - it was about * nine o'clock *, when there is a lull in the streets - two gentlemen came to his apartment.");
+      attribution = F("- Franz Kafka, The Trial");
+      return;
+        case 5:
+      quote = F("On the stroke of * nine o’clock * Mr. and Mrs. De Voted took their places on either side of the drawing-room fire, in attitudes of gracefully combined hospitality and unconcern...");
+      attribution = F("- A Marriage of Passion");
+      return;
+        case 6:
+      quote = F("Shortly after * nine o'clock * that evening, Weyrother drove with his plans to Kutuzov's quarters where the council of war was to be held.");
+      attribution = F("- Leo Tolstoy, War and Peace");
+      return;
+        case 7:
+      quote = F("Standing in the chrome-and-tile desolation of the Polar-Shtern Kafeteria at * nine o'clock * on a Friday night, in a snowstorm, he's the loneliest Jew in the Sitka District.");
+      attribution = F("- Michael Chabon");
       return;
         case 8:
       quote = F("Then he put on a grey jacket and left the flat to make his way to Praca da Alegria. It was already * nine o'clock *, Pereira maintains.");
       attribution = F("- Pereira Maintains");
       return;
         case 9:
-      quote = F("This time, the putting on of her best hat at * nine o'clock * at night with the idea of sallying forth from the castle, down the long drive and then northwards along the acacia avenue, had been enough to send her to her own doorway as though she suspected someone might be there, someone who was listening to her thoughts.");
-      attribution = F("- Mervyn Peake, Titus Groan ");
+      quote = F("This time, the putting on of her best hat at * nine o'clock * at night with the idea of sallying forth from the castle...");
+      attribution = F("- Mervyn Peake, Titus Groan");
       return;
       } // end switch (option)
 
@@ -11539,7 +11463,7 @@ void setQuoteForMinute(int minute) {
     case 1263:
       // Only one option for 21:03:"
       quote = F("Billy Weaver had travelled down from London on the slow afternoon train, with a change at Swindon on the way, and by the time he got to Bath it was * about nine o’clock * in the evening and the moon was coming up out of a clear starry sky over the houses opposite the station entrance. But the air was deadly cold and the wind was like a flat blade of ice on his cheeks.");
-      attribution = F("- Roald Dahl, “The Landlady” ");
+      attribution = F("- Roald Dahl, The Landlady");
       return;
 
     // Codegen for 21:04 for 1 quotations:
@@ -11552,7 +11476,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 21:05 for 1 quotations:
     case 1265:
       // Only one option for 21:05:"
-      quote = F("Nine-five. A voice spoke from the study ceiling: \"Mrs. McClellan, which poem would you like this evening?\". The house was silent. The voice said at last, \"Since you express no preference, I shall select a poem at random.\"");
+      quote = F("Nine-five. A voice spoke from the study ceiling: \"Mrs. McClellan, which poem would you like this evening?\". The house was silent.");
       attribution = F("- There will come soft rains");
       return;
 
@@ -11629,7 +11553,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- James Joyce, Ulysses");
       return;
         case 1:
-      quote = F("What are we going to do? Should we try to walk to Clapham High Street? But it's bloody miles away. I glance at my watch and am shocked to see that it's * nine-fifteen *. We've spent over an hour faffing about and we haven't even had a drink. And it's all my fault. I can't even organize one simple evening without its going catastrophically wrong.");
+      quote = F("But it's bloody miles away. I glance at my watch and am shocked to see that it's * nine-fifteen *. We've spent over an hour faffing about and we haven't even had a drink.");
       attribution = F("- Can You Keep a Secret?");
       return;
       } // end switch (option)
@@ -11742,12 +11666,12 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("Forty-eight years old, profoundly asleep at * nine thirty * on a Friday night - this is modern professional life.");
-      attribution = F("- Ian McEwan, Saturday");
+      quote = F("It's * 9:30 p.m. * already. I've gotta head uptown for my appointment with Pavel. Pavel is my shrink. He sees patients at night. He's a Czech Jew, a survivor of Terezin and Auswitz.");
+      attribution = F("- Art Spiegelman, Maus");
       return;
         case 2:
-      quote = F("It's * 9:30 p.m. * already. I've gotta head uptown for my appointment with Pavel. Pavel is my shrink. He sees patients at night. He's a Czech Jew, a survivor of Terezin and Auswitz. I see him once a week.");
-      attribution = F("- Art Spiegelman, Maus ");
+      quote = F("Forty-eight years old, profoundly asleep at * nine thirty * on a Friday night - this is modern professional life.");
+      attribution = F("- Ian McEwan, Saturday");
       return;
         case 3:
       quote = F("The light in Mr. Green's kitchen snapped off at * nine-thirty *, followed by the light in his bedroom at his usual ten o'clock. His house was the first on the street to go dark.");
@@ -11758,14 +11682,14 @@ void setQuoteForMinute(int minute) {
     // Codegen for 21:31 for 1 quotations:
     case 1291:
       // Only one option for 21:31:"
-      quote = F("I took some juice out of the refrigerator and sat down at the kitchen table with it. On the table was a note from my girlfriend: \"Gone out to eat. Back by 9:30.\" The digital clock on the table read 9:30. I watched it flip over to * 9:31 *, then to 9:32.");
+      quote = F("On the table was a note from my girlfriend: \"Gone out to eat. Back by 9:30.\" The digital clock on the table read 9:30. I watched it flip over to * 9:31 *, then to 9:32.");
       attribution = F("- A Wild Sheep Chase");
       return;
 
     // Codegen for 21:32 for 1 quotations:
     case 1292:
       // Only one option for 21:32:"
-      quote = F("I took some juice out of the refrigerator and sat down at the kitchen table with it. On the table was a note from my girlfriend: \"Gone out to eat. Back by 9:30.\" The digital clock on the table read 9:30. I watched it flip over to 9:31, then to * 9:32 *.");
+      quote = F("On the table was a note from my girlfriend: \"Gone out to eat. Back by 9:30.\" The digital clock on the table read 9:30. I watched it flip over to 9:31, then to * 9:32 *.");
       attribution = F("- A Wild Sheep Chase");
       return;
 
@@ -11857,7 +11781,7 @@ void setQuoteForMinute(int minute) {
     case 1305:
       // Only one option for 21:45:"
       quote = F("But for some unfathomable reason-birth, death, the end of the universe and all things available to man-Cody Menhoff's was closed at * 9:45 PM * on a Thursday...");
-      attribution = F("- T. C. Boyle, Riven Rock ");
+      attribution = F("- T. C. Boyle, Riven Rock");
       return;
 
     // Codegen for 21:46 for 0 quotations:
@@ -11948,7 +11872,7 @@ void setQuoteForMinute(int minute) {
       return;
         case 1:
       quote = F("The waiting man pulled out a handsome watch, the lids of it set with small diamonds. \"Three minutes to ten,\" he announced.");
-      attribution = F("- O. Henry, The Four Million ");
+      attribution = F("- O. Henry, The Four Million");
       return;
       } // end switch (option)
 
@@ -11972,40 +11896,40 @@ void setQuoteForMinute(int minute) {
       // 9 options for 22:00
       switch (option) {
         case 0:
-      quote = F("By * ten *, Quoyle was drunk. The crowd was enormous, crushed together so densely that Nutbeem could not force his way down the hall or to the door and urinated on the remaining potato chips in the blue barrel, setting a popular example.");
+      quote = F("By * ten *, Quoyle was drunk. The crowd was enormous, crushed together so densely that Nutbeem could not force his way down the hall...");
       attribution = F("- The Shipping News");
       return;
         case 1:
-      quote = F("Her body asserted itself with a restless movement of the knee, and she stood up. 'Ten o'clock,' she remarked, apparently finding the time on the ceiling. 'Time for this good girl to go to bed.'");
-      attribution = F("- The Great Gatsby");
-      return;
-        case 2:
-      quote = F("I could not doubt that this was the BLACK SPOT; and taking it up, I found writ* ten  *on the other side, in a very good, clear hand, this short message: \"You have till * ten  *tonight.\"");
+      quote = F("I could not doubt that this was the BLACK SPOT; and taking it up, I found writ* ten * on the other side, in a very good, clear hand, this short message: \"You have till * ten * tonight.\"");
       attribution = F("- Treasure Island");
       return;
+        case 2:
+      quote = F("Her body asserted itself with a restless movement of the knee, and she stood up. \"Ten o'clock,\" she remarked, apparently finding the time on the ceiling.");
+      attribution = F("- The Great Gatsby");
+      return;
         case 3:
-      quote = F("I went back into the library, limp and exhausted. In a few minutes the telephone began ringing again. I did not do anything. I let it ring. I went and sat down at Maxim's feet. It went on ringing. I did not move. Presently it stopped, as though cut suddenly in exasperation. The clock on the mantelpiece struck * ten o'clock *. Maxim put his arms round me and lifted me against him. We began to kiss one another, feverishly, desperately, like guilty lovers who have not kissed before.");
-      attribution = F("- Daphne du Maurier, Rebecca ");
+      quote = F("Presently it stopped, as though cut suddenly in exasperation. The clock on the mantelpiece struck * ten o'clock *. Maxim put his arms round me and lifted me against him.");
+      attribution = F("- Daphne du Maurier, Rebecca");
       return;
         case 4:
-      quote = F("No one wanted to go to bed when at * ten o'clock * Mrs. March put by the last finished job, and said, \"Come girls.\" Beth went to the piano and played the father's favorite hymn.");
+      quote = F("No one wanted to go to bed when at * ten o'clock * Mrs. March put by the last finished job, and said, \"Come girls.\" Beth went to the piano and played the father's favorite hymn.\"");
       attribution = F("- Little Women");
       return;
         case 5:
-      quote = F("The grandfather clock in the State Room strikes * ten  *times.");
-      attribution = F("- David Mitchell");
-      return;
-        case 6:
       quote = F("The light in Mr. Green's kitchen snapped off at nine-thirty, followed by the light in his bedroom at his usual * ten o'clock *. His house was the first on the street to go dark.");
       attribution = F("- A crime in the neighborhood");
       return;
+        case 6:
+      quote = F("Florence set down her knife and reached for Edward's hand and squeezed. From downstairs they heard the wireless, the chimes of Big Ben at the start of the * ten o'clock * news.");
+      attribution = F("- Ian McEwan, On Chesil Beach");
+      return;
         case 7:
-      quote = F("They were alone then, and theoretically free to do whatever they wanted, but they went on eating the dinner they had no appetite for. Florence set down her knife and reached for Edward's hand and squeezed. From downstairs they heard the wireless, the chimes of Big Ben at the start of the * ten o'clock * news.");
-      attribution = F("- On Chesil Beach");
+      quote = F("...who appeared to have nothing to do on this particular evening; we simply could not get rid of him without being rude; he hung about until * ten o'clock *.");
+      attribution = F("- Anne Frank");
       return;
         case 8:
-      quote = F("We let our upstairs room to a certain Mr. Goudsmit, a divorced man in his thirties, who appeared to have nothing to do on this particular evening; we simply could not get rid of him without being rude; he hung about until * ten o'clock *.");
-      attribution = F("- Anne Frank");
+      quote = F("The grandfather clock in the State Room strikes * ten * times.");
+      attribution = F("- David Mitchell");
       return;
       } // end switch (option)
 
@@ -12048,7 +11972,7 @@ void setQuoteForMinute(int minute) {
     case 1326:
       // Only one option for 22:06:"
       quote = F("Of course, they had good reason to be fussy on such a night. And then it was long * after ten o'clock * and yet there was no sign of Gabriel and his wife. Besides they were dreadfully afraid that Freddy Malins might turn up screwed.");
-      attribution = F("- James Joyce, The Dead ");
+      attribution = F("- James Joyce, The Dead");
       return;
 
     // Codegen for 22:07 for 0 quotations:
@@ -12061,7 +11985,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 22:08 for 1 quotations:
     case 1328:
       // Only one option for 22:08:"
-      quote = F("\"My watch is always a little fast,\" I said. \"What time do you make it now?\" \"Ten eight.\" \"Ten eighteen by mine. You see.\"");
+      quote = F("My watch is always a little fast, I said. \"What time do you make it now?\" \"Ten eight.\" \"Ten eighteen by mine. You see.\"");
       attribution = F("- The Quiet American");
       return;
 
@@ -12134,12 +12058,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 22:18
       switch (option) {
         case 0:
-      quote = F("\"My watch is always a little fast,\" I said. \"What time do you make it now?\" \"Ten eight.\" \"Ten eighteen by mine. You see.\"");
-      attribution = F("- The Quiet American");
-      return;
-        case 1:
       quote = F("* 10:18pm. * Ah. Thelma and Louise is in there");
       attribution = F("- Bridget Jones's Diary");
+      return;
+        case 1:
+      quote = F("My watch is always a little fast, I said. \"What time do you make it now?\" \"Ten eight.\" \"Ten eighteen by mine. You see.\"");
+      attribution = F("- The Quiet American");
       return;
       } // end switch (option)
 
@@ -12153,14 +12077,14 @@ void setQuoteForMinute(int minute) {
     // Codegen for 22:20 for 1 quotations:
     case 1340:
       // Only one option for 22:20:"
-      quote = F("At * 10:20 * she returned with a shopping bag from the supermarket. In the bag were three scrub brushes, one box of paperclips and a well-chilled six-pack of canned beer. So I had another beer. \"It was about sheep,\" I said. \"Didn't I tell you?\" she said.");
+      quote = F("At * 10:20 * she returned with a shopping bag from the supermarket. In the bag were three scrub brushes, one box of paperclips and a well-chilled six-pack of canned beer. So I had another beer.");
       attribution = F("- A Wild Sheep Chase");
       return;
 
-    // Codegen for 22:21 for 4 quotations:
+    // Codegen for 22:21 for 3 quotations:
     case 1341:
-      option = random(0, 4);
-      // 4 options for 22:21
+      option = random(0, 3);
+      // 3 options for 22:21
       switch (option) {
         case 0:
       quote = F("* 10:21pm. * Frenziedly press all buttons. Cassette comes out and goes back in again");
@@ -12171,10 +12095,6 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Bridget Jones's Diary");
       return;
         case 2:
-      quote = F("On a Saturday c. * 2221h *., Lenz found a miniature bird that had fallen out of some nest and was sitting bald and pencil-necked on the lawn of Unit #3 flapping ineffectually, and went in with Green and ducked Green and went back outside to # 3's lawn and put the thing in a pocket and went in and put it down the garbage disposal in the kitchen sink of the kitchen, but still felt largely impotent and unresolved.");
-      attribution = F("- Infinite Jest");
-      return;
-        case 3:
       quote = F("On a Saturday c. * 2221h *., Lenz found a miniature bird that had fallen out of some nest and was sitting bald and pencil-necked on the lawn of Unit #3 flapping ineffectually...");
       attribution = F("- Infinite Jest");
       return;
@@ -12204,7 +12124,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 22:25 for 1 quotations:
     case 1345:
       // Only one option for 22:25:"
-      quote = F("* 10:25pm. * Got new cassette in now. Right. Turn to \"Recording.................. Aargh Newsnight is starting");
+      quote = F("* 10:25pm. * Got new cassette in now. Right. Turn to \"Recording.................. Aargh Newsnight is starting\"");
       attribution = F("- Bridget Jones's Diary");
       return;
 
@@ -12242,7 +12162,7 @@ void setQuoteForMinute(int minute) {
       // 2 options for 22:30
       switch (option) {
         case 0:
-      quote = F("She looked at the clock; it was * ten thirty *. If she could get there quickly on the subway, then she could be at his house in less than an hour, maybe a bit longer if the late trains did not come so often.");
+      quote = F("She looked at the clock; it was * ten thirty *. If she could get there quickly on the subway, then she could be at his house in less than an hour, maybe a bit longer...");
       attribution = F("- Colm Toibin, Brooklyn");
       return;
         case 1:
@@ -12261,7 +12181,7 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Bridget Jones's Diary");
       return;
         case 1:
-      quote = F("And, later on, at * 10.31 pm *, I went out onto the balcony to find out whether I could see any stars, but there weren't any because of all the clouds and what is called Light Pollution which is light from streetlights and car headlights and floodlights and lights in buildings reflecting off tiny particles in the atmosphere and getting in the way of light from the stars. So I went back inside.");
+      quote = F("And, later on, at * 10.31 pm *, I went out onto the balcony to find out whether I could see any stars, but there weren't any because of all the clouds...");
       attribution = F("- Mark Haddon");
       return;
       } // end switch (option)
@@ -12273,20 +12193,12 @@ void setQuoteForMinute(int minute) {
         attribution = "- Attribution Goes Here";
       return;
 
-    // Codegen for 22:33 for 2 quotations:
+    // Codegen for 22:33 for 1 quotations:
     case 1353:
-      option = random(0, 2);
-      // 2 options for 22:33
-      switch (option) {
-        case 0:
-      quote = F("* 10:33 p.m. * Yessss, yessss. RECORDING CURRENT PROGRAMME. Have done it. Aargh. All going mad. Cassette has started rewinding and now stopped and ejected. Why? Shit. Shit. Realize in excitement have sat on remote control.");
+      // Only one option for 22:33:"
+      quote = F("* 10:33 p.m. * Yessss, yessss. RECORDING CURRENT PROGRAMME. Have done it. Aargh. All going mad. Cassette has started rewinding and now stopped and ejected. Why? Shit. Shit.");
       attribution = F("- Bridget Jones's Diary");
       return;
-        case 1:
-      quote = F("* 10:33pm. * Yessss, yessss. RECORDING CURRENT PROGRAMME. Have done it. Aargh. All going mad. Cassette has started rewinding and now stopped and ejected. Why? Shit. Shit. Realize in excitement have sat on remote control.");
-      attribution = F("- Bridget Jones's Diary");
-      return;
-      } // end switch (option)
 
     // Codegen for 22:34 for 0 quotations:
     case 1354:
@@ -12340,7 +12252,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 22:41 for 1 quotations:
     case 1361:
       // Only one option for 22:41:"
-      quote = F("He climbed into the front seat and started the car. It started with a merry powerful hum, ready to go. \"There, the bastards\", said Julian, and smashed the clock with the bottom of the bottle, to give them an approximate time. It was * 10:41 *");
+      quote = F("It started with a merry powerful hum, ready to go. \"There, the bastards\", said Julian, and smashed the clock with the bottom of the bottle, to give them an approximate time. It was * 10:41 *\"");
       attribution = F("- Appointment in Samarra");
       return;
 
@@ -12371,12 +12283,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 22:45
       switch (option) {
         case 0:
-      quote = F("* 10.45pm. * Oh God Daniel fell about laughing when I said I could not programme video. Said he would do it for me. Still at least I have done best for Mum. It is exciting and historic when one's friends are on TV.");
+      quote = F("* 10.45pm. * Oh God Daniel fell about laughing when I said I could not programme video. Said he would do it for me. Still at least I have done best for Mum.");
       attribution = F("- Bridget Jones's Diary");
       return;
         case 1:
-      quote = F("So the Lackadaisical Broadcasting Co. bids you farewell with the message that if you aren't grateful to be living in a world where so many things to be grateful for are yours as a matter of course. Why it is now five seconds until * fifteen minutes before eleven * o'clock and you are just an old Trojan Horse.");
-      attribution = F("- Good Intentions");
+      quote = F("...so many things to be grateful for are yours as a matter of course. Why it is now five seconds until * fifteen minutes before eleven * o'clock and you are just an old Trojan Horse.");
+      attribution = F("- Ogden Nash, Good Intentions");
       return;
       } // end switch (option)
 
@@ -12397,7 +12309,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 22:48 for 1 quotations:
     case 1368:
       // Only one option for 22:48:"
-      quote = F("\"Oh! I don't know about that,\" said Mr. Satterthwaite, warming to his subject. \"I was down there for a bit last summer. I found it quite convenient for town. Of course the trains only go every hour. 48 minutes past the hour from Waterloo-up to * 10.48 *.\"");
+      quote = F("Oh! I don't know about that, said Mr. Satterthwaite, warming to his subject. \"I was down there for a bit last summer. I found it quite convenient for town. Of course the trains only go every hour. 48 minutes past the hour from Waterloo-up to * 10.48 *.\"");
       attribution = F("- The Sign in the Sky");
       return;
 
@@ -12414,16 +12326,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 22:50
       switch (option) {
         case 0:
-      quote = F("* 10.50 P. M. * This diary-keeping of mine is, I fancy, the outcome of that scientific habit of mind about which I wrote this morning. I like to register impressions while they are fresh.");
+      quote = F("* 10.50 P. M. * This diary-keeping of mine is, I fancy, the outcome of that scientific habit of mind about which I wrote this morning.");
       attribution = F("- The Parasite");
       return;
         case 1:
-      quote = F("Saturday night. And I said, 'It's a hundred this year, ain't anybody noticed?'\"Jack said, 'What's a hundred?' I said, 'Pub is. Coach is. Look at the clock.' Jack said, ‘It's * ten to eleven *’.");
-      attribution = F("- Graham Swift, Last Orders");
+      quote = F("So think yourself lucky while you're awake and remember a happy crew. Think of Hamburg on the Magic Night. * 22.50 * and they went out neatly, just as they should...");
+      attribution = F("- A. L. Kennedy, Day");
       return;
         case 2:
-      quote = F("So think yourself lucky while you're awake and remember a happy crew. Think of Hamburg on the Magic Night. * 22.50 * and they went out neatly, just as they should - you couldn't fault Parks, he was always on his route.");
-      attribution = F("- A. L. Kennedy, Day ");
+      quote = F("It's a hundred this year, ain't anybody noticed? Jack said, \"What's a hundred?\" I said, \"Pub is. Coach is. Look at the clock.\" Jack said, \"It's * ten to eleven *\"");
+      attribution = F("- Graham Swift, Last Orders");
       return;
       } // end switch (option)
 
@@ -12458,7 +12370,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 22:55 for 1 quotations:
     case 1375:
       // Only one option for 22:55:"
-      quote = F("\"It is eleven o'clock! * Eleven o'clock, all but five minutes! *\" \"But which eleven o'clock?\" \"The eleven o'clock that is to decide life or death!...He told me so just before he went....He is terrible....He is quite mad: he tore off his mask and his yellow eyes shot flames!...\"");
+      quote = F("It is eleven o'clock! * Eleven o'clock, all but five minutes! * \"But which eleven o'clock?\" \"The eleven o'clock that is to decide life or death!...He told me so just before he went....He is terrible....He is quite mad: he tore off his mask and his yellow eyes shot flames!...\"");
       attribution = F("- The Phantom of the Opera");
       return;
 
@@ -12487,49 +12399,45 @@ void setQuoteForMinute(int minute) {
     case 1379:
       // Only one option for 22:59:"
       quote = F("They parked the car outside Lowther's at precisely * one minute to eleven *. People were leaving, not all of them happy at having their evening curtailed. But the grumbling was muted, and even then it only started once they were safely on the street.");
-      attribution = F("- Ian Rankin, The Complaints ");
+      attribution = F("- Ian Rankin, The Complaints");
       return;
 
-    // Codegen for 23:00 for 9 quotations:
+    // Codegen for 23:00 for 8 quotations:
     case 1380:
-      option = random(0, 9);
-      // 9 options for 23:00
+      option = random(0, 8);
+      // 8 options for 23:00
       switch (option) {
         case 0:
-      quote = F("'He will be here at eleven exactly, sir.' At the bar, naked couples had begun dancing.");
-      attribution = F("- Smiley's People");
-      return;
-        case 1:
-      quote = F("At * eleven o'clock * that night, having secured a bed at one of the hotels and telegraphed his address to his father immediately on his arrival, he walked out into the streets of Sandbourne.");
-      attribution = F("- Tess of the d'Urbervilles");
-      return;
-        case 2:
-      quote = F("At * eleven o'clock *, I rang the bell for Betteredge, and told Mr. Blake that he might at last prepare himself for bed.");
-      attribution = F("- The Moonstone");
-      return;
-        case 3:
-      quote = F("He says, \"They've killed Jan. Clear out.\" \"The suitcase?\" I ask. \"Take it away again. We want nothing to do with it now. Catch the * eleven o'clock * express.\" \"But it doesn't stop here....\" \"It will. Go to track six. Opposite the freight station. You have three minutes.\" \"But...\" \"Move, or I'll have to arrest you.\"");
-      attribution = F("- Italo Calvino");
-      return;
-        case 4:
-      quote = F("The clock struck * eleven *. I looked at Adele, whose head leant against my shoulder; her eyes were waxing heavy, so I took her up in my arms and carried her off to bed. It was near one before the gentlemen and ladies sought their chambers.");
-      attribution = F("- Charlotte Brontë, Jane Eyre");
-      return;
-        case 5:
-      quote = F("The clock struck * eleven *. I looked at Adele, whose head leant against my shoulder; her eyes were waxing heavy, so I took her up in my arms and carried her off to bed. It was near one before the gentlemen and ladies sought their chambers.");
-      attribution = F("- Jane Eyre");
-      return;
-        case 6:
-      quote = F("The train arrived in New York at eleven that night.");
-      attribution = F("- The Recognitions");
-      return;
-        case 7:
       quote = F("They didn't even sit down to eat until * 2300h *.");
       attribution = F("- Infinite Jest");
       return;
-        case 8:
+        case 1:
+      quote = F("'He will be here at eleven exactly, sir.' At the bar, naked couples had begun dancing.");
+      attribution = F("- Smiley's People");
+      return;
+        case 2:
+      quote = F("The train arrived in New York at eleven that night.");
+      attribution = F("- The Recognitions");
+      return;
+        case 3:
+      quote = F("At * eleven o'clock *, I rang the bell for Betteredge, and told Mr. Blake that he might at last prepare himself for bed.");
+      attribution = F("- The Moonstone");
+      return;
+        case 4:
+      quote = F("At * eleven o'clock * that night, having secured a bed at one of the hotels and telegraphed his address to his father immediately on his arrival...");
+      attribution = F("- Tess of the d'Urbervilles");
+      return;
+        case 5:
+      quote = F("He says, \"They've killed Jan. Clear out.\" \"The suitcase?\" I ask. \"Take it away again. We want nothing to do with it now. Catch the * eleven o'clock * express.\"");
+      attribution = F("- Italo Calvino");
+      return;
+        case 6:
       quote = F("When they reached the top of the Astronomy Tower at * eleven o'clock *, they found a perfect night for stargazing, cloudless and still.");
       attribution = F("- JK Rowling");
+      return;
+        case 7:
+      quote = F("The clock struck * eleven *. I looked at Adele, whose head leant against my shoulder; her eyes were waxing heavy, so I took her up in my arms and carried her off to bed.");
+      attribution = F("- Charlotte Bronte, Jane Eyre");
       return;
       } // end switch (option)
 
@@ -12550,7 +12458,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 23:03 for 1 quotations:
     case 1383:
       // Only one option for 23:03:"
-      quote = F("\"What makes you think it's for real?\" \"Just a hunch, really. He sounded for real. Sometimes you can just tell about people\"-he smiled-\"even if you're a dull old WASP.\" \"I think it's a setup.\" \"Why?\" \"I just do. Why would someone from the government want to help you?\" \"Good question. Guess I'll find out.\" She went back into the kitchen.\"What time are you meeting him?\" she called out. \"* Eleven oh-three *,\" he said. \"That made me think he's for real. Military and intelligence types set precise appointment times to eliminate confusion and ambiguity. Nothing ambiguous about eleven oh-three.\"");
+      quote = F("Good question. Guess I'll find out. She went back into the kitchen. \"What time are you meeting him?\" she called out. \"* Eleven oh-three *,\" he said.");
       attribution = F("- Little Green Men");
       return;
 
@@ -12567,16 +12475,16 @@ void setQuoteForMinute(int minute) {
       // 3 options for 23:05
       switch (option) {
         case 0:
-      quote = F("It was * 11.05 *, five minutes later than my habitual bedtime. I felt. I felt guilty at being still up, but the past kept pricking at me and I knew that all the events of those nineteen days in July were astir within me, like the loosening phlegm in an attack of bronchitis");
-      attribution = F("- The Go-Between");
+      quote = F("It was * 11.05 *, five minutes later than my habitual bedtime. I felt. I felt guilty at being still up, but the past kept pricking at me...");
+      attribution = F("- L.P.Hartley, The Go-Between");
       return;
         case 1:
-      quote = F("It was * five minutes past eleven * when I made my last entry. I remember winding up my watch and noting the time. So I have wasted some five hours of the little span still left to us. Who would have believed it possible? But I feel very much fresher, and ready for my fate--or try to persuade myself that I am. And yet, the fitter a man is, and the higher his tide of life, the more must he shrink from death. How wise and how merciful is that provision of nature by which his earthly anchor is usually loosened by many little imperceptible tugs, until his consciousness has drifted out of its untenable earthly harbor into the great sea beyond!");
-      attribution = F("- The Poison Belt");
-      return;
-        case 2:
       quote = F("My watch says * 11:05 *. But whether AM or PM I don't know.");
       attribution = F("- Household Worms");
+      return;
+        case 2:
+      quote = F("It was * five minutes past eleven * when I made my last entry. I remember winding up my watch and noting the time.");
+      attribution = F("- The Poison Belt");
       return;
       } // end switch (option)
 
@@ -12614,19 +12522,19 @@ void setQuoteForMinute(int minute) {
       // 2 options for 23:10
       switch (option) {
         case 0:
-      quote = F("Another Christmas day is nearly over. It's * ten past eleven *. Richard declined with thanks my offer to make up a bed for him here in my study, and has driven off back to Cambridge, so I am able to make some notes on the day before going to bed myself.");
-      attribution = F("- David Lodge, Deaf Sentence ");
-      return;
-        case 1:
       quote = F("He had not the strength to help himself, and at * ten minutes past eleven * no one could have helped him, no one in the world");
       attribution = F("- Appointment in Samarra");
+      return;
+        case 1:
+      quote = F("Another Christmas day is nearly over. It's * ten past eleven *. Richard declined with thanks my offer to make up a bed for him here in my study...");
+      attribution = F("- David Lodge, Deaf Sentence");
       return;
       } // end switch (option)
 
     // Codegen for 23:11 for 1 quotations:
     case 1391:
       // Only one option for 23:11:"
-      quote = F("Life changes fast Life changes in an instant You sit down to dinner and life as you know it ends. The Question of self-pity. Those were the first words I wrote after it happened. The computer dating on the Microsoft Word file (\"Notes on change.doc\") reads \"May 20, 2004, * 11:11 p.m. *,\" but that would have been a case of my opening the file and reflexively pressing save when I closed it. I had made no changes to that file since I wrote the words, in January 2004, a day or two after the fact. For a long time I wrote nothing else. Life changes in the instant. The ordinary instant.");
+      quote = F("The Question of self-pity. Those were the first words I wrote after it happened. The computer dating on the Microsoft Word file (\"Notes on change.doc\") reads \"May 20, 2004, * 11:11 p.m. *,\"");
       attribution = F("- Joan Didion");
       return;
 
@@ -12657,11 +12565,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 23:15
       switch (option) {
         case 0:
-      quote = F("* 11.15pm.  *Humph. Mum just rang \"Sorry, darling. It isn't Newsnigtht, it's Breakfast News tomorrow. Could you set it for seven o'clock tomorrow morning, BBC1?\"");
+      quote = F("* 11.15pm. * Humph. Mum just rang \"Sorry, darling. It isn't Newsnigtht, it's Breakfast News tomorrow. Could you set it for seven o'clock tomorrow morning, BBC1?\"");
       attribution = F("- Bridget Jones's Diary");
       return;
         case 1:
-      quote = F("On arriving home at a * quarter-past eleven *, we found a hansom cab, which had been waiting for me for two hours with a letter. Sarah said she did not know what to do, as we had not left the address where we had gone.");
+      quote = F("On arriving home at a * quarter-past eleven *, we found a hansom cab, which had been waiting for me for two hours with a letter.");
       attribution = F("- Dairy of a Nobody");
       return;
       } // end switch (option)
@@ -12701,10 +12609,10 @@ void setQuoteForMinute(int minute) {
       switch (option) {
         case 0:
       quote = F("From Balboa Island, he drove south to Laguna Beach. At * eleven-twenty *, he parked his van across the street from the Hudston house.");
-      attribution = F("- Dean Koontz, Watchers ");
+      attribution = F("- Dean Koontz, Watchers");
       return;
         case 1:
-      quote = F("Harvey looked at the clock, which marked * twenty past eleven *. \"Then I'll sleep here till three and catch the four o'clock freight. They let us men from the Fleet ride free as a rule.\"");
+      quote = F("Harvey looked at the clock, which marked * twenty past eleven *. \"Then I'll sleep here till three and catch the four o'clock freight...");
       attribution = F("- Captains Courageous");
       return;
       } // end switch (option)
@@ -12743,11 +12651,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 23:25
       switch (option) {
         case 0:
-      quote = F("\"OK, Estelle, I willl be at Nice Airport at * 11.25 p.m. * on Saturday, BA: Could you send the driver?\"");
+      quote = F("OK, Estelle, I willl be at Nice Airport at * 11.25 p.m. * on Saturday, BA: Could you send the driver?");
       attribution = F("- Other People's Money");
       return;
         case 1:
-      quote = F("To test the intensity of the light whose nature and cause he could not determine, he took out his watch to see if he could make out the figures on the dial. They were plainly visible, and the hands indicated the hour of * eleven o'clock and twenty-five minutes *. At that moment the mysterious illumination suddenly flared to an intense, an almost blinding splendor…");
+      quote = F("...see if he could make out the figures on the dial. They were plainly visible, and the hands indicated the hour of * eleven o'clock and twenty-five minutes *.");
       attribution = F("- A Wireless Message");
       return;
       } // end switch (option)
@@ -12794,8 +12702,8 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Paul Bowles");
       return;
         case 2:
-      quote = F("The Picton boat was due to leave at * half-past eleven *. It was a beautiful night, mild, starry, only when they got out of the cab and started to walk down the Old Wharf that jutted out into the harbour, a faint wind blowing off the water ruffled under Fenella's hat, and she put up her hand to keep it on.");
-      attribution = F("- “The Voyage”");
+      quote = F("The Picton boat was due to leave at * half-past eleven *. It was a beautiful night, mild, starry...");
+      attribution = F("- The Voyage");
       return;
         case 3:
       quote = F("The ship's clock in the bar says * half past eleven *. Half past eleven is opening time. The hands of the clock have stayed still at * half past eleven * for fifty years.");
@@ -12816,12 +12724,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 23:32
       switch (option) {
         case 0:
-      quote = F("\"This is the evening. This is the night. It is New Year´s Eve. * In about twenty-eight minutes it will be midnight. * I still have twenty-eight minutes left. I have to recollect my thoughts. At twelve o´clock, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\"");
-      attribution = F("- Gerard Reve, The Evenings ");
+      quote = F("And then it was * 11.32 pm * and I heard voices of people walking along the street. And a voice said, 'I don't care whether you thought it was funny or not,'");
+      attribution = F("- Mark Haddon");
       return;
         case 1:
-      quote = F("And then it started to rain and I got wet and I started shivering because I was cold. And then it was * 11.32 pm * and I heard voices of people walking along the street. And a voice said, 'I don't care whether you thought it was funny or not,' and it was a lady's voice.");
-      attribution = F("- Mark Haddon");
+      quote = F("This is the evening. This is the night. It is New Year´s Eve. * In about twenty-eight minutes it will be midnight. * I still have twenty-eight minutes left.");
+      attribution = F("- Gerard Reve, The Evenings");
       return;
       } // end switch (option)
 
@@ -12838,11 +12746,11 @@ void setQuoteForMinute(int minute) {
       // 2 options for 23:34
       switch (option) {
         case 0:
-      quote = F("Eleven thirty-four. We stand on the sidewalk in front of Jean's apartment on the Upper East Side. Her doorman eyes us warily and fills me with a nameless dread, his gaze piercing me from the lobby. A curtain of stars, miles of them, are scattered, glowing, across the sky and their multitude humbles me, which I have a hard time tolerating. She shrugs and nods after I say something about forms of anxiety. It's as if her mind is having a hard time communicating with her mouth, as if she is searching for a rational analysis of who I am, which is, of course, an impossibility: there ... is ... no ... key.");
+      quote = F("* Eleven thirty-four *. We stand on the sidewalk in front of Jean's apartment on the Upper East Side.");
       attribution = F("- American Psycho");
       return;
         case 1:
-      quote = F("Reacher retrieved his G36 from under the saloon bar window at * eleven thirty-four * precisely and set out to walk back on the road, which he figured would make the return trip faster.");
+      quote = F("Reacher retrieved his G36 from under the saloon bar window at * eleven thirty-four * precisely and set out to walk back on the road...");
       attribution = F("- Lee Child, The Hard Way");
       return;
       } // end switch (option)
@@ -12886,7 +12794,7 @@ void setQuoteForMinute(int minute) {
     case 1420:
       // Only one option for 23:40:"
       quote = F("We all have the maps and appliances of various kinds that can be had. Professor Van Helsing and I are to leave by the * 11:40 * train tonight for Veresti, where we are to get a carriage to drive to the Borgo Pass. We are bringing a good deal of ready money, as we are to buy a carriage and horses.");
-      attribution = F("- Bram Stoker, Dracula ");
+      attribution = F("- Bram Stoker, Dracula");
       return;
 
     // Codegen for 23:41 for 1 quotations:
@@ -12923,12 +12831,12 @@ void setQuoteForMinute(int minute) {
       // 2 options for 23:45
       switch (option) {
         case 0:
-      quote = F("The church clocks chimed * three quarters past eleven *, as two figures emerged on London Bridge. One, which advanced with a swift and rapid step, was that of a woman who looked eagerly about her as though in quest of some expected object; the other figure was that of a man...");
-      attribution = F("- Oliver Twist");
+      quote = F("We passed Shiplake as the clock was striking the * quarter to twelve * and then George said thoughtfully: 'You don't happen to remember which of the islands it was, do you?'");
+      attribution = F("- Three Men in a Boat");
       return;
         case 1:
-      quote = F("We struck the tow-path at length, and that made us happy because prior to this we had not been sure whether we were walking towards the river or away from it, and when you are tired and want to go to bed, uncertainties like that worry you. We passed Shiplake as the clock was striking the * quarter to twelve * and then George said thoughtfully: 'You don't happen to remember which of the islands it was, do you?'");
-      attribution = F("- Three Men in a Boat");
+      quote = F("The church clocks chimed * three quarters past eleven *, as two figures emerged on London Bridge.");
+      attribution = F("- Oliver Twist");
       return;
       } // end switch (option)
 
@@ -12970,7 +12878,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 23:51 for 1 quotations:
     case 1431:
       // Only one option for 23:51:"
-      quote = F("\"Due at Waterloo at * eleven-fifty-one *,\" panted Smith.\"That gives us thirty-nine minutes to get to the other side of the river and reach his hotel.\"");
+      quote = F("Due at Waterloo at * eleven-fifty-one *, panted Smith. \"That gives us thirty-nine minutes to get to the other side of the river and reach his hotel.\"");
       attribution = F("- The Mystery of Dr Fu Manchu");
       return;
 
@@ -12995,20 +12903,12 @@ void setQuoteForMinute(int minute) {
       attribution = F("- Greg Tobin, Conclave");
       return;
 
-    // Codegen for 23:55 for 2 quotations:
+    // Codegen for 23:55 for 1 quotations:
     case 1435:
-      option = random(0, 2);
-      // 2 options for 23:55
-      switch (option) {
-        case 0:
-      quote = F("\"I am going to lock you in. It is-\" he consulted his watch, \"* five minutes to midnight *. Miss Granger, three turns should do it. Good luck.\"");
+      // Only one option for 23:55:"
+      quote = F("I am going to lock you in. It is- he consulted his watch, \"* five minutes to midnight *. Miss Granger, three turns should do it. Good luck.\"");
       attribution = F("- J. K. Rowling");
       return;
-        case 1:
-      quote = F("I looked at my watch. It wanted * five minutes to twelve *, when the premonitory symptoms of the working of the laudanum first showed themselves to me. At this time, no unpractised eyes would have detected any change in him. But, as the minutes of the new morning wore away, the swiftly-subtle progress of the influence began to show itself more plainly. The sublime intoxication of opium gleamed in his eyes; the dew of a stealthy perspiration began to glisten on his face. In five minutes more, the talk which he still kept up with me, failed in coherence.");
-      attribution = F("- The Moonstone");
-      return;
-      } // end switch (option)
 
     // Codegen for 23:56 for 1 quotations:
     case 1436:
@@ -13020,7 +12920,7 @@ void setQuoteForMinute(int minute) {
     // Codegen for 23:57 for 1 quotations:
     case 1437:
       // Only one option for 23:57:"
-      quote = F("Wells looked out at the street. \"What time is it?\" he said. Chigurh raised his wrist and looked at his watch. \"Eleven fifty-seven\" he said. Wells nodded. By the old woman's calendar I've got three more minutes.");
+      quote = F("Wells looked out at the street. \"What time is it?\" he said. Chigurh raised his wrist and looked at his watch. \"Eleven fifty-seven\" he said. Wells nodded.");
       attribution = F("- No Country for Old Men");
       return;
 
@@ -13037,7 +12937,7 @@ void setQuoteForMinute(int minute) {
       // 2 options for 23:59
       switch (option) {
         case 0:
-      quote = F("At a minute to midnight, Roquenton was holding his wife's hand and giving her some last words of advice. On the stroke of midnight, she felt her companion's hand melt away inside her own.");
+      quote = F("At a minute to midnight, Roquenton was holding his wife's hand and giving her some last words of advice.");
       attribution = F("- Marcel Aymé");
       return;
         case 1:

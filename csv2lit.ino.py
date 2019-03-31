@@ -159,6 +159,8 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
             print(f"        case {counter}:")
             #print_code_for_a_single_quote(rows[counter], indent=10)
             quote = strip_bad(escape(rows[counter]['quote']))
+            if len(quote) >= 180:
+                raise Exception(f"{minute_number} Quote too long {len(quote)} for screen: {quote}")
             quote = boldit(quote, rows[counter])
             print(f'      quote = F("{quote}");')
             print(f'      attribution = F("{format_att_string(row)}");')
