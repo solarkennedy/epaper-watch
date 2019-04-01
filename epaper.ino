@@ -3,9 +3,6 @@
 
 GxEPD2_BW<GxEPD2_213_flex, GxEPD2_213_flex::HEIGHT> display(GxEPD2_213_flex(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16)); // GDEW0213I5F
 
-
-const float VOLTAGE_DIVIDER_RATIO = 5.7;
-
 void setupEpaper() {
   initEpaper();
   displayBatteryMeter(readBatteryLevel());
@@ -91,14 +88,37 @@ void setFont()
 }
 
 uint8_t readBatteryLevel() {
-  float voltage = analogRead(A0) * VOLTAGE_DIVIDER_RATIO / 1024 * 0.980716253;
-  uint8_t percent = sigmoidal(voltage, 0, 4.2);
+  float voltage = readBatteryVoltage();
+  uint8_t percent = sigmoidal(voltage, 3.2, 4.1);
   Serial.print("Battery Percent: ");
   Serial.print(percent);
   Serial.print(" (");
   Serial.print(voltage);
   Serial.println(" volts)");
   return percent;
+}
+
+float readBatteryVoltage() {
+  float raw = rawBatteryAnalogRead();
+  Serial.print("Raw analog read is: ");
+  Serial.println(raw);
+  const float ref = 1.0;
+  const float adjust = 0.875609756; // shrug?
+  float vout = (raw * ref * adjust) / 1023.0;
+  Serial.print("Voltage at the A0 pin: ");
+  Serial.print(vout);
+  Serial.println(" volts");
+  float R1 = 47000.0;
+  float R2 = 10000.0;
+  float vin = vout / (R2 / (R1 + R2));
+  Serial.print("Computed voltage read is: ");
+  Serial.print(vin);
+  Serial.println(" volts");
+  return vin;
+}
+
+float rawBatteryAnalogRead() {
+  return analogRead(A0);
 }
 
 void displayBatteryMeter(uint8_t percent) {
