@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python3
 import csv
 import datetime as dt
 import time
@@ -145,6 +145,8 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
     elif len(rows) == 1:
         print(f'      // Only one option for {minute_str}:"')
         quote = strip_bad(escape(rows[0]['quote']))
+        if len(quote) >= 180:
+            raise Exception(f"{minute_number} Quote too long {len(quote)} for screen: {quote}")
         quote = boldit(quote, rows[0])
         print(f'      quote = F("{quote}");')
         print(f'      attribution = F("{format_att_string(rows[0])}");')
@@ -189,7 +191,7 @@ def print_code(csv):
 
 if __name__ == '__main__':
     print_header()
-    with open('litclock_annotated.csv') as f:
+    with open('litclock_expanded_meridiem.csv') as f:
         csv = csv.DictReader(f, delimiter='|')
         print_code(csv)
     print_footer()
