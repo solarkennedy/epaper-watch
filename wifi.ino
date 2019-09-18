@@ -2,7 +2,6 @@
 
 char ssid[32] = "";
 char password[32] = "";
-const int wifi_timeout = 60;
 IPAddress myIP;
 
 void saveCredentials() {
@@ -32,22 +31,21 @@ void loadCredentials() {
   Serial.println(password);
 }
 
-bool connectToWifi() {
+bool connectToWifi(int timeout) {
   WiFi.mode(WIFI_STA);
   // saveCredentials();
   loadCredentials();
-  Serial.print("Connected to ");
+  Serial.print("Conneting to ");
   Serial.println(ssid);
   WiFi.begin(ssid, password);
   // Connect to WiFi network
-  Serial.print("Connecting");
-  int counter = 0;
+  int counter = 1;
   while (WiFi.status() != WL_CONNECTED)
   {
-    if (counter == wifi_timeout) {
+    if (counter == timeout) {
       Serial.println();
       Serial.print(F("Timed out after "));
-      Serial.print(wifi_timeout);
+      Serial.print(timeout);
       Serial.println(F(" seconds. Moving on."));
       return false;
     }
@@ -55,11 +53,28 @@ bool connectToWifi() {
     Serial.print(".");
     if (counter % 60 == 0) {
       Serial.println();
+      Serial.print(F("Status: "));
+      Serial.println(wl_status_to_string(WiFi.status()));
     }
     counter = counter + 1;
   }
   Serial.print("\r\nIP address: ");
   Serial.println(myIP = WiFi.localIP());
   Serial.println("");
+  delay(1000);
   return true;
+}
+
+
+const char* wl_status_to_string(int status) {
+  switch (status) {
+    case WL_NO_SHIELD: return "WL_NO_SHIELD";
+    case WL_IDLE_STATUS: return "WL_IDLE_STATUS";
+    case WL_NO_SSID_AVAIL: return "WL_NO_SSID_AVAIL";
+    case WL_SCAN_COMPLETED: return "WL_SCAN_COMPLETED";
+    case WL_CONNECTED: return "WL_CONNECTED";
+    case WL_CONNECT_FAILED: return "WL_CONNECT_FAILED";
+    case WL_CONNECTION_LOST: return "WL_CONNECTION_LOST";
+    case WL_DISCONNECTED: return "WL_DISCONNECTED";
+  }
 }

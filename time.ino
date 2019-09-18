@@ -8,9 +8,6 @@ void handleTimeEvents() {
 }
 
 void setupClockFromRTC() {
-  Serial.println();
-  Serial.println();
-  Serial.println();
   Serial.println("Getting time from RTC memory...");
   uint32_t data;
   uint32_t offset = 0;
@@ -34,12 +31,21 @@ void printSystemUptime() {
   Serial.println(F(" milliseconds."));
 }
 
+bool isTimeDataBogus(uint32_t data) {
+  if (data < 1550519320 || data > 1866652033) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 void saveTimeAndSleep() {
+  Serial.println(F("saveTimeAndSleep..."));
   uint32_t offset = 0;
   long sleep_interval_s = 60;
   long sleep_interval_us = sleep_interval_s * 1000000;
   uint32_t data = now() + sleep_interval_s;
-  if (data < 1550519320 || data > 1866652033) {
+  if (isTimeDataBogus(data)) {
     Serial.print(F("The clock time looks bogus: "));
     Serial.println(data);
     Serial.print(F("Refusing to set the time. Resetting the RTC to 0 just in case"));
@@ -53,7 +59,17 @@ void saveTimeAndSleep() {
   Serial.print(F(" seconds. Uptime: "));
   Serial.print(millis());
   Serial.println(F(" milliseconds."));
-  ESP.deepSleep(sleep_interval_us, WAKE_RF_DISABLED);
+  dSleep(sleep_interval_us);
+}
+
+void dSleep(long us) {
+  if (ESP.getChipId() == 5050445) {
+    Serial.println("No reset pin + interrupt hardware on this model. Sleeping like normal and resetting");
+    delay(us / 100);
+    ESP.reset();
+  } else {
+    ESP.deepSleep(us, WAKE_RF_DISABLED);
+  }
 }
 
 void syncTimeFromWifi() {
@@ -79,5 +95,6 @@ int getMinuteOfTheHour() {
 }
 
 void setQuoteToCurrentTime() {
-  quote = MyTZ.dateTime(ISO8601);
+  quote = "The time is: * " + MyTZ.dateTime(ISO8601) + " * \n";
+  attribution = "Set from the local time";
 }

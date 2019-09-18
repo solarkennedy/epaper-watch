@@ -8,7 +8,7 @@ void setup(void) {
   if (getCurrentTime() < 1000) {
     Serial.println(F("Time is way out of sync."));
     Serial.println(F("Getting time from NTP first..."));
-    if (connectToWifi()) syncTimeFromWifi();
+    if (connectToWifi(-1)) syncTimeFromWifi();
   }
 
   int m = getCurrentMinute();
@@ -22,19 +22,31 @@ void setup(void) {
   Serial.println(quote);
   Serial.println(attribution);
   setupEpaper();
+
+  if (isTimeDataBogus(getCurrentTime())) {
+    Serial.println(F("Time is way out of sync."));
+    Serial.println(F("Getting time from NTP first..."));
+    if (connectToWifi(-1)) syncTimeFromWifi();
+  }
+
   syncIfItIsAGoodTime();
   saveTimeAndSleep();
 }
 
 void syncIfItIsAGoodTime() {
+  Serial.println(F("syncIfItIsAGoodTime..."));
   if (getMinuteOfTheHour() == 0) {
     Serial.println(F("Now is the right time to opportunistically sync ntp"));
-    if (connectToWifi()) syncTimeFromWifi();
+    if (connectToWifi(-1)) syncTimeFromWifi();
   }
 }
 
 void setupSerial() {
   Serial.begin(115200);
+  Serial.println();
+  Serial.println();
+  Serial.println();
+  Serial.printf("ESP8266 Chip id = %08X\n", ESP.getChipId());
 }
 
 void loop(void) {

@@ -1,17 +1,31 @@
-#include <GxEPD2_BW.h>
+//#include <GxEPD2_BW.h>
+//GxEPD2_BW<GxEPD2_213_flex, GxEPD2_213_flex::HEIGHT> display(GxEPD2_213_flex(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16)); // GDEW0213I5F
+
+#include <GxEPD2_3C.h>
+//GxEPD2_3C<GxEPD2_270c, GxEPD2_270c::HEIGHT> display(GxEPD2_270c(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16));
+GxEPD2_3C<GxEPD2_290c, GxEPD2_290c::HEIGHT> display(GxEPD2_290c(/*CS=D8*/ SS, /*DC=D3*/ 4, /*RST=D4*/ 5, /*BUSY=D2*/ 16));
+
+
 #include "Ubuntu_B7pt7b.h"
 
-GxEPD2_BW<GxEPD2_213_flex, GxEPD2_213_flex::HEIGHT> display(GxEPD2_213_flex(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16)); // GDEW0213I5F
 
 void setupEpaper() {
+  Serial.println(F("setupEpaper..."));
   initEpaper();
-  displayBatteryMeter(readBatteryLevel());
-  displayQuote();
-  displayAttribution();
+  display.firstPage();
+  do
+  {
+    Serial.println(F("nextPage loop..."));
+    //displayBatteryMeter(readBatteryLevel());
+    displayQuote();
+    displayAttribution();
+  }
   while (display.nextPage());
+//  display.hibernate();
 }
 
 void displayQuote() {
+  Serial.println(F("displayQuote..."));
   int str_len = quote.length() + 1;
   char char_array[str_len];
   quote.toCharArray(char_array, str_len);
@@ -22,14 +36,12 @@ void displayQuote() {
   int16_t tbx, tby; uint16_t tbw, tbh;
   bool bold = false;
 
-
-
   while ((w = strtok_r(p, " ", &p)) != NULL)
   {
     if (w[0] == '*') {
       if (bold == false) {
         bold = true;
-        display.setTextColor(GxEPD_WHITE, GxEPD_BLACK);
+        display.setTextColor(GxEPD_RED, GxEPD_WHITE);
       } else {
         bold = false;
         display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
@@ -45,36 +57,41 @@ void displayQuote() {
       // If we are going to overflow the line we need to wrap
       display.println();
       Serial.println();
-    } else if (tby > display.height() ) {
-      Serial.println("We've overflowed the screen. Exiting early");
-      return;
+    } else if (y > display.height() ) {
+      Serial.println("We've overflowed the screen!");
+      display.println();
+      Serial.println();
     }
 
     if (bold) {
-      display.getTextBounds(w, x, y, &tbx, &tby, &tbw, &tbh);
-      display.fillRect(tbx-1, tby-1, tbw+2, tbh+2, GxEPD_BLACK);
+      // Custom fonts don't support background colors, so we have to fill
+      // in the background manually
+      //display.getTextBounds(w, x, y, &tbx, &tby, &tbw, &tbh);
+      //display.fillRect(tbx - 1, tby - 1, tbw + 2, tbh + 2, GxEPD_BLACK);
+      // TODO: Deal with word-wrap, spaces, newlines here?
     }
+
     display.print(w);
     Serial.print(w);
     display.print(" ");
     Serial.print(" ");
-
   }
 }
 
 void initEpaper() {
-  Serial.println("Setting up the e-paper display...");
-  display.init(0);
+  Serial.println(F("initEpaper..."));
+  display.init(0, true);
   display.setRotation(3);
   setFont();
   display.fillScreen(GxEPD_WHITE);
 }
 
 void displayAttribution() {
+  Serial.println(F("displayAttribution..."));
   int16_t tbx, tby; uint16_t tbw, tbh;
   display.getTextBounds(attribution, 0, 0, &tbx, &tby, &tbw, &tbh);
   uint16_t x = (display.width() - tbw - 6);
-  uint16_t y = (display.height() - tbh + 6);
+  uint16_t y = (display.height() - tbh + 10);
   display.setCursor(x, y);
   display.println(attribution);
 }
@@ -83,6 +100,7 @@ void setFont()
 {
   const GFXfont* f = &Ubuntu_B7pt7b;
   display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
+  //display.setTextColor(GxEPD_WHITE, GxEPD_BLACK);
   display.setFont(f);
   display.setCursor(0, 12);
 }
@@ -90,7 +108,7 @@ void setFont()
 uint8_t readBatteryLevel() {
   float voltage = readBatteryVoltage();
   uint8_t percent = sigmoidal(voltage, 3.2, 4.1);
-  Serial.print("Battery Percent: ");
+  Serial.print(F("Battery Percent: "));
   Serial.print(percent);
   Serial.print(" (");
   Serial.print(voltage);
@@ -127,7 +145,11 @@ void displayBatteryMeter(uint8_t percent) {
 }
 
 
-static inline uint8_t sigmoidal(uint16_t voltage, uint16_t minVoltage, uint16_t maxVoltage) {
+static inline uint8_t sigmoidal(float voltage, float minVoltage, float maxVoltage) {
+  Serial.println(voltage);
+  Serial.println(minVoltage);
+  Serial.println(maxVoltage);
   uint8_t result = 105 - (105 / (1 + pow(1.724 * (voltage - minVoltage) / (maxVoltage - minVoltage), 5.5)));
+  Serial.println(result);
   return result >= 100 ? 100 : result;
 }
