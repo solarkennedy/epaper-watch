@@ -130,6 +130,8 @@ def escape(s, quote='"'):
 
 def boldit(quote, row):
     timestring = row['time_string']
+    if timestring not in quote:
+        raise Exception(f"No '{timestring}' in {quote}")
     return quote.replace(timestring, f"* {timestring} *")
 
 
