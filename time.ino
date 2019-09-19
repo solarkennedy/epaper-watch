@@ -63,13 +63,13 @@ void saveTimeAndSleep() {
 }
 
 void dSleep(long us) {
-  if (ESP.getChipId() == 5050445) {
-    Serial.println("No reset pin + interrupt hardware on this model. Sleeping like normal and resetting");
-    delay(us / 100);
-    ESP.reset();
-  } else {
+#ifdef WATCH
     ESP.deepSleep(us, WAKE_RF_DISABLED);
-  }
+#else
+    Serial.println("No reset pin + interrupt hardware on this model. Sleeping like normal and resetting");
+    delay(us / 1000);
+    ESP.reset();
+#endif
 }
 
 void syncTimeFromWifi() {

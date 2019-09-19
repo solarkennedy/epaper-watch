@@ -245,7 +245,7 @@ void setQuoteForMinute(int minute) {
     case 13:
       // No quotes for 00:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:14 for 2 quotations:
@@ -311,7 +311,7 @@ void setQuoteForMinute(int minute) {
     case 19:
       // No quotes for 00:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:20 for 1 quotations:
@@ -403,7 +403,7 @@ void setQuoteForMinute(int minute) {
     case 27:
       // No quotes for 00:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:28 for 1 quotations:
@@ -490,21 +490,21 @@ void setQuoteForMinute(int minute) {
     case 36:
       // No quotes for 00:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:37 for 0 quotations:
     case 37:
       // No quotes for 00:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:38 for 0 quotations:
     case 38:
       // No quotes for 00:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:39 for 1 quotations:
@@ -533,7 +533,7 @@ void setQuoteForMinute(int minute) {
     case 41:
       // No quotes for 00:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:42 for 1 quotations:
@@ -554,7 +554,7 @@ void setQuoteForMinute(int minute) {
     case 44:
       // No quotes for 00:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:45 for 3 quotations:
@@ -580,7 +580,7 @@ void setQuoteForMinute(int minute) {
     case 46:
       // No quotes for 00:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:47 for 1 quotations:
@@ -594,7 +594,7 @@ void setQuoteForMinute(int minute) {
     case 48:
       // No quotes for 00:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:49 for 1 quotations:
@@ -615,14 +615,14 @@ void setQuoteForMinute(int minute) {
     case 51:
       // No quotes for 00:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:52 for 0 quotations:
     case 52:
       // No quotes for 00:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 00:53 for 1 quotations:
@@ -807,7 +807,7 @@ void setQuoteForMinute(int minute) {
     case 67:
       // No quotes for 01:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:08 for 1 quotations:
@@ -880,7 +880,7 @@ void setQuoteForMinute(int minute) {
     case 74:
       // No quotes for 01:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:15 for 4 quotations:
@@ -951,7 +951,7 @@ void setQuoteForMinute(int minute) {
     case 79:
       // No quotes for 01:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:20 for 3 quotations:
@@ -977,7 +977,7 @@ void setQuoteForMinute(int minute) {
     case 81:
       // No quotes for 01:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:22 for 1 quotations:
@@ -1083,7 +1083,7 @@ void setQuoteForMinute(int minute) {
     case 91:
       // No quotes for 01:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:32 for 2 quotations:
@@ -1135,21 +1135,21 @@ void setQuoteForMinute(int minute) {
     case 95:
       // No quotes for 01:35
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:36 for 0 quotations:
     case 96:
       // No quotes for 01:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:37 for 0 quotations:
     case 97:
       // No quotes for 01:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:38 for 1 quotations:
@@ -1163,7 +1163,7 @@ void setQuoteForMinute(int minute) {
     case 99:
       // No quotes for 01:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:40 for 1 quotations:
@@ -1177,21 +1177,21 @@ void setQuoteForMinute(int minute) {
     case 101:
       // No quotes for 01:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:42 for 0 quotations:
     case 102:
       // No quotes for 01:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:43 for 0 quotations:
     case 103:
       // No quotes for 01:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:44 for 2 quotations:
@@ -1235,14 +1235,14 @@ void setQuoteForMinute(int minute) {
     case 107:
       // No quotes for 01:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:48 for 0 quotations:
     case 108:
       // No quotes for 01:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:49 for 1 quotations:
@@ -1278,14 +1278,14 @@ void setQuoteForMinute(int minute) {
     case 112:
       // No quotes for 01:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:53 for 0 quotations:
     case 113:
       // No quotes for 01:53
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:54 for 1 quotations:
@@ -1299,14 +1299,14 @@ void setQuoteForMinute(int minute) {
     case 115:
       // No quotes for 01:55
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:56 for 0 quotations:
     case 116:
       // No quotes for 01:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:57 for 1 quotations:
@@ -1320,7 +1320,7 @@ void setQuoteForMinute(int minute) {
     case 118:
       // No quotes for 01:58
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 01:59 for 1 quotations:
@@ -1387,14 +1387,14 @@ void setQuoteForMinute(int minute) {
     case 123:
       // No quotes for 02:03
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:04 for 0 quotations:
     case 124:
       // No quotes for 02:04
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:05 for 2 quotations:
@@ -1416,7 +1416,7 @@ void setQuoteForMinute(int minute) {
     case 126:
       // No quotes for 02:06
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:07 for 3 quotations:
@@ -1442,14 +1442,14 @@ void setQuoteForMinute(int minute) {
     case 128:
       // No quotes for 02:08
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:09 for 0 quotations:
     case 129:
       // No quotes for 02:09
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:10 for 2 quotations:
@@ -1471,7 +1471,7 @@ void setQuoteForMinute(int minute) {
     case 131:
       // No quotes for 02:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:12 for 1 quotations:
@@ -1500,7 +1500,7 @@ void setQuoteForMinute(int minute) {
     case 134:
       // No quotes for 02:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:15 for 2 quotations:
@@ -1522,7 +1522,7 @@ void setQuoteForMinute(int minute) {
     case 136:
       // No quotes for 02:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:17 for 2 quotations:
@@ -1551,7 +1551,7 @@ void setQuoteForMinute(int minute) {
     case 139:
       // No quotes for 02:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:20 for 4 quotations:
@@ -1596,14 +1596,14 @@ void setQuoteForMinute(int minute) {
     case 142:
       // No quotes for 02:22
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:23 for 0 quotations:
     case 143:
       // No quotes for 02:23
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:24 for 1 quotations:
@@ -1645,7 +1645,7 @@ void setQuoteForMinute(int minute) {
     case 149:
       // No quotes for 02:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:30 for 6 quotations:
@@ -1740,7 +1740,7 @@ void setQuoteForMinute(int minute) {
     case 158:
       // No quotes for 02:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:39 for 1 quotations:
@@ -1761,14 +1761,14 @@ void setQuoteForMinute(int minute) {
     case 161:
       // No quotes for 02:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:42 for 0 quotations:
     case 162:
       // No quotes for 02:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:43 for 1 quotations:
@@ -1782,7 +1782,7 @@ void setQuoteForMinute(int minute) {
     case 164:
       // No quotes for 02:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:45 for 3 quotations:
@@ -1830,14 +1830,14 @@ void setQuoteForMinute(int minute) {
     case 168:
       // No quotes for 02:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:49 for 0 quotations:
     case 169:
       // No quotes for 02:49
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:50 for 1 quotations:
@@ -1851,21 +1851,21 @@ void setQuoteForMinute(int minute) {
     case 171:
       // No quotes for 02:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:52 for 0 quotations:
     case 172:
       // No quotes for 02:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:53 for 0 quotations:
     case 173:
       // No quotes for 02:53
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:54 for 1 quotations:
@@ -1901,7 +1901,7 @@ void setQuoteForMinute(int minute) {
     case 177:
       // No quotes for 02:57
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 02:58 for 1 quotations:
@@ -2032,14 +2032,14 @@ void setQuoteForMinute(int minute) {
     case 182:
       // No quotes for 03:02
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:03 for 0 quotations:
     case 183:
       // No quotes for 03:03
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:04 for 1 quotations:
@@ -2060,7 +2060,7 @@ void setQuoteForMinute(int minute) {
     case 186:
       // No quotes for 03:06
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:07 for 2 quotations:
@@ -2082,14 +2082,14 @@ void setQuoteForMinute(int minute) {
     case 188:
       // No quotes for 03:08
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:09 for 0 quotations:
     case 189:
       // No quotes for 03:09
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:10 for 2 quotations:
@@ -2111,14 +2111,14 @@ void setQuoteForMinute(int minute) {
     case 191:
       // No quotes for 03:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:12 for 0 quotations:
     case 192:
       // No quotes for 03:12
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:13 for 1 quotations:
@@ -2170,7 +2170,7 @@ void setQuoteForMinute(int minute) {
     case 196:
       // No quotes for 03:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:17 for 2 quotations:
@@ -2192,7 +2192,7 @@ void setQuoteForMinute(int minute) {
     case 198:
       // No quotes for 03:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:19 for 1 quotations:
@@ -2220,7 +2220,7 @@ void setQuoteForMinute(int minute) {
     case 202:
       // No quotes for 03:22
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:23 for 1 quotations:
@@ -2234,7 +2234,7 @@ void setQuoteForMinute(int minute) {
     case 204:
       // No quotes for 03:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:25 for 1 quotations:
@@ -2248,14 +2248,14 @@ void setQuoteForMinute(int minute) {
     case 206:
       // No quotes for 03:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:27 for 0 quotations:
     case 207:
       // No quotes for 03:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:28 for 1 quotations:
@@ -2303,7 +2303,7 @@ void setQuoteForMinute(int minute) {
     case 211:
       // No quotes for 03:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:32 for 1 quotations:
@@ -2416,7 +2416,7 @@ void setQuoteForMinute(int minute) {
     case 226:
       // No quotes for 03:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:47 for 1 quotations:
@@ -2430,7 +2430,7 @@ void setQuoteForMinute(int minute) {
     case 228:
       // No quotes for 03:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:49 for 1 quotations:
@@ -2466,14 +2466,14 @@ void setQuoteForMinute(int minute) {
     case 232:
       // No quotes for 03:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:53 for 0 quotations:
     case 233:
       // No quotes for 03:53
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 03:54 for 1 quotations:
@@ -2716,7 +2716,7 @@ void setQuoteForMinute(int minute) {
     case 250:
       // No quotes for 04:10
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:11 for 1 quotations:
@@ -2819,7 +2819,7 @@ void setQuoteForMinute(int minute) {
     case 259:
       // No quotes for 04:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:20 for 1 quotations:
@@ -2833,7 +2833,7 @@ void setQuoteForMinute(int minute) {
     case 261:
       // No quotes for 04:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:22 for 1 quotations:
@@ -2884,28 +2884,28 @@ void setQuoteForMinute(int minute) {
     case 266:
       // No quotes for 04:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:27 for 0 quotations:
     case 267:
       // No quotes for 04:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:28 for 0 quotations:
     case 268:
       // No quotes for 04:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:29 for 0 quotations:
     case 269:
       // No quotes for 04:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:30 for 3 quotations:
@@ -2945,14 +2945,14 @@ void setQuoteForMinute(int minute) {
     case 273:
       // No quotes for 04:33
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:34 for 0 quotations:
     case 274:
       // No quotes for 04:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:35 for 1 quotations:
@@ -2973,7 +2973,7 @@ void setQuoteForMinute(int minute) {
     case 277:
       // No quotes for 04:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:38 for 1 quotations:
@@ -2987,7 +2987,7 @@ void setQuoteForMinute(int minute) {
     case 279:
       // No quotes for 04:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:40 for 1 quotations:
@@ -3008,7 +3008,7 @@ void setQuoteForMinute(int minute) {
     case 282:
       // No quotes for 04:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:43 for 1 quotations:
@@ -3022,7 +3022,7 @@ void setQuoteForMinute(int minute) {
     case 284:
       // No quotes for 04:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:45 for 1 quotations:
@@ -3065,7 +3065,7 @@ void setQuoteForMinute(int minute) {
     case 289:
       // No quotes for 04:49
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:50 for 2 quotations:
@@ -3130,7 +3130,7 @@ void setQuoteForMinute(int minute) {
     case 296:
       // No quotes for 04:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 04:57 for 2 quotations:
@@ -3385,7 +3385,7 @@ void setQuoteForMinute(int minute) {
     case 317:
       // No quotes for 05:17
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:18 for 1 quotations:
@@ -3399,7 +3399,7 @@ void setQuoteForMinute(int minute) {
     case 319:
       // No quotes for 05:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:20 for 1 quotations:
@@ -3420,7 +3420,7 @@ void setQuoteForMinute(int minute) {
     case 322:
       // No quotes for 05:22
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:23 for 2 quotations:
@@ -3471,7 +3471,7 @@ void setQuoteForMinute(int minute) {
     case 327:
       // No quotes for 05:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:28 for 1 quotations:
@@ -3485,7 +3485,7 @@ void setQuoteForMinute(int minute) {
     case 329:
       // No quotes for 05:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:30 for 4 quotations:
@@ -3522,14 +3522,14 @@ void setQuoteForMinute(int minute) {
     case 332:
       // No quotes for 05:32
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:33 for 0 quotations:
     case 333:
       // No quotes for 05:33
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:34 for 1 quotations:
@@ -3558,7 +3558,7 @@ void setQuoteForMinute(int minute) {
     case 336:
       // No quotes for 05:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:37 for 2 quotations:
@@ -3587,7 +3587,7 @@ void setQuoteForMinute(int minute) {
     case 339:
       // No quotes for 05:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:40 for 3 quotations:
@@ -3613,14 +3613,14 @@ void setQuoteForMinute(int minute) {
     case 341:
       // No quotes for 05:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:42 for 0 quotations:
     case 342:
       // No quotes for 05:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:43 for 1 quotations:
@@ -3634,7 +3634,7 @@ void setQuoteForMinute(int minute) {
     case 344:
       // No quotes for 05:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:45 for 2 quotations:
@@ -3671,35 +3671,35 @@ void setQuoteForMinute(int minute) {
     case 347:
       // No quotes for 05:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:48 for 0 quotations:
     case 348:
       // No quotes for 05:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:49 for 0 quotations:
     case 349:
       // No quotes for 05:49
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:50 for 0 quotations:
     case 350:
       // No quotes for 05:50
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:51 for 0 quotations:
     case 351:
       // No quotes for 05:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:52 for 1 quotations:
@@ -3713,14 +3713,14 @@ void setQuoteForMinute(int minute) {
     case 353:
       // No quotes for 05:53
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:54 for 0 quotations:
     case 354:
       // No quotes for 05:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:55 for 2 quotations:
@@ -3742,14 +3742,14 @@ void setQuoteForMinute(int minute) {
     case 356:
       // No quotes for 05:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:57 for 0 quotations:
     case 357:
       // No quotes for 05:57
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 05:58 for 2 quotations:
@@ -3771,7 +3771,7 @@ void setQuoteForMinute(int minute) {
     case 359:
       // No quotes for 05:59
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:00 for 12 quotations:
@@ -3833,7 +3833,7 @@ void setQuoteForMinute(int minute) {
     case 361:
       // No quotes for 06:01
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:02 for 1 quotations:
@@ -3847,7 +3847,7 @@ void setQuoteForMinute(int minute) {
     case 363:
       // No quotes for 06:03
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:04 for 1 quotations:
@@ -3875,7 +3875,7 @@ void setQuoteForMinute(int minute) {
     case 367:
       // No quotes for 06:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:08 for 1 quotations:
@@ -3889,7 +3889,7 @@ void setQuoteForMinute(int minute) {
     case 369:
       // No quotes for 06:09
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:10 for 2 quotations:
@@ -3911,14 +3911,14 @@ void setQuoteForMinute(int minute) {
     case 371:
       // No quotes for 06:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:12 for 0 quotations:
     case 372:
       // No quotes for 06:12
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:13 for 1 quotations:
@@ -3932,7 +3932,7 @@ void setQuoteForMinute(int minute) {
     case 374:
       // No quotes for 06:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:15 for 5 quotations:
@@ -3966,7 +3966,7 @@ void setQuoteForMinute(int minute) {
     case 376:
       // No quotes for 06:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:17 for 1 quotations:
@@ -3980,7 +3980,7 @@ void setQuoteForMinute(int minute) {
     case 378:
       // No quotes for 06:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:19 for 1 quotations:
@@ -4009,7 +4009,7 @@ void setQuoteForMinute(int minute) {
     case 381:
       // No quotes for 06:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:22 for 1 quotations:
@@ -4023,14 +4023,14 @@ void setQuoteForMinute(int minute) {
     case 383:
       // No quotes for 06:23
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:24 for 0 quotations:
     case 384:
       // No quotes for 06:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:25 for 3 quotations:
@@ -4056,7 +4056,7 @@ void setQuoteForMinute(int minute) {
     case 386:
       // No quotes for 06:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:27 for 2 quotations:
@@ -4078,7 +4078,7 @@ void setQuoteForMinute(int minute) {
     case 388:
       // No quotes for 06:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:29 for 1 quotations:
@@ -4160,7 +4160,7 @@ void setQuoteForMinute(int minute) {
     case 394:
       // No quotes for 06:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:35 for 1 quotations:
@@ -4195,7 +4195,7 @@ void setQuoteForMinute(int minute) {
     case 399:
       // No quotes for 06:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:40 for 2 quotations:
@@ -4224,7 +4224,7 @@ void setQuoteForMinute(int minute) {
     case 402:
       // No quotes for 06:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:43 for 1 quotations:
@@ -4287,14 +4287,14 @@ void setQuoteForMinute(int minute) {
     case 407:
       // No quotes for 06:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:48 for 0 quotations:
     case 408:
       // No quotes for 06:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:49 for 1 quotations:
@@ -4330,7 +4330,7 @@ void setQuoteForMinute(int minute) {
     case 412:
       // No quotes for 06:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:53 for 1 quotations:
@@ -4344,7 +4344,7 @@ void setQuoteForMinute(int minute) {
     case 414:
       // No quotes for 06:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 06:55 for 2 quotations:
@@ -4491,7 +4491,7 @@ void setQuoteForMinute(int minute) {
     case 427:
       // No quotes for 07:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:08 for 2 quotations:
@@ -4539,7 +4539,7 @@ void setQuoteForMinute(int minute) {
     case 431:
       // No quotes for 07:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:12 for 2 quotations:
@@ -4602,7 +4602,7 @@ void setQuoteForMinute(int minute) {
     case 436:
       // No quotes for 07:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:17 for 1 quotations:
@@ -4616,7 +4616,7 @@ void setQuoteForMinute(int minute) {
     case 438:
       // No quotes for 07:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:19 for 2 quotations:
@@ -4661,28 +4661,28 @@ void setQuoteForMinute(int minute) {
     case 441:
       // No quotes for 07:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:22 for 0 quotations:
     case 442:
       // No quotes for 07:22
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:23 for 0 quotations:
     case 443:
       // No quotes for 07:23
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:24 for 0 quotations:
     case 444:
       // No quotes for 07:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:25 for 1 quotations:
@@ -4696,7 +4696,7 @@ void setQuoteForMinute(int minute) {
     case 446:
       // No quotes for 07:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:27 for 1 quotations:
@@ -4710,7 +4710,7 @@ void setQuoteForMinute(int minute) {
     case 448:
       // No quotes for 07:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:29 for 1 quotations:
@@ -4747,7 +4747,7 @@ void setQuoteForMinute(int minute) {
     case 451:
       // No quotes for 07:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:32 for 1 quotations:
@@ -4761,7 +4761,7 @@ void setQuoteForMinute(int minute) {
     case 453:
       // No quotes for 07:33
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:34 for 1 quotations:
@@ -4801,14 +4801,14 @@ void setQuoteForMinute(int minute) {
     case 457:
       // No quotes for 07:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:38 for 0 quotations:
     case 458:
       // No quotes for 07:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:39 for 1 quotations:
@@ -4837,7 +4837,7 @@ void setQuoteForMinute(int minute) {
     case 461:
       // No quotes for 07:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:42 for 1 quotations:
@@ -4851,7 +4851,7 @@ void setQuoteForMinute(int minute) {
     case 463:
       // No quotes for 07:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:44 for 1 quotations:
@@ -4887,14 +4887,14 @@ void setQuoteForMinute(int minute) {
     case 467:
       // No quotes for 07:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:48 for 0 quotations:
     case 468:
       // No quotes for 07:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:49 for 1 quotations:
@@ -4985,14 +4985,14 @@ void setQuoteForMinute(int minute) {
     case 477:
       // No quotes for 07:57
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:58 for 0 quotations:
     case 478:
       // No quotes for 07:58
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 07:59 for 2 quotations:
@@ -5184,14 +5184,14 @@ void setQuoteForMinute(int minute) {
     case 486:
       // No quotes for 08:06
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:07 for 0 quotations:
     case 487:
       // No quotes for 08:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:08 for 1 quotations:
@@ -5252,7 +5252,7 @@ void setQuoteForMinute(int minute) {
     case 494:
       // No quotes for 08:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:15 for 3 quotations:
@@ -5308,7 +5308,7 @@ void setQuoteForMinute(int minute) {
     case 498:
       // No quotes for 08:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:19 for 1 quotations:
@@ -5329,14 +5329,14 @@ void setQuoteForMinute(int minute) {
     case 501:
       // No quotes for 08:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:22 for 0 quotations:
     case 502:
       // No quotes for 08:22
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:23 for 2 quotations:
@@ -5455,7 +5455,7 @@ void setQuoteForMinute(int minute) {
     case 511:
       // No quotes for 08:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:32 for 2 quotations:
@@ -5477,14 +5477,14 @@ void setQuoteForMinute(int minute) {
     case 513:
       // No quotes for 08:33
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:34 for 0 quotations:
     case 514:
       // No quotes for 08:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:35 for 2 quotations:
@@ -5506,7 +5506,7 @@ void setQuoteForMinute(int minute) {
     case 516:
       // No quotes for 08:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:37 for 1 quotations:
@@ -5520,7 +5520,7 @@ void setQuoteForMinute(int minute) {
     case 518:
       // No quotes for 08:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:39 for 1 quotations:
@@ -5634,7 +5634,7 @@ void setQuoteForMinute(int minute) {
     case 528:
       // No quotes for 08:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 08:49 for 2 quotations:
@@ -6128,7 +6128,7 @@ void setQuoteForMinute(int minute) {
     case 566:
       // No quotes for 09:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:27 for 1 quotations:
@@ -6157,7 +6157,7 @@ void setQuoteForMinute(int minute) {
     case 569:
       // No quotes for 09:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:30 for 4 quotations:
@@ -6220,7 +6220,7 @@ void setQuoteForMinute(int minute) {
     case 574:
       // No quotes for 09:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:35 for 1 quotations:
@@ -6256,14 +6256,14 @@ void setQuoteForMinute(int minute) {
     case 578:
       // No quotes for 09:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:39 for 0 quotations:
     case 579:
       // No quotes for 09:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:40 for 2 quotations:
@@ -6285,7 +6285,7 @@ void setQuoteForMinute(int minute) {
     case 581:
       // No quotes for 09:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:42 for 1 quotations:
@@ -6299,14 +6299,14 @@ void setQuoteForMinute(int minute) {
     case 583:
       // No quotes for 09:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:44 for 0 quotations:
     case 584:
       // No quotes for 09:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:45 for 1 quotations:
@@ -6320,7 +6320,7 @@ void setQuoteForMinute(int minute) {
     case 586:
       // No quotes for 09:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:47 for 2 quotations:
@@ -6342,14 +6342,14 @@ void setQuoteForMinute(int minute) {
     case 588:
       // No quotes for 09:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:49 for 0 quotations:
     case 589:
       // No quotes for 09:49
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:50 for 2 quotations:
@@ -6371,7 +6371,7 @@ void setQuoteForMinute(int minute) {
     case 591:
       // No quotes for 09:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:52 for 1 quotations:
@@ -6414,14 +6414,14 @@ void setQuoteForMinute(int minute) {
     case 596:
       // No quotes for 09:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:57 for 0 quotations:
     case 597:
       // No quotes for 09:57
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 09:58 for 1 quotations:
@@ -6550,7 +6550,7 @@ void setQuoteForMinute(int minute) {
     case 604:
       // No quotes for 10:04
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:05 for 1 quotations:
@@ -6564,7 +6564,7 @@ void setQuoteForMinute(int minute) {
     case 606:
       // No quotes for 10:06
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:07 for 1 quotations:
@@ -6695,7 +6695,7 @@ void setQuoteForMinute(int minute) {
     case 619:
       // No quotes for 10:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:20 for 2 quotations:
@@ -6738,7 +6738,7 @@ void setQuoteForMinute(int minute) {
     case 624:
       // No quotes for 10:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:25 for 2 quotations:
@@ -6790,14 +6790,14 @@ void setQuoteForMinute(int minute) {
     case 628:
       // No quotes for 10:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:29 for 0 quotations:
     case 629:
       // No quotes for 10:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:30 for 5 quotations:
@@ -6831,7 +6831,7 @@ void setQuoteForMinute(int minute) {
     case 631:
       // No quotes for 10:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:32 for 1 quotations:
@@ -6845,14 +6845,14 @@ void setQuoteForMinute(int minute) {
     case 633:
       // No quotes for 10:33
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:34 for 0 quotations:
     case 634:
       // No quotes for 10:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:35 for 1 quotations:
@@ -6887,7 +6887,7 @@ void setQuoteForMinute(int minute) {
     case 639:
       // No quotes for 10:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:40 for 2 quotations:
@@ -6916,7 +6916,7 @@ void setQuoteForMinute(int minute) {
     case 642:
       // No quotes for 10:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:43 for 1 quotations:
@@ -6952,7 +6952,7 @@ void setQuoteForMinute(int minute) {
     case 646:
       // No quotes for 10:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:47 for 1 quotations:
@@ -7007,14 +7007,14 @@ void setQuoteForMinute(int minute) {
     case 651:
       // No quotes for 10:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:52 for 0 quotations:
     case 652:
       // No quotes for 10:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:53 for 2 quotations:
@@ -7036,7 +7036,7 @@ void setQuoteForMinute(int minute) {
     case 654:
       // No quotes for 10:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:55 for 2 quotations:
@@ -7058,7 +7058,7 @@ void setQuoteForMinute(int minute) {
     case 656:
       // No quotes for 10:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 10:57 for 1 quotations:
@@ -7275,7 +7275,7 @@ void setQuoteForMinute(int minute) {
     case 671:
       // No quotes for 11:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:12 for 2 quotations:
@@ -7297,7 +7297,7 @@ void setQuoteForMinute(int minute) {
     case 673:
       // No quotes for 11:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:14 for 1 quotations:
@@ -7330,7 +7330,7 @@ void setQuoteForMinute(int minute) {
     case 676:
       // No quotes for 11:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:17 for 1 quotations:
@@ -7377,7 +7377,7 @@ void setQuoteForMinute(int minute) {
     case 681:
       // No quotes for 11:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:22 for 1 quotations:
@@ -7391,14 +7391,14 @@ void setQuoteForMinute(int minute) {
     case 683:
       // No quotes for 11:23
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:24 for 0 quotations:
     case 684:
       // No quotes for 11:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:25 for 3 quotations:
@@ -7424,7 +7424,7 @@ void setQuoteForMinute(int minute) {
     case 686:
       // No quotes for 11:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:27 for 1 quotations:
@@ -7493,7 +7493,7 @@ void setQuoteForMinute(int minute) {
     case 693:
       // No quotes for 11:33
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:34 for 3 quotations:
@@ -7541,7 +7541,7 @@ void setQuoteForMinute(int minute) {
     case 697:
       // No quotes for 11:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:38 for 1 quotations:
@@ -7555,7 +7555,7 @@ void setQuoteForMinute(int minute) {
     case 699:
       // No quotes for 11:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:40 for 2 quotations:
@@ -7606,7 +7606,7 @@ void setQuoteForMinute(int minute) {
     case 704:
       // No quotes for 11:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:45 for 8 quotations:
@@ -7652,7 +7652,7 @@ void setQuoteForMinute(int minute) {
     case 706:
       // No quotes for 11:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:47 for 1 quotations:
@@ -7673,7 +7673,7 @@ void setQuoteForMinute(int minute) {
     case 709:
       // No quotes for 11:49
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:50 for 1 quotations:
@@ -7709,7 +7709,7 @@ void setQuoteForMinute(int minute) {
     case 713:
       // No quotes for 11:53
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 11:54 for 1 quotations:
@@ -7889,7 +7889,7 @@ void setQuoteForMinute(int minute) {
     case 725:
       // No quotes for 12:05
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:06 for 1 quotations:
@@ -7917,7 +7917,7 @@ void setQuoteForMinute(int minute) {
     case 729:
       // No quotes for 12:09
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:10 for 2 quotations:
@@ -7953,7 +7953,7 @@ void setQuoteForMinute(int minute) {
     case 733:
       // No quotes for 12:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:14 for 1 quotations:
@@ -7986,7 +7986,7 @@ void setQuoteForMinute(int minute) {
     case 736:
       // No quotes for 12:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:17 for 2 quotations:
@@ -8008,14 +8008,14 @@ void setQuoteForMinute(int minute) {
     case 738:
       // No quotes for 12:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:19 for 0 quotations:
     case 739:
       // No quotes for 12:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:20 for 2 quotations:
@@ -8051,7 +8051,7 @@ void setQuoteForMinute(int minute) {
     case 743:
       // No quotes for 12:23
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:24 for 1 quotations:
@@ -8079,7 +8079,7 @@ void setQuoteForMinute(int minute) {
     case 747:
       // No quotes for 12:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:28 for 1 quotations:
@@ -8127,7 +8127,7 @@ void setQuoteForMinute(int minute) {
     case 751:
       // No quotes for 12:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:32 for 2 quotations:
@@ -8156,7 +8156,7 @@ void setQuoteForMinute(int minute) {
     case 754:
       // No quotes for 12:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:35 for 1 quotations:
@@ -8170,21 +8170,21 @@ void setQuoteForMinute(int minute) {
     case 756:
       // No quotes for 12:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:37 for 0 quotations:
     case 757:
       // No quotes for 12:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:38 for 0 quotations:
     case 758:
       // No quotes for 12:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:39 for 1 quotations:
@@ -8213,7 +8213,7 @@ void setQuoteForMinute(int minute) {
     case 761:
       // No quotes for 12:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:42 for 1 quotations:
@@ -8263,14 +8263,14 @@ void setQuoteForMinute(int minute) {
     case 767:
       // No quotes for 12:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:48 for 0 quotations:
     case 768:
       // No quotes for 12:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:49 for 1 quotations:
@@ -8291,7 +8291,7 @@ void setQuoteForMinute(int minute) {
     case 771:
       // No quotes for 12:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:52 for 1 quotations:
@@ -8334,14 +8334,14 @@ void setQuoteForMinute(int minute) {
     case 776:
       // No quotes for 12:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:57 for 0 quotations:
     case 777:
       // No quotes for 12:57
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 12:58 for 1 quotations:
@@ -8471,14 +8471,14 @@ void setQuoteForMinute(int minute) {
     case 787:
       // No quotes for 13:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:08 for 0 quotations:
     case 788:
       // No quotes for 13:08
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:09 for 1 quotations:
@@ -8514,7 +8514,7 @@ void setQuoteForMinute(int minute) {
     case 792:
       // No quotes for 13:12
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:13 for 1 quotations:
@@ -8528,7 +8528,7 @@ void setQuoteForMinute(int minute) {
     case 794:
       // No quotes for 13:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:15 for 3 quotations:
@@ -8591,7 +8591,7 @@ void setQuoteForMinute(int minute) {
     case 799:
       // No quotes for 13:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:20 for 2 quotations:
@@ -8613,7 +8613,7 @@ void setQuoteForMinute(int minute) {
     case 801:
       // No quotes for 13:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:22 for 1 quotations:
@@ -8670,14 +8670,14 @@ void setQuoteForMinute(int minute) {
     case 808:
       // No quotes for 13:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:29 for 0 quotations:
     case 809:
       // No quotes for 13:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:30 for 3 quotations:
@@ -8703,7 +8703,7 @@ void setQuoteForMinute(int minute) {
     case 811:
       // No quotes for 13:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:32 for 2 quotations:
@@ -8747,14 +8747,14 @@ void setQuoteForMinute(int minute) {
     case 815:
       // No quotes for 13:35
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:36 for 0 quotations:
     case 816:
       // No quotes for 13:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:37 for 1 quotations:
@@ -8768,7 +8768,7 @@ void setQuoteForMinute(int minute) {
     case 818:
       // No quotes for 13:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:39 for 1 quotations:
@@ -8782,14 +8782,14 @@ void setQuoteForMinute(int minute) {
     case 820:
       // No quotes for 13:40
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:41 for 0 quotations:
     case 821:
       // No quotes for 13:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:42 for 1 quotations:
@@ -8803,7 +8803,7 @@ void setQuoteForMinute(int minute) {
     case 823:
       // No quotes for 13:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:44 for 1 quotations:
@@ -8832,7 +8832,7 @@ void setQuoteForMinute(int minute) {
     case 826:
       // No quotes for 13:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:47 for 1 quotations:
@@ -8882,21 +8882,21 @@ void setQuoteForMinute(int minute) {
     case 832:
       // No quotes for 13:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:53 for 0 quotations:
     case 833:
       // No quotes for 13:53
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:54 for 0 quotations:
     case 834:
       // No quotes for 13:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:55 for 1 quotations:
@@ -8910,7 +8910,7 @@ void setQuoteForMinute(int minute) {
     case 836:
       // No quotes for 13:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 13:57 for 1 quotations:
@@ -9003,7 +9003,7 @@ void setQuoteForMinute(int minute) {
     case 843:
       // No quotes for 14:03
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:04 for 1 quotations:
@@ -9039,21 +9039,21 @@ void setQuoteForMinute(int minute) {
     case 847:
       // No quotes for 14:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:08 for 0 quotations:
     case 848:
       // No quotes for 14:08
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:09 for 0 quotations:
     case 849:
       // No quotes for 14:09
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:10 for 1 quotations:
@@ -9067,14 +9067,14 @@ void setQuoteForMinute(int minute) {
     case 851:
       // No quotes for 14:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:12 for 0 quotations:
     case 852:
       // No quotes for 14:12
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:13 for 1 quotations:
@@ -9088,7 +9088,7 @@ void setQuoteForMinute(int minute) {
     case 854:
       // No quotes for 14:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:15 for 3 quotations:
@@ -9128,7 +9128,7 @@ void setQuoteForMinute(int minute) {
     case 858:
       // No quotes for 14:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:19 for 1 quotations:
@@ -9165,7 +9165,7 @@ void setQuoteForMinute(int minute) {
     case 861:
       // No quotes for 14:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:22 for 1 quotations:
@@ -9179,14 +9179,14 @@ void setQuoteForMinute(int minute) {
     case 863:
       // No quotes for 14:23
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:24 for 0 quotations:
     case 864:
       // No quotes for 14:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:25 for 1 quotations:
@@ -9200,14 +9200,14 @@ void setQuoteForMinute(int minute) {
     case 866:
       // No quotes for 14:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:27 for 0 quotations:
     case 867:
       // No quotes for 14:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:28 for 1 quotations:
@@ -9221,7 +9221,7 @@ void setQuoteForMinute(int minute) {
     case 869:
       // No quotes for 14:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:30 for 6 quotations:
@@ -9259,7 +9259,7 @@ void setQuoteForMinute(int minute) {
     case 871:
       // No quotes for 14:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:32 for 1 quotations:
@@ -9273,21 +9273,21 @@ void setQuoteForMinute(int minute) {
     case 873:
       // No quotes for 14:33
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:34 for 0 quotations:
     case 874:
       // No quotes for 14:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:35 for 0 quotations:
     case 875:
       // No quotes for 14:35
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:36 for 1 quotations:
@@ -9301,14 +9301,14 @@ void setQuoteForMinute(int minute) {
     case 877:
       // No quotes for 14:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:38 for 0 quotations:
     case 878:
       // No quotes for 14:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:39 for 1 quotations:
@@ -9344,7 +9344,7 @@ void setQuoteForMinute(int minute) {
     case 882:
       // No quotes for 14:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:43 for 1 quotations:
@@ -9358,7 +9358,7 @@ void setQuoteForMinute(int minute) {
     case 884:
       // No quotes for 14:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:45 for 3 quotations:
@@ -9391,21 +9391,21 @@ void setQuoteForMinute(int minute) {
     case 887:
       // No quotes for 14:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:48 for 0 quotations:
     case 888:
       // No quotes for 14:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:49 for 0 quotations:
     case 889:
       // No quotes for 14:49
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:50 for 1 quotations:
@@ -9419,21 +9419,21 @@ void setQuoteForMinute(int minute) {
     case 891:
       // No quotes for 14:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:52 for 0 quotations:
     case 892:
       // No quotes for 14:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:53 for 0 quotations:
     case 893:
       // No quotes for 14:53
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:54 for 1 quotations:
@@ -9469,7 +9469,7 @@ void setQuoteForMinute(int minute) {
     case 897:
       // No quotes for 14:57
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 14:58 for 2 quotations:
@@ -9491,7 +9491,7 @@ void setQuoteForMinute(int minute) {
     case 899:
       // No quotes for 14:59
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:00 for 18 quotations:
@@ -9584,7 +9584,7 @@ void setQuoteForMinute(int minute) {
     case 902:
       // No quotes for 15:02
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:03 for 1 quotations:
@@ -9612,7 +9612,7 @@ void setQuoteForMinute(int minute) {
     case 906:
       // No quotes for 15:06
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:07 for 1 quotations:
@@ -9659,14 +9659,14 @@ void setQuoteForMinute(int minute) {
     case 911:
       // No quotes for 15:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:12 for 0 quotations:
     case 912:
       // No quotes for 15:12
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:13 for 1 quotations:
@@ -9725,21 +9725,21 @@ void setQuoteForMinute(int minute) {
     case 917:
       // No quotes for 15:17
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:18 for 0 quotations:
     case 918:
       // No quotes for 15:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:19 for 0 quotations:
     case 919:
       // No quotes for 15:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:20 for 1 quotations:
@@ -9760,7 +9760,7 @@ void setQuoteForMinute(int minute) {
     case 922:
       // No quotes for 15:22
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:23 for 1 quotations:
@@ -9774,7 +9774,7 @@ void setQuoteForMinute(int minute) {
     case 924:
       // No quotes for 15:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:25 for 1 quotations:
@@ -9788,7 +9788,7 @@ void setQuoteForMinute(int minute) {
     case 926:
       // No quotes for 15:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:27 for 1 quotations:
@@ -9802,7 +9802,7 @@ void setQuoteForMinute(int minute) {
     case 928:
       // No quotes for 15:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:29 for 1 quotations:
@@ -9839,7 +9839,7 @@ void setQuoteForMinute(int minute) {
     case 931:
       // No quotes for 15:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:32 for 1 quotations:
@@ -9860,7 +9860,7 @@ void setQuoteForMinute(int minute) {
     case 934:
       // No quotes for 15:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:35 for 2 quotations:
@@ -9882,7 +9882,7 @@ void setQuoteForMinute(int minute) {
     case 936:
       // No quotes for 15:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:37 for 1 quotations:
@@ -9896,7 +9896,7 @@ void setQuoteForMinute(int minute) {
     case 938:
       // No quotes for 15:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:39 for 1 quotations:
@@ -9931,7 +9931,7 @@ void setQuoteForMinute(int minute) {
     case 943:
       // No quotes for 15:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:44 for 1 quotations:
@@ -9960,21 +9960,21 @@ void setQuoteForMinute(int minute) {
     case 946:
       // No quotes for 15:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:47 for 0 quotations:
     case 947:
       // No quotes for 15:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:48 for 0 quotations:
     case 948:
       // No quotes for 15:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:49 for 3 quotations:
@@ -10026,7 +10026,7 @@ void setQuoteForMinute(int minute) {
     case 952:
       // No quotes for 15:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:53 for 1 quotations:
@@ -10040,7 +10040,7 @@ void setQuoteForMinute(int minute) {
     case 954:
       // No quotes for 15:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 15:55 for 1 quotations:
@@ -10439,7 +10439,7 @@ void setQuoteForMinute(int minute) {
     case 987:
       // No quotes for 16:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 16:28 for 1 quotations:
@@ -10518,7 +10518,7 @@ void setQuoteForMinute(int minute) {
     case 996:
       // No quotes for 16:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 16:37 for 1 quotations:
@@ -10532,7 +10532,7 @@ void setQuoteForMinute(int minute) {
     case 998:
       // No quotes for 16:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 16:39 for 1 quotations:
@@ -10567,14 +10567,14 @@ void setQuoteForMinute(int minute) {
     case 1003:
       // No quotes for 16:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 16:44 for 0 quotations:
     case 1004:
       // No quotes for 16:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 16:45 for 2 quotations:
@@ -10866,7 +10866,7 @@ void setQuoteForMinute(int minute) {
     case 1028:
       // No quotes for 17:08
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:09 for 1 quotations:
@@ -10899,7 +10899,7 @@ void setQuoteForMinute(int minute) {
     case 1031:
       // No quotes for 17:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:12 for 1 quotations:
@@ -10913,7 +10913,7 @@ void setQuoteForMinute(int minute) {
     case 1033:
       // No quotes for 17:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:14 for 1 quotations:
@@ -10934,14 +10934,14 @@ void setQuoteForMinute(int minute) {
     case 1036:
       // No quotes for 17:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:17 for 0 quotations:
     case 1037:
       // No quotes for 17:17
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:18 for 1 quotations:
@@ -10976,7 +10976,7 @@ void setQuoteForMinute(int minute) {
     case 1042:
       // No quotes for 17:22
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:23 for 1 quotations:
@@ -10990,7 +10990,7 @@ void setQuoteForMinute(int minute) {
     case 1044:
       // No quotes for 17:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:25 for 3 quotations:
@@ -11016,28 +11016,28 @@ void setQuoteForMinute(int minute) {
     case 1046:
       // No quotes for 17:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:27 for 0 quotations:
     case 1047:
       // No quotes for 17:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:28 for 0 quotations:
     case 1048:
       // No quotes for 17:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:29 for 0 quotations:
     case 1049:
       // No quotes for 17:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:30 for 2 quotations:
@@ -11059,14 +11059,14 @@ void setQuoteForMinute(int minute) {
     case 1051:
       // No quotes for 17:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:32 for 0 quotations:
     case 1052:
       // No quotes for 17:32
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:33 for 1 quotations:
@@ -11080,7 +11080,7 @@ void setQuoteForMinute(int minute) {
     case 1054:
       // No quotes for 17:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:35 for 2 quotations:
@@ -11102,7 +11102,7 @@ void setQuoteForMinute(int minute) {
     case 1056:
       // No quotes for 17:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:37 for 1 quotations:
@@ -11116,14 +11116,14 @@ void setQuoteForMinute(int minute) {
     case 1058:
       // No quotes for 17:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:39 for 0 quotations:
     case 1059:
       // No quotes for 17:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:40 for 3 quotations:
@@ -11149,14 +11149,14 @@ void setQuoteForMinute(int minute) {
     case 1061:
       // No quotes for 17:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:42 for 0 quotations:
     case 1062:
       // No quotes for 17:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:43 for 1 quotations:
@@ -11170,7 +11170,7 @@ void setQuoteForMinute(int minute) {
     case 1064:
       // No quotes for 17:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:45 for 2 quotations:
@@ -11199,7 +11199,7 @@ void setQuoteForMinute(int minute) {
     case 1067:
       // No quotes for 17:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:48 for 1 quotations:
@@ -11213,7 +11213,7 @@ void setQuoteForMinute(int minute) {
     case 1069:
       // No quotes for 17:49
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:50 for 1 quotations:
@@ -11227,14 +11227,14 @@ void setQuoteForMinute(int minute) {
     case 1071:
       // No quotes for 17:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:52 for 0 quotations:
     case 1072:
       // No quotes for 17:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:53 for 1 quotations:
@@ -11262,7 +11262,7 @@ void setQuoteForMinute(int minute) {
     case 1076:
       // No quotes for 17:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 17:57 for 1 quotations:
@@ -11333,7 +11333,7 @@ void setQuoteForMinute(int minute) {
     case 1081:
       // No quotes for 18:01
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:02 for 1 quotations:
@@ -11383,7 +11383,7 @@ void setQuoteForMinute(int minute) {
     case 1087:
       // No quotes for 18:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:08 for 1 quotations:
@@ -11397,7 +11397,7 @@ void setQuoteForMinute(int minute) {
     case 1089:
       // No quotes for 18:09
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:10 for 2 quotations:
@@ -11419,28 +11419,28 @@ void setQuoteForMinute(int minute) {
     case 1091:
       // No quotes for 18:11
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:12 for 0 quotations:
     case 1092:
       // No quotes for 18:12
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:13 for 0 quotations:
     case 1093:
       // No quotes for 18:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:14 for 0 quotations:
     case 1094:
       // No quotes for 18:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:15 for 5 quotations:
@@ -11474,7 +11474,7 @@ void setQuoteForMinute(int minute) {
     case 1096:
       // No quotes for 18:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:17 for 1 quotations:
@@ -11488,14 +11488,14 @@ void setQuoteForMinute(int minute) {
     case 1098:
       // No quotes for 18:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:19 for 0 quotations:
     case 1099:
       // No quotes for 18:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:20 for 1 quotations:
@@ -11523,14 +11523,14 @@ void setQuoteForMinute(int minute) {
     case 1103:
       // No quotes for 18:23
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:24 for 0 quotations:
     case 1104:
       // No quotes for 18:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:25 for 2 quotations:
@@ -11559,21 +11559,21 @@ void setQuoteForMinute(int minute) {
     case 1107:
       // No quotes for 18:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:28 for 0 quotations:
     case 1108:
       // No quotes for 18:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:29 for 0 quotations:
     case 1109:
       // No quotes for 18:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:30 for 8 quotations:
@@ -11626,7 +11626,7 @@ void setQuoteForMinute(int minute) {
     case 1112:
       // No quotes for 18:32
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:33 for 1 quotations:
@@ -11640,7 +11640,7 @@ void setQuoteForMinute(int minute) {
     case 1114:
       // No quotes for 18:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:35 for 2 quotations:
@@ -11669,21 +11669,21 @@ void setQuoteForMinute(int minute) {
     case 1117:
       // No quotes for 18:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:38 for 0 quotations:
     case 1118:
       // No quotes for 18:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:39 for 0 quotations:
     case 1119:
       // No quotes for 18:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:40 for 2 quotations:
@@ -11712,21 +11712,21 @@ void setQuoteForMinute(int minute) {
     case 1122:
       // No quotes for 18:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:43 for 0 quotations:
     case 1123:
       // No quotes for 18:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:44 for 0 quotations:
     case 1124:
       // No quotes for 18:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:45 for 3 quotations:
@@ -11767,14 +11767,14 @@ void setQuoteForMinute(int minute) {
     case 1127:
       // No quotes for 18:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:48 for 0 quotations:
     case 1128:
       // No quotes for 18:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:49 for 1 quotations:
@@ -11810,7 +11810,7 @@ void setQuoteForMinute(int minute) {
     case 1132:
       // No quotes for 18:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:53 for 1 quotations:
@@ -11824,7 +11824,7 @@ void setQuoteForMinute(int minute) {
     case 1134:
       // No quotes for 18:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 18:55 for 2 quotations:
@@ -11939,14 +11939,14 @@ void setQuoteForMinute(int minute) {
     case 1143:
       // No quotes for 19:03
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:04 for 0 quotations:
     case 1144:
       // No quotes for 19:04
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:05 for 2 quotations:
@@ -11968,14 +11968,14 @@ void setQuoteForMinute(int minute) {
     case 1146:
       // No quotes for 19:06
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:07 for 0 quotations:
     case 1147:
       // No quotes for 19:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:08 for 2 quotations:
@@ -11997,7 +11997,7 @@ void setQuoteForMinute(int minute) {
     case 1149:
       // No quotes for 19:09
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:10 for 2 quotations:
@@ -12041,7 +12041,7 @@ void setQuoteForMinute(int minute) {
     case 1153:
       // No quotes for 19:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:14 for 2 quotations:
@@ -12096,7 +12096,7 @@ void setQuoteForMinute(int minute) {
     case 1158:
       // No quotes for 19:18
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:19 for 1 quotations:
@@ -12160,7 +12160,7 @@ void setQuoteForMinute(int minute) {
     case 1166:
       // No quotes for 19:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:27 for 1 quotations:
@@ -12174,14 +12174,14 @@ void setQuoteForMinute(int minute) {
     case 1168:
       // No quotes for 19:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:29 for 0 quotations:
     case 1169:
       // No quotes for 19:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:30 for 4 quotations:
@@ -12211,7 +12211,7 @@ void setQuoteForMinute(int minute) {
     case 1171:
       // No quotes for 19:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:32 for 1 quotations:
@@ -12225,14 +12225,14 @@ void setQuoteForMinute(int minute) {
     case 1173:
       // No quotes for 19:33
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:34 for 0 quotations:
     case 1174:
       // No quotes for 19:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:35 for 2 quotations:
@@ -12254,21 +12254,21 @@ void setQuoteForMinute(int minute) {
     case 1176:
       // No quotes for 19:36
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:37 for 0 quotations:
     case 1177:
       // No quotes for 19:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:38 for 0 quotations:
     case 1178:
       // No quotes for 19:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:39 for 1 quotations:
@@ -12289,7 +12289,7 @@ void setQuoteForMinute(int minute) {
     case 1181:
       // No quotes for 19:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:42 for 1 quotations:
@@ -12303,7 +12303,7 @@ void setQuoteForMinute(int minute) {
     case 1183:
       // No quotes for 19:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:44 for 1 quotations:
@@ -12332,21 +12332,21 @@ void setQuoteForMinute(int minute) {
     case 1186:
       // No quotes for 19:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:47 for 0 quotations:
     case 1187:
       // No quotes for 19:47
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:48 for 0 quotations:
     case 1188:
       // No quotes for 19:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:49 for 1 quotations:
@@ -12375,7 +12375,7 @@ void setQuoteForMinute(int minute) {
     case 1191:
       // No quotes for 19:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 19:52 for 1 quotations:
@@ -12618,7 +12618,7 @@ void setQuoteForMinute(int minute) {
     case 1208:
       // No quotes for 20:08
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:09 for 1 quotations:
@@ -12654,14 +12654,14 @@ void setQuoteForMinute(int minute) {
     case 1212:
       // No quotes for 20:12
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:13 for 0 quotations:
     case 1213:
       // No quotes for 20:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:14 for 1 quotations:
@@ -12768,7 +12768,7 @@ void setQuoteForMinute(int minute) {
     case 1222:
       // No quotes for 20:22
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:23 for 2 quotations:
@@ -12812,7 +12812,7 @@ void setQuoteForMinute(int minute) {
     case 1226:
       // No quotes for 20:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:27 for 1 quotations:
@@ -12826,7 +12826,7 @@ void setQuoteForMinute(int minute) {
     case 1228:
       // No quotes for 20:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:29 for 2 quotations:
@@ -12867,7 +12867,7 @@ void setQuoteForMinute(int minute) {
     case 1231:
       // No quotes for 20:31
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:32 for 1 quotations:
@@ -12888,7 +12888,7 @@ void setQuoteForMinute(int minute) {
     case 1234:
       // No quotes for 20:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:35 for 4 quotations:
@@ -12925,21 +12925,21 @@ void setQuoteForMinute(int minute) {
     case 1237:
       // No quotes for 20:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:38 for 0 quotations:
     case 1238:
       // No quotes for 20:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:39 for 0 quotations:
     case 1239:
       // No quotes for 20:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:40 for 4 quotations:
@@ -13034,7 +13034,7 @@ void setQuoteForMinute(int minute) {
     case 1248:
       // No quotes for 20:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:49 for 2 quotations:
@@ -13083,14 +13083,14 @@ void setQuoteForMinute(int minute) {
     case 1251:
       // No quotes for 20:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:52 for 0 quotations:
     case 1252:
       // No quotes for 20:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:53 for 1 quotations:
@@ -13104,7 +13104,7 @@ void setQuoteForMinute(int minute) {
     case 1254:
       // No quotes for 20:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 20:55 for 2 quotations:
@@ -13155,7 +13155,7 @@ void setQuoteForMinute(int minute) {
     case 1259:
       // No quotes for 20:59
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:00 for 18 quotations:
@@ -13284,21 +13284,21 @@ void setQuoteForMinute(int minute) {
     case 1266:
       // No quotes for 21:06
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:07 for 0 quotations:
     case 1267:
       // No quotes for 21:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:08 for 0 quotations:
     case 1268:
       // No quotes for 21:08
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:09 for 1 quotations:
@@ -13333,14 +13333,14 @@ void setQuoteForMinute(int minute) {
     case 1273:
       // No quotes for 21:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:14 for 0 quotations:
     case 1274:
       // No quotes for 21:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:15 for 4 quotations:
@@ -13370,7 +13370,7 @@ void setQuoteForMinute(int minute) {
     case 1276:
       // No quotes for 21:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:17 for 1 quotations:
@@ -13391,7 +13391,7 @@ void setQuoteForMinute(int minute) {
     case 1279:
       // No quotes for 21:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:20 for 3 quotations:
@@ -13468,14 +13468,14 @@ void setQuoteForMinute(int minute) {
     case 1286:
       // No quotes for 21:26
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:27 for 0 quotations:
     case 1287:
       // No quotes for 21:27
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:28 for 2 quotations:
@@ -13497,7 +13497,7 @@ void setQuoteForMinute(int minute) {
     case 1289:
       // No quotes for 21:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:30 for 6 quotations:
@@ -13607,7 +13607,7 @@ void setQuoteForMinute(int minute) {
     case 1299:
       // No quotes for 21:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:40 for 1 quotations:
@@ -13621,7 +13621,7 @@ void setQuoteForMinute(int minute) {
     case 1301:
       // No quotes for 21:41
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:42 for 1 quotations:
@@ -13635,14 +13635,14 @@ void setQuoteForMinute(int minute) {
     case 1303:
       // No quotes for 21:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:44 for 0 quotations:
     case 1304:
       // No quotes for 21:44
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:45 for 2 quotations:
@@ -13664,7 +13664,7 @@ void setQuoteForMinute(int minute) {
     case 1306:
       // No quotes for 21:46
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:47 for 1 quotations:
@@ -13678,14 +13678,14 @@ void setQuoteForMinute(int minute) {
     case 1308:
       // No quotes for 21:48
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:49 for 0 quotations:
     case 1309:
       // No quotes for 21:49
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:50 for 1 quotations:
@@ -13699,14 +13699,14 @@ void setQuoteForMinute(int minute) {
     case 1311:
       // No quotes for 21:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:52 for 0 quotations:
     case 1312:
       // No quotes for 21:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:53 for 1 quotations:
@@ -13720,7 +13720,7 @@ void setQuoteForMinute(int minute) {
     case 1314:
       // No quotes for 21:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:55 for 1 quotations:
@@ -13734,7 +13734,7 @@ void setQuoteForMinute(int minute) {
     case 1316:
       // No quotes for 21:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 21:57 for 2 quotations:
@@ -13829,7 +13829,7 @@ void setQuoteForMinute(int minute) {
     case 1321:
       // No quotes for 22:01
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:02 for 2 quotations:
@@ -13858,7 +13858,7 @@ void setQuoteForMinute(int minute) {
     case 1324:
       // No quotes for 22:04
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:05 for 2 quotations:
@@ -13887,7 +13887,7 @@ void setQuoteForMinute(int minute) {
     case 1327:
       // No quotes for 22:07
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:08 for 1 quotations:
@@ -13982,7 +13982,7 @@ void setQuoteForMinute(int minute) {
     case 1336:
       // No quotes for 22:16
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:17 for 1 quotations:
@@ -14015,7 +14015,7 @@ void setQuoteForMinute(int minute) {
     case 1339:
       // No quotes for 22:19
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:20 for 2 quotations:
@@ -14118,14 +14118,14 @@ void setQuoteForMinute(int minute) {
     case 1348:
       // No quotes for 22:28
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:29 for 0 quotations:
     case 1349:
       // No quotes for 22:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:30 for 3 quotations:
@@ -14166,7 +14166,7 @@ void setQuoteForMinute(int minute) {
     case 1352:
       // No quotes for 22:32
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:33 for 1 quotations:
@@ -14180,7 +14180,7 @@ void setQuoteForMinute(int minute) {
     case 1354:
       // No quotes for 22:34
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:35 for 1 quotations:
@@ -14201,7 +14201,7 @@ void setQuoteForMinute(int minute) {
     case 1357:
       // No quotes for 22:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:38 for 1 quotations:
@@ -14215,7 +14215,7 @@ void setQuoteForMinute(int minute) {
     case 1359:
       // No quotes for 22:39
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:40 for 2 quotations:
@@ -14244,14 +14244,14 @@ void setQuoteForMinute(int minute) {
     case 1362:
       // No quotes for 22:42
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:43 for 0 quotations:
     case 1363:
       // No quotes for 22:43
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:44 for 1 quotations:
@@ -14343,14 +14343,14 @@ void setQuoteForMinute(int minute) {
     case 1371:
       // No quotes for 22:51
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:52 for 0 quotations:
     case 1372:
       // No quotes for 22:52
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:53 for 2 quotations:
@@ -14372,7 +14372,7 @@ void setQuoteForMinute(int minute) {
     case 1374:
       // No quotes for 22:54
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:55 for 2 quotations:
@@ -14394,7 +14394,7 @@ void setQuoteForMinute(int minute) {
     case 1376:
       // No quotes for 22:56
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 22:57 for 1 quotations:
@@ -14492,7 +14492,7 @@ void setQuoteForMinute(int minute) {
     case 1382:
       // No quotes for 23:02
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:03 for 2 quotations:
@@ -14514,7 +14514,7 @@ void setQuoteForMinute(int minute) {
     case 1384:
       // No quotes for 23:04
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:05 for 3 quotations:
@@ -14540,7 +14540,7 @@ void setQuoteForMinute(int minute) {
     case 1386:
       // No quotes for 23:06
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:07 for 2 quotations:
@@ -14562,14 +14562,14 @@ void setQuoteForMinute(int minute) {
     case 1388:
       // No quotes for 23:08
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:09 for 0 quotations:
     case 1389:
       // No quotes for 23:09
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:10 for 3 quotations:
@@ -14617,14 +14617,14 @@ void setQuoteForMinute(int minute) {
     case 1393:
       // No quotes for 23:13
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:14 for 0 quotations:
     case 1394:
       // No quotes for 23:14
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:15 for 3 quotations:
@@ -14701,7 +14701,7 @@ void setQuoteForMinute(int minute) {
     case 1401:
       // No quotes for 23:21
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:22 for 1 quotations:
@@ -14715,14 +14715,14 @@ void setQuoteForMinute(int minute) {
     case 1403:
       // No quotes for 23:23
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:24 for 0 quotations:
     case 1404:
       // No quotes for 23:24
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:25 for 3 quotations:
@@ -14769,7 +14769,7 @@ void setQuoteForMinute(int minute) {
     case 1409:
       // No quotes for 23:29
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:30 for 5 quotations:
@@ -14861,14 +14861,14 @@ void setQuoteForMinute(int minute) {
     case 1417:
       // No quotes for 23:37
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:38 for 0 quotations:
     case 1418:
       // No quotes for 23:38
         quote = "";
-        attribution = "- Attribution Goes Here";
+        attribution = "";
       return;
 
     // Codegen for 23:39 for 1 quotations:

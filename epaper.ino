@@ -1,10 +1,10 @@
-//#include <GxEPD2_BW.h>
-//GxEPD2_BW<GxEPD2_213_flex, GxEPD2_213_flex::HEIGHT> display(GxEPD2_213_flex(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16)); // GDEW0213I5F
-
+#ifdef WATCH
+#include <GxEPD2_BW.h>
+GxEPD2_BW<GxEPD2_213_flex, GxEPD2_213_flex::HEIGHT> display(GxEPD2_213_flex(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16)); // GDEW0213I5F
+#else
 #include <GxEPD2_3C.h>
-//GxEPD2_3C<GxEPD2_270c, GxEPD2_270c::HEIGHT> display(GxEPD2_270c(/*CS=15*/ SS, /*DC=4*/ 4, /*RST=5*/ 5, /*BUSY=16*/ 16));
 GxEPD2_3C<GxEPD2_290c, GxEPD2_290c::HEIGHT> display(GxEPD2_290c(/*CS=D8*/ SS, /*DC=D3*/ 4, /*RST=D4*/ 5, /*BUSY=D2*/ 16));
-
+#endif
 
 #include "Ubuntu_B7pt7b.h"
 
@@ -16,12 +16,16 @@ void setupEpaper() {
   do
   {
     Serial.println(F("nextPage loop..."));
+#ifdef WATCH
     //displayBatteryMeter(readBatteryLevel());
+#endif
     displayQuote();
     displayAttribution();
   }
   while (display.nextPage());
-//  display.hibernate();
+#ifdef WATCH
+  display.hibernate();
+#endif
 }
 
 void displayQuote() {
@@ -41,10 +45,18 @@ void displayQuote() {
     if (w[0] == '*') {
       if (bold == false) {
         bold = true;
+#ifdef WATCH
+        display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
+#else
         display.setTextColor(GxEPD_RED, GxEPD_WHITE);
+#endif
       } else {
         bold = false;
+#ifdef WATCH
         display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
+#else
+        display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
+#endif
       }
       continue;
     }
@@ -61,14 +73,6 @@ void displayQuote() {
       Serial.println("We've overflowed the screen!");
       display.println();
       Serial.println();
-    }
-
-    if (bold) {
-      // Custom fonts don't support background colors, so we have to fill
-      // in the background manually
-      //display.getTextBounds(w, x, y, &tbx, &tby, &tbw, &tbh);
-      //display.fillRect(tbx - 1, tby - 1, tbw + 2, tbh + 2, GxEPD_BLACK);
-      // TODO: Deal with word-wrap, spaces, newlines here?
     }
 
     display.print(w);
@@ -100,7 +104,6 @@ void setFont()
 {
   const GFXfont* f = &Ubuntu_B7pt7b;
   display.setTextColor(GxEPD_BLACK, GxEPD_WHITE);
-  //display.setTextColor(GxEPD_WHITE, GxEPD_BLACK);
   display.setFont(f);
   display.setCursor(0, 12);
 }

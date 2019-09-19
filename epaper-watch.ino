@@ -1,3 +1,6 @@
+//#define WATCH
+//#define DEBUG
+
 String quote;
 String attribution;
 
@@ -5,7 +8,7 @@ String attribution;
 void setup(void) {
   setupSerial();
   setupClockFromRTC();
-  if (getCurrentTime() < 1000) {
+  if (isTimeDataBogus(getCurrentTime())) {
     Serial.println(F("Time is way out of sync."));
     Serial.println(F("Getting time from NTP first..."));
     if (connectToWifi(-1)) syncTimeFromWifi();
@@ -13,23 +16,28 @@ void setup(void) {
 
   int m = getCurrentMinute();
   setQuoteForMinute(m);
+#ifdef DEBUG
   if (quote == "") {
     setQuoteToCurrentTime();
   }
-  Serial.print(F("The quote for this minute ("));
-  Serial.print(m);
-  Serial.println(F(") is:"));
-  Serial.println(quote);
-  Serial.println(attribution);
-  setupEpaper();
+#endif
+
+  if (quote != "") {
+    Serial.print(F("The quote for this minute ("));
+    Serial.print(m);
+    Serial.println(F(") is:"));
+    Serial.println(quote);
+    Serial.println(attribution);
+    setupEpaper();
+  }
 
   if (isTimeDataBogus(getCurrentTime())) {
     Serial.println(F("Time is way out of sync."));
     Serial.println(F("Getting time from NTP first..."));
     if (connectToWifi(-1)) syncTimeFromWifi();
+  } else {
+    syncIfItIsAGoodTime();
   }
-
-  syncIfItIsAGoodTime();
   saveTimeAndSleep();
 }
 

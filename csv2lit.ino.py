@@ -142,7 +142,7 @@ def print_code_for_a_minute(rows, minute_str, minute_dt):
     if len(rows) == 0:
         print(f'      // No quotes for {minute_str}')
         print('        quote = "";')
-        print('        attribution = "- Attribution Goes Here";')
+        print('        attribution = "";')
         print(f'      return;')
     elif len(rows) == 1:
         print(f'      // Only one option for {minute_str}:"')
