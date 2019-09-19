@@ -17,7 +17,7 @@ void setupEpaper() {
   {
     Serial.println(F("nextPage loop..."));
 #ifdef WATCH
-    //displayBatteryMeter(readBatteryLevel());
+    displayBatteryMeter(readBatteryLevel());
 #endif
     displayQuote();
     displayAttribution();
@@ -80,6 +80,7 @@ void displayQuote() {
     display.print(" ");
     Serial.print(" ");
   }
+  Serial.println();
 }
 
 void initEpaper() {

@@ -1,5 +1,5 @@
 //#define WATCH
-//#define DEBUG
+//#define DEV
 
 String quote;
 String attribution;
@@ -16,18 +16,18 @@ void setup(void) {
 
   int m = getCurrentMinute();
   setQuoteForMinute(m);
-#ifdef DEBUG
+#ifdef DEV
   if (quote == "") {
     setQuoteToCurrentTime();
   }
 #endif
 
+  Serial.print(F("The quote for this minute ("));
+  Serial.print(m);
+  Serial.println(F(") is:"));
+  Serial.println(quote);
+  Serial.println(attribution);
   if (quote != "") {
-    Serial.print(F("The quote for this minute ("));
-    Serial.print(m);
-    Serial.println(F(") is:"));
-    Serial.println(quote);
-    Serial.println(attribution);
     setupEpaper();
   }
 
@@ -43,7 +43,11 @@ void setup(void) {
 
 void syncIfItIsAGoodTime() {
   Serial.println(F("syncIfItIsAGoodTime..."));
+#ifdef WATCH
   if (getMinuteOfTheHour() == 0) {
+#else
+  if (getMinuteOfTheHour() % 5 == 0) {
+#endif
     Serial.println(F("Now is the right time to opportunistically sync ntp"));
     if (connectToWifi(-1)) syncTimeFromWifi();
   }
