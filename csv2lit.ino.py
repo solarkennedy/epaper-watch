@@ -132,7 +132,7 @@ def boldit(quote, row):
     timestring = row['time_string']
     if timestring not in quote:
         raise Exception(f"No '{timestring}' in {quote}")
-    return quote.replace(timestring, f"* {timestring} *")
+    return quote.replace(timestring, f"* {timestring} *", 1)
 
 
 def print_code_for_a_minute(rows, minute_str, minute_dt):
