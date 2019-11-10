@@ -1,6 +1,7 @@
-//#define WATCH
-//#define DEV
+#define WATCH
+#define DEV
 
+const char compile_date[] = __DATE__ " " __TIME__;
 String quote;
 String attribution;
 
@@ -59,6 +60,7 @@ void setupSerial() {
   Serial.println();
   Serial.println();
   Serial.printf("ESP8266 Chip id = %08X\n", ESP.getChipId());
+  Serial.printf("Sketch compiled %s\n", compile_date);
 }
 
 void loop(void) {
