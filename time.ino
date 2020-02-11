@@ -54,7 +54,7 @@ void saveTimeAndSleep() {
   Serial.print(F("Saving the next wakeup time in seconds to the RTC: "));
   Serial.println(data);
   ESP.rtcUserMemoryWrite(offset, &data, sizeof(data));
-  Serial.print(F("Going into deep sleep for "));
+  Serial.print(F("Going into sleep for "));
   Serial.print(sleep_interval_s);
   Serial.print(F(" seconds. Uptime: "));
   Serial.print(millis());
@@ -64,7 +64,14 @@ void saveTimeAndSleep() {
 
 void dSleep(long us) {
 #ifdef WATCH
+#ifdef DEV
+    Serial.println("In DEV mode, doing regular delay then reset");
+    delay(us / 1000);
+    ESP.reset();
+#else
+    Serial.println("Doing an ESP Deep Sleep");
     ESP.deepSleep(us, WAKE_RF_DISABLED);
+#endif
 #else
     Serial.println("No reset pin + interrupt hardware on this model. Sleeping like normal and resetting");
     delay(us / 1000);
