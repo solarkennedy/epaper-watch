@@ -1,5 +1,5 @@
-#define WATCH
-#define DEV
+//#define WATCH
+//#define DEV
 
 const char compile_date[] = __DATE__ " " __TIME__;
 String quote;
