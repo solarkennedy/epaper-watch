@@ -1,7 +1,8 @@
 #include <EEPROM.h>
 #include <ezTime.h>
+#include "secrets.h"
+
 Timezone MyTZ;
-const char local_tz[] = "America/Los_Angeles";
 
 void handleTimeEvents() {
   events();
@@ -20,7 +21,7 @@ void setupClockFromRTC() {
     setTime(data);
   }
   Serial.println("UTC       (from RTC): " + UTC.dateTime(ISO8601));
-  if (!MyTZ.setCache(1024)) MyTZ.setLocation(local_tz);
+  if (!MyTZ.setCache(1024)) MyTZ.setLocation(TIMEZONE);
   Serial.println("LocalTime (from RTC): " + MyTZ.dateTime(ISO8601));
 }
 
@@ -65,24 +66,24 @@ void saveTimeAndSleep() {
 void dSleep(long us) {
 #ifdef WATCH
 #ifdef DEV
-    Serial.println("In DEV mode, doing regular delay then reset");
-    delay(us / 1000);
-    ESP.reset();
+  Serial.println("In DEV mode, doing regular delay then reset");
+  delay(us / 1000);
+  ESP.reset();
 #else
-    Serial.println("Doing an ESP Deep Sleep");
-    ESP.deepSleep(us, WAKE_RF_DISABLED);
+  Serial.println("Doing an ESP Deep Sleep");
+  ESP.deepSleep(us, WAKE_RF_DISABLED);
 #endif
 #else
-    Serial.println("No reset pin + interrupt hardware on this model. Sleeping like normal and resetting");
-    delay(us / 1000);
-    ESP.reset();
+  Serial.println("No reset pin + interrupt hardware on this model. Sleeping like normal and resetting");
+  delay(us / 1000);
+  ESP.reset();
 #endif
 }
 
 void syncTimeFromWifi() {
   Serial.println("IS8601:      " + UTC.dateTime(ISO8601));
   Serial.println("Getting time from WIFI...");
-  if (!MyTZ.setCache(1024)) MyTZ.setLocation("America/Los_Angeles");
+  if (!MyTZ.setCache(1024)) MyTZ.setLocation(TIMEZONE);
   setInterval(0);
   setDebug(DEBUG);
   // TODO: Timeout here somehow
